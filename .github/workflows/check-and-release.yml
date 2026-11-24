@@ -1,0 +1,29 @@
+name: Check and release
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  windows-tests:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Windows PowerShell 5.1 and CMD tests
+        shell: powershell
+        run: .\tests\Updater.Tests.ps1
+      - name: Python syntax
+        run: python -m py_compile tools/build_pack.py tools/import_release.py
+  publish:
+    needs: windows-tests
+    if: startsWith(github.event.head_commit.message, 'publish:') || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Verify components and publish a complete release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python tools/import_release.py release-source.json --repo "$GITHUB_REPOSITORY"

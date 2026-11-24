@@ -1,6 +1,15 @@
 {
-  "source_tag": "pack-2026.11.24.1",
-  "version": "2026.11.24.2",
-  "retire_source": true,
-  "retire_delay_seconds": 300
+  "mode": "update",
+  "pack": "Helheim",
+  "base_version": "2026.11.24.2",
+  "version": "2026.11.25.1",
+  "notes": "Helheim: added AutoServerPassword 1.0.2 for remembering server passwords on the client. Full ZIP with mods and BepInEx, BAT launcher, and SHA256SUMS.txt.",
+  "additions": [
+    {
+      "path": "BepInEx/plugins/AutoServerPassword.dll",
+      "bytes": 47104,
+      "sha256": "5faebea7b8f4d8b2d9a7f87b5d29e52b25b2b54537f3a1d579e04d95891da038",
+      "url": "https://raw.githubusercontent.com/Ammatias/Valheim-Mod-Pack/286dbc61420d10db0d13d94fb4ab3bea6c054e7a/Midgard/BepInEx/plugins/AutoServerPassword.dll"
+    }
+  ]
 }

@@ -79,6 +79,9 @@ def commit_manifests(repo, manifests):
 
 def repack(config_file, repo):
     cfg = json.loads(config_file.read_text())
+    if cfg.get('mode') == 'update':
+        from update_release import update
+        return update(cfg, repo)
     version = cfg['version']
     source_tag = cfg['source_tag']
     if not re.fullmatch(r'\d{4}\.\d{2}\.\d{2}\.\d+', version):

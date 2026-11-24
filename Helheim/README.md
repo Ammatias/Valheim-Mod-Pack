@@ -1,18 +1,20 @@
 # Helheim
 
-[Скачать Helheim-Modpack.bat](https://github.com/Ammatias/Valheim-Mod-Pack/releases/download/helheim-2026.11.24.2/Helheim-Modpack.bat) · [Полный комплект и контрольные суммы](https://github.com/Ammatias/Valheim-Mod-Pack/releases/tag/helheim-2026.11.24.2)
+[Скачать Helheim-Modpack.bat](https://github.com/Ammatias/Valheim-Mod-Pack/releases/download/helheim-2026.11.25.1/Helheim-Modpack.bat) · [Полный комплект и контрольные суммы](https://github.com/Ammatias/Valheim-Mod-Pack/releases/tag/helheim-2026.11.25.1)
 
 Положите батник рядом с `valheim.exe` в отдельной чистой папке игры, откройте Steam и запустите батник. Он установит сборку и запустит Valheim. При следующих запусках он проверит обновления.
 
 В ZIP включены BepInEx, моды и начальные настройки. Устанавливать загрузчик отдельно не требуется.
 
-[Посмотреть все файлы сборки (818)](FILES.md) — загрузчик, моды, ресурсы и настройки с размерами и SHA-256.
+[Посмотреть все файлы сборки (819)](FILES.md) — загрузчик, моды, ресурсы и настройки с размерами и SHA-256.
 
 Распакованные файлы доступны в [BepInEx/](BepInEx/): [моды и ресурсы](BepInEx/plugins/), [конфиги](BepInEx/config/), [загрузчик](BepInEx/core/). Корневые файлы загрузчика находятся рядом с этим README. На странице любого файла доступно отдельное скачивание через **Download raw file**.
 
 ## Моды
 
-Сборка основана на клиентской [Yggdrasil от Morgott](https://morgott.duckdns.org:9443/valheim/download). Включает Epic Loot, Armory, Wizardry, Seasonality, модули Morgott и клиентский интерфейс.
+Сборка основана на клиентской [Yggdrasil от Morgott](https://morgott.duckdns.org:9443/valheim/download). Включает Epic Loot, Armory, Wizardry, Seasonality, модули Morgott, клиентский интерфейс и AutoServerPassword 1.0.2.
+
+AutoServerPassword сохраняет пароль после первого успешного подключения и подставляет его при следующих входах. Менеджер сохранённых паролей открывается клавишей **F7**.
 
 Батник устанавливает версию Helheim из этого репозитория. Используйте её для соответствующего сервера.
 

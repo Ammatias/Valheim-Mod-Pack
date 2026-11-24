@@ -5,7 +5,7 @@
 | Сборка | Скачать батник | Полный комплект |
 |---|---|---|
 | [Midgard](Midgard/) | [Midgard-Modpack.bat](https://github.com/Ammatias/Valheim-Mod-Pack/releases/download/midgard-2026.11.24.2/Midgard-Modpack.bat) | [Release Midgard](https://github.com/Ammatias/Valheim-Mod-Pack/releases/tag/midgard-2026.11.24.2) |
-| [Helheim](Helheim/) | [Helheim-Modpack.bat](https://github.com/Ammatias/Valheim-Mod-Pack/releases/download/helheim-2026.11.24.2/Helheim-Modpack.bat) | [Release Helheim](https://github.com/Ammatias/Valheim-Mod-Pack/releases/tag/helheim-2026.11.24.2) |
+| [Helheim](Helheim/) | [Helheim-Modpack.bat](https://github.com/Ammatias/Valheim-Mod-Pack/releases/download/helheim-2026.11.25.1/Helheim-Modpack.bat) | [Release Helheim](https://github.com/Ammatias/Valheim-Mod-Pack/releases/tag/helheim-2026.11.25.1) |
 
 ## Установка
 

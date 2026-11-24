@@ -39,7 +39,7 @@ jobs:
           python tools/report_check.py $report
           if (-not $result.success) { throw $result.message }
       - name: Python syntax
-        run: python -m py_compile tools/build_pack.py tools/import_release.py tools/full_pack.py tools/repack_releases.py tools/publish_unpacked.py tools/file_inventory.py
+        run: python -m py_compile tools/build_pack.py tools/import_release.py tools/full_pack.py tools/repack_releases.py tools/publish_unpacked.py tools/file_inventory.py tools/update_release.py
       - name: Full ZIP packaging tests
         run: python -m unittest discover -s tests -p "test_*.py" -v
   publish:
@@ -50,6 +50,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          lfs: true
       - name: Verify components and publish a complete release
         env:
           GH_TOKEN: ${{ github.token }}
@@ -63,6 +65,7 @@ jobs:
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
+          ref: main
           lfs: true
       - name: Verify and publish unpacked files
         env:

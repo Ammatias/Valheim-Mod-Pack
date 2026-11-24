@@ -1,0 +1,1 @@
+{"success": false, "commit": "30b47f5d72afbe5f67cb38d31ea2173553fe3c92", "message": "Command '['gh', 'api', 'repos/Ammatias/Valheim-Mod-Pack/releases/tags/midgard-2026.11.24.2']' returned non-zero exit status 1."}

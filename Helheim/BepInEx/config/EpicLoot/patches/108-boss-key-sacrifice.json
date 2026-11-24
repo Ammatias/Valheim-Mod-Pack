@@ -1,0 +1,44 @@
+{
+  "TargetFile": "enchantcosts",
+  "Author": "Morgott",
+  "Priority": 400,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.DisenchantProducts",
+      "Action": "Append",
+      "Value": {
+        "ItemNames": ["$bom_eikthyrkey"],
+        "Products": [
+          { "Item": "DustMagic", "Amount": 2 },
+          { "Item": "EssenceMagic", "Amount": 1 },
+          { "Item": "ReagentMagic", "Amount": 1 }
+        ]
+      }
+    },
+    {
+      "Path": "$.DisenchantProducts",
+      "Action": "Append",
+      "Value": {
+        "ItemNames": ["$bom_bonemasskey", "$bom_crystalkey"],
+        "Products": [
+          { "Item": "DustEpic", "Amount": 2 },
+          { "Item": "EssenceEpic", "Amount": 1 },
+          { "Item": "ReagentEpic", "Amount": 1 }
+        ]
+      }
+    },
+    {
+      "Path": "$.DisenchantProducts",
+      "Action": "Append",
+      "Value": {
+        "ItemNames": ["$bom_lavakey"],
+        "Products": [
+          { "Item": "DustMythic", "Amount": 2 },
+          { "Item": "EssenceMythic", "Amount": 1 },
+          { "Item": "ReagentMythic", "Amount": 1 }
+        ]
+      }
+    }
+  ]
+}

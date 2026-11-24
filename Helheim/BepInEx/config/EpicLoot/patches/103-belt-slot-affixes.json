@@ -1,0 +1,32 @@
+{
+  "TargetFile": "magiceffects",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "PotionSlots",
+        "DisplayText": "$mod_epicloot_me_potionslots_display",
+        "Description": "$mod_epicloot_me_potionslots_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Utility",
+            "Chest"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": { "MinValue": 1.0, "MaxValue": 1.0, "Increment": 1.0 },
+          "Rare": { "MinValue": 1.0, "MaxValue": 1.0, "Increment": 1.0 },
+          "Epic": { "MinValue": 1.0, "MaxValue": 1.0, "Increment": 1.0 },
+          "Legendary": { "MinValue": 1.0, "MaxValue": 1.0, "Increment": 1.0 },
+          "Mythic": { "MinValue": 1.0, "MaxValue": 1.0, "Increment": 1.0 },
+          "Ancient": { "MinValue": 1.0, "MaxValue": 1.0, "Increment": 1.0 }
+        },
+        "SelectionWeight": 4
+      }
+    }
+  ]
+}

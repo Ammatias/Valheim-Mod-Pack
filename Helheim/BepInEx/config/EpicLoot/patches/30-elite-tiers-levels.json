@@ -1,0 +1,688 @@
+{
+  "TargetFile": "loottables",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier3EliteMob')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier3EliteMob')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              0,
+              85.0
+            ],
+            [
+              1,
+              15.0
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier3Mob.*",
+              "Weight": 20.0
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 2.0
+            }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [
+              0,
+              61.2
+            ],
+            [
+              1,
+              37.481
+            ],
+            [
+              2,
+              1.319
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier3Mob.*",
+              "Weight": 20.0
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 2.0
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [
+              0,
+              25.5
+            ],
+            [
+              1,
+              68.168
+            ],
+            [
+              2,
+              6.332
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier3Mob.*",
+              "Weight": 20.0
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier4EliteMob')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier4EliteMob')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              0,
+              80.0
+            ],
+            [
+              1,
+              20.0
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier4Mob.*",
+              "Weight": 20.0
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 2.0
+            }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [
+              0,
+              47.6
+            ],
+            [
+              1,
+              50.094
+            ],
+            [
+              2,
+              2.306
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier4Mob.*",
+              "Weight": 20.0
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 2.0
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [
+              1,
+              89.0
+            ],
+            [
+              2,
+              11.0
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier4Mob.*",
+              "Weight": 20.0
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier5EliteMob')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier5EliteMob')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              0,
+              75.0
+            ],
+            [
+              1,
+              24.0
+            ],
+            [
+              2,
+              1.0
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier5Mob.*",
+              "Weight": 20.0
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 2.0
+            }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [
+              0,
+              42.6
+            ],
+            [
+              1,
+              52.459
+            ],
+            [
+              2,
+              4.831
+            ],
+            [
+              3,
+              0.11
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier5Mob.*",
+              "Weight": 20.0
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 2.0
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [
+              1,
+              84.48
+            ],
+            [
+              2,
+              15.04
+            ],
+            [
+              3,
+              0.48
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier5Mob.*",
+              "Weight": 20.0
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier6EliteMob')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier6EliteMob')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              0,
+              70.0
+            ],
+            [
+              1,
+              28.0
+            ],
+            [
+              2,
+              2.0
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier6Mob.*",
+              "Weight": 20.0
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 2.0
+            }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [
+              0,
+              29.0
+            ],
+            [
+              1,
+              62.423
+            ],
+            [
+              2,
+              8.302
+            ],
+            [
+              3,
+              0.275
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier6Mob.*",
+              "Weight": 20.0
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 2.0
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [
+              1,
+              79.8
+            ],
+            [
+              2,
+              19.233
+            ],
+            [
+              3,
+              0.967
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier6Mob.*",
+              "Weight": 20.0
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier7EliteMob')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier7EliteMob')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              0,
+              65.0
+            ],
+            [
+              1,
+              32.0
+            ],
+            [
+              2,
+              3.0
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier7Mob.*",
+              "Weight": 20.0
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 2.0
+            }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [
+              0,
+              25.0
+            ],
+            [
+              1,
+              65.691
+            ],
+            [
+              2,
+              9.039
+            ],
+            [
+              3,
+              0.27
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier7Mob.*",
+              "Weight": 20.0
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 2.0
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [
+              1,
+              81.829
+            ],
+            [
+              2,
+              17.271
+            ],
+            [
+              3,
+              0.9
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier7Mob.*",
+              "Weight": 20.0
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier8EliteMob')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier8EliteMob')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              0,
+              60.0
+            ],
+            [
+              1,
+              36.0
+            ],
+            [
+              2,
+              4.0
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier8Mob.*",
+              "Weight": 20.0
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 2.0
+            }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [
+              0,
+              23.4
+            ],
+            [
+              1,
+              66.458
+            ],
+            [
+              2,
+              9.866
+            ],
+            [
+              3,
+              0.276
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier8Mob.*",
+              "Weight": 20.0
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 2.0
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [
+              1,
+              81.9
+            ],
+            [
+              2,
+              17.2
+            ],
+            [
+              3,
+              0.9
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier8Mob.*",
+              "Weight": 20.0
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier9EliteMob')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier9EliteMob')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              0,
+              60.0
+            ],
+            [
+              1,
+              36.0
+            ],
+            [
+              2,
+              4.0
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier9Mob.*",
+              "Weight": 20.0
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 2.0
+            }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [
+              0,
+              23.4
+            ],
+            [
+              1,
+              66.458
+            ],
+            [
+              2,
+              9.866
+            ],
+            [
+              3,
+              0.276
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier9Mob.*",
+              "Weight": 20.0
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 2.0
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [
+              1,
+              81.9
+            ],
+            [
+              2,
+              17.2
+            ],
+            [
+              3,
+              0.9
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier9Mob.*",
+              "Weight": 20.0
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 2.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

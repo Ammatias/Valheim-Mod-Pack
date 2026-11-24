@@ -1,0 +1,17 @@
+{
+  "TargetFile": "adventuredata",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    { "Path": "$.TreasureMap.BiomeInfo[?(@.Biome=='Meadows')].MaxRadius", "Action": "Overwrite", "Value": 1500.0 },
+    { "Path": "$.TreasureMap.BiomeInfo[?(@.Biome=='BlackForest')].MaxRadius", "Action": "Overwrite", "Value": 2500.0 },
+    { "Path": "$.TreasureMap.BiomeInfo[?(@.Biome=='Ocean')].MaxRadius", "Action": "Overwrite", "Value": 3000.0 },
+    { "Path": "$.TreasureMap.BiomeInfo[?(@.Biome=='Swamp')].MaxRadius", "Action": "Overwrite", "Value": 4000.0 },
+    { "Path": "$.TreasureMap.BiomeInfo[?(@.Biome=='Mountain')].MinRadius", "Action": "Overwrite", "Value": 1000.0 },
+    { "Path": "$.TreasureMap.BiomeInfo[?(@.Biome=='Mountain')].MaxRadius", "Action": "Overwrite", "Value": 4000.0 },
+    { "Path": "$.TreasureMap.BiomeInfo[?(@.Biome=='Plains')].MaxRadius", "Action": "Overwrite", "Value": 5000.0 },
+    { "Path": "$.TreasureMap.BiomeInfo[?(@.Biome=='Mistlands')].MinRadius", "Action": "Overwrite", "Value": 6000.0 },
+    { "Path": "$.TreasureMap.BiomeInfo[?(@.Biome=='Mistlands')].MaxRadius", "Action": "Overwrite", "Value": 7500.0 }
+  ]
+}

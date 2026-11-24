@@ -1,0 +1,385 @@
+{
+  "TargetFile": "legendaries",
+  "Author": "Morgott",
+  "Priority": 400,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.LegendarySets",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HeimdallTowerShield')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HeimdallHelmet')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HeimdallChest')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HeimdallLegs')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='RagnarBattleAxe')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='RagnarCape')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='RagnarChest')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='RagnarLegs')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='ThorMaul')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='ThorHelm')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='ThorChest')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='ThorLegs')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='DvergerArsenalCrossbow')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='DvergerArsenalHelm')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='DvergerArsenalCloak')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='DvergerArsenalChest')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='LokiKnife')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='LokiHood')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='LokiChest')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='LokiLegs')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='JormungandrSpear')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='JormungandrHelm')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='JormungandrChest')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='JormungandrLegs')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='EgilBow')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='EgilHood')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='EgilCloak')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='EgilLegs')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='ElivagarHood')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='ElivagarRobe')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='ElivagarLegs')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='ElivagarCape')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='FylgjaBow')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='FylgjaWeapon')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='FylgjaHood')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='FylgjaJerkin')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='FylgjaCape')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='FreyjaSpear')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='FreyjaHelm')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='FreyjaChest')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='FreyjaCloak')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='BolthornCrossbow')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='BolthornHelm')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='BolthornChest')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='BolthornLegs')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HeidrBow')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HeidrHood')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HeidrRobe')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HeidrMantle')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='MimirHood')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='MimirRobe')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='MimirLegs')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='MimirCape')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='EinherjarSword')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='EinherjarHelm')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='EinherjarChest')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='EinherjarLegs')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='UllrHuntBow')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='UllrHood')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='UllrChest')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='UllrLegs')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HelStaff')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HelHood')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HelRobe')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HelMantle')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HuldraKnife')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HuldraHood')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HuldraChest')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HuldraCape')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='SurtrWeapon')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='SurtrHelm')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='SurtrChest')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='SurtrLegs')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HelCourtHelm')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HelCourtChest')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HelCourtLegs')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HelCourtCape')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HrungnirShield')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HrungnirHelm')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HrungnirChest')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='HrungnirLegs')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='SvalinnShield')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='SvalinnHelm')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='SvalinnChest')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='SvalinnLegs')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='GullveigStaff')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='GullveigHood')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='GullveigRobe')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='GullveigCape')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='GiantsBloodTwoHandedWeapon')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='GiantsBloodHelm')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='GiantsBloodChest')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='GiantsBloodLegs')]",
+      "Action": "Remove"
+    }
+  ]
+}

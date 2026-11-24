@@ -1,0 +1,108 @@
+{
+  "TargetFile": "magiceffects",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Throwable')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_me_throwreturn_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Throwable')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_me_throwreturn_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Throwable')]",
+      "Action": "Add",
+      "PropertyName": "ValuesPerRarity",
+      "Value": {
+        "Magic": { "MinValue": 4.0, "MaxValue": 5.0, "Increment": 0.5 },
+        "Rare": { "MinValue": 3.0, "MaxValue": 4.0, "Increment": 0.5 },
+        "Epic": { "MinValue": 2.0, "MaxValue": 3.0, "Increment": 0.5 },
+        "Legendary": { "MinValue": 1.0, "MaxValue": 2.0, "Increment": 0.5 },
+        "Mythic": { "MinValue": 0.5, "MaxValue": 1.0, "Increment": 0.5 },
+        "Ancient": { "MinValue": 0.0, "MaxValue": 0.5, "Increment": 0.5 }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='RecallWeapon')].Requirements",
+      "Action": "Add",
+      "PropertyName": "NoRoll",
+      "Value": true
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Indestructible')].Requirements",
+      "Action": "Overwrite",
+      "Value": {
+        "ExclusiveEffectTypes": [
+          "ModifyDurability",
+          "DurabilitySave"
+        ],
+        "AllowedItemTypes": [
+          "Tool",
+          "TwoHandedWeapon"
+        ],
+        "ExternalRequirements": [
+          "MorgottTweaks.Tool"
+        ],
+        "ExcludedItemNames": [
+          "$item_fishingrod"
+        ],
+        "AllowedRarities": [
+          "Rare",
+          "Epic",
+          "Legendary",
+          "Mythic",
+          "Ancient"
+        ],
+        "ItemUsesDurability": true
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Indestructible')].SelectionWeight",
+      "Action": "Overwrite",
+      "Value": 2
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "DurabilitySave",
+        "DisplayText": "$mod_epicloot_me_durabilitysave_display",
+        "Description": "$mod_epicloot_me_durabilitysave_desc",
+        "Requirements": {
+          "ExclusiveEffectTypes": [
+            "Indestructible"
+          ],
+          "AllowedItemTypes": [
+            "OneHandedWeapon",
+            "TwoHandedWeapon",
+            "TwoHandedWeaponLeft",
+            "Bow",
+            "Torch",
+            "Shield",
+            "Tool",
+            "Helmet",
+            "Chest",
+            "Legs",
+            "Shoulder",
+            "Staff"
+          ],
+          "ItemUsesDurability": true
+        },
+        "ValuesPerRarity": {
+          "Magic": { "MinValue": 10.0, "MaxValue": 15.0, "Increment": 5.0 },
+          "Rare": { "MinValue": 15.0, "MaxValue": 20.0, "Increment": 5.0 },
+          "Epic": { "MinValue": 20.0, "MaxValue": 30.0, "Increment": 5.0 },
+          "Legendary": { "MinValue": 30.0, "MaxValue": 35.0, "Increment": 5.0 },
+          "Mythic": { "MinValue": 35.0, "MaxValue": 45.0, "Increment": 5.0 },
+          "Ancient": { "MinValue": 45.0, "MaxValue": 50.0, "Increment": 5.0 }
+        },
+        "SelectionWeight": 2
+      }
+    }
+  ]
+}

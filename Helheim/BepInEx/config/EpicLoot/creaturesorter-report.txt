@@ -1,0 +1,239 @@
+Creature sorter (world load): 71 creature(s) without a loot table; 62 added, 0 updated, 0 removed, 0 could not be placed, 11 explicit entries differ from the rules; 27 ms.
+Written 2026-11-08 17:57:35. Rules: itemsorter.json CreatureSorter and BiomeSorterData.*.Creatures. Pin a creature under CreatureSorter.Overrides.
+Added 62, updated 0, removed 0 generated entries.
+
+Creature | HP | Faction | Biome (evidence) | HP ratio | Class | Template | Result
+Charred_Archer | 200 | Demon | AshLands (spawn list) | 0.33 | Weak | Tier7Mob | OwnTable: has its own loot table
+Volture | 200 | Demon | AshLands (spawn list) | 0.33 | Weak | Tier7Mob | OwnTable: has its own loot table
+Charred_Twitcher | 220 | Demon | AshLands (spawn list) | 0.37 | Weak | Tier7Mob | OwnTable: has its own loot table
+BlobLava | 300 | Demon | AshLands (spawn list) | 0.5 | Weak | Tier7Mob | OwnTable: has its own loot table
+Charred_Mage | 600 | Demon | AshLands (drops) | 1 | Normal | Tier8Mob | OwnTable: has its own loot table
+Charred_Melee | 600 | Demon | AshLands (spawn list) | 1 | Normal | Tier8Mob | OwnTable: has its own loot table
+Asksvin | 800 | Demon | AshLands (spawn list) | 1.33 | Normal | Tier8Mob | OwnTable: has its own loot table
+DvergerAshlands | 1000 | Dverger | AshLands (spawn list) | 1.67 | Strong | Tier8Mob | OwnTable: has its own loot table
+BonemawSerpent | 1100 | Demon | AshLands (spawn list) | 1.83 | Strong | Tier8Mob | OwnTable: has its own loot table
+FallenValkyrie | 1500 | Demon | AshLands (spawn list) | 2.5 | Elite | Tier8EliteMob | OwnTable: has its own loot table
+Morgen | 1600 | Demon | AshLands (variant of Morgen_NonSleeping) | 2.67 | Elite | Tier8EliteMob | OwnTable: has its own loot table
+Morgen_NonSleeping | 1600 | Demon | AshLands (spawn list) | 2.67 | Elite | Tier8EliteMob | OwnTable: has its own loot table
+Charred_Melee_Dyrnwyn | 2500 | Demon | AshLands (faction) | 4.17 | Elite | Tier8EliteMob | OwnTable: has its own loot table
+Greydwarf | 40 | ForestMonsters | BlackForest (spawn list) | 0.5 | Weak | Tier1Mob | OwnTable: has its own loot table
+Greydwarf_Shaman | 60 | ForestMonsters | BlackForest (spawn list) | 0.75 | Normal | Tier2Mob | OwnTable: has its own loot table
+Greydwarf_Elite | 150 | ForestMonsters | BlackForest (spawn list) | 1.88 | Strong | Tier2Mob | OwnTable: has its own loot table
+Bjorn | 500 | ForestMonsters | BlackForest (spawn list) | 6.25 | Elite | Tier3EliteMob | OwnTable: has its own loot table
+Bjorn_sleeping | 500 | ForestMonsters | BlackForest (variant of Bjorn) | 6.25 | Elite | Tier3EliteMob | OwnTable: has its own loot table
+Troll | 600 | ForestMonsters | BlackForest (spawn list) | 7.5 | Elite | Tier3EliteMob | OwnTable: has its own loot table
+Troll_sleeping | 600 | ForestMonsters | BlackForest (variant of Troll) | 7.5 | Elite | Tier3EliteMob | OwnTable: has its own loot table
+BlobMorkMini | 50 | DeepNorth | DeepNorth (drops) | 0.13 | Weak | Tier8Mob | OwnTable: has its own loot table
+Frysling | 100 | TrainingDummy | DeepNorth (drops) | 0.25 | Weak | Tier8Mob | OwnTable: has its own loot table
+Greydwarf_Frozen | 100 | DeepNorth | DeepNorth (spawn list) | 0.25 | Weak | Tier8Mob | OwnTable: has its own loot table
+Skeleton_DeepNorth | 100 | DeepNorth | DeepNorth (spawn list) | 0.25 | Weak | Tier8Mob | OwnTable: has its own loot table
+Greydwarf_Shaman_Frozen | 120 | DeepNorth | DeepNorth (spawn list) | 0.3 | Weak | Tier8Mob | OwnTable: has its own loot table
+BlobMork | 150 | DeepNorth | DeepNorth (drops) | 0.38 | Weak | Tier8Mob | OwnTable: has its own loot table
+GoblinDeepNorth | 250 | PlainsMonsters | DeepNorth (drops) | 0.63 | Normal | Tier8Mob | OwnTable: has its own loot table
+Elaking | 350 | DeepNorth | DeepNorth (spawn list) | 0.88 | Normal | Tier8Mob | OwnTable: has its own loot table
+ElakingLantern | 350 | DeepNorth | DeepNorth (spawn list) | 0.88 | Normal | Tier8Mob | OwnTable: has its own loot table
+Seal | 400 | DeepNorth | DeepNorth (spawn list) | 1 | Normal | Tier8Mob | OwnTable: has its own loot table
+FallenWarrior | 750 | Undead | DeepNorth (drops) | 1.88 | Strong | Tier9Mob | OwnTable: has its own loot table
+ShadowPerson | 750 | DeepNorth | DeepNorth (spawn list) | 1.88 | Strong | Tier9Mob | OwnTable: has its own loot table
+JotunWitch | 800 | DeepNorth | DeepNorth (gated spawn) | 2 | Strong | Tier9Mob | OwnTable: has its own loot table
+Moose | 1000 | DeepNorth | DeepNorth (spawn list) | 2.5 | Elite | Tier9EliteMob | OwnTable: has its own loot table
+JotunWarrior | 1300 | DeepNorth | DeepNorth (raid) | 3.25 | Elite | Tier9EliteMob | OwnTable: has its own loot table
+JotunWarriorDualWield | 1300 | DeepNorth | DeepNorth (drops) | 3.25 | Elite | Tier9EliteMob | OwnTable: has its own loot table
+ElakingMole | 1400 | DeepNorth | DeepNorth (raid) | 3.5 | Elite | Tier9EliteMob | OwnTable: has its own loot table
+DvergerDeepNorth | 1500 | Dverger | DeepNorth (drops) | 3.75 | Elite | Tier9EliteMob | OwnTable: has its own loot table
+Barka | 2200 | DeepNorth | DeepNorth (spawn list) | 5.5 | Elite | Tier9EliteMob | OwnTable: has its own loot table
+TrollFrost | 3000 | DeepNorth | DeepNorth (spawn list) | 7.5 | Elite | Tier9EliteMob | OwnTable: has its own loot table
+FrozenKing_p3 | 30000 | Boss | DeepNorth (drops) | 75 | Boss | Tier9EliteMob | OwnTable: has its own loot table
+Neck | 5 | ForestMonsters | Meadows (spawn list) | 0.33 | Weak | Tier0Mob | OwnTable: has its own loot table
+Deer | 10 | ForestMonsters | Meadows (spawn list) | 0.67 | Normal | Tier0Mob | OwnTable: has its own loot table
+Boar | 20 | ForestMonsters | Meadows (spawn list) | 1.33 | Normal | Tier0Mob | OwnTable: has its own loot table
+Greyling | 20 | ForestMonsters | Meadows (spawn list) | 1.33 | Normal | Tier0Mob | OwnTable: has its own loot table
+Skeleton | 40 | Undead | Meadows (alternate biome spawn) | 2.67 | Elite | Tier1Mob | OwnTable: has its own loot table
+Skeleton_NoArcher | 40 | Undead | Meadows (variant of Skeleton) | 2.67 | Elite | Tier1Mob | OwnTable: has its own loot table
+Skeleton_Mountains | 75 | Undead | Meadows (alternate biome spawn) | 5 | Elite | Tier1Mob | OwnTable: has its own entry (Tier4Mob); the rules would pick Tier1Mob
+Skeleton_Mountains_noarcher | 75 | Undead | Meadows (variant of Skeleton_Mountains) | 5 | Elite | Tier1Mob | OwnTable: has its own entry (Tier4Mob); the rules would pick Tier1Mob
+FrostWisp | 100 | TrainingDummy | Meadows (drops) | 6.67 | Elite | Tier1Mob | OwnTable: has its own entry (Tier8Mob); the rules would pick Tier1Mob
+Tick | 50 | MistlandsMonsters | Mistlands (raid) | 0.14 | Weak | Tier6Mob | OwnTable: has its own loot table
+Seeker | 200 | MistlandsMonsters | Mistlands (spawn list) | 0.57 | Normal | Tier7Mob | OwnTable: has its own loot table
+Dverger | 350 | Dverger | Mistlands (spawn list) | 1 | Normal | Tier7Mob | OwnTable: has its own loot table
+DvergerMage | 350 | Dverger | Mistlands (drops) | 1 | Normal | Tier7Mob | OwnTable: has its own loot table
+DvergerMageFire | 350 | Dverger | Mistlands (drops) | 1 | Normal | Tier7Mob | OwnTable: has its own loot table
+DvergerMageIce | 350 | Dverger | Mistlands (drops) | 1 | Normal | Tier7Mob | OwnTable: has its own loot table
+DvergerMageSupport | 350 | Dverger | Mistlands (drops) | 1 | Normal | Tier7Mob | OwnTable: has its own loot table
+BogWitchKvastur | 700 | Dverger | Mistlands (faction) | 2 | Strong | Tier7Mob | OwnTable: has its own entry (Tier4EliteMob); the rules would pick Tier7Mob
+Gjall | 1500 | MistlandsMonsters | Mistlands (spawn list) | 4.29 | Elite | Tier7EliteMob | OwnTable: has its own loot table
+SeekerBrute | 1500 | MistlandsMonsters | Mistlands (spawn list) | 4.29 | Elite | Tier7EliteMob | OwnTable: has its own loot table
+GoblinKing | 10000 | Boss | Mistlands (drops) | 28.57 | Boss | Tier7EliteMob | OwnTable: has its own loot table
+Ulv | 50 | MountainMonsters | Mountain (drops) | 0.56 | Normal | Tier4Mob | OwnTable: has its own loot table
+Wolf | 80 | MountainMonsters | Mountain (spawn list) | 0.89 | Normal | Tier4Mob | OwnTable: has its own loot table
+Hatchling | 100 | MountainMonsters | Mountain (spawn list) | 1.11 | Normal | Tier4Mob | OwnTable: has its own loot table
+Fenring_Cultist | 200 | MountainMonsters | Mountain (faction) | 2.22 | Strong | Tier5Mob | OwnTable: has its own loot table
+Fenring | 300 | MountainMonsters | Mountain (spawn list) | 3.33 | Elite | Tier5EliteMob | OwnTable: has its own loot table
+StoneGolem | 800 | ForestMonsters | Mountain (spawn list) | 8.89 | Elite | Tier5EliteMob | OwnTable: has its own loot table
+Fenring_Cultist_Hildir | 3700 | MountainMonsters | Mountain (faction) | 41.11 | Elite | Tier5EliteMob | OwnTable: has its own loot table
+Serpent | 400 | SeaMonsters | Ocean (spawn list) | 1 | Normal | Tier5Mob | OwnTable: has its own loot table
+Deathsquito | 10 | PlainsMonsters | Plains (spawn list) | 0.06 | Weak | Tier5Mob | OwnTable: has its own loot table
+GoblinShaman | 100 | PlainsMonsters | Plains (raid) | 0.57 | Normal | Tier5Mob | OwnTable: has its own loot table
+Goblin | 175 | PlainsMonsters | Plains (spawn list) | 1 | Normal | Tier5Mob | OwnTable: has its own loot table
+GoblinArcher | 175 | PlainsMonsters | Plains (faction) | 1 | Normal | Tier5Mob | OwnTable: has its own loot table
+GoblinBrute | 800 | PlainsMonsters | Plains (spawn list) | 4.57 | Elite | Tier6EliteMob | OwnTable: has its own loot table
+GoblinBrute_Hildir | 800 | PlainsMonsters | Plains (faction) | 4.57 | Elite | Tier6EliteMob | OwnTable: has its own loot table
+Lox | 1000 | PlainsMonsters | Plains (spawn list) | 5.71 | Elite | Tier6EliteMob | OwnTable: has its own loot table
+Unbjorn | 1200 | PlainsMonsters | Plains (spawn list) | 6.86 | Elite | Tier6EliteMob | OwnTable: has its own loot table
+GoblinShaman_Hildir | 2400 | PlainsMonsters | Plains (faction) | 13.71 | Elite | Tier6EliteMob | OwnTable: has its own loot table
+GoblinBruteBros | 4200 | PlainsMonsters | Plains (faction) | 24 | Elite | Tier6EliteMob | OwnTable: has its own loot table
+Bat | 10 | MountainMonsters | Swamp (boss-gated raid) | 0.1 | Weak | Tier3Mob | OwnTable: has its own entry (Tier4Mob); the rules would pick Tier3Mob
+Bat_Swamp | 10 | Undead | Swamp (alternate biome spawn) | 0.1 | Weak | Tier3Mob | OwnTable: has its own loot table
+Surtling | 20 | Demon | Swamp (boss-gated raid) | 0.2 | Weak | Tier3Mob | OwnTable: has its own loot table
+Skeleton_Meadows | 30 | Undead | Swamp (faction) | 0.3 | Weak | Tier3Mob | OwnTable: has its own entry (Tier1Mob); the rules would pick Tier3Mob
+Skeleton_Meadows_noarcher | 30 | Undead | Swamp (faction) | 0.3 | Weak | Tier3Mob | OwnTable: has its own entry (Tier1Mob); the rules would pick Tier3Mob
+Blob | 50 | Undead | Swamp (spawn list) | 0.5 | Weak | Tier3Mob | OwnTable: has its own loot table
+Ghost | 60 | Undead | Swamp (boss-gated raid) | 0.6 | Normal | Tier3Mob | OwnTable: has its own entry (Tier2Mob); the rules would pick Tier3Mob
+Ghost_sleeping | 60 | Undead | Swamp (variant of Ghost) | 0.6 | Normal | Tier3Mob | OwnTable: has its own entry (Tier2Mob); the rules would pick Tier3Mob
+Leech | 60 | Undead | Swamp (spawn list) | 0.6 | Normal | Tier3Mob | OwnTable: has its own loot table
+Leech_cave | 60 | Undead | Swamp (variant of Leech) | 0.6 | Normal | Tier3Mob | OwnTable: has its own loot table
+Skeleton_Swamps | 60 | Undead | Swamp (spawn list) | 0.6 | Normal | Tier3Mob | OwnTable: has its own loot table
+Skeleton_Swamps_noarcher | 60 | Undead | Swamp (variant of Skeleton_Swamps) | 0.6 | Normal | Tier3Mob | OwnTable: has its own loot table
+BlobTar | 100 | Undead | Swamp (faction) | 1 | Normal | Tier3Mob | OwnTable: has its own entry (Tier5Mob); the rules would pick Tier3Mob
+Draugr | 100 | Undead | Swamp (spawn list) | 1 | Normal | Tier3Mob | OwnTable: has its own loot table
+Draugr_Ranged | 100 | Undead | Swamp (faction) | 1 | Normal | Tier3Mob | OwnTable: has its own loot table
+Draugr_Ranged_sleeping | 100 | Undead | Swamp (faction) | 1 | Normal | Tier3Mob | OwnTable: has its own loot table
+Draugr_sleeping | 100 | Undead | Swamp (variant of Draugr) | 1 | Normal | Tier3Mob | OwnTable: has its own loot table
+Skeleton_Poison | 100 | Undead | Swamp (alternate biome spawn) | 1 | Normal | Tier3Mob | OwnTable: has its own entry (Tier2Mob); the rules would pick Tier3Mob
+Wraith | 100 | Undead | Swamp (spawn list) | 1 | Normal | Tier3Mob | OwnTable: has its own loot table
+BlobElite | 150 | Undead | Swamp (spawn list) | 1.5 | Strong | Tier4Mob | OwnTable: has its own loot table
+Draugr_Elite | 200 | Undead | Swamp (spawn list) | 2 | Strong | Tier4Mob | OwnTable: has its own loot table
+Draugr_Elite_sleeping | 200 | Undead | Swamp (variant of Draugr_Elite) | 2 | Strong | Tier4Mob | OwnTable: has its own loot table
+Writhan | 400 | Undead | Swamp (spawn list) | 4 | Elite | Tier4EliteMob | OwnTable: has its own loot table
+Abomination | 800 | Undead | Swamp (spawn list) | 8 | Elite | Tier4EliteMob | OwnTable: has its own loot table
+Skeleton_Hildir | 1200 | Undead | Swamp (faction) | 12 | Elite | Tier4EliteMob | OwnTable: has its own loot table
+Eikthyr | 500 | Boss | - | - | - | - | OwnTable: has its own loot table
+gd_king | 2500 | Boss | - | - | - | - | OwnTable: has its own loot table
+Bonemass | 5000 | Boss | - | - | - | - | OwnTable: has its own loot table
+Dragon | 7500 | Boss | - | - | - | - | OwnTable: has its own loot table
+SeekerQueen | 12500 | Boss | - | - | - | - | OwnTable: has its own loot table
+Fader | 25000 | Boss | - | - | - | - | OwnTable: has its own loot table
+Charred_Archer_Fader | 50 | Demon | AshLands (faction) | - | - | - | Excluded: name matches *_Fader
+Charred_Melee_Fader | 50 | Demon | AshLands (faction) | - | - | - | Excluded: name matches *_Fader
+Charred_Twitcher_Summoned | 50 | Demon | AshLands (drops) | - | - | - | Excluded: name matches *_Summoned
+Goblin_Gem | 1000 | ForestMonsters | AshLands (drops) | - | - | - | Excluded: excluded from kill achievements (test or summon)
+BA_ElderMosquito | 1 | ForestMonsters | BlackForest (faction) | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+Boar_piggy | 10 | ForestMonsters | BlackForest (faction) | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+Chicken | 10 | ForestMonsters | BlackForest (faction) | - | - | - | Excluded: offspring that grows up
+Hen | 10 | ForestMonsters | BlackForest (faction) | - | - | - | Excluded: starts tamed
+Lamb_TW | 20 | ForestMonsters | BlackForest (faction) | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+Deer_White | 30 | ForestMonsters | BlackForest (faction) | - | - | - | Excluded: excluded from kill achievements (test or summon)
+TentaRoot_wild | 30 | ForestMonsters | BlackForest (alternate biome spawn) | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+Seal_Pup | 200 | DeepNorth | DeepNorth (spawn list) | - | - | - | Excluded: passive animal
+Moose_calf | 1000 | DeepNorth | DeepNorth (faction) | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+EL_TamedBat | 10 | Players | Meadows (drops) | - | - | - | Excluded: faction Players
+Mistile | 1 | Dverger | Mistlands (faction) | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+Hare | 10 | AnimalsVeg | Mistlands (spawn list) | - | - | - | Excluded: passive animal
+DvergerTest | 100 | Dverger | Mistlands (faction) | - | - | - | Excluded: excluded from kill achievements (test or summon)
+TheHive | 5000 | MistlandsMonsters | Mistlands (faction) | - | - | - | Excluded: excluded from kill achievements (test or summon)
+Wolf_cub | 10 | MountainMonsters | Mountain (faction) | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+Lox_Calf | 100 | PlainsMonsters | Plains (faction) | - | - | - | Excluded: offspring that grows up
+Ghost_old | 60 | Undead | Swamp (faction) | - | - | - | Excluded: excluded from kill achievements (test or summon)
+CR_AncientOozer | 150 | Undead | Swamp (faction) | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+Asksvin_hatchling | 400 | Undead | Swamp (faction) | - | - | - | Excluded: offspring that grows up
+Ghost_Void | 600 | Undead | Swamp (faction) | - | - | - | Excluded: excluded from kill achievements (test or summon)
+TrainingDummy | 40000 | Undead | Swamp (faction) | - | - | - | Excluded: excluded from kill achievements (test or summon)
+Aspect_TentaRoot | 20 | Boss | - | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+TentaRoot | 20 | Boss | - | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+Staff_root_TW | 34 | Players | - | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+SummonedSurtling_TW | 70 | Players | - | - | - | - | Excluded: starts tamed
+Tendril | 80 | Boss | - | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+CR_EikthyrMirage | 100 | Boss | - | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+SummonedGolem_TW | 250 | Players | - | - | - | - | Excluded: starts tamed
+TotemFrostWard_MT | 250 | Players | - | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+staff_greenroots_tentaroot | 250 | Players | - | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+CR_Wyvern | 300 | Boss | - | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+EL_HelThrall | 400 | Players | - | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+Skeleton_Friendly | 400 | Players | - | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+Wolf_spiritcaller | 800 | Players | - | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+Boar_spiritcaller | 1000 | Players | - | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+Tendril_back | 1000 | Boss | - | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+Moose_spiritcaller | 1100 | Players | - | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+Aspect_Moder | 1500 | Boss | - | - | - | - | Excluded: name matches Aspect_*
+Bjorn_spiritcaller | 1500 | Players | - | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+Aspect_Bonemass | 1600 | Boss | - | - | - | - | Excluded: name matches Aspect_*
+Aspect_Elder | 1600 | Boss | - | - | - | - | Excluded: name matches Aspect_*
+Aspect_Fader | 1700 | Boss | - | - | - | - | Excluded: name matches Aspect_*
+Aspect_SeekerQueen | 1700 | Boss | - | - | - | - | Excluded: name matches Aspect_*
+Aspect_Yagluth | 1700 | Boss | - | - | - | - | Excluded: name matches Aspect_*
+Troll_Summoned | 2000 | PlayerSpawned | - | - | - | - | Excluded: faction PlayerSpawned
+piece_TrainingDummy | 2500 | TrainingDummy | - | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+Aspect_Eikthyr | 3000 | Boss | - | - | - | - | Excluded: name matches Aspect_*
+FrozenKing_p2 | 7000 | Boss | - | - | - | - | Excluded: no CharacterDrop, so it never rolls loot
+Hive | 10000 | Boss | - | - | - | - | Excluded: excluded from kill achievements (test or summon)
+SeekerBrood | 20 | MistlandsMonsters | Mistlands (alternate biome spawn) | - | - | - | Skipped: skipped by Overrides
+BlobFrost | 50 | MountainMonsters | Mountain (faction) | - | - | - | Skipped: skipped by Overrides
+Fenring_Cultist_Hildir_nochest | 1850 | MountainMonsters | Mountain (faction) | - | - | - | Skipped: skipped by Overrides
+GoblinShaman_Hildir_nochest | 1200 | PlainsMonsters | Plains (faction) | - | - | - | Skipped: skipped by Overrides
+GoblinBruteBros_nochest | 2100 | PlainsMonsters | Plains (faction) | - | - | - | Skipped: skipped by Overrides
+Skeleton_aspect | 40 | Undead | Swamp (faction) | - | - | - | Skipped: skipped by Overrides
+BlobAspect | 50 | Undead | Swamp (drops) | - | - | - | Skipped: skipped by Overrides
+Skeleton_Hildir_nochest | 600 | Undead | Swamp (faction) | - | - | - | Skipped: skipped by Overrides
+FrozenKing | 10000 | Boss | - | - | - | - | Skipped: skipped by Overrides
+CR_SurtrImp | 200 | Demon | AshLands (spawn list) | 0.33 | Normal | Tier8Mob | Assign
+CR_SurtrHound | 530 | Demon | AshLands (spawn list) | 0.88 | Normal | Tier8Mob | Assign
+CR_CinderHorror | 900 | Demon | AshLands (spawn list) | 1.5 | Normal | Tier8Mob | Assign
+CR_MagmaSkarab | 900 | Demon | AshLands (spawn list) | 1.5 | Normal | Tier8Mob | Assign
+CR_SurtrBrute | 1600 | Demon | AshLands (spawn list) | 2.67 | Strong | Tier8Mob | Assign
+CR_DemonLord | 1920 | Demon | AshLands (spawn list) | 3.2 | Strong | Tier8Mob | Assign
+CR_FireGolem | 2200 | Demon | AshLands (spawn list) | 3.67 | Strong | Tier8Mob | Assign
+Sheep_TW | 25 | ForestMonsters | BlackForest (faction) | 0.31 | Weak | Tier1Mob | Assign
+CR_Razorback | 30 | ForestMonsters | BlackForest (spawn list) | 0.38 | Normal | Tier2Mob | Assign
+CR_Viper | 30 | ForestMonsters | BlackForest (spawn list) | 0.38 | Normal | Tier2Mob | Assign
+CR_ForestSpider | 50 | ForestMonsters | BlackForest (spawn list) | 0.63 | Normal | Tier2Mob | Assign
+CR_Genganger | 60 | Undead | BlackForest (spawn list) | 0.75 | Normal | Tier2Mob | Assign
+CR_Panther | 100 | ForestMonsters | BlackForest (spawn list) | 1.25 | Normal | Tier2Mob | Assign
+GreydwarfMage_TW | 130 | ForestMonsters | BlackForest (faction) | 1.63 | Strong | Tier2Mob | Assign
+CR_GloomHorror | 195 | Undead | BlackForest (spawn list) | 2.44 | Normal | Tier2Mob | Assign
+CR_Ent | 800 | ForestMonsters | BlackForest (spawn list) | 10 | Strong | Tier2Mob | Assign
+CR_FrigidSpider | 520 | MountainMonsters | DeepNorth (spawn list) | 1.3 | Normal | Tier8Mob | Assign
+CR_ArcticBear | 1000 | MountainMonsters | DeepNorth (spawn list) | 2.5 | Normal | Tier8Mob | Assign
+CR_Yeti | 1300 | MountainMonsters | DeepNorth (spawn list) | 3.25 | Normal | Tier8Mob | Assign
+CR_RimeHorror | 1710 | MountainMonsters | DeepNorth (spawn list) | 4.28 | Normal | Tier8Mob | Assign
+CR_Ogre | 2200 | MountainMonsters | DeepNorth (spawn list) | 5.5 | Strong | Tier9Mob | Assign
+CR_Mammoth | 2400 | MountainMonsters | DeepNorth (spawn list) | 6 | Strong | Tier9Mob | Assign
+CR_GiantRat | 10 | ForestMonsters | Meadows (spawn list) | 0.67 | Normal | Tier0Mob | Assign
+CR_Fox | 16 | ForestMonsters | Meadows (spawn list) | 1.07 | Normal | Tier0Mob | Assign
+CR_Kobold | 20 | ForestMonsters | Meadows (spawn list) | 1.33 | Normal | Tier0Mob | Assign
+CR_BlackBear | 120 | ForestMonsters | Meadows (spawn list) | 8 | Normal | Tier2Mob | Assign
+CR_Lich | 160 | Undead | Mistlands (spawn list) | 0.46 | Normal | Tier7Mob | Assign
+CR_Ghoul | 200 | MistlandsMonsters | Mistlands (spawn list) | 0.57 | Normal | Tier7Mob | Assign
+SummonedSeeker_TW | 200 | MistlandsMonsters | Mistlands (drops) | 0.57 | Normal | Tier7Mob | Assign
+CR_Hobgoblin | 260 | MistlandsMonsters | Mistlands (spawn list) | 0.74 | Normal | Tier7Mob | Assign
+CR_TreeSpider | 300 | MistlandsMonsters | Mistlands (spawn list) | 0.86 | Normal | Tier7Mob | Assign
+CR_MistHorror | 390 | MistlandsMonsters | Mistlands (spawn list) | 1.11 | Normal | Tier7Mob | Assign
+CorruptedDvergerMage_TW | 520 | MistlandsMonsters | Mistlands (faction) | 1.49 | Normal | Tier7Mob | Assign
+CR_Bladefist | 1150 | MistlandsMonsters | Mistlands (spawn list) | 3.29 | Strong | Tier7Mob | Assign
+CR_Arachne | 1380 | MistlandsMonsters | Mistlands (spawn list) | 3.94 | Strong | Tier7Mob | Assign
+CR_FrostSpider | 80 | MountainMonsters | Mountain (spawn list) | 0.89 | Normal | Tier4Mob | Assign
+CR_StormWolf | 80 | MountainMonsters | Mountain (spawn list) | 0.89 | Normal | Tier4Mob | Assign
+FenringMage_TW | 240 | MountainMonsters | Mountain (drops) | 2.67 | Elite | Tier5EliteMob | Assign
+CR_Werewolf | 300 | MountainMonsters | Mountain (spawn list) | 3.33 | Normal | Tier4Mob | Assign
+CR_Weregoat | 350 | MountainMonsters | Mountain (spawn list) | 3.89 | Strong | Tier5Mob | Assign
+CR_CragHorror | 390 | MountainMonsters | Mountain (spawn list) | 4.33 | Normal | Tier4Mob | Assign
+CR_Grizzly | 390 | MountainMonsters | Mountain (spawn list) | 4.33 | Normal | Tier4Mob | Assign
+CR_ObsidianGolem | 800 | MountainMonsters | Mountain (spawn list) | 8.89 | Strong | Tier5Mob | Assign
+CR_Shark | 450 | SeaMonsters | Ocean (spawn list) | 1.13 | Normal | Tier5Mob | Assign
+CR_Orca | 600 | SeaMonsters | Ocean (spawn list) | 1.5 | Normal | Tier5Mob | Assign
+CR_Kraken | 3000 | SeaMonsters | Ocean (spawn list) | 7.5 | Strong | Tier5Mob | Assign
+CR_Prowler | 175 | PlainsMonsters | Plains (spawn list) | 1 | Normal | Tier5Mob | Assign
+CR_Lion | 260 | PlainsMonsters | Plains (spawn list) | 1.49 | Normal | Tier5Mob | Assign
+CR_Manticore | 260 | PlainsMonsters | Plains (spawn list) | 1.49 | Normal | Tier5Mob | Assign
+GoblinMage_TW | 300 | PlainsMonsters | Plains (faction) | 1.71 | Strong | Tier6Mob | Assign
+CR_DuneHorror | 340 | PlainsMonsters | Plains (spawn list) | 1.94 | Normal | Tier5Mob | Assign
+CR_DaggerFang | 700 | PlainsMonsters | Plains (spawn list) | 4 | Strong | Tier6Mob | Assign
+CR_Minotaur | 800 | PlainsMonsters | Plains (spawn list) | 4.57 | Strong | Tier6Mob | Assign
+CR_Cyclops | 1600 | PlainsMonsters | Plains (spawn list) | 9.14 | Strong | Tier6Mob | Assign
+CR_MireChaser | 75 | Undead | Swamp (spawn list) | 0.75 | Normal | Tier3Mob | Assign
+CR_Crawler | 100 | Undead | Swamp (spawn list) | 1 | Normal | Tier3Mob | Assign
+CR_HelWraith | 100 | Undead | Swamp (spawn list) | 1 | Normal | Tier3Mob | Assign
+CR_Wendigo | 100 | Undead | Swamp (spawn list) | 1 | Normal | Tier3Mob | Assign
+CR_LizardWarrior | 130 | Undead | Swamp (spawn list) | 1.3 | Normal | Tier3Mob | Assign
+SkeletonMage_TW | 180 | Undead | Swamp (faction) | 1.8 | Strong | Tier4Mob | Assign
+CR_RottingElk | 230 | Undead | Swamp (spawn list) | 2.3 | Normal | Tier3Mob | Assign
+CR_Crocodile | 300 | ForestMonsters | Swamp (spawn list) | 3 | Normal | Tier3Mob | Assign

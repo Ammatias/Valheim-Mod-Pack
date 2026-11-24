@@ -1,0 +1,338 @@
+{
+  "TargetFile": "magiceffects",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifySummonHealth')].Requirements",
+      "Action": "Overwrite",
+      "Value": {
+        "AllowedItemTypes": [
+          "Staff",
+          "Chest",
+          "Legs"
+        ]
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifySummonHealth')].SelectionWeight",
+      "Action": "Overwrite",
+      "Value": 3
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifySummonDamage')].Requirements",
+      "Action": "Overwrite",
+      "Value": {
+        "AllowedItemTypes": [
+          "Staff",
+          "Helmet",
+          "Trinket"
+        ]
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifySummonDamage')].SelectionWeight",
+      "Action": "Overwrite",
+      "Value": 3
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "ModifySummonAttackSpeed",
+        "DisplayText": "$mod_epicloot_me_modifysummonattackspeed_display",
+        "Description": "$mod_epicloot_me_modifysummonattackspeed_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Staff",
+            "Shoulder",
+            "Utility"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 3
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "ModifySummonMoveSpeed",
+        "DisplayText": "$mod_epicloot_me_modifysummonmovespeed_display",
+        "Description": "$mod_epicloot_me_modifysummonmovespeed_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Legs",
+            "Utility"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 8.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 8.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 8.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 8.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 8.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 8.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 3
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "ModifySummonDamageTaken",
+        "DisplayText": "$mod_epicloot_me_modifysummondamagetaken_display",
+        "Description": "$mod_epicloot_me_modifysummondamagetaken_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Chest",
+            "Shoulder",
+            "Shield"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 3
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "ModifySummonResistance",
+        "DisplayText": "$mod_epicloot_me_modifysummonresistance_display",
+        "Description": "$mod_epicloot_me_modifysummonresistance_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Helmet",
+            "Legs",
+            "Shield"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 3
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "ReducedSummonRespawn",
+        "DisplayText": "$mod_epicloot_me_reducedsummonrespawn_display",
+        "Description": "$mod_epicloot_me_reducedsummonrespawn_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Staff",
+            "Trinket"
+          ],
+          "ExternalRequirements": [
+            "MorgottTweaks.SummonSpawn"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 3
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "ModifySummonEnergyShield",
+        "DisplayText": "$mod_epicloot_me_modifysummonenergyshield_display",
+        "Description": "$mod_epicloot_me_modifysummonenergyshield_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Staff",
+            "Chest",
+            "Helmet"
+          ],
+          "ExternalRequirements": [
+            "MorgottTweaks.SummonSpawn"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 5.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 5.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 5.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 5.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 5.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 5.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 3
+      }
+    }
+  ]
+}

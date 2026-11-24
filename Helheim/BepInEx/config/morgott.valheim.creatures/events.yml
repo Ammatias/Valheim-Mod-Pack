@@ -1,0 +1,79 @@
+# Morgott.Creatures: world events (server copy wins, synced to every client). Switches: cfg section '3 - Monsters'.
+version: 4
+# Raids = the game's own random events (army_eikthyr, foresttrolls, ...), run by the server per player:
+# each player rolls on its own timer (vanilla interval x the world's raid rate) and gets its own raid at its
+# position; a player inside a running raid gets none of its own. maxActive caps raids world-wide.
+# intervalMinutes 0 / chance -1 = the game's own values. perPlayer false = vanilla, one raid per world.
+# events: per vanilla event name, only what you change: enabled, duration (s, 0 = vanilla),
+# requiredKeys / notRequiredKeys (global keys, replace the event's own).
+raids:
+  perPlayer: true
+  maxActive: 4
+  intervalMinutes: 0
+  chance: -1
+  events: {}
+#    foresttrolls: { duration: 240 }
+#    army_eikthyr: { enabled: false }
+# Ambush: a player travelling through the wilds (no base nearby, at least travelMeters since the last check,
+# not in a raid) may be ambushed every checkSeconds with 'chance' percent, at most once per cooldownMinutes:
+# one group of the biome (by weight; 'requires' = global keys) spawns distance [min, max] metres away, hunting
+# the player. Creatures roll their rarity as usual. count = [min, max] per member.
+ambush:
+  checkSeconds: 30
+  chance: 10
+  travelMeters: 80
+  cooldownMinutes: 8
+  distance: [25, 35]
+  biomes:
+    Meadows:
+      - { weight: 2, members: [ { prefab: Greyling, count: [2, 3] }, { prefab: Neck, count: [1, 2] } ] }
+      - { requires: [defeated_eikthyr], members: [ { prefab: Greydwarf, count: [2, 3] }, { prefab: Greydwarf_Shaman, count: [0, 1] } ] }
+    BlackForest:
+      - { weight: 2, members: [ { prefab: Greydwarf, count: [2, 3] }, { prefab: Greydwarf_Elite, count: [0, 1] }, { prefab: Greydwarf_Shaman, count: [1, 1] } ] }
+      - { members: [ { prefab: Skeleton, count: [2, 4] } ] }
+      - { requires: [defeated_gdking], members: [ { prefab: Troll, count: [1, 1] } ] }
+    Swamp:
+      - { weight: 2, members: [ { prefab: Draugr, count: [2, 3] }, { prefab: Draugr_Ranged, count: [1, 1] } ] }
+      - { members: [ { prefab: Blob, count: [2, 3] }, { prefab: Skeleton_Poison, count: [0, 1] } ] }
+    Mountain:
+      - { weight: 2, members: [ { prefab: Wolf, count: [2, 3] } ] }
+      - { members: [ { prefab: Hatchling, count: [2, 3] } ] }
+    Plains:
+      - { weight: 2, members: [ { prefab: Goblin, count: [2, 3] }, { prefab: GoblinArcher, count: [1, 1] }, { prefab: GoblinShaman, count: [0, 1] } ] }
+      - { members: [ { prefab: Deathsquito, count: [2, 3] } ] }
+    Mistlands:
+      - { members: [ { prefab: Seeker, count: [2, 3] }, { prefab: SeekerBrute, count: [0, 1] } ] }
+    AshLands:
+      - { members: [ { prefab: Charred_Melee, count: [2, 3] }, { prefab: Charred_Archer, count: [1, 1] }, { prefab: Charred_Mage, count: [0, 1] } ] }
+      - { members: [ { prefab: Asksvin, count: [2, 3] } ] }
+# Nemesis: a creature that kills a player becomes that player's Nemesis (NEMESIS name prefix, red outline, demon head
+# HUD icon; damage x (1 + damagePerKill x kills), health x (1 + healthPerKill x kills)). Detection uses its ordinary prefab's sight,
+# hearing and hunting policy. Every player kill up to killCap grows it: drops and HUD frame as Magic for kills 1-3, Rare from 4
+# (its level and so its health stay), infusionsPerKill more non-defensive infusions up to maxInfusions, Wounded healed,
+# full health; it no longer despawns.
+# Kills past killCap only record its latest victim. Drops: chance x (1 + lootChancePerKill x min(kills, lootKillCap)).
+nemesis:
+  healthPerKill: 0.1
+  killCap: 5
+  damagePerKill: 0.05
+  infusionsPerKill: 1
+  maxInfusions: 4
+  lootChancePerKill: 0.1
+  lootKillCap: 3
+# Night bosses: at night each player in the wilds may meet its biome's night boss (Unique frame), at most one per
+# player per night, maxActive world-wide; checked every checkSeconds with 'chance' percent, distance [min, max]
+# metres away. level 1-3, health/damage x on top of it, loot = drop factor (vanilla level 3 = 4). They leave at
+# dawn; any left in an unloaded area is removed by the server at dawn.
+nightBosses:
+  checkSeconds: 60
+  chance: 10
+  maxActive: 3
+  distance: [40, 60]
+  biomes:
+    Meadows:     { prefab: Greydwarf_Elite, level: 2, health: 3, damage: 1.25, loot: 4, requires: [defeated_eikthyr] }
+    BlackForest: { prefab: Troll, level: 2, health: 2, damage: 1.25, loot: 4, requires: [defeated_eikthyr] }
+    Swamp:       { prefab: Draugr_Elite, level: 3, health: 3, damage: 1.5, loot: 4, requires: [defeated_gdking] }
+    Mountain:    { prefab: Fenring, level: 3, health: 3, damage: 1.5, loot: 4, requires: [defeated_bonemass] }
+    Plains:      { prefab: GoblinBrute, level: 3, health: 2, damage: 1.25, loot: 4, requires: [defeated_dragon] }
+    Mistlands:   { prefab: SeekerBrute, level: 2, health: 2, damage: 1.25, loot: 4, requires: [defeated_goblinking] }
+    AshLands:    { prefab: Morgen, level: 1, health: 2, damage: 1.25, loot: 4, requires: [defeated_queen] }

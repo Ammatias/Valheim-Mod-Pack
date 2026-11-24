@@ -1,0 +1,871 @@
+{
+  "TargetFile": "loottables",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot[?(@.Item=='Firewalker_Epic_ShardStone')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Firewalker_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "Firewalker_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot[?(@.Item=='Stormcaller_Epic_ShardStone')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Stormcaller_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "Stormcaller_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "72_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "72_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "73_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "73_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "74_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "74_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "75_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "75_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "76_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "76_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "80_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "80_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "81_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "81_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "82_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "82_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "83_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "83_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "84_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "84_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "85_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "85_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "86_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "86_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "87_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "87_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "88_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "88_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "137_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "137_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "138_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "138_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "100_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "100_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "101_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "101_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "102_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "102_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "103_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "103_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "104_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "104_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "105_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "105_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "106_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "106_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "107_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "107_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "108_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "108_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "109_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "109_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "110_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "110_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "111_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "111_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "112_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "112_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "113_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "113_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "114_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "114_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "115_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "115_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "116_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "116_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "117_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "117_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "118_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "118_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "119_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "119_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "120_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "120_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "121_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "121_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "122_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "122_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "123_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "123_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "124_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "124_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "125_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "125_Legendary_ShardStone"
+        }
+      }
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardUnique')].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "126_Legendary_ShardStone",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          0.0,
+          100.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Legendary": "126_Legendary_ShardStone"
+        }
+      }
+    }
+  ]
+}

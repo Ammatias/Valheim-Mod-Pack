@@ -1,0 +1,18 @@
+{
+  "TargetFile": "magiceffects",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyProjectileSpeed')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_me_longshot_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyProjectileSpeed')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_me_longshot_desc"
+    }
+  ]
+}

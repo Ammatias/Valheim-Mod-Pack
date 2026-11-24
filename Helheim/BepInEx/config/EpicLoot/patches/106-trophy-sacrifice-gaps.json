@@ -1,0 +1,48 @@
+{
+  "TargetFile": "enchantcosts",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.DisenchantProducts",
+      "Action": "Append",
+      "Value": {
+        "ItemTypes": [
+          "Trophy"
+        ],
+        "ItemNames": [
+          "$trophy_sheep_TW"
+        ],
+        "Products": [
+          {
+            "Item": "ShardMagic",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 1
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.DisenchantProducts",
+      "Action": "Append",
+      "Value": {
+        "ItemTypes": [
+          "Trophy"
+        ],
+        "ItemNames": [
+          "$enemy_kvastur"
+        ],
+        "Products": [
+          {
+            "Item": "ShardRare",
+            "Amount": 1
+          }
+        ]
+      }
+    }
+  ]
+}

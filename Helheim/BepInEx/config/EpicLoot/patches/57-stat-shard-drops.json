@@ -1,0 +1,80 @@
+{
+  "TargetFile": "loottables",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardStone_None')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardStone_Mistlands')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardStone_Plains')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardStone_Mountain')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardStone_Swamp')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardStone_Ocean')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardStone_BlackForest')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardStone_Meadows')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardStone_DeepNorth')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardStone_AshLands')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardT8')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardT7')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardT6')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardT5')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardT4')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardT3')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardT2')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.ItemSets[?(@.Name=='ShardT1')]",
+      "Action": "Remove"
+    }
+  ]
+}

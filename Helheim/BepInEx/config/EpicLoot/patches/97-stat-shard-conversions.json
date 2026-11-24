@@ -1,0 +1,468 @@
+{
+  "TargetFile": "shardstoneconversions",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Red_Magic_to_Rare')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Red_Rare_to_Epic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Red_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Red_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Red_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Yellow_Magic_to_Rare')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Yellow_Rare_to_Epic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Yellow_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Yellow_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Yellow_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Cyan_Magic_to_Rare')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Cyan_Rare_to_Epic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Cyan_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Cyan_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Cyan_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Orange_Magic_to_Rare')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Orange_Rare_to_Epic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Orange_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Orange_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Orange_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Pink_Magic_to_Rare')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Pink_Rare_to_Epic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Pink_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Pink_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Pink_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Black_Magic_to_Rare')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Black_Rare_to_Epic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Black_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Black_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Black_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_White_Magic_to_Rare')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_White_Rare_to_Epic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_White_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_White_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_White_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Green_Magic_to_Rare')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Green_Rare_to_Epic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Green_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Green_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Green_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Purple_Magic_to_Rare')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Purple_Rare_to_Epic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Purple_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Purple_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Purple_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Grey_Magic_to_Rare')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Grey_Rare_to_Epic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Grey_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Grey_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Grey_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_DarkRed_Magic_to_Rare')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_DarkRed_Rare_to_Epic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_DarkRed_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_DarkRed_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_DarkRed_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_DarkGreen_Magic_to_Rare')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_DarkGreen_Rare_to_Epic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_DarkGreen_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_DarkGreen_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_DarkGreen_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_DarkBlue_Magic_to_Rare')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_DarkBlue_Rare_to_Epic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_DarkBlue_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_DarkBlue_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_DarkBlue_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_DarkPurple_Magic_to_Rare')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_DarkPurple_Rare_to_Epic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_DarkPurple_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_DarkPurple_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_DarkPurple_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Golden_Magic_to_Rare')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Golden_Rare_to_Epic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Golden_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Golden_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Golden_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_LightBlue_Magic_to_Rare')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_LightBlue_Rare_to_Epic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_LightBlue_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_LightBlue_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_LightBlue_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_LightGreen_Magic_to_Rare')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_LightGreen_Rare_to_Epic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_LightGreen_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_LightGreen_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_LightGreen_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Peach_Magic_to_Rare')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Peach_Rare_to_Epic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Peach_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Peach_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Peach_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Firewalker_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Firewalker_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Firewalker_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Stormcaller_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Stormcaller_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Stormcaller_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Eikthyr_Rare_to_Epic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Eikthyr_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Eikthyr_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Eikthyr_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Elder_Rare_to_Epic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Elder_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Elder_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Elder_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Bonemass_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Bonemass_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Bonemass_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Moder_Epic_to_Legendary')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Moder_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Moder_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Yagluth_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Yagluth_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Queen_Legendary_to_Mythic')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Queen_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.MaterialConversions[?(@.Name=='ShardStoneUpgrade_Fader_Mythic_to_Ancient')]",
+      "Action": "Remove"
+    }
+  ]
+}

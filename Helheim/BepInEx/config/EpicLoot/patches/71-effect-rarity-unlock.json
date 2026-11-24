@@ -1,0 +1,153 @@
+{
+  "TargetFile": "magiceffects",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ReduceWeight')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseMiningDrop')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseHeatResistance')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='InstantMead')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AutoMead')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddElementalResistancePercentage')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddPhysicalResistancePercentage')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='CoinHoarder')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Weightless')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LifeSteal')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LifeAfterKill')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EitrLeech')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Waterproof')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Warmth')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DoubleJump')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='FreeBuild')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='FeatherFall')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Comfortable')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LifeStealLowHealth')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Executioner')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Opportunist')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Luck')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Prosperity')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DoubleMagicShot')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='TripleBowShot')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='SpellSword')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='BulkUp')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EitrWeave')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DartingThoughts')].Requirements.AllowedRarities",
+      "Action": "Overwrite",
+      "Value": []
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "TargetFile": "loottables",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MagicEffectsCount",
+      "Action": "Overwrite",
+      "Value": {
+        "Magic": [
+          [
+            1.0,
+            100.0
+          ]
+        ],
+        "Rare": [
+          [
+            2.0,
+            100.0
+          ]
+        ],
+        "Epic": [
+          [
+            3.0,
+            100.0
+          ]
+        ],
+        "Legendary": [
+          [
+            4.0,
+            100.0
+          ]
+        ],
+        "Mythic": [
+          [
+            5.0,
+            100.0
+          ]
+        ],
+        "Ancient": [
+          [
+            6.0,
+            100.0
+          ]
+        ]
+      }
+    }
+  ]
+}

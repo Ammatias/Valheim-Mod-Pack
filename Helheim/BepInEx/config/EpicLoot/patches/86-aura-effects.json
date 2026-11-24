@@ -1,0 +1,1474 @@
+{
+  "TargetFile": "magiceffects",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraAnger",
+        "DisplayText": "$mod_epicloot_me_auraanger_display",
+        "Description": "$mod_epicloot_me_auraanger_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 6,
+            "MaxValue": 6,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 6,
+            "MaxValue": 6,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 6,
+            "MaxValue": 6,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 12,
+            "MaxValue": 12,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 25.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraHatred",
+        "DisplayText": "$mod_epicloot_me_aurahatred_display",
+        "Description": "$mod_epicloot_me_aurahatred_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 6,
+            "MaxValue": 6,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 6,
+            "MaxValue": 6,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 6,
+            "MaxValue": 6,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 12,
+            "MaxValue": 12,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 25.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraWrath",
+        "DisplayText": "$mod_epicloot_me_aurawrath_display",
+        "Description": "$mod_epicloot_me_aurawrath_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 6,
+            "MaxValue": 6,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 6,
+            "MaxValue": 6,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 6,
+            "MaxValue": 6,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 12,
+            "MaxValue": 12,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 25.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraMalevolence",
+        "DisplayText": "$mod_epicloot_me_auramalevolence_display",
+        "Description": "$mod_epicloot_me_auramalevolence_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 20,
+            "MaxValue": 20,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 25,
+            "MaxValue": 25,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 30,
+            "MaxValue": 30,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 30.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraZealotry",
+        "DisplayText": "$mod_epicloot_me_aurazealotry_display",
+        "Description": "$mod_epicloot_me_aurazealotry_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 12,
+            "MaxValue": 12,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 14,
+            "MaxValue": 14,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 16,
+            "MaxValue": 16,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 15.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraPride",
+        "DisplayText": "$mod_epicloot_me_aurapride_display",
+        "Description": "$mod_epicloot_me_aurapride_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 12,
+            "MaxValue": 12,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 14,
+            "MaxValue": 14,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 25.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraPrecision",
+        "DisplayText": "$mod_epicloot_me_auraprecision_display",
+        "Description": "$mod_epicloot_me_auraprecision_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 12,
+            "MaxValue": 12,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 14,
+            "MaxValue": 14,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 15.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraHaste",
+        "DisplayText": "$mod_epicloot_me_aurahaste_display",
+        "Description": "$mod_epicloot_me_aurahaste_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 5,
+            "MaxValue": 5,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 5,
+            "MaxValue": 5,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 5,
+            "MaxValue": 5,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 6,
+            "MaxValue": 6,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 7,
+            "MaxValue": 7,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 25.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraGrace",
+        "DisplayText": "$mod_epicloot_me_auragrace_display",
+        "Description": "$mod_epicloot_me_auragrace_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 20,
+            "MaxValue": 20,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 25,
+            "MaxValue": 25,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 30,
+            "MaxValue": 30,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 20.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraDetermination",
+        "DisplayText": "$mod_epicloot_me_auradetermination_display",
+        "Description": "$mod_epicloot_me_auradetermination_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 13,
+            "MaxValue": 13,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 16,
+            "MaxValue": 16,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 20,
+            "MaxValue": 20,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 25.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraDiscipline",
+        "DisplayText": "$mod_epicloot_me_auradiscipline_display",
+        "Description": "$mod_epicloot_me_auradiscipline_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 13,
+            "MaxValue": 13,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 16,
+            "MaxValue": 16,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 20,
+            "MaxValue": 20,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 25.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraPurityOfElements",
+        "DisplayText": "$mod_epicloot_me_aurapurityofelements_display",
+        "Description": "$mod_epicloot_me_aurapurityofelements_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 12,
+            "MaxValue": 12,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 14,
+            "MaxValue": 14,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 25.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraPurityOfFire",
+        "DisplayText": "$mod_epicloot_me_aurapurityoffire_display",
+        "Description": "$mod_epicloot_me_aurapurityoffire_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 18,
+            "MaxValue": 18,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 21,
+            "MaxValue": 21,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 25,
+            "MaxValue": 25,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 12.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraPurityOfIce",
+        "DisplayText": "$mod_epicloot_me_aurapurityofice_display",
+        "Description": "$mod_epicloot_me_aurapurityofice_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 18,
+            "MaxValue": 18,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 21,
+            "MaxValue": 21,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 25,
+            "MaxValue": 25,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 12.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraPurityOfLightning",
+        "DisplayText": "$mod_epicloot_me_aurapurityoflightning_display",
+        "Description": "$mod_epicloot_me_aurapurityoflightning_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 18,
+            "MaxValue": 18,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 21,
+            "MaxValue": 21,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 25,
+            "MaxValue": 25,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 12.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraVitality",
+        "DisplayText": "$mod_epicloot_me_auravitality_display",
+        "Description": "$mod_epicloot_me_auravitality_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 20,
+            "MaxValue": 20,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 25,
+            "MaxValue": 25,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 30,
+            "MaxValue": 30,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 20.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraClarity",
+        "DisplayText": "$mod_epicloot_me_auraclarity_display",
+        "Description": "$mod_epicloot_me_auraclarity_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 20,
+            "MaxValue": 20,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 25,
+            "MaxValue": 25,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 30,
+            "MaxValue": 30,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 20.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraWarBanner",
+        "DisplayText": "$mod_epicloot_me_aurawarbanner_display",
+        "Description": "$mod_epicloot_me_aurawarbanner_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 6,
+            "MaxValue": 6,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 6,
+            "MaxValue": 6,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 6,
+            "MaxValue": 6,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 12,
+            "MaxValue": 12,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 25.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraDefianceBanner",
+        "DisplayText": "$mod_epicloot_me_auradefiancebanner_display",
+        "Description": "$mod_epicloot_me_auradefiancebanner_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 12,
+            "MaxValue": 12,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 14,
+            "MaxValue": 14,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 20.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraDreadBanner",
+        "DisplayText": "$mod_epicloot_me_auradreadbanner_display",
+        "Description": "$mod_epicloot_me_auradreadbanner_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 6,
+            "MaxValue": 6,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 6,
+            "MaxValue": 6,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 6,
+            "MaxValue": 6,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 12,
+            "MaxValue": 12,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 25.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraHeraldOfIce",
+        "DisplayText": "$mod_epicloot_me_auraheraldofice_display",
+        "Description": "$mod_epicloot_me_auraheraldofice_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 5,
+            "MaxValue": 5,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 5,
+            "MaxValue": 5,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 5,
+            "MaxValue": 5,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 6,
+            "MaxValue": 6,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 7,
+            "MaxValue": 7,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 15.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraHeraldOfThunder",
+        "DisplayText": "$mod_epicloot_me_auraheraldofthunder_display",
+        "Description": "$mod_epicloot_me_auraheraldofthunder_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 20,
+            "MaxValue": 20,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 20,
+            "MaxValue": 20,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 20,
+            "MaxValue": 20,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 25,
+            "MaxValue": 25,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 30,
+            "MaxValue": 30,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 35,
+            "MaxValue": 35,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 15.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraHeraldOfAgony",
+        "DisplayText": "$mod_epicloot_me_auraheraldofagony_display",
+        "Description": "$mod_epicloot_me_auraheraldofagony_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 20,
+            "MaxValue": 20,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 25,
+            "MaxValue": 25,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 30,
+            "MaxValue": 30,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 20.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraHeraldOfPurity",
+        "DisplayText": "$mod_epicloot_me_auraheraldofpurity_display",
+        "Description": "$mod_epicloot_me_auraheraldofpurity_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 13,
+            "MaxValue": 13,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 16,
+            "MaxValue": 16,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 20,
+            "MaxValue": 20,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 10.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraArcticArmour",
+        "DisplayText": "$mod_epicloot_me_auraarcticarmour_display",
+        "Description": "$mod_epicloot_me_auraarcticarmour_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 12,
+            "MaxValue": 12,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 15.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraPetrifiedBlood",
+        "DisplayText": "$mod_epicloot_me_aurapetrifiedblood_display",
+        "Description": "$mod_epicloot_me_aurapetrifiedblood_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 30,
+            "MaxValue": 30,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 30,
+            "MaxValue": 30,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 30,
+            "MaxValue": 30,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 35,
+            "MaxValue": 35,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 40,
+            "MaxValue": 40,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 45,
+            "MaxValue": 45,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 15.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraArrowDancing",
+        "DisplayText": "$mod_epicloot_me_auraarrowdancing_display",
+        "Description": "$mod_epicloot_me_auraarrowdancing_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 20,
+            "MaxValue": 20,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 20,
+            "MaxValue": 20,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 20,
+            "MaxValue": 20,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 25,
+            "MaxValue": 25,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 30,
+            "MaxValue": 30,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 35,
+            "MaxValue": 35,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1,
+        "Config": {
+          "Reserve": 10.0,
+          "Eitr": 1.0
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "IncreasedAuraEffect",
+        "DisplayText": "$mod_epicloot_me_increasedauraeffect_display",
+        "Description": "$mod_epicloot_me_increasedauraeffect_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Trinket"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 3,
+            "MaxValue": 3,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 5,
+            "MaxValue": 5,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 7,
+            "MaxValue": 7,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 9,
+            "MaxValue": 9,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 11,
+            "MaxValue": 11,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 13,
+            "MaxValue": 13,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 2
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AuraRadius",
+        "DisplayText": "$mod_epicloot_me_auraradius_display",
+        "Description": "$mod_epicloot_me_auraradius_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Utility"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 20,
+            "MaxValue": 20,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 25,
+            "MaxValue": 25,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 30,
+            "MaxValue": 30,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 35,
+            "MaxValue": 35,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 2
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "ReservationEfficiency",
+        "DisplayText": "$mod_epicloot_me_reservationefficiency_display",
+        "Description": "$mod_epicloot_me_reservationefficiency_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Helmet",
+            "Utility",
+            "Trinket"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 3,
+            "MaxValue": 4,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 3,
+            "MaxValue": 5,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 4,
+            "MaxValue": 6,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 5,
+            "MaxValue": 7,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 6,
+            "MaxValue": 8,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 7,
+            "MaxValue": 8,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 2
+      }
+    }
+  ]
+}

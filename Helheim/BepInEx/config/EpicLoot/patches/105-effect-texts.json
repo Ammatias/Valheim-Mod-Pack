@@ -1,0 +1,2922 @@
+{
+  "TargetFile": "magiceffects",
+  "Author": "Morgott",
+  "Priority": 50,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DvergerCirclet')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_dvergercirclet_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DvergerCirclet')]",
+      "Action": "Add",
+      "PropertyName": "Description",
+      "Value": "$mod_epicloot_mt_dvergercirclet_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Megingjord')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_megingjord_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Megingjord')]",
+      "Action": "Add",
+      "PropertyName": "Description",
+      "Value": "$mod_epicloot_mt_megingjord_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Wishbone')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_wishbone_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Wishbone')]",
+      "Action": "Add",
+      "PropertyName": "Description",
+      "Value": "$mod_epicloot_mt_wishbone_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Andvaranaut')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_andvaranaut_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Andvaranaut')]",
+      "Action": "Add",
+      "PropertyName": "Description",
+      "Value": "$mod_epicloot_mt_andvaranaut_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ChainLightning')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_chainlightning_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ChainLightning')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_chainlightning_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DodgeBuff')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_dodgebuff_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DodgeBuff')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_dodgebuff_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyDamage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifydamage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyDamage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifydamage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyPhysicalDamage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyphysicaldamage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyPhysicalDamage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyphysicaldamage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyElementalDamage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyelementaldamage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyElementalDamage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyelementaldamage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyDurability')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifydurability_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyDurability')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifydurability_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ReduceWeight')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_reduceweight_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ReduceWeight')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_reduceweight_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='RemoveSpeedPenalty')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_removespeedpenalty_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='RemoveSpeedPenalty')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_removespeedpenalty_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyBlockPower')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyblockpower_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyBlockPower')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyblockpower_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyBlockForce')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyblockforce_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyBlockForce')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyblockforce_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyParry')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyparry_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyParry')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyparry_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyArmor')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyarmor_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyArmor')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyarmor_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyBackstab')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifybackstab_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyBackstab')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifybackstab_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseMiningDrop')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increaseminingdrop_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseMiningDrop')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increaseminingdrop_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseTreeDrop')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increasetreedrop_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseTreeDrop')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increasetreedrop_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseHealth')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increasehealth_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseHealth')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increasehealth_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseHeatResistance')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increaseheatresistance_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseHeatResistance')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increaseheatresistance_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseStamina')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increasestamina_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseStamina')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increasestamina_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseEitr')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increaseeitr_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseEitr')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increaseeitr_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DecreaseForsakenCooldown')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_decreaseforsakencooldown_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DecreaseForsakenCooldown')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_decreaseforsakencooldown_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DecreaseMeadCooldown')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_decreasemeadcooldown_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DecreaseMeadCooldown')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_decreasemeadcooldown_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyHealthRegen')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyhealthregen_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyHealthRegen')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyhealthregen_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyLowHealth')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifylowhealth_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyLowHealth')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifylowhealth_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddHealthRegen')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addhealthregen_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddHealthRegen')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addhealthregen_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyStaminaRegen')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifystaminaregen_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyStaminaRegen')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifystaminaregen_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AmmoConservation')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_ammoconservation_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AmmoConservation')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_ammoconservation_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='InstantMead')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_instantmead_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='InstantMead')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_instantmead_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AutoMead')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_automead_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AutoMead')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_automead_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyNoise')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifynoise_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyNoise')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifynoise_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyBuildDistance')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifybuilddistance_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyBuildDistance')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifybuilddistance_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyPickupRange')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifypickuprange_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyPickupRange')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifypickuprange_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyFireRate')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyfirerate_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyFireRate')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyfirerate_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyMagicFireRate')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifymagicfirerate_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyMagicFireRate')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifymagicfirerate_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyEitrRegen')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyeitrregen_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyEitrRegen')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyeitrregen_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddBluntDamage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addbluntdamage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddBluntDamage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addbluntdamage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddSlashingDamage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addslashingdamage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddSlashingDamage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addslashingdamage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddPiercingDamage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addpiercingdamage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddPiercingDamage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addpiercingdamage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddFireDamage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addfiredamage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddFireDamage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addfiredamage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddFrostDamage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addfrostdamage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddFrostDamage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addfrostdamage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddLightningDamage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addlightningdamage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddLightningDamage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addlightningdamage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddPoisonDamage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addpoisondamage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddPoisonDamage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addpoisondamage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddSpiritDamage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addspiritdamage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddSpiritDamage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addspiritdamage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddFireResistancePercentage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addfireresistancepercentage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddFireResistancePercentage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addfireresistancepercentage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddFrostResistancePercentage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addfrostresistancepercentage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddFrostResistancePercentage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addfrostresistancepercentage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddLightningResistancePercentage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addlightningresistancepercentage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddLightningResistancePercentage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addlightningresistancepercentage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddPoisonResistancePercentage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addpoisonresistancepercentage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddPoisonResistancePercentage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addpoisonresistancepercentage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddSpiritResistancePercentage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addspiritresistancepercentage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddSpiritResistancePercentage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addspiritresistancepercentage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddElementalResistancePercentage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addelementalresistancepercentage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddElementalResistancePercentage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addelementalresistancepercentage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddBluntResistancePercentage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addbluntresistancepercentage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddBluntResistancePercentage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addbluntresistancepercentage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddSlashingResistancePercentage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addslashingresistancepercentage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddSlashingResistancePercentage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addslashingresistancepercentage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddPiercingResistancePercentage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addpiercingresistancepercentage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddPiercingResistancePercentage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addpiercingresistancepercentage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddPhysicalResistancePercentage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addphysicalresistancepercentage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddPhysicalResistancePercentage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addphysicalresistancepercentage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyMovementSpeed')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifymovementspeed_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyMovementSpeed')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifymovementspeed_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifySprintStaminaUse')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifysprintstaminause_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifySprintStaminaUse')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifysprintstaminause_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyDodgeStaminaUse')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifydodgestaminause_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyDodgeStaminaUse')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifydodgestaminause_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyJumpStaminaUse')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyjumpstaminause_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyJumpStaminaUse')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyjumpstaminause_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyAttackEitrUse')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyattackeitruse_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyAttackEitrUse')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyattackeitruse_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyAttackHealthUse')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyattackhealthuse_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyAttackHealthUse')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyattackhealthuse_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyAttackStaminaUse')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyattackstaminause_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyAttackStaminaUse')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyattackstaminause_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Bloodlust')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_bloodlust_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Bloodlust')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_bloodlust_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyDrawStaminaUse')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifydrawstaminause_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyDrawStaminaUse')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifydrawstaminause_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyBlockStaminaUse')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyblockstaminause_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyBlockStaminaUse')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyblockstaminause_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Indestructible')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_indestructible_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Indestructible')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_indestructible_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='CoinHoarder')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_coinhoarder_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='CoinHoarder')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_coinhoarder_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Weightless')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_weightless_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Weightless')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_weightless_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddCarryWeight')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addcarryweight_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddCarryWeight')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addcarryweight_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LifeSteal')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_lifesteal_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LifeSteal')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_lifesteal_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LifeAfterKill')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_lifeafterkill_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LifeAfterKill')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_lifeafterkill_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EitrLeech')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_eitrleech_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EitrLeech')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_eitrleech_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyAttackSpeed')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyattackspeed_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyAttackSpeed')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyattackspeed_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Waterproof')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_waterproof_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Waterproof')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_waterproof_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Warmth')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_warmth_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Warmth')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_warmth_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Paralyze')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_paralyze_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Paralyze')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_paralyze_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DoubleJump')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_doublejump_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DoubleJump')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_doublejump_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ExplosiveArrows')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_explosivearrows_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ExplosiveArrows')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_explosivearrows_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='QuickDraw')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_quickdraw_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='QuickDraw')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_quickdraw_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddSwordsSkill')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addswordsskill_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddSwordsSkill')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addswordsskill_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddKnivesSkill')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addknivesskill_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddKnivesSkill')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addknivesskill_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddClubsSkill')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addclubsskill_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddClubsSkill')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addclubsskill_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddPolearmsSkill')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addpolearmsskill_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddPolearmsSkill')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addpolearmsskill_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddSpearsSkill')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addspearsskill_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddSpearsSkill')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addspearsskill_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddBlockingSkill')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addblockingskill_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddBlockingSkill')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addblockingskill_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddAxesSkill')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addaxesskill_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddAxesSkill')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addaxesskill_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddBowsSkill')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addbowsskill_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddBowsSkill')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addbowsskill_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddCrossbowsSkill')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addcrossbowsskill_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddCrossbowsSkill')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addcrossbowsskill_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddBloodMagicSkill')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addbloodmagicskill_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddBloodMagicSkill')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addbloodmagicskill_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddCrafterSkills')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addcrafterskills_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddCrafterSkills')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addcrafterskills_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifySummonHealth')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifysummonhealth_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifySummonHealth')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifysummonhealth_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifySummonDamage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifysummondamage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifySummonDamage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifysummondamage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddElementalMagicSkill')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addelementalmagicskill_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddElementalMagicSkill')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addelementalmagicskill_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddUnarmedSkill')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addunarmedskill_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddUnarmedSkill')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addunarmedskill_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddPickaxesSkill')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addpickaxesskill_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddPickaxesSkill')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addpickaxesskill_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddFishingSkill')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addfishingskill_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddFishingSkill')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addfishingskill_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyWispRange')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifywisprange_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyWispRange')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifywisprange_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyGrapplePullSpeed')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifygrapplepullspeed_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyGrapplePullSpeed')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifygrapplepullspeed_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyGrappleFlightTime')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifygrappleflighttime_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyGrappleFlightTime')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifygrappleflighttime_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddMovementSkills')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addmovementskills_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddMovementSkills')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addmovementskills_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyStaggerDuration')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifystaggerduration_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyStaggerDuration')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifystaggerduration_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='QuickLearner')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_quicklearner_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='QuickLearner')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_quicklearner_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='FreeBuild')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_freebuild_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='FreeBuild')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_freebuild_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='GreenThumb')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_greenthumb_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='GreenThumb')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_greenthumb_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='RecallWeapon')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_recallweapon_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='RecallWeapon')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_recallweapon_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Apportation')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_apportation_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Apportation')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_apportation_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='OffSetAttack')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_offsetattack_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='OffSetAttack')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_offsetattack_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ReflectDamage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_reflectdamage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ReflectDamage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_reflectdamage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AvoidDamageTaken')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_avoiddamagetaken_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AvoidDamageTaken')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_avoiddamagetaken_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='StaggerOnDamageTaken')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_staggerondamagetaken_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='StaggerOnDamageTaken')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_staggerondamagetaken_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='FeatherFall')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_featherfall_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='FeatherFall')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_featherfall_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyDiscoveryRadius')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifydiscoveryradius_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyDiscoveryRadius')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifydiscoveryradius_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Comfortable')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_comfortable_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Comfortable')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_comfortable_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyMovementSpeedLowHealth')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifymovementspeedlowhealth_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyMovementSpeedLowHealth')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifymovementspeedlowhealth_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyHealthRegenLowHealth')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyhealthregenlowhealth_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyHealthRegenLowHealth')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyhealthregenlowhealth_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyStaminaRegenLowHealth')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifystaminaregenlowhealth_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyStaminaRegenLowHealth')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifystaminaregenlowhealth_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyEitrRegenLowHealth')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyeitrregenlowhealth_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyEitrRegenLowHealth')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyeitrregenlowhealth_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyArmorLowHealth')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyarmorlowhealth_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyArmorLowHealth')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyarmorlowhealth_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyDamageLowHealth')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifydamagelowhealth_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyDamageLowHealth')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifydamagelowhealth_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyBlockPowerLowHealth')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyblockpowerlowhealth_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyBlockPowerLowHealth')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyblockpowerlowhealth_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyParryLowHealth')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyparrylowhealth_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyParryLowHealth')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyparrylowhealth_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyAttackSpeedLowHealth')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyattackspeedlowhealth_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyAttackSpeedLowHealth')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyattackspeedlowhealth_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AvoidDamageTakenLowHealth')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_avoiddamagetakenlowhealth_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AvoidDamageTakenLowHealth')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_avoiddamagetakenlowhealth_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LifeStealLowHealth')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_lifesteallowhealth_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LifeStealLowHealth')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_lifesteallowhealth_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Glowing')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_glowing_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Glowing')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_glowing_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Executioner')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_executioner_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Executioner')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_executioner_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Riches')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_riches_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Riches')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_riches_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Opportunist')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_opportunist_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Opportunist')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_opportunist_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Duelist')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_duelist_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Duelist')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_duelist_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Immovable')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_immovable_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Immovable')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_immovable_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyStaggerDamage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifystaggerdamage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyStaggerDamage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifystaggerdamage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='CloseQuarter')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_closequarter_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='CloseQuarter')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_closequarter_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Luck')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_luck_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Luck')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_luck_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Prosperity')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_prosperity_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Prosperity')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_prosperity_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyParryWindow')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyparrywindow_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyParryWindow')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_modifyparrywindow_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Slow')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_slow_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Slow')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_slow_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DoubleMagicShot')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_doublemagicshot_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DoubleMagicShot')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_doublemagicshot_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='SpellSword')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_spellsword_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='SpellSword')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_spellsword_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='BulkUp')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_bulkup_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='BulkUp')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_bulkup_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EitrWeave')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_eitrweave_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EitrWeave')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_eitrweave_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DartingThoughts')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_dartingthoughts_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DartingThoughts')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_dartingthoughts_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='HeadHunter')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_headhunter_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='HeadHunter')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_headhunter_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Bulwark')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_bulwark_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Bulwark')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_bulwark_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Undying')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_undying_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Undying')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_undying_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='FrostDamageAOE')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_frostdamageaoe_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='FrostDamageAOE')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_frostdamageaoe_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Berserker')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_berserker_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Berserker')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_berserker_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='OverwhelmingLaunch')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_overwhelminglaunch_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='OverwhelmingLaunch')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_overwhelminglaunch_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Artillery')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_artillery_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Artillery')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_artillery_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Assassin')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_assassin_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Assassin')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_assassin_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='CoilingVenom')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_coilingvenom_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='CoilingVenom')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_coilingvenom_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='NineSteps')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_ninesteps_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='NineSteps')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_ninesteps_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='SlightlyWeakToFire')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_slightlyweaktofire_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='SlightlyWeakToFire')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_slightlyweaktofire_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='WeakToFire')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_weaktofire_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='WeakToFire')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_weaktofire_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='VeryWeakToFire')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_veryweaktofire_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='VeryWeakToFire')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_veryweaktofire_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='GiantsBlood')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_giantsblood_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='GiantsBlood')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_giantsblood_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Hexen')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_hexen_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Hexen')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_hexen_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Sniper')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_sniper_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Sniper')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_sniper_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Frostwalker')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_frostwalker_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Frostwalker')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_frostwalker_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='SpiritAnimal')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_spiritanimal_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='SpiritAnimal')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_spiritanimal_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Earthshaker')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_earthshaker_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Earthshaker')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_earthshaker_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PiercingBolts')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_piercingbolts_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PiercingBolts')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_piercingbolts_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ElementalArchery')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_elementalarchery_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ElementalArchery')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_elementalarchery_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ConjuredArrows')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_conjuredarrows_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ConjuredArrows')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_conjuredarrows_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ConvertHealthToEitr')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_converthealthtoeitr_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ConvertHealthToEitr')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_converthealthtoeitr_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DeepWell')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_deepwell_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DeepWell')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_deepwell_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EitrBarrier')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_eitrbarrier_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EitrBarrier')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_eitrbarrier_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Interconnected')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_interconnected_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Interconnected')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_interconnected_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddAllSkills')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addallskills_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddAllSkills')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_addallskills_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EitrInfusion')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_eitrinfusion_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EitrInfusion')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_eitrinfusion_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='QuarryMark')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_quarrymark_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='QuarryMark')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_quarrymark_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='HelsHarvest')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_helsharvest_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='HelsHarvest')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_helsharvest_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Vanish')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_vanish_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Vanish')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_vanish_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Firebrand')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_firebrand_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Firebrand')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_firebrand_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LifeSiphon')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_lifesiphon_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LifeSiphon')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_lifesiphon_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='KineticQuake')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_kineticquake_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='KineticQuake')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_kineticquake_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ShieldThrow')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_shieldthrow_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ShieldThrow')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_shieldthrow_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ReduceStaggerTaken')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_reducestaggertaken_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ReduceStaggerTaken')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_reducestaggertaken_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PotionEfficacy')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_potionefficacy_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PotionEfficacy')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_potionefficacy_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PercentHealth')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_percenthealth_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PercentHealth')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_percenthealth_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PercentStamina')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_percentstamina_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PercentStamina')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_percentstamina_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PercentEitr')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_percenteitr_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PercentEitr')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_percenteitr_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='HeartyEitr')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_heartyeitr_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='HeartyEitr')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_heartyeitr_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EnergeticEitr')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_energeticeitr_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EnergeticEitr')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_energeticeitr_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EveryXPointsOfEitrIncreasesStamina')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_everyxpointsofeitrincreasesstamina_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EveryXPointsOfEitrIncreasesStamina')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_everyxpointsofeitrincreasesstamina_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='GainMaxStaminaBasedOnPlayerMaxHealth')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_gainmaxstaminabasedonplayermaxhealth_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='GainMaxStaminaBasedOnPlayerMaxHealth')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_gainmaxstaminabasedonplayermaxhealth_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='StaminaIncreaseForMovementPenalty')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_staminaincreaseformovementpenalty_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='StaminaIncreaseForMovementPenalty')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_staminaincreaseformovementpenalty_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DayHealthRegen')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_dayhealthregen_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DayHealthRegen')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_dayhealthregen_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DayStaminaRegen')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_daystaminaregen_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DayStaminaRegen')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_daystaminaregen_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='NightStaminaRegenIncrease')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_nightstaminaregenincrease_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='NightStaminaRegenIncrease')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_nightstaminaregenincrease_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='RestingHealthRegen')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_restinghealthregen_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='RestingHealthRegen')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_restinghealthregen_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AdrenalineIncreasesHealthRegen')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_adrenalineincreaseshealthregen_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AdrenalineIncreasesHealthRegen')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_adrenalineincreaseshealthregen_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='BloodMagicLevelIncreasesHealthRegen')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_bloodmagiclevelincreaseshealthregen_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='BloodMagicLevelIncreasesHealthRegen')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_bloodmagiclevelincreaseshealthregen_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LifeGainOnHit')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_lifegainonhit_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LifeGainOnHit')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_lifegainonhit_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='HealthOnEitrUse')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_healthoneitruse_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='HealthOnEitrUse')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_healthoneitruse_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LifeGainOnBlock')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_lifegainonblock_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LifeGainOnBlock')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_lifegainonblock_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DamageTakenGivesAdrenaline')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_damagetakengivesadrenaline_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DamageTakenGivesAdrenaline')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_damagetakengivesadrenaline_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='StaminaGainOnBlock')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_staminagainonblock_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='StaminaGainOnBlock')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_staminagainonblock_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='UseAdrenalineAsStamina')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_useadrenalineasstamina_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='UseAdrenalineAsStamina')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_useadrenalineasstamina_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='StaminaOnKill')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_staminaonkill_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='StaminaOnKill')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_staminaonkill_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EitrImbueAttack')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_eitrimbueattack_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EitrImbueAttack')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_eitrimbueattack_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EitrGainOnBlock')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_eitrgainonblock_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EitrGainOnBlock')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_eitrgainonblock_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EitrUseGivesAdrenaline')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_eitrusegivesadrenaline_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EitrUseGivesAdrenaline')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_eitrusegivesadrenaline_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EitrShield')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_eitrshield_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EitrShield')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_eitrshield_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PhysToFireOnBlock')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_phystofireonblock_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PhysToFireOnBlock')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_phystofireonblock_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PhysToFire')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_phystofire_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PhysToFire')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_phystofire_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Kindling')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_kindling_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Kindling')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_kindling_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='BurningAdrenaline')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_burningadrenaline_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='BurningAdrenaline')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_burningadrenaline_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='BurningSpeed')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_burningspeed_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='BurningSpeed')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_burningspeed_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PerfectDodgeGivesStamina')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_perfectdodgegivesstamina_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PerfectDodgeGivesStamina')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_perfectdodgegivesstamina_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PerfectDodgeGivesEitr')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_perfectdodgegiveseitr_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PerfectDodgeGivesEitr')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_perfectdodgegiveseitr_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='BlockAsDodgeAsBlock')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_blockasdodgeasblock_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='BlockAsDodgeAsBlock')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_blockasdodgeasblock_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DecreaseDodgeCost')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_decreasedodgecost_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DecreaseDodgeCost')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_decreasedodgecost_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ReduceFallDamage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_reducefalldamage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ReduceFallDamage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_reducefalldamage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PerfectDodge')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_perfectdodge_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PerfectDodge')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_perfectdodge_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='RollCleanse')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_rollcleanse_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='RollCleanse')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_rollcleanse_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PerfectDodgeGivesSpeed')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_perfectdodgegivesspeed_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PerfectDodgeGivesSpeed')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_perfectdodgegivesspeed_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseDamageDuringNighttime')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increasedamageduringnighttime_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseDamageDuringNighttime')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increasedamageduringnighttime_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='NightBlocker')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_nightblocker_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='NightBlocker')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_nightblocker_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DamageReductionAtNight')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_damagereductionatnight_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DamageReductionAtNight')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_damagereductionatnight_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='SummonBatWhenActivatingAdrenaline')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_summonbatwhenactivatingadrenaline_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='SummonBatWhenActivatingAdrenaline')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_summonbatwhenactivatingadrenaline_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='NightCarryWeight')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_nightcarryweight_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='NightCarryWeight')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_nightcarryweight_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseDamageDuringDaytime')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increasedamageduringdaytime_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseDamageDuringDaytime')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increasedamageduringdaytime_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DayBlocker')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_dayblocker_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DayBlocker')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_dayblocker_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DayDiscovery')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_daydiscovery_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DayDiscovery')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_daydiscovery_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DayArmor')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_dayarmor_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DayArmor')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_dayarmor_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DaySailingSpeed')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_daysailingspeed_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DaySailingSpeed')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_daysailingspeed_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DamageIncreaseFromMovementPenalty')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_damageincreasefrommovementpenalty_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DamageIncreaseFromMovementPenalty')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_damageincreasefrommovementpenalty_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AnchoredBlock')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_anchoredblock_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AnchoredBlock')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_anchoredblock_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseXPGainFromMovementPenalty')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increasexpgainfrommovementpenalty_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseXPGainFromMovementPenalty')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increasexpgainfrommovementpenalty_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='CarryWeightForMovementPenalty')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_carryweightformovementpenalty_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='CarryWeightForMovementPenalty')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_carryweightformovementpenalty_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ArmorFromMovementPenalty')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_armorfrommovementpenalty_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ArmorFromMovementPenalty')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_armorfrommovementpenalty_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ElementalWarding')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_elementalwarding_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ElementalWarding')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_elementalwarding_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ConsumeEitrFirstForBloodCosts')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_consumeeitrfirstforbloodcosts_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ConsumeEitrFirstForBloodCosts')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_consumeeitrfirstforbloodcosts_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ConvertEitrCostToStaminaCost')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_converteitrcosttostaminacost_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ConvertEitrCostToStaminaCost')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_converteitrcosttostaminacost_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='RunningOnEmpty')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_runningonempty_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='RunningOnEmpty')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_runningonempty_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ReduceEitrCost')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_reduceeitrcost_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ReduceEitrCost')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_reduceeitrcost_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseHarvestDamage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increaseharvestdamage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseHarvestDamage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increaseharvestdamage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='BlockAsWoodCuttingAndPickaxes')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_blockaswoodcuttingandpickaxes_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='BlockAsWoodCuttingAndPickaxes')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_blockaswoodcuttingandpickaxes_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='GainAdrenalineFromHarvesting')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_gainadrenalinefromharvesting_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='GainAdrenalineFromHarvesting')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_gainadrenalinefromharvesting_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseHarvestXPGain')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increaseharvestxpgain_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseHarvestXPGain')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increaseharvestxpgain_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ReduceFishingStaminaCost')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_reducefishingstaminacost_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ReduceFishingStaminaCost')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_reducefishingstaminacost_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseMeleeSkills')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increasemeleeskills_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseMeleeSkills')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increasemeleeskills_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='BloodBaseBlock')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_bloodbaseblock_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='BloodBaseBlock')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_bloodbaseblock_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Bloodrage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_bloodrage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Bloodrage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_bloodrage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='BloodDrinker')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_blooddrinker_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='BloodDrinker')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_blooddrinker_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AdrenalineCharge')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_adrenalinecharge_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AdrenalineCharge')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_adrenalinecharge_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ReduceArmorIncreaseDamage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_reducearmorincreasedamage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ReduceArmorIncreaseDamage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_reducearmorincreasedamage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PhysToPoisonOnBlock')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_phystopoisononblock_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PhysToPoisonOnBlock')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_phystopoisononblock_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PhysToPoison')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_phystopoison_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PhysToPoison')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_phystopoison_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='GainAdrenalineWhenApplyingPoison')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_gainadrenalinewhenapplyingpoison_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='GainAdrenalineWhenApplyingPoison')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_gainadrenalinewhenapplyingpoison_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseAllPoisonDamageDone')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increaseallpoisondamagedone_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseAllPoisonDamageDone')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_increaseallpoisondamagedone_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PoisonToTrueDamage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_poisontotruedamage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PoisonToTrueDamage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_poisontotruedamage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PhysToFrostOnBlock')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_phystofrostonblock_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PhysToFrostOnBlock')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_phystofrostonblock_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PhysToFrost')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_phystofrost_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PhysToFrost')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_phystofrost_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AdrenalineFrostWave')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_adrenalinefrostwave_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AdrenalineFrostWave')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_adrenalinefrostwave_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IcyWeight')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_icyweight_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IcyWeight')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_icyweight_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='BloodStaggerBlock')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_bloodstaggerblock_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='BloodStaggerBlock')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_bloodstaggerblock_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='KillsReduceNextBloodCost')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_killsreducenextbloodcost_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='KillsReduceNextBloodCost')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_killsreducenextbloodcost_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='GainAdrenalineWhenSacrificingHealth')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_gainadrenalinewhensacrificinghealth_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='GainAdrenalineWhenSacrificingHealth')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_gainadrenalinewhensacrificinghealth_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='GainEitrWhenSacrificingHealth')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_gaineitrwhensacrificinghealth_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='GainEitrWhenSacrificingHealth')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_gaineitrwhensacrificinghealth_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ChanceDoubleDamage')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_chancedoubledamage_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ChanceDoubleDamage')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_chancedoubledamage_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LuckyBlock')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_luckyblock_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LuckyBlock')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_luckyblock_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Inspiration')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_inspiration_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Inspiration')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_inspiration_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LuckyLoot')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_luckyloot_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LuckyLoot')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_luckyloot_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LuckWhileFishing')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_luckwhilefishing_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LuckWhileFishing')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_luckwhilefishing_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LuckyCraft')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_luckycraft_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LuckyCraft')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_luckycraft_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PhysToLightningOnBlock')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_phystolightningonblock_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PhysToLightningOnBlock')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_phystolightningonblock_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PhysToLightning')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_phystolightning_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PhysToLightning')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_phystolightning_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='StormRider')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_stormrider_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='StormRider')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_stormrider_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='StormFury')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_stormfury_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='StormFury')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_stormfury_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ConvertPhysicalDamageToLightning')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_convertphysicaldamagetolightning_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ConvertPhysicalDamageToLightning')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_convertphysicaldamagetolightning_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Conduit')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_conduit_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Conduit')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_conduit_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='HealthGainPerXDamageDone')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_healthgainperxdamagedone_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='HealthGainPerXDamageDone')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_healthgainperxdamagedone_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Warding')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_warding_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Warding')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_warding_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='BountifulHarvest')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_bountifulharvest_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='BountifulHarvest')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_bountifulharvest_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DamageBonusFromPlayerWeight')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_damagebonusfromplayerweight_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DamageBonusFromPlayerWeight')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_damagebonusfromplayerweight_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='BurdenedBlock')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_burdenedblock_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='BurdenedBlock')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_burdenedblock_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='StaminaRegenBonusFromPlayerWeight')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_staminaregenbonusfromplayerweight_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='StaminaRegenBonusFromPlayerWeight')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_staminaregenbonusfromplayerweight_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='GainMaxCarryWeightFromRested')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_gainmaxcarryweightfromrested_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='GainMaxCarryWeightFromRested')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_gainmaxcarryweightfromrested_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='SailingSpeed')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_sailingspeed_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='SailingSpeed')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_sailingspeed_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='TravelLight')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_travellight_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='TravelLight')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_travellight_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ShockingCharge')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_shockingcharge_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ShockingCharge')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_shockingcharge_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ForestsAid')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_forestsaid_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ForestsAid')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_forestsaid_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='CorpseRot')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_corpserot_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='CorpseRot')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_corpserot_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IcyRetribution')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_icyretribution_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IcyRetribution')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_icyretribution_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='MeteorSummoner')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_meteorsummoner_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='MeteorSummoner')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_meteorsummoner_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Everflow')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_everflow_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Everflow')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_everflow_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='NecroticFire')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_necroticfire_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='NecroticFire')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_necroticfire_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='StrikeCausesLightning')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_strikecauseslightning_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='StrikeCausesLightning')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_strikecauseslightning_desc"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Trailblazer')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_trailblazer_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Trailblazer')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_mt_trailblazer_desc"
+    }
+  ]
+}

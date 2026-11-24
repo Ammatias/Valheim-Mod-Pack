@@ -1,0 +1,105 @@
+# Morgott.Creatures: infusions (server copy wins, synced to every client). Rolled once at spawn by the spawn owner.
+# Two pools (design docs/rarity-affixes-design.md): pool: major = behaviour affixes, the rest = minor (stat). counts per tier:
+# major = majors always rolled (Meadows spawns: at most 1, any tier), p0 / p7 = weights for 0, 1, .. minors at P = 0 and P = 7
+# (distinct bosses defeated), linear in between; at most 4 in all.
+# Unique = night bosses and Epic Loot bounty targets (mini-bosses). Altar bosses never get infusions (own kits).
+# strength s = 1 + strengthPerStage x P at birth; reductions = min(max, value x s).
+# Rows: weight (pick weight, 0 = never), value / value2 / max / scale / loot / radius (m) / period (s) / cap /
+# spawn (creature prefab) as noted per row. Majors: severity 1-3 + minBiome (Meadows, BlackForest, Swamp = Swamp and later);
+# a spawn biome allows severity 1 (Meadows), 2 (Black Forest), 3 (later); Magic severity <= 2 everywhere. At most one
+# Defensive id (hides, ward, shield, elements, giant, splitter, leech, bulwark) and one death trigger (rot, splitter, grave).
+# count: [Normal, Magic, Rare, Unique] = strikes / lines / bursts / spawns per tier; perPlayer: [..4] adds that many per
+# living player within radius (one each, nearest first, the target first), at most 10 per cast. No count row = 1 / 'cap' / 'value'.
+version: 9
+strengthPerStage: 0.05
+counts:
+  Normal: { major: 0, p0: [98, 2], p7: [95, 5] }
+  Magic:  { major: 1, p0: [65, 35], p7: [40, 60] }
+  Rare:   { major: 2, p0: [0, 1], p7: [0, 1] }
+  Unique: { major: 3, p0: [0, 1], p7: [0, 1] }
+# World spawns (spawn system, location spawners): a Magic creature comes with Magic pack mates (weights of a
+# pack of 1, 2, 3); a Rare one comes alone or with Normal escorts that carry no infusions (weights of 0, 1, 2).
+# Rare creatures also get health / damage x rareHealth / rareDamage on top of stats.yml.
+groups:
+  magicPack: [100, 0, 0]
+  rareEscort: [45, 35, 20]
+  rareHealth: 1 # Rare health lives in stats.yml (behaviour over HP, schema 5)
+  rareDamage: 1 # Rare damage lives in stats.yml (flat curve, 0.37.15)
+# Vanilla drops chance x (1 + n x lootChancePerInfusion) for n infusions; amounts follow the tier only (loot.yml),
+# infusions never multiply them ('lootPerInfusion' and loot.yml 'infusions' are not read any more).
+# Skill XP on a kill = xp of its tier (Normal, Magic, Rare, Unique) + xpPerInfusion x n, in vanilla hits of the
+# weapon skill each player within xpRadius m holds.
+rewards:
+  lootChancePerInfusion: 0.1
+  xp: [0, 3, 12, 20]
+  xpPerInfusion: 3
+  xpRadius: 40
+# Conditions (schema 3): one roll per wild Magic / Rare world spawn (spawn system, location spawners; never raids, events,
+# pack mates, escorts, Unique, bosses), before infusions. A conditioned creature gets NO infusions and no pack / escort.
+# roll: weights of none, wounded, treasure. Treasure only on a 'carriers' prefab (else none).
+# wounded: born at health x its tier max HP, heals at most to healCap x max, deals damage x, moves x speed, attacks at most
+#   every max(AI interval, minInterval s) x attackInterval, kill XP x xp; tier loot unchanged.
+# treasure: health x of its tier, run speed x run, never attacks, never despawns; a player within fleeRadius m makes it
+#   flee in a zigzag / dodging circle. Its death drops a pack on top of its tier loot: coins (Magic / Rare), 'valuables'
+#   [min, max] picks from its biome row, + the biome's guaranteed prize (prize x prizeCount). With Epic Loot the adapter
+#   replaces its Epic Loot drop with enchant materials (never a ready enchanted item).
+conditions:
+  roll: { Magic: [96.8, 3, 0.2], Rare: [96.8, 3, 0.2] }
+  wounded: { health: 0.3, healCap: 0.3, damage: 0.4, speed: 0.8, attackInterval: 1.5, minInterval: 2, xp: 0.5 }
+  treasure:
+    health: 1
+    run: 1.15
+    fleeRadius: 20
+    coins: { Magic: [60, 100], Rare: [100, 160] }
+    valuables: [1, 2]
+    carriers: [Greyling, Greydwarf, Neck, Boar, Goblin, Draugr, Skeleton, Ulv, Asksvin, Charred_Melee]
+    biomes:
+      Meadows: { valuables: [Amber], prize: AmberPearl }
+      BlackForest: { valuables: [Amber, AmberPearl], prize: Ruby }
+      Swamp: { valuables: [AmberPearl, Ruby], prize: SilverNecklace }
+      Mountain: { valuables: [Ruby, SilverNecklace], prize: SilverNecklace, prizeCount: 2 }
+      Plains: { valuables: [Ruby, SilverNecklace], prize: GoldRubyRing }
+      Mistlands: { valuables: [SilverNecklace, GoldRubyRing], prize: BlackCore }
+      AshLands: { valuables: [GoldRubyRing], prize: GoldRubyRing, prizeCount: 2 }
+      DeepNorth: { valuables: [GoldRubyRing], prize: GoldRubyRing, prizeCount: 2 }
+infusions:
+  hide_pierce: { weight: 1, value: 0.2, max: 0.3 }   # pierce taken x (1 - min(max, value x s))
+  hide_slash:  { weight: 1, value: 0.2, max: 0.3 }
+  hide_blunt:  { weight: 1, value: 0.2, max: 0.3 }
+  ward:        { weight: 1, value: 0.2, max: 0.3 }   # fire, frost, lightning, poison, spirit taken
+  shield:      { weight: 1, value: 30, value2: 0.3 }  # GoblinShaman_shield absorbing value2 x its level-1 vanilla HP (not x level / tier / Rare / giant), raised again 'value' s after it broke or ran out (40 s)
+  brute:       { weight: 1, value: 30, value2: 0.5 }  # hit push force + value x s, stagger x (1 + value2 x s)
+  frenzy:      { weight: 1, value: 0.25, value2: 0.25 } # attack animation x (1 + value x s); next attack sooner by value2 x s of its interval
+  sunder:      { weight: 0, value: 0.08 }             # a blocked hit costs the shield value x s of its max durability
+  pierce:      { weight: 0, value: 0.4, max: 0.7 }    # the hit player's body armor x (1 - min(max, value x s))
+  famine:      { weight: 0, value: 0.25, max: 0.9 }   # unblocked hit: one food's time left x (1 - min(max, value x s))
+  fire:        { weight: 1, value: 0.35, value2: 0.75 } # + value x s of the physical damage as fire (n elements, not Unique: each / n); takes fire x value2
+  frost:       { weight: 1, value: 0.35, value2: 0.75 }
+  poison:      { weight: 1, value: 0.35, value2: 0.75 }
+  lightning:   { weight: 1, value: 0.35, value2: 0.75 }
+  bleed:       { weight: 1, value: 4 }                # Warfare bleed (needs Therzie Warfare), item level 'value' (0.25 % max HP/s each)
+  rot:         { weight: 1 }                          # on death: the Blob's vanilla poison cloud (blob_aoe)
+  splitter:    { weight: 1, value: 2, value2: 0.6, scale: 0.8, loot: 0.35, count: [2, 2, 2, 2] } # Magic+, not Unique; on death: count copies (+1 at s >= 1.3), level - 1, health x value2, size x scale, drops x loot
+  giant:       { weight: 1, value: 0.5, value2: 0.15, scale: 1.3 } # size x scale; + value of BASE health, + value2 of base damage
+  bulwark:     { weight: 1, pool: major, severity: 1, minBiome: Meadows, value: 4, period: 12, radius: 3.5 } # Magic+; a golden dome of 'radius' m up 'value' s of every 'period' s: projectiles from outside stop at it
+  chill:       { weight: 1, pool: major, severity: 1, minBiome: Meadows, value: 0.25, value2: 0.7, max: 0.4, radius: 8 } # players within radius: move speed - min(max, value x s) (not while vanilla Frost slows them), stamina regen x value2
+  haste:       { weight: 1, pool: major, severity: 2, minBiome: BlackForest, value: 0.25, value2: 0.15, radius: 10 } # allies within radius (not itself): move speed + value x s, damage + value2 x s
+  drain:       { weight: 1, pool: major, severity: 2, minBiome: BlackForest, value: 2, value2: 0.7, radius: 8 } # players within radius: lose value x s eitr/s, no eitr regen, stamina regen x value2
+  mirage:      { weight: 1, pool: major, severity: 2, minBiome: BlackForest, radius: 2.5, period: 7, cap: 2, count: [2, 2, 2, 3] } # Magic+; count hologram copies circle it at 'radius' m; in a fight it blinks onto one every 'period' s
+  summoner:    { weight: 1, pool: major, severity: 2, minBiome: BlackForest, period: 15, cap: 2, spawn: Skeleton, count: [2, 2, 3, 3] } # Magic+; in a fight: raises one 'spawn' every 'period' s, at most count alive; they crumble when it dies (no drops)
+  grave:       { weight: 1, value: 2, spawn: Skeleton, count: [1, 2, 3, 3] } # on death: count 'spawn' rise from the ground (no drops)
+  storm:       { weight: 1, pool: major, severity: 2, minBiome: BlackForest, value: 0.7, period: 10, radius: 25, count: [1, 1, 0, 1], perPlayer: [0, 0, 1, 1] } # in a fight: every 'period' s telegraphed lightning strikes (Magic 1 on its target, Rare one per player within radius), value x s x its strongest hit each
+  nova:        { weight: 1, pool: major, severity: 2, minBiome: BlackForest, value: 0.6, period: 12, radius: 5, count: [1, 1, 2, 3] } # a player within radius: count frost bursts of 'radius' m in a row, each after a 1.5 s tell, value x s x its strongest hit as frost + Frost
+  leech:       { weight: 0, value: 0.3, max: 0.5 }    # heals min(max, value x s) of the damage its landed hits deal
+  enrage:      { weight: 0, value: 0.4, value2: 0.25 } # below 'value' of its health: move speed, damage and attack speed + value2 x s
+  eruption:    { weight: 1, pool: major, severity: 3, minBiome: Swamp, value: 0.8, value2: 4.5, period: 12, radius: 20, count: [1, 1, 0, 1], perPlayer: [0, 0, 1, 1] } # in a fight: fire erupts under its target (Rare: under each player within radius) after a 1.8 s tell, value2 m wide, value x s x its strongest hit, 40 % blunt + 60 % fire (Burning)
+  fissure:     { weight: 1, pool: major, severity: 2, minBiome: BlackForest, value: 0.6, period: 12, radius: 12, count: [2, 3, 5, 7] } # a player within radius: count cracks run out from it at equal angles (one at the target) after a 1.4 s tell, value x s x its strongest hit as blunt; only hits who stands on the ground (jump it)
+# Majors added in schema 5; weight 0 until their behaviour ships (design 5, slices B-G). cooldown: [Normal, Magic, Rare, Unique] s.
+  blink:       { weight: 1, pool: major, severity: 2, minBiome: BlackForest, radius: 7, value: 2, value2: 2.5, cooldown: [0, 14, 11, 9] } # target farther than radius m for value s (or a projectile hit it), in sight: 0.5 s shimmer, then it appears value2 m behind / beside it (body fits, no water, no wall crossed); first attack 1 s later
+  snare:       { weight: 1, pool: major, severity: 2, minBiome: BlackForest, magicMinBiome: Swamp, value: 0.9, value2: 1.5, radius: 15, cooldown: [0, 16, 13, 11], hold: [0, 1.5, 2, 2] } # in a fight: leaves rustle 'value' s at the target's feet (within radius m), who is still within value2 m is rooted 'hold' s (struggle or a hit on the roots frees); 4 s immune to hard control after
+  hexbolt:     { weight: 1, pool: major, severity: 1, minBiome: Meadows, value: 0.4, value2: 6, radius: 25, cooldown: [0, 9, 7, 6] } # target value2-radius m away, in sight: 0.8 s cast (stops, faces it), then a biome bolt of value x s x its strongest hit; never on creatures that already shoot
+  rampart:     { weight: 1, pool: major, severity: 3, minBiome: Swamp, value: 60, value2: 3, radius: 6, count: [3, 3, 3, 3], cooldown: [0, 20, 16, 14] } # in a fight, its player target ranged or beyond radius m and moving away: count stake segments (2.5 x 1.6 m, value x s health, 8 s) grow value2 m behind it across its retreat line; never on build pieces / in wards / water / steep ground; no damage
+  mender:      { weight: 1, pool: major, severity: 1, minBiome: Meadows, value: 0.8, value2: 0.2, radius: 12, cap: 2, cooldown: [0, 14, 12, 12], share: [0, 0.08, 0.1, 0.12] } # only born with mates; in a fight: a 1.2 s channel, then up to cap allies within radius below value of their max HP (lowest first, never a mender) heal share of it over 4 s (a running HoT is refreshed); a stagger or one hit over value2 of its max HP breaks the channel
+  reflect:     { weight: 1, pool: major, severity: 2, minBiome: BlackForest, value: 3, value2: 0.8, max: 0.1, share: [0, 0.4, 0.5, 0.6], cooldown: [0, 12, 10, 9] } # in a fight: value2 s rising spirit sheen, then for value s share of each hit it takes (melee or projectile) goes back to that player as spirit, at most max x the player's max health per window
+  harpoon:     { weight: 1, pool: major, severity: 3, minBiome: Swamp, value2: 8, radius: 20, cooldown: [0, 15, 12, 10] } # Rare / Unique (severity 3); target value2-radius m away, in sight, not hard-control immune: stops 1.4 / 1.2 s with a red ring under it (follows, locks for the last 0.4 s), then a chain at the locked ring: inside = pulled to 3 m (at most 1.5 s, no stamina drain, 4 s hard-control immunity), blocked = no pull; a stagger or one hit over 15 % of its max health cancels
+  blight:      { weight: 1, pool: major, severity: 2, minBiome: BlackForest, value: 0.1, value2: 4, radius: 2.5, period: 6 } # in a fight: every period s a poison pool of radius m at its feet (8 s, not within value2 m of its living pools), each 1 s value x s x its strongest hit as poison (vanilla Poison DoT, re-hits refresh)

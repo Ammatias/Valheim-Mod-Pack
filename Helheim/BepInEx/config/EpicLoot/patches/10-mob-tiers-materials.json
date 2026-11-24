@@ -1,0 +1,2002 @@
+{
+  "TargetFile": "loottables",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier0Mob')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier0Mob')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              0,
+              65
+            ],
+            [
+              1,
+              35
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 1.0,
+              "Rarity": [
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.1,
+              "Rarity": [
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [
+              0,
+              64.5
+            ],
+            [
+              1,
+              35.5
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 1.0,
+              "Rarity": [
+                90.25,
+                9.745,
+                0.005,
+                0.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.1,
+              "Rarity": [
+                90.25,
+                9.745,
+                0.005,
+                0.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 0.0319
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [
+              0,
+              64.3
+            ],
+            [
+              1,
+              35.7
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 1.0,
+              "Rarity": [
+                66.5,
+                22.481,
+                10.019,
+                1.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.1,
+              "Rarity": [
+                66.5,
+                22.481,
+                10.019,
+                1.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 0.1792
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier1Mob')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier1Mob')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              0,
+              65
+            ],
+            [
+              1,
+              35
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 11.0,
+              "Rarity": [
+                75.0,
+                25.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 1.1,
+              "Rarity": [
+                75.0,
+                25.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [
+              0,
+              60
+            ],
+            [
+              1,
+              40
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 11.0,
+              "Rarity": [
+                63.48,
+                34.32,
+                2.18,
+                0.02,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 1.1,
+              "Rarity": [
+                63.48,
+                34.32,
+                2.18,
+                0.02,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 0.3103
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [
+              0,
+              59.3
+            ],
+            [
+              1,
+              39.537
+            ],
+            [
+              2,
+              1.163
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 6.0,
+              "Rarity": [
+                41.4,
+                44.88,
+                10.54,
+                3.18,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.6,
+              "Rarity": [
+                41.4,
+                44.88,
+                10.54,
+                3.18,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 0.8986
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier2Mob')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier2Mob')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              0,
+              90.0
+            ],
+            [
+              1,
+              10.0
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 1.0,
+              "Rarity": [
+                50.0,
+                47.0,
+                2.0,
+                1.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.1,
+              "Rarity": [
+                50.0,
+                47.0,
+                2.0,
+                1.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [
+              0,
+              68.6
+            ],
+            [
+              1,
+              31.212
+            ],
+            [
+              2,
+              0.188
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 1.174,
+              "Rarity": [
+                31.205,
+                59.398,
+                8.266,
+                1.131,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.117,
+              "Rarity": [
+                31.205,
+                59.398,
+                8.266,
+                1.131,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 0.0422
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [
+              0,
+              29.3
+            ],
+            [
+              1,
+              68.138
+            ],
+            [
+              2,
+              2.555
+            ],
+            [
+              3,
+              0.007
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 6.0,
+              "Rarity": [
+                0.0,
+                55.3,
+                33.44,
+                11.26,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.6,
+              "Rarity": [
+                0.0,
+                55.3,
+                33.44,
+                11.26,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 0.4846
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier3Mob')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier3Mob')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              0,
+              85.0
+            ],
+            [
+              1,
+              15.0
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 1.0,
+              "Rarity": [
+                24.0,
+                73.0,
+                2.0,
+                1.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.1,
+              "Rarity": [
+                24.0,
+                73.0,
+                2.0,
+                1.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [
+              0,
+              65.0
+            ],
+            [
+              1,
+              34.0
+            ],
+            [
+              2,
+              1.0
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 4.0,
+              "Rarity": [
+                5.0,
+                83.0,
+                9.0,
+                3.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.4,
+              "Rarity": [
+                5.0,
+                83.0,
+                9.0,
+                3.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 0.1258
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [
+              0,
+              23.3
+            ],
+            [
+              1,
+              70.485
+            ],
+            [
+              2,
+              6.097
+            ],
+            [
+              3,
+              0.118
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 4.0,
+              "Rarity": [
+                1.192,
+                73.131,
+                22.328,
+                3.349,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.4,
+              "Rarity": [
+                1.192,
+                73.131,
+                22.328,
+                3.349,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 0.2833
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier4Mob')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier4Mob')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              0,
+              80.0
+            ],
+            [
+              1,
+              20.0
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 1.0,
+              "Rarity": [
+                0.0,
+                75.0,
+                24.0,
+                2.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.1,
+              "Rarity": [
+                0.0,
+                75.0,
+                24.0,
+                2.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [
+              0,
+              49.6
+            ],
+            [
+              1,
+              48.283
+            ],
+            [
+              2,
+              2.117
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 1.0,
+              "Rarity": [
+                0.0,
+                38.88,
+                55.408,
+                6.712,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.1,
+              "Rarity": [
+                0.0,
+                38.88,
+                55.408,
+                6.712,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 0.0214
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [
+              1,
+              90.326
+            ],
+            [
+              2,
+              8.066
+            ],
+            [
+              3,
+              1.549
+            ],
+            [
+              4,
+              0.06
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 2.0,
+              "Rarity": [
+                0.0,
+                5.184,
+                69.488,
+                25.328,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.2,
+              "Rarity": [
+                0.0,
+                5.184,
+                69.488,
+                25.328,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 0.104
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier5Mob')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier5Mob')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              0,
+              75.0
+            ],
+            [
+              1,
+              24.0
+            ],
+            [
+              2,
+              1.0
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 1.0,
+              "Rarity": [
+                0.0,
+                50.0,
+                49.0,
+                4.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.1,
+              "Rarity": [
+                0.0,
+                50.0,
+                49.0,
+                4.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [
+              0,
+              45.0
+            ],
+            [
+              1,
+              51.0
+            ],
+            [
+              2,
+              3.0
+            ],
+            [
+              3,
+              1.0
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 4.0,
+              "Rarity": [
+                0.0,
+                10.0,
+                80.0,
+                10.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.4,
+              "Rarity": [
+                0.0,
+                10.0,
+                80.0,
+                10.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 0.0747
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [
+              1,
+              86.885
+            ],
+            [
+              2,
+              10.953
+            ],
+            [
+              3,
+              2.047
+            ],
+            [
+              4,
+              0.115
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 4.0,
+              "Rarity": [
+                0.0,
+                2.27,
+                78.339,
+                19.391,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.4,
+              "Rarity": [
+                0.0,
+                2.27,
+                78.339,
+                19.391,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 0.2007
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier6Mob')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier6Mob')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              0,
+              70.0
+            ],
+            [
+              1,
+              28.0
+            ],
+            [
+              2,
+              2.0
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 1.0,
+              "Rarity": [
+                0.0,
+                25.0,
+                65.0,
+                10.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.1,
+              "Rarity": [
+                0.0,
+                25.0,
+                65.0,
+                10.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [
+              0,
+              29.0
+            ],
+            [
+              1,
+              62.423
+            ],
+            [
+              2,
+              8.302
+            ],
+            [
+              3,
+              0.275
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 1.0,
+              "Rarity": [
+                0.0,
+                0.302,
+                79.187,
+                20.511,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.1,
+              "Rarity": [
+                0.0,
+                0.302,
+                79.187,
+                20.511,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 0.014
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [
+              1,
+              79.8
+            ],
+            [
+              2,
+              19.233
+            ],
+            [
+              3,
+              0.967
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 1.0,
+              "Rarity": [
+                0.0,
+                0.0,
+                63.711,
+                36.288,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.1,
+              "Rarity": [
+                0.0,
+                0.0,
+                63.711,
+                36.288,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 0.0477
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier7Mob')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier7Mob')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              0,
+              65.0
+            ],
+            [
+              1,
+              32.0
+            ],
+            [
+              2,
+              3.0
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 1.0,
+              "Rarity": [
+                0.0,
+                15.0,
+                70.0,
+                15.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.1,
+              "Rarity": [
+                0.0,
+                15.0,
+                70.0,
+                15.0,
+                0.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [
+              0,
+              25.0
+            ],
+            [
+              1,
+              65.691
+            ],
+            [
+              2,
+              9.039
+            ],
+            [
+              3,
+              0.27
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 1.0,
+              "Rarity": [
+                0.0,
+                0.0,
+                73.048,
+                26.725,
+                0.227
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.1,
+              "Rarity": [
+                0.0,
+                0.0,
+                73.048,
+                26.725,
+                0.227
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 0.0132
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [
+              1,
+              81.829
+            ],
+            [
+              2,
+              17.271
+            ],
+            [
+              3,
+              0.9
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 1.0,
+              "Rarity": [
+                0.0,
+                0.0,
+                56.882,
+                42.272,
+                0.846
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.1,
+              "Rarity": [
+                0.0,
+                0.0,
+                56.882,
+                42.272,
+                0.846
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 0.0486
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier8Mob')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier8Mob')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              0,
+              60.0
+            ],
+            [
+              1,
+              36.0
+            ],
+            [
+              2,
+              4.0
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 4.0,
+              "Rarity": [
+                0.0,
+                5.0,
+                25.0,
+                65.0,
+                5.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.4,
+              "Rarity": [
+                0.0,
+                5.0,
+                25.0,
+                65.0,
+                5.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [
+              0,
+              23.444
+            ],
+            [
+              1,
+              68.459
+            ],
+            [
+              2,
+              6.437
+            ],
+            [
+              3,
+              1.617
+            ],
+            [
+              4,
+              0.043
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 2.0,
+              "Rarity": [
+                0.0,
+                0.0,
+                24.6,
+                57.84,
+                16.678,
+                0.882
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.2,
+              "Rarity": [
+                0.0,
+                0.0,
+                24.6,
+                57.84,
+                16.678,
+                0.882
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 0.0258
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [
+              1,
+              81.696
+            ],
+            [
+              2,
+              15.632
+            ],
+            [
+              3,
+              2.448
+            ],
+            [
+              4,
+              0.224
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 2.0,
+              "Rarity": [
+                0.0,
+                0.0,
+                13.564,
+                48.149,
+                31.53,
+                6.757
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.2,
+              "Rarity": [
+                0.0,
+                0.0,
+                13.564,
+                48.149,
+                31.53,
+                6.757
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 0.0955
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier9Mob')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Tier9Mob')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              0,
+              60.0
+            ],
+            [
+              1,
+              36.0
+            ],
+            [
+              2,
+              4.0
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 1.0,
+              "Rarity": [
+                0.0,
+                0.0,
+                20.0,
+                55.0,
+                20.0,
+                5.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.1,
+              "Rarity": [
+                0.0,
+                0.0,
+                20.0,
+                55.0,
+                20.0,
+                5.0
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [
+              0,
+              23.4
+            ],
+            [
+              1,
+              66.458
+            ],
+            [
+              2,
+              9.866
+            ],
+            [
+              3,
+              0.276
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 1.0,
+              "Rarity": [
+                0.0,
+                0.0,
+                10.658,
+                44.496,
+                33.529,
+                11.317
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.1,
+              "Rarity": [
+                0.0,
+                0.0,
+                10.658,
+                44.496,
+                33.529,
+                11.317
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 0.0128
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [
+              1,
+              81.9
+            ],
+            [
+              2,
+              17.2
+            ],
+            [
+              3,
+              0.9
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "Tier0Mats",
+              "Weight": 1.0,
+              "Rarity": [
+                0.0,
+                0.0,
+                4.146,
+                28.865,
+                40.995,
+                25.994
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Mats",
+                "Rare": "Tier1Mats",
+                "Epic": "Tier2Mats",
+                "Legendary": "Tier3Mats",
+                "Mythic": "Tier4Mats",
+                "Ancient": "Tier5Mats"
+              }
+            },
+            {
+              "Item": "Tier0Runestone",
+              "Weight": 0.1,
+              "Rarity": [
+                0.0,
+                0.0,
+                4.146,
+                28.865,
+                40.995,
+                25.994
+              ],
+              "RarityItems": {
+                "Magic": "Tier0Runestone",
+                "Rare": "Tier1Runestone",
+                "Epic": "Tier2Runestone",
+                "Legendary": "Tier3Runestone",
+                "Mythic": "Tier4Runestone",
+                "Ancient": "Tier5Runestone"
+              }
+            },
+            {
+              "Item": "ShardUnique",
+              "Weight": 0.0486
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "$.LootTables",
+      "Action": "Append",
+      "Value": {
+        "Object": "Deer",
+        "RefObject": "Tier0Mob"
+      }
+    },
+    {
+      "Path": "$.LootTables",
+      "Action": "Append",
+      "Value": {
+        "Object": "Seal",
+        "RefObject": "Tier8Mob"
+      }
+    },
+    {
+      "Path": "$.LootTables",
+      "Action": "Append",
+      "Value": {
+        "Object": "FrostWisp",
+        "RefObject": "Tier8Mob"
+      }
+    },
+    {
+      "Path": "$.LootTables",
+      "Action": "Append",
+      "Value": {
+        "Object": "BlobMorkBig",
+        "RefObject": "Tier8Mob"
+      }
+    }
+  ]
+}

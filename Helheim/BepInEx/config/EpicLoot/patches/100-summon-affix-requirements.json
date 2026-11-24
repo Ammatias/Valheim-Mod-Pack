@@ -1,0 +1,32 @@
+{
+  "TargetFile": "magiceffects",
+  "Author": "Morgott",
+  "Priority": 400,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifySummonHealth')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.SummonSpawn"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifySummonDamage')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.SummonSpawn"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifySummonAttackSpeed')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.SummonSpawn"
+      ]
+    }
+  ]
+}

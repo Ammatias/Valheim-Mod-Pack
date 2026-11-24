@@ -1,0 +1,21 @@
+# Morgott.Creatures: creature rarity roll (server copy wins, synced to every client).
+# One roll per creature, at spawn, on the spawn owner: Rare (level 3) under 'rare', Magic (level 2) under
+# 'rare' + 'magic', else Normal (level 1). The spawner's own min/max level still applies, never above 3.
+# Each list = percent chance by progression P = 0..7 (distinct bosses defeated: vanilla defeated_* keys),
+# exactly 8 numbers 0..100, magic + rare <= 100. The world's enemy level-up modifier scales them.
+# Bosses are always level 1. 'default' covers a biome without its own entry.
+# Magic chances are half the original table; Rare chances stay unchanged.
+version: 1
+default:     { magic: [4.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5], rare: [1, 2, 3, 4, 5, 6, 7, 8] }
+biomes:
+  Meadows:     { magic: [4.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5], rare: [1, 2, 3, 4, 5, 6, 7, 8] }
+  BlackForest: { magic: [5, 6, 7, 8, 9, 10, 11, 12], rare: [1, 2, 3, 4, 5, 6, 7, 8] }
+  Swamp:       { magic: [5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5], rare: [2, 3, 4, 5, 6, 7, 8, 9] }
+  Ocean:       { magic: [5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5], rare: [2, 3, 4, 5, 6, 7, 8, 9] }
+  Mountain:    { magic: [6, 7, 8, 9, 10, 11, 12, 13], rare: [2, 3, 4, 5, 6, 7, 8, 9] }
+  Plains:      { magic: [6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5], rare: [3, 4, 5, 6, 7, 8, 9, 10] }
+  Mistlands:   { magic: [7, 8, 9, 10, 11, 12, 13, 14], rare: [3, 4, 5, 6, 7, 8, 9, 10] }
+  AshLands:    { magic: [7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5, 14.5], rare: [4, 5, 6, 7, 8, 9, 10, 11] }
+  DeepNorth:   { magic: [7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5, 14.5], rare: [4, 5, 6, 7, 8, 9, 10, 11] }
+# Creature prefabs never rolled (they keep the vanilla roll).
+exclude: []

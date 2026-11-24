@@ -1,0 +1,4753 @@
+{
+  "TargetFile": "loottables",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.ItemSets",
+      "Action": "Append",
+      "Value": {
+        "Name": "MT_Tier1BossGems",
+        "Loot": [
+          {
+            "Item": "1011_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1011_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1021_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1021_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1031_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1031_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1041_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1041_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1051_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1051_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1061_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1061_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1071_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1071_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1081_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1081_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1091_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1091_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1101_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1101_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1111_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1111_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1121_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1121_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1131_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1131_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1141_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1141_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1151_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1151_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1161_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1161_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1171_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1171_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1181_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1181_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1191_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1191_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1201_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1201_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1211_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1211_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1221_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1221_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1231_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1231_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1241_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1241_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1251_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1251_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1261_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1261_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1271_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1271_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1281_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1281_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1291_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1291_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1301_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1301_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1311_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1311_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1321_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1321_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1331_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1331_Mythic_ShardStone"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.ItemSets",
+      "Action": "Append",
+      "Value": {
+        "Name": "MT_Tier2BossGems",
+        "Loot": [
+          {
+            "Item": "1012_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1012_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1022_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1022_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1032_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1032_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1042_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1042_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1052_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1052_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1062_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1062_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1072_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1072_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1082_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1082_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1092_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1092_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1102_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1102_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1112_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1112_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1122_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1122_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1132_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1132_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1142_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1142_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1152_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1152_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1162_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1162_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1172_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1172_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1182_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1182_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1192_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1192_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1202_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1202_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1212_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1212_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1222_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1222_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1232_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1232_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1242_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1242_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1252_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1252_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1262_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1262_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1272_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1272_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1282_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1282_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1292_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1292_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1302_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1302_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1312_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1312_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1322_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1322_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1332_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1332_Mythic_ShardStone"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.ItemSets",
+      "Action": "Append",
+      "Value": {
+        "Name": "MT_Tier3BossGems",
+        "Loot": [
+          {
+            "Item": "1013_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1013_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1023_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1023_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1033_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1033_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1043_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1043_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1053_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1053_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1063_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1063_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1073_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1073_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1083_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1083_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1093_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1093_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1103_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1103_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1113_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1113_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1123_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1123_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1133_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1133_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1143_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1143_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1153_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1153_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1163_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1163_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1173_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1173_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1183_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1183_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1193_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1193_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1203_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1203_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1213_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1213_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1223_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1223_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1233_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1233_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1243_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1243_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1253_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1253_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1263_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1263_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1273_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1273_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1283_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1283_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1293_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1293_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1303_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1303_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1313_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1313_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1323_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1323_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1333_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1333_Mythic_ShardStone"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.ItemSets",
+      "Action": "Append",
+      "Value": {
+        "Name": "MT_Tier4BossGems",
+        "Loot": [
+          {
+            "Item": "1014_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1014_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1024_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1024_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1034_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1034_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1044_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1044_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1054_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1054_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1064_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1064_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1074_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1074_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1084_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1084_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1094_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1094_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1104_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1104_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1114_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1114_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1124_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1124_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1134_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1134_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1144_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1144_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1154_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1154_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1164_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1164_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1174_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1174_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1184_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1184_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1194_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1194_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1204_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1204_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1214_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1214_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1224_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1224_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1234_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1234_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1244_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1244_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1254_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1254_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1264_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1264_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1274_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1274_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1284_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1284_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1294_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1294_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1304_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1304_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1314_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1314_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1324_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1324_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1334_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1334_Mythic_ShardStone"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.ItemSets",
+      "Action": "Append",
+      "Value": {
+        "Name": "MT_Tier5BossGems",
+        "Loot": [
+          {
+            "Item": "1015_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1015_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1025_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1025_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1035_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1035_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1045_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1045_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1055_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1055_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1065_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1065_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1075_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1075_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1085_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1085_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1095_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1095_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1105_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1105_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1115_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1115_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1125_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1125_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1135_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1135_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1145_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1145_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1155_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1155_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1165_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1165_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1175_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1175_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1185_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1185_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1195_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1195_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1205_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1205_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1215_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1215_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1225_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1225_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1235_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1235_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1245_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1245_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1255_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1255_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1265_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1265_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1275_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1275_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1285_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1285_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1295_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1295_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1305_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1305_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1315_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1315_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1325_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1325_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1335_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1335_Mythic_ShardStone"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.ItemSets",
+      "Action": "Append",
+      "Value": {
+        "Name": "MT_Tier6BossGems",
+        "Loot": [
+          {
+            "Item": "1016_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1016_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1026_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1026_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1036_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1036_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1046_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1046_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1056_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1056_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1066_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1066_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1076_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1076_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1086_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1086_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1096_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1096_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1106_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1106_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1116_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1116_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1126_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1126_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1136_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1136_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1146_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1146_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1156_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1156_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1166_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1166_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1176_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1176_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1186_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1186_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1196_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1196_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1206_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1206_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1216_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1216_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1226_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1226_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1236_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1236_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1246_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1246_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1256_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1256_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1266_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1266_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1276_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1276_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1286_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1286_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1296_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1296_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1306_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1306_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1316_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1316_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1326_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1326_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1336_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1336_Mythic_ShardStone"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.ItemSets",
+      "Action": "Append",
+      "Value": {
+        "Name": "MT_Tier7BossGems",
+        "Loot": [
+          {
+            "Item": "1017_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1017_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1027_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1027_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1037_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1037_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1047_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1047_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1057_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1057_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1067_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1067_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1077_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1077_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1087_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1087_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1097_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1097_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1107_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1107_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1117_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1117_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1127_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1127_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1137_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1137_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1147_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1147_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1157_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1157_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1167_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1167_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1177_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1177_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1187_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1187_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1197_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1197_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1207_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1207_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1217_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1217_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1227_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1227_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1237_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1237_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1247_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1247_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1257_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1257_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1267_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1267_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1277_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1277_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1287_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1287_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1297_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1297_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1307_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1307_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1317_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1317_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1327_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1327_Mythic_ShardStone"
+            }
+          },
+          {
+            "Item": "1337_Mythic_ShardStone",
+            "Weight": 1.0,
+            "Rarity": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "RarityItems": {
+              "Mythic": "1337_Mythic_ShardStone"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Eikthyr' && @.LeveledLoot[0].Loot[0].Item=='Eikthyr_Rare_ShardStone')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Eikthyr' && @.LeveledLoot[0].Loot[0].Item=='Eikthyr_Rare_ShardStone')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              1,
+              90
+            ],
+            [
+              2,
+              10
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "MT_Tier1BossGems",
+              "Weight": 1
+            }
+          ]
+        },
+        {
+          "Level": 7,
+          "Drops": [
+            [
+              1,
+              85
+            ],
+            [
+              2,
+              15
+            ]
+          ]
+        },
+        {
+          "Level": 8,
+          "Drops": [
+            [
+              1,
+              80
+            ],
+            [
+              2,
+              20
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='gd_king' && @.LeveledLoot[0].Loot[0].Item=='Elder_Rare_ShardStone')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='gd_king' && @.LeveledLoot[0].Loot[0].Item=='Elder_Rare_ShardStone')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              1,
+              90
+            ],
+            [
+              2,
+              10
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "MT_Tier2BossGems",
+              "Weight": 1
+            }
+          ]
+        },
+        {
+          "Level": 7,
+          "Drops": [
+            [
+              1,
+              85
+            ],
+            [
+              2,
+              15
+            ]
+          ]
+        },
+        {
+          "Level": 8,
+          "Drops": [
+            [
+              1,
+              80
+            ],
+            [
+              2,
+              20
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Bonemass' && @.LeveledLoot[0].Loot[0].Item=='Bonemass_Epic_ShardStone')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Bonemass' && @.LeveledLoot[0].Loot[0].Item=='Bonemass_Epic_ShardStone')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              1,
+              90
+            ],
+            [
+              2,
+              10
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "MT_Tier3BossGems",
+              "Weight": 1
+            }
+          ]
+        },
+        {
+          "Level": 7,
+          "Drops": [
+            [
+              1,
+              85
+            ],
+            [
+              2,
+              15
+            ]
+          ]
+        },
+        {
+          "Level": 8,
+          "Drops": [
+            [
+              1,
+              80
+            ],
+            [
+              2,
+              20
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Dragon' && @.LeveledLoot[0].Loot[0].Item=='Moder_Epic_ShardStone')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Dragon' && @.LeveledLoot[0].Loot[0].Item=='Moder_Epic_ShardStone')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              1,
+              90
+            ],
+            [
+              2,
+              10
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "MT_Tier4BossGems",
+              "Weight": 1
+            }
+          ]
+        },
+        {
+          "Level": 7,
+          "Drops": [
+            [
+              1,
+              85
+            ],
+            [
+              2,
+              15
+            ]
+          ]
+        },
+        {
+          "Level": 8,
+          "Drops": [
+            [
+              1,
+              80
+            ],
+            [
+              2,
+              20
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='GoblinKing' && @.LeveledLoot[0].Loot[0].Item=='Yagluth_Legendary_ShardStone')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='GoblinKing' && @.LeveledLoot[0].Loot[0].Item=='Yagluth_Legendary_ShardStone')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              1,
+              90
+            ],
+            [
+              2,
+              10
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "MT_Tier5BossGems",
+              "Weight": 1
+            }
+          ]
+        },
+        {
+          "Level": 7,
+          "Drops": [
+            [
+              1,
+              85
+            ],
+            [
+              2,
+              15
+            ]
+          ]
+        },
+        {
+          "Level": 8,
+          "Drops": [
+            [
+              1,
+              80
+            ],
+            [
+              2,
+              20
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='SeekerQueen' && @.LeveledLoot[0].Loot[0].Item=='Queen_Legendary_ShardStone')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='SeekerQueen' && @.LeveledLoot[0].Loot[0].Item=='Queen_Legendary_ShardStone')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              1,
+              90
+            ],
+            [
+              2,
+              10
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "MT_Tier6BossGems",
+              "Weight": 1
+            }
+          ]
+        },
+        {
+          "Level": 7,
+          "Drops": [
+            [
+              1,
+              85
+            ],
+            [
+              2,
+              15
+            ]
+          ]
+        },
+        {
+          "Level": 8,
+          "Drops": [
+            [
+              1,
+              80
+            ],
+            [
+              2,
+              20
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Fader' && @.LeveledLoot[0].Loot[0].Item=='Fader_Mythic_ShardStone')].StarScaling",
+      "Action": "Overwrite",
+      "Value": {
+        "DropChance": 0,
+        "BonusDrops": 0,
+        "RarityShift": 0
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Fader' && @.LeveledLoot[0].Loot[0].Item=='Fader_Mythic_ShardStone')].LeveledLoot",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Level": 1,
+          "Drops": [
+            [
+              1,
+              90
+            ],
+            [
+              2,
+              10
+            ]
+          ],
+          "Loot": [
+            {
+              "Item": "MT_Tier7BossGems",
+              "Weight": 1
+            }
+          ]
+        },
+        {
+          "Level": 7,
+          "Drops": [
+            [
+              1,
+              85
+            ],
+            [
+              2,
+              15
+            ]
+          ]
+        },
+        {
+          "Level": 8,
+          "Drops": [
+            [
+              1,
+              80
+            ],
+            [
+              2,
+              20
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "$.LootTables",
+      "Action": "Append",
+      "Value": {
+        "Object": "CR_Broodmother_Forest",
+        "LeveledLoot": [
+          {
+            "Level": 1,
+            "Drops": [
+              [
+                0,
+                85.0
+              ],
+              [
+                1,
+                15.0
+              ]
+            ],
+            "Loot": [
+              {
+                "Item": "Tier3Mob.*",
+                "Weight": 20.0
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "Drops": [
+              [
+                0,
+                61.2
+              ],
+              [
+                1,
+                37.481
+              ],
+              [
+                2,
+                1.319
+              ]
+            ],
+            "Loot": [
+              {
+                "Item": "Tier3Mob.*",
+                "Weight": 20.0
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "Drops": [
+              [
+                0,
+                25.5
+              ],
+              [
+                1,
+                68.168
+              ],
+              [
+                2,
+                6.332
+              ]
+            ],
+            "Loot": [
+              {
+                "Item": "Tier3Mob.*",
+                "Weight": 20.0
+              }
+            ]
+          }
+        ],
+        "StarScaling": {
+          "DropChance": 0,
+          "BonusDrops": 0,
+          "RarityShift": 0
+        },
+        "Modifiers": {
+          "DropRate": 10,
+          "BonusDrops": 1,
+          "RarityShift": 0.2
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables",
+      "Action": "Append",
+      "Value": {
+        "Object": "CR_Broodmother_Forest",
+        "LeveledLoot": [
+          {
+            "Level": 1,
+            "Drops": [
+              [
+                1,
+                90
+              ],
+              [
+                2,
+                10
+              ]
+            ],
+            "Loot": [
+              {
+                "Item": "MT_Tier2BossGems",
+                "Weight": 1
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "Drops": [
+              [
+                1,
+                85
+              ],
+              [
+                2,
+                15
+              ]
+            ]
+          },
+          {
+            "Level": 8,
+            "Drops": [
+              [
+                1,
+                80
+              ],
+              [
+                2,
+                20
+              ]
+            ]
+          }
+        ],
+        "StarScaling": {
+          "DropChance": 0,
+          "BonusDrops": 0,
+          "RarityShift": 0
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables",
+      "Action": "Append",
+      "Value": {
+        "Object": "CR_Broodmother_Frost",
+        "LeveledLoot": [
+          {
+            "Level": 1,
+            "Drops": [
+              [
+                0,
+                75.0
+              ],
+              [
+                1,
+                24.0
+              ],
+              [
+                2,
+                1.0
+              ]
+            ],
+            "Loot": [
+              {
+                "Item": "Tier5Mob.*",
+                "Weight": 20.0
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "Drops": [
+              [
+                0,
+                42.6
+              ],
+              [
+                1,
+                52.459
+              ],
+              [
+                2,
+                4.831
+              ],
+              [
+                3,
+                0.11
+              ]
+            ],
+            "Loot": [
+              {
+                "Item": "Tier5Mob.*",
+                "Weight": 20.0
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "Drops": [
+              [
+                1,
+                84.48
+              ],
+              [
+                2,
+                15.04
+              ],
+              [
+                3,
+                0.48
+              ]
+            ],
+            "Loot": [
+              {
+                "Item": "Tier5Mob.*",
+                "Weight": 20.0
+              }
+            ]
+          }
+        ],
+        "StarScaling": {
+          "DropChance": 0,
+          "BonusDrops": 0,
+          "RarityShift": 0
+        },
+        "Modifiers": {
+          "DropRate": 10,
+          "BonusDrops": 1,
+          "RarityShift": 0.2
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables",
+      "Action": "Append",
+      "Value": {
+        "Object": "CR_Broodmother_Frost",
+        "LeveledLoot": [
+          {
+            "Level": 1,
+            "Drops": [
+              [
+                1,
+                90
+              ],
+              [
+                2,
+                10
+              ]
+            ],
+            "Loot": [
+              {
+                "Item": "MT_Tier4BossGems",
+                "Weight": 1
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "Drops": [
+              [
+                1,
+                85
+              ],
+              [
+                2,
+                15
+              ]
+            ]
+          },
+          {
+            "Level": 8,
+            "Drops": [
+              [
+                1,
+                80
+              ],
+              [
+                2,
+                20
+              ]
+            ]
+          }
+        ],
+        "StarScaling": {
+          "DropChance": 0,
+          "BonusDrops": 0,
+          "RarityShift": 0
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables",
+      "Action": "Append",
+      "Value": {
+        "Object": "CR_Broodmother_Tree",
+        "LeveledLoot": [
+          {
+            "Level": 1,
+            "Drops": [
+              [
+                0,
+                65.0
+              ],
+              [
+                1,
+                32.0
+              ],
+              [
+                2,
+                3.0
+              ]
+            ],
+            "Loot": [
+              {
+                "Item": "Tier7Mob.*",
+                "Weight": 20.0
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "Drops": [
+              [
+                0,
+                25.0
+              ],
+              [
+                1,
+                65.691
+              ],
+              [
+                2,
+                9.039
+              ],
+              [
+                3,
+                0.27
+              ]
+            ],
+            "Loot": [
+              {
+                "Item": "Tier7Mob.*",
+                "Weight": 20.0
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "Drops": [
+              [
+                1,
+                81.829
+              ],
+              [
+                2,
+                17.271
+              ],
+              [
+                3,
+                0.9
+              ]
+            ],
+            "Loot": [
+              {
+                "Item": "Tier7Mob.*",
+                "Weight": 20.0
+              }
+            ]
+          }
+        ],
+        "StarScaling": {
+          "DropChance": 0,
+          "BonusDrops": 0,
+          "RarityShift": 0
+        },
+        "Modifiers": {
+          "DropRate": 10,
+          "BonusDrops": 1,
+          "RarityShift": 0.2
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables",
+      "Action": "Append",
+      "Value": {
+        "Object": "CR_Broodmother_Tree",
+        "LeveledLoot": [
+          {
+            "Level": 1,
+            "Drops": [
+              [
+                1,
+                90
+              ],
+              [
+                2,
+                10
+              ]
+            ],
+            "Loot": [
+              {
+                "Item": "MT_Tier6BossGems",
+                "Weight": 1
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "Drops": [
+              [
+                1,
+                85
+              ],
+              [
+                2,
+                15
+              ]
+            ]
+          },
+          {
+            "Level": 8,
+            "Drops": [
+              [
+                1,
+                80
+              ],
+              [
+                2,
+                20
+              ]
+            ]
+          }
+        ],
+        "StarScaling": {
+          "DropChance": 0,
+          "BonusDrops": 0,
+          "RarityShift": 0
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables",
+      "Action": "Append",
+      "Value": {
+        "Object": "CR_Broodmother_Frigid",
+        "LeveledLoot": [
+          {
+            "Level": 1,
+            "Drops": [
+              [
+                0,
+                60.0
+              ],
+              [
+                1,
+                36.0
+              ],
+              [
+                2,
+                4.0
+              ]
+            ],
+            "Loot": [
+              {
+                "Item": "Tier9Mob.*",
+                "Weight": 20.0
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "Drops": [
+              [
+                0,
+                23.4
+              ],
+              [
+                1,
+                66.458
+              ],
+              [
+                2,
+                9.866
+              ],
+              [
+                3,
+                0.276
+              ]
+            ],
+            "Loot": [
+              {
+                "Item": "Tier9Mob.*",
+                "Weight": 20.0
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "Drops": [
+              [
+                1,
+                81.9
+              ],
+              [
+                2,
+                17.2
+              ],
+              [
+                3,
+                0.9
+              ]
+            ],
+            "Loot": [
+              {
+                "Item": "Tier9Mob.*",
+                "Weight": 20.0
+              }
+            ]
+          }
+        ],
+        "StarScaling": {
+          "DropChance": 0,
+          "BonusDrops": 0,
+          "RarityShift": 0
+        },
+        "Modifiers": {
+          "DropRate": 10,
+          "BonusDrops": 1,
+          "RarityShift": 0.2
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables",
+      "Action": "Append",
+      "Value": {
+        "Object": "CR_Broodmother_Frigid",
+        "LeveledLoot": [
+          {
+            "Level": 1,
+            "Drops": [
+              [
+                1,
+                90
+              ],
+              [
+                2,
+                10
+              ]
+            ],
+            "Loot": [
+              {
+                "Item": "MT_Tier7BossGems",
+                "Weight": 1
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "Drops": [
+              [
+                1,
+                85
+              ],
+              [
+                2,
+                15
+              ]
+            ]
+          },
+          {
+            "Level": 8,
+            "Drops": [
+              [
+                1,
+                80
+              ],
+              [
+                2,
+                20
+              ]
+            ]
+          }
+        ],
+        "StarScaling": {
+          "DropChance": 0,
+          "BonusDrops": 0,
+          "RarityShift": 0
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Skeleton_Hildir')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Fenring_Cultist_Hildir')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='GoblinShaman_Hildir')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='GoblinBrute_Hildir')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='GoblinBruteBros')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Skeleton_Hildir_nochest')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Fenring_Cultist_Hildir_nochest')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='GoblinShaman_Hildir_nochest')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='GoblinBruteBros_nochest')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables",
+      "Action": "Append",
+      "Value": {
+        "Object": "Skeleton_Hildir",
+        "LeveledLoot": [
+          {
+            "Level": 1,
+            "Drops": [
+              [
+                0,
+                50
+              ],
+              [
+                1,
+                50
+              ]
+            ],
+            "Loot": [
+              {
+                "Item": "ShardUnique",
+                "Weight": 1
+              }
+            ]
+          }
+        ],
+        "StarScaling": {
+          "DropChance": 0,
+          "BonusDrops": 0,
+          "RarityShift": 0
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables",
+      "Action": "Append",
+      "Value": {
+        "Object": "Fenring_Cultist_Hildir",
+        "LeveledLoot": [
+          {
+            "Level": 1,
+            "Drops": [
+              [
+                0,
+                50
+              ],
+              [
+                1,
+                50
+              ]
+            ],
+            "Loot": [
+              {
+                "Item": "ShardUnique",
+                "Weight": 1
+              }
+            ]
+          }
+        ],
+        "StarScaling": {
+          "DropChance": 0,
+          "BonusDrops": 0,
+          "RarityShift": 0
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables",
+      "Action": "Append",
+      "Value": {
+        "Object": "GoblinShaman_Hildir",
+        "LeveledLoot": [
+          {
+            "Level": 1,
+            "Drops": [
+              [
+                0,
+                50
+              ],
+              [
+                1,
+                50
+              ]
+            ],
+            "Loot": [
+              {
+                "Item": "ShardUnique",
+                "Weight": 1
+              }
+            ]
+          }
+        ],
+        "StarScaling": {
+          "DropChance": 0,
+          "BonusDrops": 0,
+          "RarityShift": 0
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables",
+      "Action": "Append",
+      "Value": {
+        "Object": "GoblinBrute_Hildir",
+        "LeveledLoot": [
+          {
+            "Level": 1,
+            "Drops": [
+              [
+                0,
+                50
+              ],
+              [
+                1,
+                50
+              ]
+            ],
+            "Loot": [
+              {
+                "Item": "ShardUnique",
+                "Weight": 1
+              }
+            ]
+          }
+        ],
+        "StarScaling": {
+          "DropChance": 0,
+          "BonusDrops": 0,
+          "RarityShift": 0
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables",
+      "Action": "Append",
+      "Value": {
+        "Object": "GoblinBruteBros",
+        "LeveledLoot": [
+          {
+            "Level": 1,
+            "Drops": [
+              [
+                0,
+                50
+              ],
+              [
+                1,
+                50
+              ]
+            ],
+            "Loot": [
+              {
+                "Item": "ShardUnique",
+                "Weight": 1
+              }
+            ]
+          }
+        ],
+        "StarScaling": {
+          "DropChance": 0,
+          "BonusDrops": 0,
+          "RarityShift": 0
+        }
+      }
+    }
+  ]
+}

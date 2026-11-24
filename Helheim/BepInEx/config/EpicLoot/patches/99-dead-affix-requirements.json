@@ -1,0 +1,337 @@
+{
+  "TargetFile": "magiceffects",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ChainLightning')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyDamage')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyPhysicalDamage')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyElementalDamage')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddBluntDamage')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddSlashingDamage')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddPiercingDamage')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddFireDamage')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddFrostDamage')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddLightningDamage')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddPoisonDamage')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddSpiritDamage')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LifeSteal')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LifeStealLowHealth')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EitrLeech')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Executioner')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Slow')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyStaggerDamage')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyStaggerDuration')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyDamageLowHealth')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ChanceDoubleDamage')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseDamageDuringNighttime')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseDamageDuringDaytime')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DamageIncreaseFromMovementPenalty')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DamageBonusFromPlayerWeight')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LifeGainOnHit')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EitrImbueAttack')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='HealthGainPerXDamageDone')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EnergyShieldLeech')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DamageWhileEnergyShieldFull')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Opportunist')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='SpellSword')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Throwable')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Apportation')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='CloseQuarter')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='LifeAfterKill')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.WeaponDamage"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyProjectileSpeed')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.ProjectileFlight"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyFireRate')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.ProjectileBursts"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyMagicFireRate')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.ProjectileBursts"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Apportation')].Requirements.ExcludedSkillTypes",
+      "Action": "Overwrite",
+      "Value": [
+        "Pickaxes",
+        "Spears"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='Apportation')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "$item_fishingrod",
+        "$item_knife_butcher"
+      ]
+    }
+  ]
+}

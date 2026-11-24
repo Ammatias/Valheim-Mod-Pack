@@ -1,0 +1,120 @@
+{
+  "TargetFile": "materialconversions",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "MT_RelicShard_Eikthyr_To_Relic",
+        "Product": "MT_Relic_Eikthyr",
+        "Amount": 1,
+        "Type": "Convert",
+        "Resources": [
+          {
+            "Item": "MT_RelicShard_Eikthyr",
+            "Amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "MT_RelicShard_Elder_To_Relic",
+        "Product": "MT_Relic_Elder",
+        "Amount": 1,
+        "Type": "Convert",
+        "Resources": [
+          {
+            "Item": "MT_RelicShard_Elder",
+            "Amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "MT_RelicShard_Bonemass_To_Relic",
+        "Product": "MT_Relic_Bonemass",
+        "Amount": 1,
+        "Type": "Convert",
+        "Resources": [
+          {
+            "Item": "MT_RelicShard_Bonemass",
+            "Amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "MT_RelicShard_Moder_To_Relic",
+        "Product": "MT_Relic_Moder",
+        "Amount": 1,
+        "Type": "Convert",
+        "Resources": [
+          {
+            "Item": "MT_RelicShard_Moder",
+            "Amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "MT_RelicShard_Yagluth_To_Relic",
+        "Product": "MT_Relic_Yagluth",
+        "Amount": 1,
+        "Type": "Convert",
+        "Resources": [
+          {
+            "Item": "MT_RelicShard_Yagluth",
+            "Amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "MT_RelicShard_Queen_To_Relic",
+        "Product": "MT_Relic_Queen",
+        "Amount": 1,
+        "Type": "Convert",
+        "Resources": [
+          {
+            "Item": "MT_RelicShard_Queen",
+            "Amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "MT_RelicShard_Fader_To_Relic",
+        "Product": "MT_Relic_Fader",
+        "Amount": 1,
+        "Type": "Convert",
+        "Resources": [
+          {
+            "Item": "MT_RelicShard_Fader",
+            "Amount": 4
+          }
+        ]
+      }
+    }
+  ]
+}

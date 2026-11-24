@@ -1,0 +1,7 @@
+# Morgott.Survival: meads that can be poured on a downed ally's blue tombstone (server side, synced to clients).
+# By default every consumable whose consume effect (SE_Stats) restores health directly
+# (m_healthUpFront or m_healthOverTime > 0) is allowed; regen-only meads are refused.
+# include: item prefab names allowed even if the rule refuses them (they still pour only what they restore).
+# exclude: item prefab names never allowed.
+include: []
+exclude: []

@@ -1,0 +1,12 @@
+{
+  "TargetFile": "adventuredata",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.SecretStash.OtherItems[?(@.Item=='Andvaranaut')]",
+      "Action": "Remove"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "TargetFile": "shardstones",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.Shards.Black",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.Cyan",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.DarkBlue",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.DarkGreen",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.DarkPurple",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.DarkRed",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.Golden",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.Green",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.Grey",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.LightBlue",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.LightGreen",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.Orange",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.Peach",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.Pink",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.Purple",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.Red",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.White",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.Yellow",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.Bonemass",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.Eikthyr",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.Elder",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.Fader",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.Moder",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.Queen",
+      "Action": "Overwrite",
+      "Value": null
+    },
+    {
+      "Path": "$.Shards.Yagluth",
+      "Action": "Overwrite",
+      "Value": null
+    }
+  ]
+}

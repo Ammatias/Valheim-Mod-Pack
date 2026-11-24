@@ -1,0 +1,341 @@
+{
+  "TargetFile": "shardstones",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "72",
+      "Value": {
+        "Category": "Unique",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "EnergyShieldLeak",
+          "ValuesPerRarity": {
+            "Legendary": 50
+          },
+          "Config": {
+            "RechargeAt50": 30,
+            "LeakAt50": 27
+          }
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "73",
+      "Value": {
+        "Category": "Unique",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "BloodMagicKeystone",
+          "ValuesPerRarity": {
+            "Legendary": 12
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "74",
+      "Value": {
+        "Category": "Unique",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "EitrToEnergyShield",
+          "ValuesPerRarity": {
+            "Legendary": 95
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "75",
+      "Value": {
+        "Category": "Unique",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "UnwaveringStance",
+          "ValuesPerRarity": {
+            "Legendary": 10
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "76",
+      "Value": {
+        "Category": "Unique",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AvatarOfFire",
+          "ValuesPerRarity": {
+            "Legendary": 20
+          },
+          "Config": {
+            "CapAt20": 35,
+            "InstantAt20": 50
+          }
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "80",
+      "Value": {
+        "Category": "Unique",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "ChaosInoculation",
+          "ValuesPerRarity": {
+            "Legendary": 110
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "81",
+      "Value": {
+        "Category": "Unique",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "StaminaOverMatter",
+          "ValuesPerRarity": {
+            "Legendary": 34
+          },
+          "Config": {
+            "StaminaPenaltyAt34": 15
+          }
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "82",
+      "Value": {
+        "Category": "Unique",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "EldritchBattery",
+          "ValuesPerRarity": {
+            "Legendary": 25
+          },
+          "Config": {
+            "RechargePenaltyAt25": 50
+          }
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "83",
+      "Value": {
+        "Category": "Unique",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "ZealotsOath",
+          "ValuesPerRarity": {
+            "Legendary": 175
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "84",
+      "Value": {
+        "Category": "Unique",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "VaalPact",
+          "ValuesPerRarity": {
+            "Legendary": 100
+          },
+          "Config": {
+            "CapAt100": 8
+          }
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "85",
+      "Value": {
+        "Category": "Unique",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "GlancingBlows",
+          "ValuesPerRarity": {
+            "Legendary": 32
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "86",
+      "Value": {
+        "Category": "Unique",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "EitrDynamo",
+          "ValuesPerRarity": {
+            "Legendary": 140
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "87",
+      "Value": {
+        "Category": "Unique",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AlchemistGut",
+          "ValuesPerRarity": {
+            "Legendary": 1
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "88",
+      "Value": {
+        "Category": "Core",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "ReservationEfficiency",
+          "ValuesPerRarity": {
+            "Legendary": 16
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "137",
+      "Value": {
+        "Category": "Unique",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "DurabilityReflect",
+          "ValuesPerRarity": {
+            "Legendary": 125
+          },
+          "Config": {
+            "ArmorPenalty": 15,
+            "WearPenalty": 50
+          }
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "138",
+      "Value": {
+        "Category": "Unique",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "ConditionBonus",
+          "ValuesPerRarity": {
+            "Legendary": 15
+          },
+          "Config": {
+            "WearPenalty": 35
+          }
+        }
+      }
+    },
+    {
+      "Path": "$.Shards.Firewalker.Rarities",
+      "Action": "Overwrite",
+      "Value": [
+        "Legendary"
+      ]
+    },
+    {
+      "Path": "$.Shards.Firewalker.UniformEffect.ValuesPerRarity",
+      "Action": "Overwrite",
+      "Value": {
+        "Legendary": 12
+      }
+    },
+    {
+      "Path": "$.Shards.Stormcaller.Rarities",
+      "Action": "Overwrite",
+      "Value": [
+        "Legendary"
+      ]
+    },
+    {
+      "Path": "$.Shards.Stormcaller.UniformEffect.ValuesPerRarity",
+      "Action": "Overwrite",
+      "Value": {
+        "Legendary": 8
+      }
+    }
+  ]
+}

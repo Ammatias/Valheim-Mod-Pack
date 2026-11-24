@@ -1,0 +1,28 @@
+{
+  "TargetFile": "legendaries",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='Skofnung')].GuaranteedMagicEffects[?(@.Type=='Indestructible')].Type",
+      "Action": "Overwrite",
+      "Value": "DurabilitySave"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='Hofund')].GuaranteedMagicEffects[?(@.Type=='Indestructible')].Type",
+      "Action": "Overwrite",
+      "Value": "DurabilitySave"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='UllrBow')].GuaranteedMagicEffects[?(@.Type=='Indestructible')].Type",
+      "Action": "Overwrite",
+      "Value": "DurabilitySave"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='EndlessBow')].GuaranteedMagicEffects[?(@.Type=='Indestructible')].Type",
+      "Action": "Overwrite",
+      "Value": "DurabilitySave"
+    }
+  ]
+}

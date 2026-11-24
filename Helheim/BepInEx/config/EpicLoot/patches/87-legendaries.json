@@ -1,0 +1,26 @@
+{
+  "TargetFile": "legendaries",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='Mjolnir')].GuaranteedEffectCount",
+      "Action": "Overwrite",
+      "Value": -1
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='BlackSunSpite')].GuaranteedEffectCount",
+      "Action": "Overwrite",
+      "Value": -1
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='BlackSunSpite')].GuaranteedMagicEffects[?(@.Type=='ModifyMovementSpeed')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LegendaryItems[?(@.ID=='ValkyriesBlessing')].GuaranteedMagicEffects[?(@.Type=='ModifyStaminaRegenLowHealth')]",
+      "Action": "Remove"
+    }
+  ]
+}

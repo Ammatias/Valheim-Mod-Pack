@@ -1,0 +1,1524 @@
+{
+  "TargetFile": "loottables",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_meadows')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier0Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_meadows')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier1Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_meadows')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 5.0,
+        "Rarity": [
+          97.0,
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_meadows')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.5,
+        "Rarity": [
+          97.0,
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_meadows_combat')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier0Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_meadows_combat')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier1Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_meadows_combat')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 5.0,
+        "Rarity": [
+          97.0,
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_meadows_combat')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.5,
+        "Rarity": [
+          97.0,
+          2.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_blackforest')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier1Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_blackforest')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 1.0,
+        "Rarity": [
+          95.0,
+          4.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_blackforest')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.1,
+        "Rarity": [
+          95.0,
+          4.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_forestcrypt')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier1Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_forestcrypt')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier2Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_forestcrypt')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 3.0,
+        "Rarity": [
+          95.0,
+          4.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_forestcrypt')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.3,
+        "Rarity": [
+          95.0,
+          4.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_trollcave')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier1Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_trollcave')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier2Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_trollcave')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 2.0,
+        "Rarity": [
+          90.0,
+          9.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_trollcave')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.2,
+        "Rarity": [
+          90.0,
+          9.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='shipwreck_karve_chest')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier0Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='shipwreck_karve_chest')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier1Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='shipwreck_karve_chest')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 2.0,
+        "Rarity": [
+          90.0,
+          9.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='shipwreck_karve_chest')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.2,
+        "Rarity": [
+          90.0,
+          9.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_meadows_buried')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier0Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_meadows_buried')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier1Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_meadows_buried')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 5.0,
+        "Rarity": [
+          70.0,
+          25.0,
+          5.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_meadows_buried')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.5,
+        "Rarity": [
+          70.0,
+          25.0,
+          5.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_sunkencrypt')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier2Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_sunkencrypt')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier3Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_sunkencrypt')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 4.0,
+        "Rarity": [
+          80.0,
+          17.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_sunkencrypt')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.4,
+        "Rarity": [
+          80.0,
+          17.0,
+          3.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_swamp')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier2Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_swamp')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier3Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_swamp')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 6.0,
+        "Rarity": [
+          10.0,
+          45.0,
+          50.0,
+          5.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_swamp')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.6,
+        "Rarity": [
+          10.0,
+          45.0,
+          50.0,
+          5.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_mountains')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier3Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_mountains')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier4Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_mountains')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 5.0,
+        "Rarity": [
+          0.0,
+          30.0,
+          60.0,
+          10.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_mountains')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.5,
+        "Rarity": [
+          0.0,
+          30.0,
+          60.0,
+          10.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_mountaincave')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier3Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_mountaincave')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier4Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_mountaincave')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 5.0,
+        "Rarity": [
+          0.0,
+          30.0,
+          60.0,
+          10.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_mountaincave')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.5,
+        "Rarity": [
+          0.0,
+          30.0,
+          60.0,
+          10.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_heath')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier4Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_heath')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier5Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_heath')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 4.0,
+        "Rarity": [
+          0.0,
+          10.0,
+          75.0,
+          14.0,
+          1.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_heath')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.4,
+        "Rarity": [
+          0.0,
+          10.0,
+          75.0,
+          14.0,
+          1.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_dvergrtown')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier5Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_dvergrtown')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier6Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_dvergrtown')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 4.0,
+        "Rarity": [
+          0.0,
+          5.0,
+          70.0,
+          20.0,
+          5.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_dvergrtown')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.4,
+        "Rarity": [
+          0.0,
+          5.0,
+          70.0,
+          20.0,
+          5.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_charredfortress')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier6Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_charredfortress')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier7Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_charredfortress')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 4.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          60.0,
+          25.0,
+          10.0,
+          5.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_charredfortress')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.4,
+        "Rarity": [
+          0.0,
+          0.0,
+          60.0,
+          25.0,
+          10.0,
+          5.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_ashland_stone')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier6Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_ashland_stone')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier7Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_ashland_stone')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 4.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          60.0,
+          25.0,
+          10.0,
+          5.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_ashland_stone')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.4,
+        "Rarity": [
+          0.0,
+          0.0,
+          60.0,
+          25.0,
+          10.0,
+          5.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_deepnorth_village')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier7Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_deepnorth_village')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier8Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_deepnorth_village')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          45.0,
+          35.0,
+          15.0,
+          5.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_deepnorth_village')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.1,
+        "Rarity": [
+          0.0,
+          0.0,
+          45.0,
+          35.0,
+          15.0,
+          5.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_memorial_buried')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier7Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_memorial_buried')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier8Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_memorial_buried')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          45.0,
+          35.0,
+          15.0,
+          5.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureChest_memorial_buried')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.1,
+        "Rarity": [
+          0.0,
+          0.0,
+          45.0,
+          35.0,
+          15.0,
+          5.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Morkhalla_RandomLoot')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier7Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Morkhalla_RandomLoot')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier8Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Morkhalla_RandomLoot')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          35.0,
+          38.0,
+          20.0,
+          7.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Morkhalla_RandomLoot')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.1,
+        "Rarity": [
+          0.0,
+          0.0,
+          35.0,
+          38.0,
+          20.0,
+          7.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Morkhalla_ChestAncient')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier7Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Morkhalla_ChestAncient')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier8Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Morkhalla_ChestAncient')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          20.0,
+          40.0,
+          28.0,
+          12.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='Morkhalla_ChestAncient')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.1,
+        "Rarity": [
+          0.0,
+          0.0,
+          20.0,
+          40.0,
+          28.0,
+          12.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Meadows')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "ShardUnique",
+        "Weight": 0.1
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Meadows')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier0Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Meadows')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier1Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Meadows')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 2.0,
+        "Rarity": [
+          68.0,
+          30.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Meadows')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.2,
+        "Rarity": [
+          68.0,
+          30.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_BlackForest')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "ShardUnique",
+        "Weight": 0.1
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_BlackForest')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier1Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_BlackForest')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier2Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_BlackForest')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 2.0,
+        "Rarity": [
+          40.0,
+          50.0,
+          9.0,
+          1.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_BlackForest')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.2,
+        "Rarity": [
+          40.0,
+          50.0,
+          9.0,
+          1.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Swamp')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='ShardUnique')].Weight",
+      "Action": "Overwrite",
+      "Value": 0.1
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Swamp')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier2Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Swamp')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier3Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Swamp')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 2.0,
+        "Rarity": [
+          10.0,
+          45.0,
+          50.0,
+          5.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Swamp')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.2,
+        "Rarity": [
+          10.0,
+          45.0,
+          50.0,
+          5.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Mountain')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='ShardUnique')].Weight",
+      "Action": "Overwrite",
+      "Value": 0.1
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Mountain')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier3Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Mountain')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier4Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Mountain')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 2.0,
+        "Rarity": [
+          0.0,
+          30.0,
+          60.0,
+          10.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Mountain')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.2,
+        "Rarity": [
+          0.0,
+          30.0,
+          60.0,
+          10.0,
+          0.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Plains')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='ShardUnique')].Weight",
+      "Action": "Overwrite",
+      "Value": 0.1
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Plains')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier4Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Plains')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier5Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Plains')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 2.0,
+        "Rarity": [
+          0.0,
+          10.0,
+          75.0,
+          14.0,
+          1.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Plains')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.2,
+        "Rarity": [
+          0.0,
+          10.0,
+          75.0,
+          14.0,
+          1.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Mistlands')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='ShardUnique')].Weight",
+      "Action": "Overwrite",
+      "Value": 0.1
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Mistlands')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier5Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Mistlands')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier6Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Mistlands')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 2.0,
+        "Rarity": [
+          0.0,
+          5.0,
+          70.0,
+          20.0,
+          5.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_Mistlands')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.2,
+        "Rarity": [
+          0.0,
+          5.0,
+          70.0,
+          20.0,
+          5.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_AshLands')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='ShardUnique')].Weight",
+      "Action": "Overwrite",
+      "Value": 0.1
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_AshLands')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier6Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_AshLands')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier7Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_AshLands')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 2.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          60.0,
+          25.0,
+          10.0,
+          5.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_AshLands')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.2,
+        "Rarity": [
+          0.0,
+          0.0,
+          60.0,
+          25.0,
+          10.0,
+          5.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_DeepNorth')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='ShardUnique')].Weight",
+      "Action": "Overwrite",
+      "Value": 0.1
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_DeepNorth')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier7Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_DeepNorth')].LeveledLoot[?(@.Level==1)].Loot[?(@.Item=='Tier8Everything')]",
+      "Action": "Remove"
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_DeepNorth')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Mats",
+        "Weight": 1.0,
+        "Rarity": [
+          0.0,
+          0.0,
+          30.0,
+          40.0,
+          22.0,
+          8.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Mats",
+          "Rare": "Tier1Mats",
+          "Epic": "Tier2Mats",
+          "Legendary": "Tier3Mats",
+          "Mythic": "Tier4Mats",
+          "Ancient": "Tier5Mats"
+        }
+      }
+    },
+    {
+      "Path": "$.LootTables[?(@.Object=='TreasureMapChest_DeepNorth')].LeveledLoot[?(@.Level==1)].Loot",
+      "Action": "Append",
+      "Value": {
+        "Item": "Tier0Runestone",
+        "Weight": 0.1,
+        "Rarity": [
+          0.0,
+          0.0,
+          30.0,
+          40.0,
+          22.0,
+          8.0
+        ],
+        "RarityItems": {
+          "Magic": "Tier0Runestone",
+          "Rare": "Tier1Runestone",
+          "Epic": "Tier2Runestone",
+          "Legendary": "Tier3Runestone",
+          "Mythic": "Tier4Runestone",
+          "Ancient": "Tier5Runestone"
+        }
+      }
+    }
+  ]
+}

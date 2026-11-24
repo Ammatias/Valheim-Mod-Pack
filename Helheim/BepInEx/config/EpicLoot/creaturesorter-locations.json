@@ -1,0 +1,1491 @@
+{
+  "Key": "format 2",
+  "Prefabs": {
+    "5331b07f2f41b914bb3b638c751ff578": {
+      "Name": "StoneCircle",
+      "Source": "files 25C8C4D1A6CCFA81518B59AEB122B301153522B4B3AB915B4F314DDF7D7EC8AE",
+      "Spawns": []
+    },
+    "24e6c3b1f9d00f144b1d778748d8d546": {
+      "Name": "StartTemple",
+      "Source": "files E5615AF3108EECC3E8A81BE7235CF65C51343FE812D835D2F13558086EB1A7C1",
+      "Spawns": []
+    },
+    "b09dd9b640db65246ad065276ef57ca5": {
+      "Name": "Eikthyrnir",
+      "Source": "files 29D0BBC3A624CE81E66EF438E5D92D422E4680EF7A5C291A084A6637F651DAA0",
+      "Spawns": [
+        {
+          "Prefab": "Eikthyr"
+        }
+      ]
+    },
+    "945d32de22a22dd499949784f631bbad": {
+      "Name": "GoblinKing",
+      "Source": "files 5D1743004710235386BFD7A917160AB98FABEEFC84D434F0FEF759B9A8EF9DCC",
+      "Spawns": [
+        {
+          "Prefab": "GoblinKing"
+        }
+      ]
+    },
+    "f6ac84934d9d52d4584a67587d09b820": {
+      "Name": "Greydwarf_camp1",
+      "Source": "files 310C01AD51D1DBB9E026192686B5A7862890E3BCF0E2D8DF420A795910EBBDEB",
+      "Spawns": [
+        {
+          "Prefab": "Greydwarf"
+        },
+        {
+          "Prefab": "Greydwarf_Elite"
+        },
+        {
+          "Prefab": "Greydwarf_Shaman"
+        }
+      ]
+    },
+    "e065c9977e4dfae4f85a10d93b25248b": {
+      "Name": "Runestone_Greydwarfs",
+      "Source": "files B55B9D8C78C95EEA779BC5A80CBD11727FAABA6E569EF82B176A5C8720C848E0",
+      "Spawns": [
+        {
+          "Prefab": "Greydwarf"
+        }
+      ]
+    },
+    "d683fba891bec854d99bd3592c3aec5c": {
+      "Name": "Grave1",
+      "Source": "files 19108ACB54C307E24EB13E00DD01C26A892B5C9058FCD60A12EBEA362E59E29F",
+      "Spawns": [
+        {
+          "Prefab": "Draugr"
+        },
+        {
+          "Prefab": "Skeleton_Swamps"
+        },
+        {
+          "Prefab": "Draugr_Elite"
+        },
+        {
+          "Prefab": "Draugr_Ranged"
+        }
+      ]
+    },
+    "85cf2a6e73ba1434793789d121001bf5": {
+      "Name": "SwampRuin1",
+      "Source": "files FD400B9A99C44FF634D8D61DC94830BE2F79414BA4C0D78248466C4CACB10DE9",
+      "Spawns": [
+        {
+          "Prefab": "Draugr_Elite"
+        },
+        {
+          "Prefab": "Draugr"
+        },
+        {
+          "Prefab": "Draugr_Ranged"
+        }
+      ]
+    },
+    "999f31d6de300ca4aada634614b80e33": {
+      "Name": "SwampRuin2",
+      "Source": "files C5FA03CC8CC03D148010930B99F7ED95F0D159A0C2610D2E531CCA7980E0C21D",
+      "Spawns": [
+        {
+          "Prefab": "Draugr_Elite"
+        },
+        {
+          "Prefab": "Draugr"
+        },
+        {
+          "Prefab": "Draugr_Ranged"
+        }
+      ]
+    },
+    "4718fb2f4b7c3c248be8dbdc92174119": {
+      "Name": "FireHole",
+      "Source": "files D6F2C02DD648B50ECB701C229ABAA5401FB532BAF32BBF6103110A61350DE65D",
+      "Spawns": [
+        {
+          "Prefab": "Surtling"
+        }
+      ]
+    },
+    "b57a3068c3912314f945f979f4bbe3c1": {
+      "Name": "Runestone_Draugr",
+      "Source": "files A7D4F596E6EA55EE077E39D64D1C634DFE8CAD2ACD95C0F8267914CF0F39B2B7",
+      "Spawns": [
+        {
+          "Prefab": "Draugr"
+        }
+      ]
+    },
+    "9358235c6d93eee42b642a8fe40bac82": {
+      "Name": "GDKing",
+      "Source": "files 43FF0F8BA10BCE7FA2B78104FFB4128FB4BFB9DFC00626A7B1ADA8BBC3849B49",
+      "Spawns": [
+        {
+          "Prefab": "gd_king"
+        }
+      ]
+    },
+    "dc4942ee971061b47be02d0944f45a03": {
+      "Name": "Bonemass",
+      "Source": "files 1733CDF60FD9F588A99B2D20FA30232ED1B79E1C586899342CB3522CA3E33BB4",
+      "Spawns": [
+        {
+          "Prefab": "Bonemass"
+        }
+      ]
+    },
+    "04bf1b018eec22e4f9a39639feda6355": {
+      "Name": "Crypt2",
+      "Source": "files 18709FFECED0AE2A0D7340063612D016EA4D6307C50E93C41D607B39D0C5EE83",
+      "Spawns": [
+        {
+          "Prefab": "Skeleton"
+        }
+      ]
+    },
+    "90fa7d580c5e82646a0478f2fe9cf630": {
+      "Name": "Ruin1",
+      "Source": "files 42BCB5F803138686E5AB277F8625F1421AB04A5EAAF96F09B9317BF8F3B52354",
+      "Spawns": [
+        {
+          "Prefab": "Greydwarf"
+        },
+        {
+          "Prefab": "Greydwarf_Shaman"
+        }
+      ]
+    },
+    "fb4373cebc9d200479118a64ac7971a7": {
+      "Name": "Ruin2",
+      "Source": "files 4D109C87EAEFBB700BE9DCC52FD1CFEDC62863A7254F5E7A414195B9FB0C507C",
+      "Spawns": [
+        {
+          "Prefab": "Greydwarf_Elite"
+        },
+        {
+          "Prefab": "Greydwarf"
+        }
+      ]
+    },
+    "326a500f403eb6e4a925b8bca4131378": {
+      "Name": "StoneHouse1_heath",
+      "Source": "files 04ABEE3655D6A7EFD6EF4686CE2D7B8454CA748AE07DD64E27D6DB7C77521139",
+      "Spawns": [
+        {
+          "Prefab": "Goblin"
+        }
+      ]
+    },
+    "5664e5f5a9fd54b4f8e2ff16a92bc993": {
+      "Name": "StoneHouse2_heath",
+      "Source": "files BA04831FE76C1BD4D6C45E6086418468B6A6F94A5A2D1D20E0D62177343737BD",
+      "Spawns": [
+        {
+          "Prefab": "Goblin"
+        }
+      ]
+    },
+    "47744455c5bc7ec4a8f5de64f943f28e": {
+      "Name": "StoneHouse5_heath",
+      "Source": "files EED2C78B7BE16F9D22FAFA659C31FE83572A9823095A4BDEC4E8092D7BC236B4",
+      "Spawns": []
+    },
+    "187bf21ca9453aa41bcb65b9243e4903": {
+      "Name": "StoneHouse3",
+      "Source": "files 3F3F3B99CA203FFF9906AE2520D12DB80D18786507D795E5FEB480402E5B1E57",
+      "Spawns": [
+        {
+          "Prefab": "Greydwarf"
+        }
+      ]
+    },
+    "699d87ed336e23947afed26af461bfd9": {
+      "Name": "StoneHouse4",
+      "Source": "files A6AB0085DC078DB270DD944FB77A886D63729E53838F61CE1E401D3A7A95CCF6",
+      "Spawns": [
+        {
+          "Prefab": "Greydwarf"
+        }
+      ]
+    },
+    "93702a745f5781d419d5d9c49c4c7c4c": {
+      "Name": "Ruin3",
+      "Source": "files F66CDCBB5371BE3DA5CB99DDBA429599BF658AEA2A66264B7FD42B1970372A3A",
+      "Spawns": [
+        {
+          "Prefab": "Goblin"
+        }
+      ]
+    },
+    "09d34c421caabec479355913450d9b0e": {
+      "Name": "GoblinCamp2",
+      "Source": "files D6B8BFCB61647070820A92D5F25292D639DE35E240F18BD84C2547B3FA9268BE",
+      "Spawns": []
+    },
+    "a2594667f2c6f4a4495255bbc3860a2b": {
+      "Name": "StoneTower1",
+      "Source": "files 6B8BC5085BD3E7AE6C1BB423C21E2FFDBDC420DE8EA6D77A0627F364C64FCE3A",
+      "Spawns": [
+        {
+          "Prefab": "Goblin"
+        }
+      ]
+    },
+    "fbe51999292eeb648afd08a53d96d033": {
+      "Name": "StoneTower3",
+      "Source": "files B9B0926843046631613632110E330812C5EE4712E37A97842B769A0B59EE7456",
+      "Spawns": [
+        {
+          "Prefab": "Goblin"
+        }
+      ]
+    },
+    "1c66312e683f706419681762b3382429": {
+      "Name": "StoneHenge1",
+      "Source": "files E5BEA19A3FA0CB9B268A28D53FBC3BD7B9EFB3394EE30609EC91DC9E812020E3",
+      "Spawns": [
+        {
+          "Prefab": "GoblinBrute"
+        }
+      ]
+    },
+    "4bd719330e5d26c4387d953c3c1dda91": {
+      "Name": "StoneHenge2",
+      "Source": "files 330FA94160BF01E6BEDD5C2E449AF62EBDD4BF1E76366A2FF746CBD6209826AC",
+      "Spawns": [
+        {
+          "Prefab": "GoblinBrute"
+        }
+      ]
+    },
+    "1ffac439ded109d418b23d696e56205e": {
+      "Name": "StoneHenge3",
+      "Source": "files 28BAF3C5C89EC0E9F90BE832C31E50CEEFC4186A5D2500CFD010AEF7AFBDAEF6",
+      "Spawns": [
+        {
+          "Prefab": "GoblinBrute"
+        }
+      ]
+    },
+    "a7987ff82244e9440b58239033060f00": {
+      "Name": "StoneHenge4",
+      "Source": "files 21037A955E0C8B330035933EE3927A60B0566637F35B5592E3741C2B80963A7D",
+      "Spawns": [
+        {
+          "Prefab": "GoblinBrute"
+        }
+      ]
+    },
+    "5fd5261a2f0de964a8d51bfdfa107a77": {
+      "Name": "StoneHenge5",
+      "Source": "files 303ADA66654A29C459B789DA9345EBF3E63E8839CF7CBEADC74031B47B134FCE",
+      "Spawns": [
+        {
+          "Prefab": "Goblin"
+        }
+      ]
+    },
+    "c12ad558bc42d3347a1635da6c39a060": {
+      "Name": "StoneHenge6",
+      "Source": "files 4DD8E6807BF8C12113E225EF8E694D20F322CEE0556F1AF88EB1ECD70CD87C6D",
+      "Spawns": []
+    },
+    "8c80c5118a0a780489c3952f410276e3": {
+      "Name": "WoodHouse1",
+      "Source": "files F0D1F48241A85046E30A3B2D34199C152A1FC46DC5B6BF95C6C83E000DB8A214",
+      "Spawns": []
+    },
+    "dfd4621e79a265a4c871b6f7cca2633c": {
+      "Name": "WoodHouse2",
+      "Source": "files FCCF5BA4C7D780C84305ED9BB65DDFD2626ACAD58A117C8DBFAE17A81A20B936",
+      "Spawns": []
+    },
+    "8ce4d73b3c140914d9e37ccdd399237c": {
+      "Name": "WoodHouse3",
+      "Source": "files 86F414C049D44F8D675F8D3192F269BD80AF4100EE2F411D8CF5D03E243355F9",
+      "Spawns": []
+    },
+    "50d0f119dcb8428499da5d62605ed29f": {
+      "Name": "WoodHouse4",
+      "Source": "files 1016A00AF64E59B0D6E3333FAAD93394390DE8FC299F036A4EE6FAF90FB2E451",
+      "Spawns": []
+    },
+    "92651ae6f29a83142863528c7e6b7e43": {
+      "Name": "WoodHouse5",
+      "Source": "files 2416E45C640F7A8298810CF27D28527A0BD4AE4BA7A262908A73E4C0EB7D789F",
+      "Spawns": []
+    },
+    "c1828197668c4f943b766084d31d467e": {
+      "Name": "WoodHouse6",
+      "Source": "files E74A0CBFCFABA08974B71EBD31A927316C582ED4CA7999D7AF38B44478FDD68D",
+      "Spawns": [
+        {
+          "Prefab": "Greydwarf"
+        }
+      ]
+    },
+    "498ccf35ff9226f4097d38d5cedbbaaf": {
+      "Name": "WoodHouse7",
+      "Source": "files 29317D535FAE3C476B17419D8AC2B20A9DAFA21DBA74833C9F3EC2325C8EFB30",
+      "Spawns": []
+    },
+    "6460aee285fe016438bd4a42273a33a6": {
+      "Name": "WoodHouse8",
+      "Source": "files 6F17FEF491129136F62B1B8E2316A06362F8BF3B02024AC8A53FABBC91722358",
+      "Spawns": []
+    },
+    "c16e104812d765747a3298cb28962fa4": {
+      "Name": "WoodHouse9",
+      "Source": "files 71246D2F4E293A896BD6B802E3FE14E2D50A17E7CFDB38AB4D2EEC302E7AD099",
+      "Spawns": []
+    },
+    "5702c44c51ae4334eb1705e0a433bf64": {
+      "Name": "WoodHouse10",
+      "Source": "files 0BD09F9567CC47C5AB389AAA01103B8BB790428AC86C8F30058F5B8E8D17CAE9",
+      "Spawns": []
+    },
+    "822c061c910a72a428540ecb3f5dd455": {
+      "Name": "WoodHouse11",
+      "Source": "files 0FD3072C25ECB92233E2D32D8260BC5DB7B610DD529F49653E2763B69990BD73",
+      "Spawns": [
+        {
+          "Prefab": "Greydwarf"
+        }
+      ]
+    },
+    "73305d4f57379474190479da67f94b2e": {
+      "Name": "WoodHouse12",
+      "Source": "files 3D23D3AF6BBB7CC919CC94DB69EE204245A5E4075D05109B4C1058EE715B9E56",
+      "Spawns": []
+    },
+    "e6f987f36da13464a9d28a868133ef43": {
+      "Name": "WoodHouse13",
+      "Source": "files 4E64AC8FF3B543A54A642DC53804FD57E7E386D0EDF4FDCDFBE6463FBFFCD17F",
+      "Spawns": [
+        {
+          "Prefab": "Greydwarf"
+        }
+      ]
+    },
+    "1d5da0671dfe7ab4ba682e6e7651a26a": {
+      "Name": "WoodFarm1",
+      "Source": "files 5549CEF44BB4476CB093F8441168B02DE6FB2D4104BF6947F80D9CC477E4687E",
+      "Spawns": []
+    },
+    "0c74cde9ef71f8e4f9b22e2c8d2283f3": {
+      "Name": "WoodVillage1",
+      "Source": "files 739BF4A3D9F31B6A8B692CA1AB0798E9483EF71CACABB408BA0BDF902166DA7E",
+      "Spawns": []
+    },
+    "27cdc3e970b2a3f44ba8380e3102648a": {
+      "Name": "TrollCave02",
+      "Source": "files 0E8D617ABD69010876A2FF0B5E7E220ADDCB42589D5CF0092BF66423F2F3D116",
+      "Spawns": [
+        {
+          "Prefab": "Troll"
+        }
+      ]
+    },
+    "e4b3e7092e0d4c040a0937d6bf28673a": {
+      "Name": "SunkenCrypt4",
+      "Source": "files 9E989D1E61180B92C5F535BAD7567A43D18AE14787A5F320F293B69FCF2B6A06",
+      "Spawns": [
+        {
+          "Prefab": "Draugr"
+        },
+        {
+          "Prefab": "BlobElite"
+        }
+      ]
+    },
+    "3e9b5ec1eaec27d478a41a5bcbc82e03": {
+      "Name": "Dolmen01",
+      "Source": "files 05D7D733D894413F84A9933B445BE02956D63F9CAEABF296BC73FF771A6CB38F",
+      "Spawns": [
+        {
+          "Prefab": "Skeleton_Meadows_noarcher"
+        }
+      ]
+    },
+    "6f14c420b615ebb4e9961bea19890923": {
+      "Name": "Dolmen02",
+      "Source": "files C04B0B3056E3A2C1862A11AB4215501ADFA33825D6762D35030671D0318831A7",
+      "Spawns": [
+        {
+          "Prefab": "Skeleton_Meadows_noarcher"
+        }
+      ]
+    },
+    "5af8cc033d46abd4fb00ebc86814d31b": {
+      "Name": "Dolmen03",
+      "Source": "files 983B3578A50B883AFF922A08D10CA31236D6C6E5B4C382B4ABD77618166AE6DA",
+      "Spawns": [
+        {
+          "Prefab": "Skeleton_Meadows_noarcher"
+        }
+      ]
+    },
+    "e7d50f42af455984d91d33cdb4ed1e2b": {
+      "Name": "Crypt3",
+      "Source": "files E798884792CDDB0173D4649B70105CFE246F3282B516AB2D229F9B776EAD0A17",
+      "Spawns": [
+        {
+          "Prefab": "Skeleton"
+        }
+      ]
+    },
+    "5b29053b1efbe3d43840c59f2bf342d2": {
+      "Name": "Crypt4",
+      "Source": "files A49B265D5D238C97C40DEF0E10C4E4DAB7C40F283E7CC9B743D98DC68BBE8B4C",
+      "Spawns": [
+        {
+          "Prefab": "Skeleton"
+        }
+      ]
+    },
+    "7fcf2484db820ed44a3c980ae4ea8522": {
+      "Name": "InfestedTree01",
+      "Source": "files 39CE1ACCAFE381D3DEBF9A3A2CBAC4C1CD902C17C779C2511D920AB6A9C5B24C",
+      "Spawns": []
+    },
+    "0fe266d90305f4543b3ec5228ea54c2b": {
+      "Name": "SwampHut1",
+      "Source": "files 3B5A8D51A540FFBD55495C6631C2B1BF8B150B84064F560375E2C8F301133518",
+      "Spawns": [
+        {
+          "Prefab": "Wraith"
+        }
+      ]
+    },
+    "ea258e6d5cf3ead48b477417b1196996": {
+      "Name": "SwampHut2",
+      "Source": "files 282AA468413B64A825957B4448A1063CF92C48B87BAB0FDFE7C15CF38A63F9F0",
+      "Spawns": [
+        {
+          "Prefab": "Wraith"
+        }
+      ]
+    },
+    "d32fa5413bb18604e99870666810bc1e": {
+      "Name": "SwampHut3",
+      "Source": "files 120E3F4C5132CB8946F9F77935203B37C04854826D769B61D75857AE4AFE4782",
+      "Spawns": [
+        {
+          "Prefab": "Wraith"
+        }
+      ]
+    },
+    "d147b1ce159ae704c85b9f6187e51ae0": {
+      "Name": "SwampHut4",
+      "Source": "files 50DAB22803238317C4A6374591F2624166E0D887F992CB830A41CC33754B4085",
+      "Spawns": [
+        {
+          "Prefab": "Draugr"
+        },
+        {
+          "Prefab": "Draugr_Ranged"
+        }
+      ]
+    },
+    "138a47f307e1bce4a9dccb5913bd9295": {
+      "Name": "SwampHut5",
+      "Source": "files 0DD95F0F66C11793DE334AEA96ECA2B6483BBA48AE087D77AF9364DA049CA80C",
+      "Spawns": [
+        {
+          "Prefab": "Wraith"
+        }
+      ]
+    },
+    "74afe70d92995f844a115c61b0d09448": {
+      "Name": "SwampWell1",
+      "Source": "files E32DC5E9B6731DE5985DFDB36CA29F187F57B180194B84D546F78F89BDD38F6B",
+      "Spawns": [
+        {
+          "Prefab": "Draugr_Elite"
+        }
+      ]
+    },
+    "f6f3caffd4a2be745be58a58248f01d7": {
+      "Name": "StoneTowerRuins04",
+      "Source": "files 37573DBE1F52F284222EA5366949E54F6B5EE7E79158F4D3A6D70F221022AF52",
+      "Spawns": [
+        {
+          "Prefab": "Skeleton_Mountains"
+        }
+      ]
+    },
+    "9ca15fa78aa3f264ab719bcaba59a6ae": {
+      "Name": "StoneTowerRuins05",
+      "Source": "files C5E02357D2F271B35EF14BFDD9BD5D10C7277FA0A62106A69B283DAA9EF932E1",
+      "Spawns": [
+        {
+          "Prefab": "Skeleton_Mountains"
+        },
+        {
+          "Prefab": "Skeleton"
+        }
+      ]
+    },
+    "a47fdc7501f7e95478f4922bc921da1c": {
+      "Name": "StoneTowerRuins03",
+      "Source": "files 8EFF1574E35500AC1F0E63C5669BBC5F75E8976E458E81BA5007CED368AA151D",
+      "Spawns": [
+        {
+          "Prefab": "Greydwarf"
+        },
+        {
+          "Prefab": "Greydwarf_Elite"
+        },
+        {
+          "Prefab": "Skeleton"
+        }
+      ]
+    },
+    "3bd3d80de99f50f41ab2b58dd8fc2042": {
+      "Name": "StoneTowerRuins07",
+      "Source": "files 2C399FBFE827078ECB62C5F8CB5E18FB7619573542567CF5BEA005F6A6873FE0",
+      "Spawns": [
+        {
+          "Prefab": "Skeleton"
+        }
+      ]
+    },
+    "bd0e21172d65f1b42b26e0272dee716c": {
+      "Name": "StoneTowerRuins08",
+      "Source": "files 98C0B224252C1F40276946B8884512D7A2A56B331CCF5C141E6CF7D30CEEB10B",
+      "Spawns": [
+        {
+          "Prefab": "Skeleton"
+        }
+      ]
+    },
+    "7a5a2c535ac032940abf333d2b7bafc3": {
+      "Name": "StoneTowerRuins09",
+      "Source": "files 01D0E30E47E9EB1DE0E01E41FB69DA11503ABF3722AF506EF8B59CDA7FD105B5",
+      "Spawns": [
+        {
+          "Prefab": "Skeleton"
+        }
+      ]
+    },
+    "31b9b088edfb18541b5f7d0879d5e147": {
+      "Name": "StoneTowerRuins10",
+      "Source": "files 2E4883C44F6981007D964C178BF672B04C3AFA55F692E5EB863D72C202BFE0DB",
+      "Spawns": [
+        {
+          "Prefab": "Skeleton"
+        }
+      ]
+    },
+    "8ccfdadafafce5f4a9441f2f3926c14c": {
+      "Name": "Vendor_BlackForest",
+      "Source": "files 5F9E7660F8770C165BF70518FD3F38A739B8AE2B1A38256CCBA3B305C3F2836D",
+      "Spawns": []
+    },
+    "93cf387acd86f0147a63d9c8787285d7": {
+      "Name": "ShipSetting01",
+      "Source": "files 66285995536461CAFAD08DB2E7D2FB62FC58932CA1979703AB8D8A0B5A25061A",
+      "Spawns": [
+        {
+          "Prefab": "Skeleton_Meadows_noarcher"
+        }
+      ]
+    },
+    "419aea7c570a12b4fa9da37fdd828e79": {
+      "Name": "Dragonqueen",
+      "Source": "files 6810114AC0A6892938C54DD8E903A3D55E71E9237418A4E004F48BB9F7CAC467",
+      "Spawns": [
+        {
+          "Prefab": "Dragon"
+        }
+      ]
+    },
+    "796b47151ea2eab4a9326053ec101633": {
+      "Name": "DrakeNest01",
+      "Source": "files C37D9D38C0A8C64E02503A6DE285340833D93B6E9990C84F80125855F2DBB99F",
+      "Spawns": [
+        {
+          "Prefab": "Hatchling"
+        }
+      ]
+    },
+    "348787a07432ba44898c3a47e517517c": {
+      "Name": "Waymarker01",
+      "Source": "files 3F9F015B15A037C68DDF7B5164C47A054EABBA4A3582618C3F996B652723A878",
+      "Spawns": []
+    },
+    "c8349574f07dbb4408f6ab3f530f293a": {
+      "Name": "Waymarker02",
+      "Source": "files A195AFF1E6655AF58E4DD0B3E96C27699A28A42BA200B3ABAD28BB7DA283D406",
+      "Spawns": []
+    },
+    "f3bf89863afa43d41b761f3d986da18b": {
+      "Name": "AbandonedLogCabin02",
+      "Source": "files 5DA649F330100760BED2E9C5D6C5FCAC64F08A9C405FAEF123724F4CDE935272",
+      "Spawns": [
+        {
+          "Prefab": "StoneGolem"
+        }
+      ]
+    },
+    "7aaca6800435f344f993d0818121c901": {
+      "Name": "AbandonedLogCabin03",
+      "Source": "files 794842B393632235369549724F38C01C5721783B02258A20B9A308CB36EAE50B",
+      "Spawns": [
+        {
+          "Prefab": "Skeleton_Mountains"
+        },
+        {
+          "Prefab": "StoneGolem"
+        }
+      ]
+    },
+    "27120db0911618b489a47cf844b9554e": {
+      "Name": "AbandonedLogCabin04",
+      "Source": "files CA24DBC92840AA02D1AA4BB6D2839DDB8D841705A0685B312EFE05CDCE2D64EE",
+      "Spawns": [
+        {
+          "Prefab": "Skeleton_Mountains"
+        },
+        {
+          "Prefab": "StoneGolem"
+        }
+      ]
+    },
+    "8dfc70f50ec2d4b4098ec6a9b43e5179": {
+      "Name": "MountainGrave01",
+      "Source": "files 5E98948C6A8BF610DA123978E1B164CB4A2C2DECBC1F0315A60AF810E1DB44CB",
+      "Spawns": []
+    },
+    "d0d596b81d1026544b057d55b0b3cfce": {
+      "Name": "DrakeLorestone",
+      "Source": "files C9BFE3FB9F5BA08B01AB81E376DC04C0AF2AC22565837E87BC021715BA79AD53",
+      "Spawns": []
+    },
+    "d3573a7ffe944a44bba165cdb522ea65": {
+      "Name": "MountainWell1",
+      "Source": "files C555B5D7EE6FB990C0A339F1C4C4BA00AB3AE3700858464F5ACD7633306CC2F6",
+      "Spawns": []
+    },
+    "86a97041cd76c664d82d24f8149d4f5d": {
+      "Name": "Runestone_Meadows",
+      "Source": "files 27B9A647E9B883135DB9D85A1042FFF57BF8F3E40C1BDA943076D31D05902AA0",
+      "Spawns": []
+    },
+    "e795ba803f62a7340bf92b63cf2f2c64": {
+      "Name": "Runestone_Boars",
+      "Source": "files 4F6C1429D39FDDF14EC58ACD0326EDE73EC1E61C1E108129743C31863448CB83",
+      "Spawns": [
+        {
+          "Prefab": "Boar"
+        }
+      ]
+    },
+    "40a1de4c190bedf42acf975f34a18b42": {
+      "Name": "Runestone_Swamps",
+      "Source": "files 37A80ED994DE8D94740FA2FF9BC15A021BF36539D0BC5455821D994BEE32B5CE",
+      "Spawns": []
+    },
+    "71e24cf31c576c54096faf407e09e9fd": {
+      "Name": "Runestone_Mountains",
+      "Source": "files 7BA614B6C366423BE943C3B11F7979B8D50BCC68DB564DD30E7C5741BC2B5D49",
+      "Spawns": []
+    },
+    "fe867d16af763e2428b13c784d0b5a84": {
+      "Name": "Runestone_BlackForest",
+      "Source": "files D3D9414D18156B82D4EE11AF50C79D9BA7FAEE525939EFA382EB535EC69BFB23",
+      "Spawns": []
+    },
+    "32bc075713128154e9c2e68edf50c709": {
+      "Name": "Runestone_Plains",
+      "Source": "files 30DD863239FF4226FCCE7B8ED36CF3473D627424A2795F9DB1B2FF1CC45F33AC",
+      "Spawns": []
+    },
+    "4f771a5dfc1dc734ba22d5501f764eee": {
+      "Name": "CombatRuin01",
+      "Source": "files 29377FD1EE160E2AC75C21A88CDC199F2F44B4E679B34E27EC6AC9D46BB4AF20",
+      "Spawns": [
+        {
+          "Prefab": "Skeleton"
+        }
+      ]
+    },
+    "2fb91e4a7c917b649b5feecfd5fe230a": {
+      "Name": "BigRockClearing",
+      "Source": "files 6338BA8E9443B996DA5A566AE49ADABE69E7D38B220625321651E8130E996D92",
+      "Spawns": []
+    },
+    "3476505872848fe4c86404a14719291c": {
+      "Name": "TarPit1",
+      "Source": "files B9C7908F279D82613ABB7FBCBBA56F5261452A52729C1163AABA34E118B44D49",
+      "Spawns": [
+        {
+          "Prefab": "BlobTar"
+        }
+      ]
+    },
+    "4b3b882dd2f1c804284a03b8f2e57e21": {
+      "Name": "TarPit2",
+      "Source": "files D8D693D289A8FDEE0AF6735EFAA0FF87A3B08557791C0FBCD0CE455D2B582623",
+      "Spawns": [
+        {
+          "Prefab": "BlobTar"
+        }
+      ]
+    },
+    "e06a5de4cbf74394aa661a91231d9df9": {
+      "Name": "TarPit3",
+      "Source": "files D24C64C5D5A986ED420BCF7AC27B4B6026EA73A32BECDEE7D418E4C1A5FA400C",
+      "Spawns": [
+        {
+          "Prefab": "BlobTar"
+        }
+      ]
+    },
+    "ab5056c7b99c1b04583386beeafd5395": {
+      "Name": "MountainCave02",
+      "Source": "files 0816C63C30494F5A9D09FF134D46266EA1CC8982356B73448F1046042F3264C1",
+      "Spawns": []
+    },
+    "7cfe646703e7829a0b9d88ba9b8f4b74": {
+      "Name": "AncientUpgradeStation",
+      "Source": "files 4C691D46F18A4C2B5ECC716EEB5394EC7399347A373D793BB9657AD303E99D48",
+      "Spawns": []
+    },
+    "1e6401215f0fca942aeddb7a0ffaa557": {
+      "Name": "Mistlands_GuardTower1_new",
+      "Source": "files 6FE0A90CB844BD3D927F8F708FB870C3CC88946E9F39D6F2E20AD8698BF817D4",
+      "Spawns": [
+        {
+          "Prefab": "Dverger"
+        },
+        {
+          "Prefab": "DvergerMage"
+        }
+      ]
+    },
+    "157d445af44af174e9847498809285e8": {
+      "Name": "Mistlands_GuardTower1_ruined_new",
+      "Source": "files 49771829AD2050D471F54CC90A7D90BFD426A914ACD2697850A31F287F59EB89",
+      "Spawns": [
+        {
+          "Prefab": "Seeker"
+        }
+      ]
+    },
+    "ae4183da668e92d4e8daa85910a968f8": {
+      "Name": "Mistlands_GuardTower1_ruined_new2",
+      "Source": "files 4DB1BD68FF01275603691DF1BCC903C8E0955B558C1B3EE4A0CD6FFEEA21152F",
+      "Spawns": [
+        {
+          "Prefab": "Seeker"
+        }
+      ]
+    },
+    "961b9d8922a6ea44bb00722e63020180": {
+      "Name": "Mistlands_GuardTower2_new",
+      "Source": "files A3848207CF03F824A7B55198F7B82ECBA9F06212CC43620D1A0B70DEF7604D41",
+      "Spawns": [
+        {
+          "Prefab": "Dverger"
+        },
+        {
+          "Prefab": "DvergerMage"
+        }
+      ]
+    },
+    "36cb9e0a16c8faa4f96133a06ee870ab": {
+      "Name": "Mistlands_GuardTower3_new",
+      "Source": "files 893018D151CCF3D49EB2DB592DAEE68520BC9B7699756F972B64C3DA326E284D",
+      "Spawns": [
+        {
+          "Prefab": "Dverger"
+        },
+        {
+          "Prefab": "DvergerMage"
+        }
+      ]
+    },
+    "ffc68b0ccae767141a92700ff28544c8": {
+      "Name": "Mistlands_GuardTower3_ruined_new",
+      "Source": "files DA67A9AF07119C51F6DA1BA5201ECDE2E7FBF78FEC34F3C9DA7EA8CB695E826E",
+      "Spawns": [
+        {
+          "Prefab": "Seeker"
+        }
+      ]
+    },
+    "e28bc59a8ac659f4da2cf0e44978feb0": {
+      "Name": "Mistlands_Lighthouse1_new",
+      "Source": "files 85EB1B00C78992E8E0D611BFE0B6EAD6FBEC10BCEF013C8CD3690B112AB6C50E",
+      "Spawns": [
+        {
+          "Prefab": "Dverger"
+        },
+        {
+          "Prefab": "DvergerMage"
+        }
+      ]
+    },
+    "1034e885deadae74a8ebf7dff36cdb80": {
+      "Name": "Mistlands_Excavation1",
+      "Source": "files 8D536CC042481779F4D52472CFA6B87588D65DBD8ABD4CCAE3BA72D756F81E3B",
+      "Spawns": [
+        {
+          "Prefab": "DvergerMage"
+        },
+        {
+          "Prefab": "Dverger"
+        }
+      ]
+    },
+    "80941bbd00212b646b51d98ca42086a2": {
+      "Name": "Mistlands_Excavation2",
+      "Source": "files 0C8C7848332429D2FBCA77B441E0155CC4C3DAC7E41A09FC0E702DED25654C0F",
+      "Spawns": [
+        {
+          "Prefab": "DvergerMage"
+        },
+        {
+          "Prefab": "Dverger"
+        }
+      ]
+    },
+    "e5a6d8645bd77e34983f1d5364e02562": {
+      "Name": "Mistlands_Excavation3",
+      "Source": "files 85A5F867DFC1E0BEAC1D9F79FC78FC251CA745FDDBB5BB121C0B15C9688E02EF",
+      "Spawns": [
+        {
+          "Prefab": "Seeker"
+        }
+      ]
+    },
+    "351ad667a0aa37e4f88ce28a9a27c06a": {
+      "Name": "Mistlands_Harbour1",
+      "Source": "files B4B2C161C6EB46C05BCE335FB9E0AD85984B6B9AF6E0E55D294BC466FA28F8EA",
+      "Spawns": [
+        {
+          "Prefab": "Dverger"
+        },
+        {
+          "Prefab": "DvergerMage"
+        }
+      ]
+    },
+    "7b2f4b01b434d6e4f9cfad1b1a9cdb6c": {
+      "Name": "Mistlands_Viaduct1",
+      "Source": "files BA9BE3B60FC9BC08E66DFEC1E487BD1C242F2DF288A657FA7599A996FEC52B02",
+      "Spawns": []
+    },
+    "5996f8f1398ce09438e24cc12c357e6d": {
+      "Name": "Mistlands_Viaduct2",
+      "Source": "files 1635AE4DB0783D5C9FA499D1BABCF58D10333ECA81EF48F787D0CFE43FF52393",
+      "Spawns": []
+    },
+    "bbe92f1529e4fa649a95cc0ff9308110": {
+      "Name": "Mistlands_RockSpire1",
+      "Source": "files 4B33AEF0D2F780B74A3E7A05A2FE0E344F955A70B62A84C2235C27FEC809102D",
+      "Spawns": [
+        {
+          "Prefab": "Seeker"
+        }
+      ]
+    },
+    "0dc0a24cf3fec9d418f56ae9e00d6113": {
+      "Name": "Mistlands_Giant1",
+      "Source": "files 276F75D848777E85D3B4251BDE9E58E3FF5FC91447979F9B7F1C769A51C65D0C",
+      "Spawns": [
+        {
+          "Prefab": "Tick"
+        }
+      ]
+    },
+    "064b43c4bfd88d84a991ccc502ffe8bc": {
+      "Name": "Mistlands_Giant2",
+      "Source": "files 6DF26F2ADD6B7AF3E2F1D84D739223FFC66AF9C946756A9B7788387A77785D36",
+      "Spawns": []
+    },
+    "b46cfbfa13219f54ea2246f4076c0d78": {
+      "Name": "Mistlands_DvergrTownEntrance1",
+      "Source": "files E974471C9610C4393804424F654674E1C5D34C6CF215DAE8FA0680F181825A93",
+      "Spawns": [
+        {
+          "Prefab": "Seeker"
+        }
+      ]
+    },
+    "cf7fdbc5b9fec884cb1246a4beaeed6e": {
+      "Name": "Mistlands_DvergrTownEntrance2",
+      "Source": "files 9FB5DF35EEF037FC801D7DFAD4B966BFA9F8CDC0CC78233F0DE5BFC7842E4919",
+      "Spawns": [
+        {
+          "Prefab": "Seeker"
+        }
+      ]
+    },
+    "c91def09a4c69ed46aadf34d48f7ff03": {
+      "Name": "Mistlands_DvergrBossEntrance1",
+      "Source": "files E3462D1D410DB002D439750B3DB5D8D8FFA8FB0DFB343E67008B0E359B2081D7",
+      "Spawns": [
+        {
+          "Prefab": "Seeker"
+        }
+      ]
+    },
+    "ceb5a7bd30240e6459e1d5165979bdab": {
+      "Name": "Mistlands_RoadPost1",
+      "Source": "files 8FE0DAB007B90D75B6B2E4688613BE380220CC6D80236813FF7EDF2D2EB49F7E",
+      "Spawns": [
+        {
+          "Prefab": "DvergerMage"
+        },
+        {
+          "Prefab": "Dverger"
+        }
+      ]
+    },
+    "f9651ca5981e076458bf1a97a1275088": {
+      "Name": "Mistlands_StatueGroup1",
+      "Source": "files A594C21935BA7846741138DA015783FB3FFABCA440F4738B4A60CF4E32D1E590",
+      "Spawns": []
+    },
+    "696a9dc1e3d5a634c9d3143aeea30ed6": {
+      "Name": "Mistlands_Statue1",
+      "Source": "files A4169DC453569B2C092FD5A705A3D1340A23EB00E1A05489586A0C71B0FB90C6",
+      "Spawns": []
+    },
+    "c9fc2a3f99100af49b93b59382c09e42": {
+      "Name": "Mistlands_Statue2",
+      "Source": "files CDB37B68DBCFBD6C433F2435F349DFF4F2AFDD47B16F19308F26A9387CC04A4D",
+      "Spawns": []
+    },
+    "60986df73b9896242938393ab417bf2c": {
+      "Name": "Mistlands_Swords1",
+      "Source": "files 5DC9A963623583BF3DEE4295ED720077FA529F9E12FF675127B7B8440BB65B6E",
+      "Spawns": []
+    },
+    "815b921868fd16440bb5c6993a63b8d6": {
+      "Name": "Mistlands_Swords2",
+      "Source": "files 5E0BDAC6F371FE05BA906D91F55FAE7EB412D853074C6580C35AD16762C7BDFD",
+      "Spawns": []
+    },
+    "85630274523140a4eb3eed8bf214a866": {
+      "Name": "Mistlands_Swords3",
+      "Source": "files 08B31ADFAFFA4083B4A730FA937C22B0FFF3006AB5CBA6FAD8724FA448F595F7",
+      "Spawns": []
+    },
+    "bbd3bba341fa5d64e967e5693e709bf5": {
+      "Name": "Runestone_Mistlands",
+      "Source": "files EDA88766FA5E71D7B97435CCCC560B980E78C8F79D4B264056B0F8332143982D",
+      "Spawns": []
+    },
+    "a859725952215ba4bb2915451a24678d": {
+      "Name": "Hildir_cave",
+      "Source": "files 4F8F91D5D28A1255844F2D791CD61A28DD1435DC8F948C6178D4CB7DAA12813D",
+      "Spawns": []
+    },
+    "9249a557aea93964abd4688780f5c386": {
+      "Name": "Hildir_camp",
+      "Source": "files 2ED49777D9D9E5252292F903540DC14786FF2E436CD302D72FC4183E49D6FB6C",
+      "Spawns": []
+    },
+    "43c343e3473f40548ad698a09840210c": {
+      "Name": "Hildir_crypt",
+      "Source": "files 730366D464B47CCC0C105089FB25EB49310306D62EDEF120686E3390112A9C7D",
+      "Spawns": [
+        {
+          "Prefab": "Skeleton"
+        }
+      ]
+    },
+    "e2244e316d0fbf842a676c36732310d5": {
+      "Name": "Hildir_plainsfortress",
+      "Source": "files 4FE96CB81FED8ADFA654D5E6E208C98763B84F3BAA5A7258A5DA803D4DDF4DAB",
+      "Spawns": []
+    },
+    "16c4cecbf305a264baacc434a3176e95": {
+      "Name": "FaderLocation",
+      "Source": "files C352A6D3469C58C565702D3C4014104DFA3F2EC5E1DCD83539720A73ACCD02BB",
+      "Spawns": [
+        {
+          "Prefab": "Fader"
+        }
+      ]
+    },
+    "c0603360ebd7cc240a02b4f0af690e04": {
+      "Name": "PlaceofMystery1",
+      "Source": "files 401794699D627319B2E6CB05D9FE4CAAC94546AF1C5184D99C34B03D195F27ED",
+      "Spawns": [
+        {
+          "Prefab": "Charred_Twitcher"
+        },
+        {
+          "Prefab": "Charred_Melee"
+        },
+        {
+          "Prefab": "Charred_Archer"
+        },
+        {
+          "Prefab": "Charred_Mage"
+        }
+      ]
+    },
+    "e61f76d6b137ba14696c7af74c665fe4": {
+      "Name": "PlaceofMystery2",
+      "Source": "files FCE42084F81A71599DB8E2F34525299ABC8B8AE5F5115CC9D74AF44EC1C99A01",
+      "Spawns": [
+        {
+          "Prefab": "Charred_Twitcher"
+        },
+        {
+          "Prefab": "Charred_Melee"
+        },
+        {
+          "Prefab": "Charred_Archer"
+        },
+        {
+          "Prefab": "Charred_Mage"
+        }
+      ]
+    },
+    "205ee1752beafcf48a68fc560e4b2e4b": {
+      "Name": "PlaceofMystery3",
+      "Source": "files AB79E5CFEA56E26A32BE79AA534E03F3967F3EF856EDDCEF29EA768AEE356D02",
+      "Spawns": [
+        {
+          "Prefab": "Charred_Melee_Dyrnwyn"
+        },
+        {
+          "Prefab": "Charred_Twitcher"
+        },
+        {
+          "Prefab": "Charred_Melee"
+        },
+        {
+          "Prefab": "Charred_Archer"
+        },
+        {
+          "Prefab": "Charred_Mage"
+        }
+      ]
+    },
+    "74625fed1b4f96740be053e3eeec2c3f": {
+      "Name": "CharredFortress",
+      "Source": "files 2D1E3E573CF72971EE22978BE20CA249043CA87E7C5FACB8A8175D69C24F73E4",
+      "Spawns": [
+        {
+          "Prefab": "Charred_Mage"
+        },
+        {
+          "Prefab": "Charred_Archer"
+        },
+        {
+          "Prefab": "piece_Charred_Balista"
+        },
+        {
+          "Prefab": "Charred_Melee"
+        }
+      ]
+    },
+    "60585d54d9b7e454cb17776d51027ff4": {
+      "Name": "FortressRuins",
+      "Source": "files AE64C0267F34EAA054BC6FA5F53B50001EB0BDC72B1A51D1B3C2CEA943905E19",
+      "Spawns": []
+    },
+    "c4128977bf4c64f4b80855877406b264": {
+      "Name": "CharredRuins1",
+      "Source": "files FAAD3826EC8E4911103482AB8DBC6D41304EC6177E61B0238410B74DA767C41F",
+      "Spawns": []
+    },
+    "ad77f2b03e5824f4fb3d6678778a8a8b": {
+      "Name": "Runestone_Ashlands",
+      "Source": "files A9DA84E4D4C59FBE876F7FF1489974A31BD35FB5C407F4A0E0BC920E354F7372",
+      "Spawns": []
+    },
+    "4e53da1e9ccdb7a4e9e8a3a5550be350": {
+      "Name": "LeviathanLava",
+      "Source": "files B0F79B6EAF8CF399904CAC73CC42A79A54E329C60E556658A590ADD146C9C4EB",
+      "Spawns": []
+    },
+    "0590e02b8a1af3e41a2d35a205bda1b1": {
+      "Name": "SulfurArch",
+      "Source": "files FA55AF535BFF8DC13858AAB867246E5411517238C8B67B37941387FD0222253A",
+      "Spawns": []
+    },
+    "516270bc2b314f44f8f4930cd4021144": {
+      "Name": "CharredStone_Spawner",
+      "Source": "files 5702A88EE5CD00A3D645A18451E86D81243859E5B5764C99896168267F29D3F0",
+      "Spawns": [
+        {
+          "Prefab": "Charred_Twitcher"
+        },
+        {
+          "Prefab": "Charred_Melee"
+        }
+      ]
+    },
+    "7433dc950b649124194e8c10b090b6ca": {
+      "Name": "VoltureNest",
+      "Source": "files 854AF5DF28FB1C4616F9BC4677085352389A9BA1C071501FDCACB5E4DE777CD8",
+      "Spawns": [
+        {
+          "Prefab": "Volture"
+        }
+      ]
+    },
+    "05d1517caee70e5408adb41838a2dcff": {
+      "Name": "CharredTowerRuins1",
+      "Source": "files 0CE18D28FC4E60C0D8CA34D60F49D47C08C184EFE769CAE9EABEEFDA3459DF37",
+      "Spawns": []
+    },
+    "36f0cca07006af7478d4b4870b503a65": {
+      "Name": "CharredTowerRuins1_dvergr",
+      "Source": "files 77DEDBE64D267A14F9E50BE69DFC258CCB4D4F1F12FDD68EA7825011751B2F09",
+      "Spawns": [
+        {
+          "Prefab": "DvergerAshlands"
+        }
+      ]
+    },
+    "e7a42e2899ce4284f8e56bc76b0291a0": {
+      "Name": "CharredTowerRuins2",
+      "Source": "files 9F2C2874C571A295999EF5A50A6F477FFAC1C47E5F628010721ED39A420647DD",
+      "Spawns": []
+    },
+    "993f960c952d2d9449f51eb8340f952a": {
+      "Name": "CharredTowerRuins3",
+      "Source": "files C5BE4F4E3CB9EB90805333C6315157CC83EB8DCE318F148E5ADFFBEFB2D559F1",
+      "Spawns": [
+        {
+          "Prefab": "Charred_Twitcher"
+        },
+        {
+          "Prefab": "Charred_Melee"
+        }
+      ]
+    },
+    "c0a08d02fb5743d4a9282f739878939c": {
+      "Name": "AshlandRuins",
+      "Source": "files 98330634983C037AED211AE9BB609F21B9A5762685B0B9262D1E78BFD23DF419",
+      "Spawns": []
+    },
+    "e660f4217cb5fdb418f65d16e4fc83ea": {
+      "Name": "MorgenHole1",
+      "Source": "files B4957B12A0640B80831E9DB95A154C5077E94E4372B4B6B7A7630693103DD19B",
+      "Spawns": [
+        {
+          "Prefab": "Morgen"
+        }
+      ]
+    },
+    "710dfa975af0c81459d18257fa204cca": {
+      "Name": "MorgenHole2",
+      "Source": "files FA0C40E5DEC651D13C2E5E2C6DF8A5BF86CE21213EEBC51136B1D9E5D060C8A7",
+      "Spawns": [
+        {
+          "Prefab": "Morgen"
+        }
+      ]
+    },
+    "14da8e90b282b0648b03927c8374d04e": {
+      "Name": "MorgenHole3",
+      "Source": "files B260DB545057B2CABBC22E269ED07A21F6990AA19EE77E1C18D7DC1ABB8F40E0",
+      "Spawns": [
+        {
+          "Prefab": "Morgen"
+        }
+      ]
+    },
+    "29fcbfe908ef1e14ea567a58098fc103": {
+      "Name": "CharredRuins2",
+      "Source": "files DBFD44FAE140E33482D4EB03C7BD21EE0065AD3537A95050DFD4E91251B09358",
+      "Spawns": []
+    },
+    "844740b2be9d6234990db55e8a091b0a": {
+      "Name": "CharredRuins3",
+      "Source": "files 5FC318AD61F9FC155A96F0A545A377CD842544A45C58E21F630D54F2C3709A65",
+      "Spawns": []
+    },
+    "3918f2c4d07c2404f94c76d06b9adddd": {
+      "Name": "CharredRuins4",
+      "Source": "files F9339B8032A54E340754FBFCF3F02D260A101158AA409CA577129A03C8281A0A",
+      "Spawns": []
+    },
+    "33d9ee727daa8894991ffd3385a5261a": {
+      "Name": "BogWitch_Camp",
+      "Source": "files 34D58EC9F29848C88387439993DAA9E7C3FEF3D47667008FB9D1344BD27E0494",
+      "Spawns": [
+        {
+          "Prefab": "BogWitchKvastur"
+        }
+      ]
+    },
+    "2e59045a8e427debbbe65e21adb52dce": {
+      "Name": "DN_Bossroom",
+      "Source": "files 7A1AFB5B57A02EC9DB5FC66D65F51E666C42E5ED73CF76F1BE619011061784BE",
+      "Spawns": [
+        {
+          "Prefab": "FrozenKing"
+        },
+        {
+          "Prefab": "vfx_LastBossGate_destroyed"
+        }
+      ]
+    },
+    "85cfea4399f9b47339f5dda3b48bee1a": {
+      "Name": "TheHole01",
+      "Source": "files ED49BC4E5A584D666002FFE83329D93AD76E273F2F866F716FFBD43004DDCE1C",
+      "Spawns": [
+        {
+          "Prefab": "ShadowPerson"
+        }
+      ]
+    },
+    "cdf1e36a5d4c0994c8f7d8590c999b7b": {
+      "Name": "NorthVillage",
+      "Source": "files 12E90C40A61CCD4DA6F8F907F1BD3CCD4B585FBBF481064E5EC55037687918AA",
+      "Spawns": []
+    },
+    "0d1990dcf7e0f6abea7a16617c55f468": {
+      "Name": "MorkBorg",
+      "Source": "files 9D84D268D97C9EC49AA9C82718E1EBB9798F439F57ADE7E9C9659F35FF3335EB",
+      "Spawns": [
+        {
+          "Prefab": "BlobMork"
+        }
+      ]
+    },
+    "3fd70497a9011e74d86f539d39964713": {
+      "Name": "NorthMemorialPlace",
+      "Source": "files B093472E337B65C85A61F85F71B92C5A1ABAB049C3794CDF389DDCA1DA73D1ED",
+      "Spawns": [
+        {
+          "Prefab": "memorialsite_offering"
+        }
+      ]
+    },
+    "be8e4169c8e3df365b57282f11f05e47": {
+      "Name": "FrozenShip01_DN",
+      "Source": "files 9C522BD0B2FB26248EC18D31BBAE428BF350FAC8FFC80CFD0CB62F53E9083C65",
+      "Spawns": []
+    },
+    "f762ce573b34513cb818e8169a5df706": {
+      "Name": "FrozenShip02_DN",
+      "Source": "files 89F0D3CC5512D9C1556A43CF8121538002F1836417112FCCBF80105B1DEE38EC",
+      "Spawns": []
+    },
+    "dc044b7d5c9f03671984d37eaf6aa231": {
+      "Name": "FrozenShip03_DN",
+      "Source": "files D56E35D6E516026A6A7551E373ECB1386F626972BD374A4079E37314F7E6AD4F",
+      "Spawns": []
+    },
+    "d087b7cd92256be4d93e0a738e4b5ce9": {
+      "Name": "IcePond1",
+      "Source": "files 554343AC07E87528A01623690EFB3FDDC901C45DE4D62479D1847ABC703429CC",
+      "Spawns": []
+    },
+    "f310f31e28f5017a29f96a2901d140f6": {
+      "Name": "DN_hut01",
+      "Source": "files 702BE624B8D87594183C841CF1E76D3B7DC7688B36D52C655225B440610F7A3C",
+      "Spawns": []
+    },
+    "1a11039e9aa95b82b936e25d4fabc779": {
+      "Name": "ShipSetting02",
+      "Source": "files A534C32438571B71227B6BB575547E130B8AC87C3A908818D5512DF150F12C3B",
+      "Spawns": []
+    },
+    "1b14b8b8e45fb2ca3af245351d8d0a4e": {
+      "Name": "ShipSetting03",
+      "Source": "files 735A38B4BBA9A250E20AA16A8213F9940EEF5CC27AA4D188ACC52B34FDEF773E",
+      "Spawns": []
+    },
+    "0cff811fb1890a250821c524b24ab5c5": {
+      "Name": "LumberCamp",
+      "Source": "files 7B69DEBEB5E51DD803F7EAD7325367C43F185E80AACB5CF1BBA51AC603E066BD",
+      "Spawns": []
+    },
+    "cfc0bb788d591dce6b7f8cfdc1239053": {
+      "Name": "ShipWreck01_DN",
+      "Source": "files 1B1F325704F334DD2656F5755035009397AB433D8B6D77C68AFC7037C45339C3",
+      "Spawns": []
+    },
+    "eaa155a3ac919c220a4f3dc176f80e50": {
+      "Name": "ShipWreck02_DN",
+      "Source": "files 0F58422C3019DFC65E86208663F769BE150659B0766C16D38B3C6C6C3C1C62EC",
+      "Spawns": []
+    },
+    "55a4086e0b9c201469dc6ffe2ebd9e69": {
+      "Name": "Runestone_DeepNorth",
+      "Source": "files 7CD0390C2D9518844E4F4F05EACF599695DBCDE1DAFFDDB18E7AAFE785D0F424",
+      "Spawns": []
+    },
+    "b371e4bec2dc9314082b02b59083e1a4": {
+      "Name": "DN_gammeltrollFrac01",
+      "Source": "files 7F409A6C7D1FA7F3B5C3376A6204D04E0DF6CE081AE42F8E8CABA308700C60BF",
+      "Spawns": []
+    },
+    "0d238cf2f98abb04880a82f0e48d818d": {
+      "Name": "DN_gammeltrollFrac02",
+      "Source": "files 6586929C46B031552C4226036FE7C9D63F06DE76764B3A0E7F04DAF340B74D06",
+      "Spawns": []
+    },
+    "d8ce8ce6f9184e04b879663ffa5fe033": {
+      "Name": "BearCave",
+      "Source": "files 78A7806527241E414F29A85E1223E807746E1AE7CA8C29192DB7C2D18D7A87D4",
+      "Spawns": [
+        {
+          "Prefab": "Bjorn_sleeping"
+        }
+      ]
+    },
+    "808fa56246d1c100b9915fdc81a4f957": {
+      "Name": "WoodVillage2",
+      "Source": "files FA71B4238E9A19C63B6FBCD36EB1364917A6926F0A4AE20DA7F1AE98AE8A528E",
+      "Spawns": []
+    },
+    "4a11a98d4202d93c9a4c96e5d61f5a62": {
+      "Name": "StoneTowerRuins07_sunk",
+      "Source": "files A2611CD9FEAA208E72A4C7E93BF1C6611D20DB1F64D00F96C0888C31E82C4EC3",
+      "Spawns": []
+    },
+    "e4216675748f211c09ee2a91e8b3eacf": {
+      "Name": "StoneTowerRuins08_sunk",
+      "Source": "files BA38C1E184C9B842F7E1BE9F37B246F7CD2F6A13D6E67B834B1CFCB437B94CBA",
+      "Spawns": []
+    },
+    "a73a3f5a7226ec791ad03462f5a73952": {
+      "Name": "StoneTowerRuins09_sunk",
+      "Source": "files 794BD511D6FD8F7401C1AB8A528DD9900F7C57E0E402B05EFF0F8D9604B14DBC",
+      "Spawns": [
+        {
+          "Prefab": "Skeleton"
+        }
+      ]
+    },
+    "23d7a30ecaac46740b153cc28f9595f9": {
+      "Name": "StoneTowerRuins10_sunk",
+      "Source": "files 728DE37AB1462D6D2223054F90B3B3B084CA1121524830732396296989A576ED",
+      "Spawns": [
+        {
+          "Prefab": "Skeleton"
+        }
+      ]
+    },
+    "52e4238506debefc48b6166ff0080235": {
+      "Name": "SwampHut1_1",
+      "Source": "files B894985FD41F67AC0006AD72D1026EB3F63FD51252CAD54BEC97A06EC0AE2237",
+      "Spawns": [
+        {
+          "Prefab": "Wraith"
+        }
+      ]
+    },
+    "ec5194e22ad5918018ee3054e44bb566": {
+      "Name": "SwampHut2_1",
+      "Source": "files FDCD5D8915398A3B3184CC98F1E41D8C89711F7EEBE71F8ADEFF022D272D3A08",
+      "Spawns": [
+        {
+          "Prefab": "Wraith"
+        }
+      ]
+    },
+    "2c446c27fed82a3f08936c3ebdd90d3a": {
+      "Name": "SwampHut3_1",
+      "Source": "files 505F08C3A6BBC1270777E6393D1F05C317E94639E7B042FBACF277C6923B32A7",
+      "Spawns": [
+        {
+          "Prefab": "Wraith"
+        }
+      ]
+    },
+    "5ce9e6794cf6469529794bfa4195ba4f": {
+      "Name": "StoneTowerRuins05_leet",
+      "Source": "files BA00803A236A49181928E997852383FCC48BC9305A988B3CB23B47DCA34A63CB",
+      "Spawns": [
+        {
+          "Prefab": "Skeleton_Mountains"
+        },
+        {
+          "Prefab": "Skeleton"
+        }
+      ]
+    },
+    "181e4692be08435c28e87e8b0978d4f5": {
+      "Name": "GoblinCamp2_1",
+      "Source": "files A9B72C4FF0DB1E2F7545FC35DB0D40415C02E7F2DB3E41793CA10C929B9B777A",
+      "Spawns": []
+    },
+    "d207939335c1d6681805b10889ede750": {
+      "Name": "GoblinHut01",
+      "Source": "files C54CB3E7EDDA73B9750879F3D1A35F59498328DF183E525C3B8E874B0A479DEC",
+      "Spawns": [
+        {
+          "Prefab": "Goblin"
+        }
+      ]
+    },
+    "a1036e4a31fcf6c28b059992a4521c24": {
+      "Name": "GoblinHut02",
+      "Source": "files 7BD967E09D8A1E1D22E625691E9988B3B80F543FCC09B853733D332C260093A4",
+      "Spawns": [
+        {
+          "Prefab": "Goblin"
+        },
+        {
+          "Prefab": "GoblinBrute"
+        },
+        {
+          "Prefab": "GoblinShaman"
+        }
+      ]
+    },
+    "aad28154ef2f89a918869ba1dd4631fe": {
+      "Name": "GoblinHut03",
+      "Source": "files 8D9609CD3579B7BC1E4A708AA698C56387D3439864B3D4EDCD50CDA2087858A4",
+      "Spawns": [
+        {
+          "Prefab": "Goblin"
+        },
+        {
+          "Prefab": "GoblinArcher"
+        },
+        {
+          "Prefab": "GoblinBrute"
+        },
+        {
+          "Prefab": "GoblinShaman"
+        }
+      ]
+    },
+    "938f2db7f5d95ce5f832becfabca1fec": {
+      "Name": "TarPit1_1",
+      "Source": "files 1F3C7FBD18B6879785D72B8060694F197FD9AD729FF9A9E9941CBE8BDD621CB8",
+      "Spawns": [
+        {
+          "Prefab": "BlobTar"
+        }
+      ]
+    },
+    "de2f6cb28e3de44d881e10ffd5f8d5e0": {
+      "Name": "TarPit2_1",
+      "Source": "files 38C95569F7CBA673FD43F21F9705735497FAF8F3C175AEA5D5D5D3BB5C1EEBD0",
+      "Spawns": [
+        {
+          "Prefab": "BlobTar"
+        }
+      ]
+    },
+    "159ea4c3843998c168c9c3d8a128bde9": {
+      "Name": "TarPit3_1",
+      "Source": "files C468D75E2D3FD47549AE9BAE8F80E741FB5FA8ECF21D8FC13BE7DC497721B830",
+      "Spawns": [
+        {
+          "Prefab": "BlobTar"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "TargetFile": "materialconversions",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "MT_SlotChisel_Legendary_Convert",
+        "Product": "ShardSlotChiselLegendary",
+        "Amount": 1,
+        "Type": "Convert",
+        "Resources": [
+          {
+            "Item": "DustMagic",
+            "Amount": 3
+          },
+          {
+            "Item": "Flint",
+            "Amount": 10
+          },
+          {
+            "Item": "Resin",
+            "Amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "MT_SlotChisel_Mythic_Convert",
+        "Product": "ShardSlotChiselMythic",
+        "Amount": 1,
+        "Type": "Convert",
+        "Resources": [
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "MT_SlotChisel_Ancient_Convert",
+        "Product": "ShardSlotChiselAncient",
+        "Amount": 1,
+        "Type": "Convert",
+        "Resources": [
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 10
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,4467 @@
+{
+  "TargetFile": "magiceffects",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "LifeGainOnHit",
+        "DisplayText": "$mod_epicloot_me_lifegainonhit_display",
+        "Description": "$mod_epicloot_me_lifegainonhit_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "OneHandedWeapon",
+            "TwoHandedWeapon",
+            "TwoHandedWeaponLeft",
+            "Bow"
+          ],
+          "ExcludedSkillTypes": [
+            "Pickaxes"
+          ],
+          "ExcludedItemNames": [
+            "$item_fishingrod"
+          ],
+          "ExcludedItemTypes": [
+            "Staff"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Rare": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Epic": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Legendary": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Mythic": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Ancient": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          }
+        },
+        "SelectionWeight": 3.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "HealthOnEitrUse",
+        "DisplayText": "$mod_epicloot_me_healthoneitruse_display",
+        "Description": "$mod_epicloot_me_healthoneitruse_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Staff"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0,
+        "Config": {
+          "EitrPerTrigger": 100
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "LifeGainOnBlock",
+        "DisplayText": "$mod_epicloot_me_lifegainonblock_display",
+        "Description": "$mod_epicloot_me_lifegainonblock_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shield"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 1.5,
+            "MaxValue": 2.75,
+            "Increment": 0.25
+          },
+          "Rare": {
+            "MinValue": 1.5,
+            "MaxValue": 2.75,
+            "Increment": 0.25
+          },
+          "Epic": {
+            "MinValue": 1.5,
+            "MaxValue": 2.75,
+            "Increment": 0.25
+          },
+          "Legendary": {
+            "MinValue": 1.5,
+            "MaxValue": 2.75,
+            "Increment": 0.25
+          },
+          "Mythic": {
+            "MinValue": 1.5,
+            "MaxValue": 2.75,
+            "Increment": 0.25
+          },
+          "Ancient": {
+            "MinValue": 1.5,
+            "MaxValue": 2.75,
+            "Increment": 0.25
+          }
+        },
+        "SelectionWeight": 3.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "DamageTakenGivesAdrenaline",
+        "DisplayText": "$mod_epicloot_me_damagetakengivesadrenaline_display",
+        "Description": "$mod_epicloot_me_damagetakengivesadrenaline_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Trinket"
+          ],
+          "ItemHasAdrenaline": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Rare": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Epic": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Legendary": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Mythic": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Ancient": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "StaminaGainOnBlock",
+        "DisplayText": "$mod_epicloot_me_staminagainonblock_display",
+        "Description": "$mod_epicloot_me_staminagainonblock_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shield"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 1.5,
+            "MaxValue": 2.75,
+            "Increment": 0.25
+          },
+          "Rare": {
+            "MinValue": 1.5,
+            "MaxValue": 2.75,
+            "Increment": 0.25
+          },
+          "Epic": {
+            "MinValue": 1.5,
+            "MaxValue": 2.75,
+            "Increment": 0.25
+          },
+          "Legendary": {
+            "MinValue": 1.5,
+            "MaxValue": 2.75,
+            "Increment": 0.25
+          },
+          "Mythic": {
+            "MinValue": 1.5,
+            "MaxValue": 2.75,
+            "Increment": 0.25
+          },
+          "Ancient": {
+            "MinValue": 1.5,
+            "MaxValue": 2.75,
+            "Increment": 0.25
+          }
+        },
+        "SelectionWeight": 3.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "UseAdrenalineAsStamina",
+        "DisplayText": "$mod_epicloot_me_useadrenalineasstamina_display",
+        "Description": "$mod_epicloot_me_useadrenalineasstamina_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Trinket"
+          ],
+          "ItemHasAdrenaline": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 20.0,
+            "MaxValue": 50.0,
+            "Increment": 5.0
+          },
+          "Rare": {
+            "MinValue": 20.0,
+            "MaxValue": 50.0,
+            "Increment": 5.0
+          },
+          "Epic": {
+            "MinValue": 20.0,
+            "MaxValue": 50.0,
+            "Increment": 5.0
+          },
+          "Legendary": {
+            "MinValue": 20.0,
+            "MaxValue": 50.0,
+            "Increment": 5.0
+          },
+          "Mythic": {
+            "MinValue": 20.0,
+            "MaxValue": 50.0,
+            "Increment": 5.0
+          },
+          "Ancient": {
+            "MinValue": 20.0,
+            "MaxValue": 50.0,
+            "Increment": 5.0
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "StaminaOnKill",
+        "DisplayText": "$mod_epicloot_me_staminaonkill_display",
+        "Description": "$mod_epicloot_me_staminaonkill_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shoulder"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 3.0,
+            "MaxValue": 3.7,
+            "Increment": 0.1
+          },
+          "Rare": {
+            "MinValue": 3.0,
+            "MaxValue": 3.7,
+            "Increment": 0.1
+          },
+          "Epic": {
+            "MinValue": 3.0,
+            "MaxValue": 3.7,
+            "Increment": 0.1
+          },
+          "Legendary": {
+            "MinValue": 3.0,
+            "MaxValue": 3.7,
+            "Increment": 0.1
+          },
+          "Mythic": {
+            "MinValue": 3.0,
+            "MaxValue": 3.7,
+            "Increment": 0.1
+          },
+          "Ancient": {
+            "MinValue": 3.0,
+            "MaxValue": 3.7,
+            "Increment": 0.1
+          }
+        },
+        "SelectionWeight": 3.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "EitrImbueAttack",
+        "DisplayText": "$mod_epicloot_me_eitrimbueattack_display",
+        "Description": "$mod_epicloot_me_eitrimbueattack_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "OneHandedWeapon",
+            "TwoHandedWeapon",
+            "TwoHandedWeaponLeft",
+            "Bow"
+          ],
+          "ExcludedSkillTypes": [
+            "Pickaxes"
+          ],
+          "ExcludedItemNames": [
+            "$item_fishingrod"
+          ],
+          "ExcludedItemTypes": [
+            "Staff"
+          ],
+          "ItemHasPhysicalDamage": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 9.0,
+            "MaxValue": 12.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 9.0,
+            "MaxValue": 12.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 9.0,
+            "MaxValue": 12.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 9.0,
+            "MaxValue": 12.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 9.0,
+            "MaxValue": 12.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 9.0,
+            "MaxValue": 12.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 2.0,
+        "Config": {
+          "EitrCostPerDamage": 1
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "EitrGainOnBlock",
+        "DisplayText": "$mod_epicloot_me_eitrgainonblock_display",
+        "Description": "$mod_epicloot_me_eitrgainonblock_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shield"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 1.5,
+            "MaxValue": 2.75,
+            "Increment": 0.25
+          },
+          "Rare": {
+            "MinValue": 1.5,
+            "MaxValue": 2.75,
+            "Increment": 0.25
+          },
+          "Epic": {
+            "MinValue": 1.5,
+            "MaxValue": 2.75,
+            "Increment": 0.25
+          },
+          "Legendary": {
+            "MinValue": 1.5,
+            "MaxValue": 2.75,
+            "Increment": 0.25
+          },
+          "Mythic": {
+            "MinValue": 1.5,
+            "MaxValue": 2.75,
+            "Increment": 0.25
+          },
+          "Ancient": {
+            "MinValue": 1.5,
+            "MaxValue": 2.75,
+            "Increment": 0.25
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "EitrUseGivesAdrenaline",
+        "DisplayText": "$mod_epicloot_me_eitrusegivesadrenaline_display",
+        "Description": "$mod_epicloot_me_eitrusegivesadrenaline_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Trinket"
+          ],
+          "ItemHasAdrenaline": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "EitrShield",
+        "DisplayText": "$mod_epicloot_me_eitrshield_display",
+        "Description": "$mod_epicloot_me_eitrshield_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Utility"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "PhysToFireOnBlock",
+        "DisplayText": "$mod_epicloot_me_phystofireonblock_display",
+        "Description": "$mod_epicloot_me_phystofireonblock_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shield"
+          ],
+          "ExclusiveEffectTypes": [
+            "PhysToFireOnBlock",
+            "PhysToPoisonOnBlock",
+            "PhysToFrostOnBlock",
+            "PhysToLightningOnBlock"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "PhysToFire",
+        "DisplayText": "$mod_epicloot_me_phystofire_display",
+        "Description": "$mod_epicloot_me_phystofire_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Chest"
+          ],
+          "ExclusiveEffectTypes": [
+            "PhysToFire",
+            "PhysToPoison",
+            "PhysToFrost",
+            "PhysToLightning"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "Kindling",
+        "DisplayText": "$mod_epicloot_me_kindling_display",
+        "Description": "$mod_epicloot_me_kindling_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Legs"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 6.0,
+            "MaxValue": 10.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 6.0,
+            "MaxValue": 10.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 6.0,
+            "MaxValue": 10.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 6.0,
+            "MaxValue": 10.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 6.0,
+            "MaxValue": 10.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 6.0,
+            "MaxValue": 10.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0,
+        "Config": {
+          "DamagePerTrigger": 75
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "BurningAdrenaline",
+        "DisplayText": "$mod_epicloot_me_burningadrenaline_display",
+        "Description": "$mod_epicloot_me_burningadrenaline_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Trinket"
+          ],
+          "ItemHasAdrenaline": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "BurningSpeed",
+        "DisplayText": "$mod_epicloot_me_burningspeed_display",
+        "Description": "$mod_epicloot_me_burningspeed_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shoulder"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 5.0,
+            "MaxValue": 11.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 5.0,
+            "MaxValue": 11.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 5.0,
+            "MaxValue": 11.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 5.0,
+            "MaxValue": 11.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 5.0,
+            "MaxValue": 11.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 5.0,
+            "MaxValue": 11.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "PerfectDodgeGivesStamina",
+        "DisplayText": "$mod_epicloot_me_perfectdodgegivesstamina_display",
+        "Description": "$mod_epicloot_me_perfectdodgegivesstamina_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "OneHandedWeapon",
+            "TwoHandedWeapon",
+            "TwoHandedWeaponLeft",
+            "Bow"
+          ],
+          "ExcludedSkillTypes": [
+            "Pickaxes"
+          ],
+          "ExcludedItemNames": [
+            "$item_fishingrod"
+          ],
+          "ExcludedItemTypes": [
+            "Staff"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 3.5,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 3.5,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 3.5,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 3.5,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 3.5,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 3.5,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "PerfectDodgeGivesEitr",
+        "DisplayText": "$mod_epicloot_me_perfectdodgegiveseitr_display",
+        "Description": "$mod_epicloot_me_perfectdodgegiveseitr_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Staff"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 3.5,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 3.5,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 3.5,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 3.5,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 3.5,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 3.5,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "BlockAsDodgeAsBlock",
+        "DisplayText": "$mod_epicloot_me_blockasdodgeasblock_display",
+        "Description": "$mod_epicloot_me_blockasdodgeasblock_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shield"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "DecreaseDodgeCost",
+        "DisplayText": "$mod_epicloot_me_decreasedodgecost_display",
+        "Description": "$mod_epicloot_me_decreasedodgecost_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Helmet"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 15.0,
+            "MaxValue": 22.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 15.0,
+            "MaxValue": 22.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 15.0,
+            "MaxValue": 22.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 15.0,
+            "MaxValue": 22.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 15.0,
+            "MaxValue": 22.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 15.0,
+            "MaxValue": 22.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 3.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "ReduceFallDamage",
+        "DisplayText": "$mod_epicloot_me_reducefalldamage_display",
+        "Description": "$mod_epicloot_me_reducefalldamage_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Chest"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "PerfectDodge",
+        "DisplayText": "$mod_epicloot_me_perfectdodge_display",
+        "Description": "$mod_epicloot_me_perfectdodge_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Trinket"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 5.0,
+            "MaxValue": 9.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 5.0,
+            "MaxValue": 9.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 5.0,
+            "MaxValue": 9.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 5.0,
+            "MaxValue": 9.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 5.0,
+            "MaxValue": 9.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 5.0,
+            "MaxValue": 9.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 2.0,
+        "Config": {
+          "MaxStacks": 5,
+          "BuffDuration": 10
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "RollCleanse",
+        "DisplayText": "$mod_epicloot_me_rollcleanse_display",
+        "Description": "$mod_epicloot_me_rollcleanse_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Utility"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Rare": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Epic": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Legendary": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Mythic": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Ancient": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "PerfectDodgeGivesSpeed",
+        "DisplayText": "$mod_epicloot_me_perfectdodgegivesspeed_display",
+        "Description": "$mod_epicloot_me_perfectdodgegivesspeed_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shoulder"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 20.0,
+            "MaxValue": 50.0,
+            "Increment": 5.0
+          },
+          "Rare": {
+            "MinValue": 20.0,
+            "MaxValue": 50.0,
+            "Increment": 5.0
+          },
+          "Epic": {
+            "MinValue": 20.0,
+            "MaxValue": 50.0,
+            "Increment": 5.0
+          },
+          "Legendary": {
+            "MinValue": 20.0,
+            "MaxValue": 50.0,
+            "Increment": 5.0
+          },
+          "Mythic": {
+            "MinValue": 20.0,
+            "MaxValue": 50.0,
+            "Increment": 5.0
+          },
+          "Ancient": {
+            "MinValue": 20.0,
+            "MaxValue": 50.0,
+            "Increment": 5.0
+          }
+        },
+        "SelectionWeight": 2.0,
+        "Config": {
+          "BuffDuration": 1
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "IncreaseDamageDuringNighttime",
+        "DisplayText": "$mod_epicloot_me_increasedamageduringnighttime_display",
+        "Description": "$mod_epicloot_me_increasedamageduringnighttime_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "OneHandedWeapon",
+            "TwoHandedWeapon",
+            "TwoHandedWeaponLeft",
+            "Bow",
+            "Staff"
+          ],
+          "ExcludedSkillTypes": [
+            "Pickaxes"
+          ],
+          "ExcludedItemNames": [
+            "$item_fishingrod"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 4.0,
+            "MaxValue": 9.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 4.0,
+            "MaxValue": 9.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 4.0,
+            "MaxValue": 9.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 4.0,
+            "MaxValue": 9.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 4.0,
+            "MaxValue": 9.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 4.0,
+            "MaxValue": 9.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 3.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "NightBlocker",
+        "DisplayText": "$mod_epicloot_me_nightblocker_display",
+        "Description": "$mod_epicloot_me_nightblocker_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shield"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 1.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "DamageReductionAtNight",
+        "DisplayText": "$mod_epicloot_me_damagereductionatnight_display",
+        "Description": "$mod_epicloot_me_damagereductionatnight_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Chest"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 7.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 7.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 7.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 7.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 7.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 7.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "SummonBatWhenActivatingAdrenaline",
+        "DisplayText": "$mod_epicloot_me_summonbatwhenactivatingadrenaline_display",
+        "Description": "$mod_epicloot_me_summonbatwhenactivatingadrenaline_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Trinket"
+          ],
+          "ItemHasAdrenaline": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0,
+        "Config": {
+          "Cooldown": 10,
+          "BatLifetime": 30,
+          "SpawnRadius": 2,
+          "SummonCountOffset": -1,
+          "ConcurrentPerSummon": 2
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "NightCarryWeight",
+        "DisplayText": "$mod_epicloot_me_nightcarryweight_display",
+        "Description": "$mod_epicloot_me_nightcarryweight_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shoulder"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 1.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "IncreaseDamageDuringDaytime",
+        "DisplayText": "$mod_epicloot_me_increasedamageduringdaytime_display",
+        "Description": "$mod_epicloot_me_increasedamageduringdaytime_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "OneHandedWeapon",
+            "TwoHandedWeapon",
+            "TwoHandedWeaponLeft",
+            "Bow",
+            "Staff"
+          ],
+          "ExcludedSkillTypes": [
+            "Pickaxes"
+          ],
+          "ExcludedItemNames": [
+            "$item_fishingrod"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 3.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "DayBlocker",
+        "DisplayText": "$mod_epicloot_me_dayblocker_display",
+        "Description": "$mod_epicloot_me_dayblocker_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shield"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "DayDiscovery",
+        "DisplayText": "$mod_epicloot_me_daydiscovery_display",
+        "Description": "$mod_epicloot_me_daydiscovery_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Helmet"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 1.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "DayArmor",
+        "DisplayText": "$mod_epicloot_me_dayarmor_display",
+        "Description": "$mod_epicloot_me_dayarmor_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Chest"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "DaySailingSpeed",
+        "DisplayText": "$mod_epicloot_me_daysailingspeed_display",
+        "Description": "$mod_epicloot_me_daysailingspeed_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shoulder"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 5.0,
+            "MaxValue": 9.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 5.0,
+            "MaxValue": 9.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 5.0,
+            "MaxValue": 9.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 5.0,
+            "MaxValue": 9.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 5.0,
+            "MaxValue": 9.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 5.0,
+            "MaxValue": 9.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 1.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "DamageIncreaseFromMovementPenalty",
+        "DisplayText": "$mod_epicloot_me_damageincreasefrommovementpenalty_display",
+        "Description": "$mod_epicloot_me_damageincreasefrommovementpenalty_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "OneHandedWeapon",
+            "TwoHandedWeapon",
+            "TwoHandedWeaponLeft",
+            "Bow",
+            "Staff"
+          ],
+          "ExcludedSkillTypes": [
+            "Pickaxes"
+          ],
+          "ExcludedItemNames": [
+            "$item_fishingrod"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AnchoredBlock",
+        "DisplayText": "$mod_epicloot_me_anchoredblock_display",
+        "Description": "$mod_epicloot_me_anchoredblock_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shield"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 0.25,
+            "MaxValue": 0.6,
+            "Increment": 0.05
+          },
+          "Rare": {
+            "MinValue": 0.25,
+            "MaxValue": 0.6,
+            "Increment": 0.05
+          },
+          "Epic": {
+            "MinValue": 0.25,
+            "MaxValue": 0.6,
+            "Increment": 0.05
+          },
+          "Legendary": {
+            "MinValue": 0.25,
+            "MaxValue": 0.6,
+            "Increment": 0.05
+          },
+          "Mythic": {
+            "MinValue": 0.25,
+            "MaxValue": 0.6,
+            "Increment": 0.05
+          },
+          "Ancient": {
+            "MinValue": 0.25,
+            "MaxValue": 0.6,
+            "Increment": 0.05
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "IncreaseXPGainFromMovementPenalty",
+        "DisplayText": "$mod_epicloot_me_increasexpgainfrommovementpenalty_display",
+        "Description": "$mod_epicloot_me_increasexpgainfrommovementpenalty_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Helmet"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 1.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "CarryWeightForMovementPenalty",
+        "DisplayText": "$mod_epicloot_me_carryweightformovementpenalty_display",
+        "Description": "$mod_epicloot_me_carryweightformovementpenalty_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Chest"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 1.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "ArmorFromMovementPenalty",
+        "DisplayText": "$mod_epicloot_me_armorfrommovementpenalty_display",
+        "Description": "$mod_epicloot_me_armorfrommovementpenalty_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shoulder"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 5.0,
+            "MaxValue": 9.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 5.0,
+            "MaxValue": 9.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 5.0,
+            "MaxValue": 9.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 5.0,
+            "MaxValue": 9.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 5.0,
+            "MaxValue": 9.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 5.0,
+            "MaxValue": 9.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "ElementalWarding",
+        "DisplayText": "$mod_epicloot_me_elementalwarding_display",
+        "Description": "$mod_epicloot_me_elementalwarding_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shield"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 4.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 4.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 4.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 4.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 4.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 4.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "ConsumeEitrFirstForBloodCosts",
+        "DisplayText": "$mod_epicloot_me_consumeeitrfirstforbloodcosts_display",
+        "Description": "$mod_epicloot_me_consumeeitrfirstforbloodcosts_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Chest"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "ConvertEitrCostToStaminaCost",
+        "DisplayText": "$mod_epicloot_me_converteitrcosttostaminacost_display",
+        "Description": "$mod_epicloot_me_converteitrcosttostaminacost_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Trinket"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "RunningOnEmpty",
+        "DisplayText": "$mod_epicloot_me_runningonempty_display",
+        "Description": "$mod_epicloot_me_runningonempty_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Utility"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0,
+        "Config": {
+          "Cooldown": 30
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "ReduceEitrCost",
+        "DisplayText": "$mod_epicloot_me_reduceeitrcost_display",
+        "Description": "$mod_epicloot_me_reduceeitrcost_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shoulder"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 5.0,
+            "MaxValue": 8.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 5.0,
+            "MaxValue": 8.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 5.0,
+            "MaxValue": 8.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 5.0,
+            "MaxValue": 8.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 5.0,
+            "MaxValue": 8.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 5.0,
+            "MaxValue": 8.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 3.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "IncreaseHarvestDamage",
+        "DisplayText": "$mod_epicloot_me_increaseharvestdamage_display",
+        "Description": "$mod_epicloot_me_increaseharvestdamage_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "OneHandedWeapon",
+            "TwoHandedWeapon",
+            "TwoHandedWeaponLeft"
+          ],
+          "ExcludedItemTypes": [
+            "Staff"
+          ],
+          "AllowedSkillTypes": [
+            "Axes",
+            "Pickaxes"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 1.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "BlockAsWoodCuttingAndPickaxes",
+        "DisplayText": "$mod_epicloot_me_blockaswoodcuttingandpickaxes_display",
+        "Description": "$mod_epicloot_me_blockaswoodcuttingandpickaxes_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shield"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "GainAdrenalineFromHarvesting",
+        "DisplayText": "$mod_epicloot_me_gainadrenalinefromharvesting_display",
+        "Description": "$mod_epicloot_me_gainadrenalinefromharvesting_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Trinket"
+          ],
+          "ItemHasAdrenaline": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 1.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "IncreaseHarvestXPGain",
+        "DisplayText": "$mod_epicloot_me_increaseharvestxpgain_display",
+        "Description": "$mod_epicloot_me_increaseharvestxpgain_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Utility"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 1.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "ReduceFishingStaminaCost",
+        "DisplayText": "$mod_epicloot_me_reducefishingstaminacost_display",
+        "Description": "$mod_epicloot_me_reducefishingstaminacost_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shoulder"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 10.0,
+            "MaxValue": 21.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 10.0,
+            "MaxValue": 21.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 10.0,
+            "MaxValue": 21.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 10.0,
+            "MaxValue": 21.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 10.0,
+            "MaxValue": 21.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 10.0,
+            "MaxValue": 21.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "IncreaseMeleeSkills",
+        "DisplayText": "$mod_epicloot_me_increasemeleeskills_display",
+        "Description": "$mod_epicloot_me_increasemeleeskills_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "OneHandedWeapon",
+            "TwoHandedWeapon",
+            "TwoHandedWeaponLeft"
+          ],
+          "ExcludedSkillTypes": [
+            "Pickaxes"
+          ],
+          "ExcludedItemNames": [
+            "$item_fishingrod"
+          ],
+          "ExcludedItemTypes": [
+            "Staff"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 3.0,
+            "MaxValue": 4.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 3.0,
+            "MaxValue": 4.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 3.0,
+            "MaxValue": 4.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 3.0,
+            "MaxValue": 4.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 3.0,
+            "MaxValue": 4.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 3.0,
+            "MaxValue": 4.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "BloodBaseBlock",
+        "DisplayText": "$mod_epicloot_me_bloodbaseblock_display",
+        "Description": "$mod_epicloot_me_bloodbaseblock_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shield"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "Bloodrage",
+        "DisplayText": "$mod_epicloot_me_bloodrage_display",
+        "Description": "$mod_epicloot_me_bloodrage_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Chest"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0,
+        "Config": {
+          "MaxStacks": 5,
+          "BuffDuration": 10
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "BloodDrinker",
+        "DisplayText": "$mod_epicloot_me_blooddrinker_display",
+        "Description": "$mod_epicloot_me_blooddrinker_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Legs"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 1.5,
+            "MaxValue": 3.0,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 1.5,
+            "MaxValue": 3.0,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 1.5,
+            "MaxValue": 3.0,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 1.5,
+            "MaxValue": 3.0,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 1.5,
+            "MaxValue": 3.0,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 1.5,
+            "MaxValue": 3.0,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0,
+        "Config": {
+          "MaxHealthPercentPerValue": 2.5,
+          "MinHealthReduction": 10
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AdrenalineCharge",
+        "DisplayText": "$mod_epicloot_me_adrenalinecharge_display",
+        "Description": "$mod_epicloot_me_adrenalinecharge_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Trinket"
+          ],
+          "ItemHasAdrenaline": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 3.0,
+            "MaxValue": 4.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 3.0,
+            "MaxValue": 4.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 3.0,
+            "MaxValue": 4.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 3.0,
+            "MaxValue": 4.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 3.0,
+            "MaxValue": 4.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 3.0,
+            "MaxValue": 4.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "ReduceArmorIncreaseDamage",
+        "DisplayText": "$mod_epicloot_me_reducearmorincreasedamage_display",
+        "Description": "$mod_epicloot_me_reducearmorincreasedamage_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shoulder"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 5.0,
+            "MaxValue": 11.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 5.0,
+            "MaxValue": 11.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 5.0,
+            "MaxValue": 11.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 5.0,
+            "MaxValue": 11.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 5.0,
+            "MaxValue": 11.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 5.0,
+            "MaxValue": 11.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "PhysToPoisonOnBlock",
+        "DisplayText": "$mod_epicloot_me_phystopoisononblock_display",
+        "Description": "$mod_epicloot_me_phystopoisononblock_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shield"
+          ],
+          "ExclusiveEffectTypes": [
+            "PhysToFireOnBlock",
+            "PhysToPoisonOnBlock",
+            "PhysToFrostOnBlock",
+            "PhysToLightningOnBlock"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "PhysToPoison",
+        "DisplayText": "$mod_epicloot_me_phystopoison_display",
+        "Description": "$mod_epicloot_me_phystopoison_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Chest"
+          ],
+          "ExclusiveEffectTypes": [
+            "PhysToFire",
+            "PhysToPoison",
+            "PhysToFrost",
+            "PhysToLightning"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "GainAdrenalineWhenApplyingPoison",
+        "DisplayText": "$mod_epicloot_me_gainadrenalinewhenapplyingpoison_display",
+        "Description": "$mod_epicloot_me_gainadrenalinewhenapplyingpoison_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Trinket"
+          ],
+          "ItemHasAdrenaline": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0,
+        "Config": {
+          "TickInterval": 3,
+          "Radius": 30
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "IncreaseAllPoisonDamageDone",
+        "DisplayText": "$mod_epicloot_me_increaseallpoisondamagedone_display",
+        "Description": "$mod_epicloot_me_increaseallpoisondamagedone_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Utility"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "PoisonToTrueDamage",
+        "DisplayText": "$mod_epicloot_me_poisontotruedamage_display",
+        "Description": "$mod_epicloot_me_poisontotruedamage_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shoulder"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "PhysToFrostOnBlock",
+        "DisplayText": "$mod_epicloot_me_phystofrostonblock_display",
+        "Description": "$mod_epicloot_me_phystofrostonblock_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shield"
+          ],
+          "ExclusiveEffectTypes": [
+            "PhysToFireOnBlock",
+            "PhysToPoisonOnBlock",
+            "PhysToFrostOnBlock",
+            "PhysToLightningOnBlock"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "PhysToFrost",
+        "DisplayText": "$mod_epicloot_me_phystofrost_display",
+        "Description": "$mod_epicloot_me_phystofrost_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Chest"
+          ],
+          "ExclusiveEffectTypes": [
+            "PhysToFire",
+            "PhysToPoison",
+            "PhysToFrost",
+            "PhysToLightning"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AdrenalineFrostWave",
+        "DisplayText": "$mod_epicloot_me_adrenalinefrostwave_display",
+        "Description": "$mod_epicloot_me_adrenalinefrostwave_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Trinket"
+          ],
+          "ItemHasAdrenaline": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Rare": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Epic": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Legendary": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Mythic": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Ancient": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          }
+        },
+        "SelectionWeight": 2.0,
+        "Config": {
+          "Radius": 10,
+          "SpeedFloor": 0.4
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "IcyWeight",
+        "DisplayText": "$mod_epicloot_me_icyweight_display",
+        "Description": "$mod_epicloot_me_icyweight_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shoulder"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 5.0,
+            "MaxValue": 9.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 5.0,
+            "MaxValue": 9.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 5.0,
+            "MaxValue": 9.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 5.0,
+            "MaxValue": 9.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 5.0,
+            "MaxValue": 9.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 5.0,
+            "MaxValue": 9.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "BloodStaggerBlock",
+        "DisplayText": "$mod_epicloot_me_bloodstaggerblock_display",
+        "Description": "$mod_epicloot_me_bloodstaggerblock_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shield"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 5.0,
+            "MaxValue": 12.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 5.0,
+            "MaxValue": 12.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 5.0,
+            "MaxValue": 12.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 5.0,
+            "MaxValue": 12.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 5.0,
+            "MaxValue": 12.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 5.0,
+            "MaxValue": 12.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "KillsReduceNextBloodCost",
+        "DisplayText": "$mod_epicloot_me_killsreducenextbloodcost_display",
+        "Description": "$mod_epicloot_me_killsreducenextbloodcost_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Helmet"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0,
+        "Config": {
+          "MaxReduction": 1,
+          "BuffDuration": 30
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "GainAdrenalineWhenSacrificingHealth",
+        "DisplayText": "$mod_epicloot_me_gainadrenalinewhensacrificinghealth_display",
+        "Description": "$mod_epicloot_me_gainadrenalinewhensacrificinghealth_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Trinket"
+          ],
+          "ItemHasAdrenaline": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "GainEitrWhenSacrificingHealth",
+        "DisplayText": "$mod_epicloot_me_gaineitrwhensacrificinghealth_display",
+        "Description": "$mod_epicloot_me_gaineitrwhensacrificinghealth_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shoulder"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "ChanceDoubleDamage",
+        "DisplayText": "$mod_epicloot_me_chancedoubledamage_display",
+        "Description": "$mod_epicloot_me_chancedoubledamage_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "OneHandedWeapon",
+            "TwoHandedWeapon",
+            "TwoHandedWeaponLeft",
+            "Bow",
+            "Staff"
+          ],
+          "ExcludedSkillTypes": [
+            "Pickaxes"
+          ],
+          "ExcludedItemNames": [
+            "$item_fishingrod"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 3.0,
+            "MaxValue": 6.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 3.0,
+            "MaxValue": 6.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 3.0,
+            "MaxValue": 6.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 3.0,
+            "MaxValue": 6.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 3.0,
+            "MaxValue": 6.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 3.0,
+            "MaxValue": 6.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 3.0,
+        "Config": {
+          "DamageMultiplier": 2
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "LuckyBlock",
+        "DisplayText": "$mod_epicloot_me_luckyblock_display",
+        "Description": "$mod_epicloot_me_luckyblock_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shield"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "Inspiration",
+        "DisplayText": "$mod_epicloot_me_inspiration_display",
+        "Description": "$mod_epicloot_me_inspiration_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Helmet"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 10.0,
+            "MaxValue": 17.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 1.0,
+        "Config": {
+          "ProcChance": 0.25,
+          "MinSkillLevel": 2,
+          "LevelWeightExponent": 2,
+          "MaxLevelUpsPerProc": 20
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "LuckyLoot",
+        "DisplayText": "$mod_epicloot_me_luckyloot_display",
+        "Description": "$mod_epicloot_me_luckyloot_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Chest"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1.0,
+        "Config": {
+          "BonusRollsMin": 1,
+          "BonusRollsMax": 6,
+          "MaxMultiplier": 10,
+          "MaxUnitsPerEntry": 100,
+          "MaxAddedUnitsPerDeath": 300
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "LuckWhileFishing",
+        "DisplayText": "$mod_epicloot_me_luckwhilefishing_display",
+        "Description": "$mod_epicloot_me_luckwhilefishing_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Legs"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 5.0,
+            "MaxValue": 12.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 5.0,
+            "MaxValue": 12.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 5.0,
+            "MaxValue": 12.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 5.0,
+            "MaxValue": 12.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 5.0,
+            "MaxValue": 12.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 5.0,
+            "MaxValue": 12.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 1.0,
+        "Config": {
+          "TripleChance": 20,
+          "RollBase": 40,
+          "RollPerValue": 12,
+          "RollCurve": 2,
+          "FloorFraction": 0.05,
+          "Flint": 5,
+          "Coins": 15,
+          "Amber": 40,
+          "Ruby": 80,
+          "Chitin": 100,
+          "AmberPearl": 120,
+          "CopperScrap": 180,
+          "SilverNecklace": 240,
+          "IronScrap": 300,
+          "SerpentScale": 360,
+          "RunestoneEpic": 500,
+          "RunestoneLegendary": 640
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "LuckyCraft",
+        "DisplayText": "$mod_epicloot_me_luckycraft_display",
+        "Description": "$mod_epicloot_me_luckycraft_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shoulder"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 5.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 1.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "PhysToLightningOnBlock",
+        "DisplayText": "$mod_epicloot_me_phystolightningonblock_display",
+        "Description": "$mod_epicloot_me_phystolightningonblock_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shield"
+          ],
+          "ExclusiveEffectTypes": [
+            "PhysToFireOnBlock",
+            "PhysToPoisonOnBlock",
+            "PhysToFrostOnBlock",
+            "PhysToLightningOnBlock"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "PhysToLightning",
+        "DisplayText": "$mod_epicloot_me_phystolightning_display",
+        "Description": "$mod_epicloot_me_phystolightning_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Chest"
+          ],
+          "ExclusiveEffectTypes": [
+            "PhysToFire",
+            "PhysToPoison",
+            "PhysToFrost",
+            "PhysToLightning"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "StormRider",
+        "DisplayText": "$mod_epicloot_me_stormrider_display",
+        "Description": "$mod_epicloot_me_stormrider_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Legs"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 10.0,
+            "MaxValue": 16.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 10.0,
+            "MaxValue": 16.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 10.0,
+            "MaxValue": 16.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 10.0,
+            "MaxValue": 16.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 10.0,
+            "MaxValue": 16.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 10.0,
+            "MaxValue": 16.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "StormFury",
+        "DisplayText": "$mod_epicloot_me_stormfury_display",
+        "Description": "$mod_epicloot_me_stormfury_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Trinket"
+          ],
+          "ItemHasAdrenaline": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Rare": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Epic": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Legendary": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Mythic": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          },
+          "Ancient": {
+            "MinValue": 1.0,
+            "MaxValue": 1.75,
+            "Increment": 0.25
+          }
+        },
+        "SelectionWeight": 2.0,
+        "Config": {
+          "TickInterval": 10
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "ConvertPhysicalDamageToLightning",
+        "DisplayText": "$mod_epicloot_me_convertphysicaldamagetolightning_display",
+        "Description": "$mod_epicloot_me_convertphysicaldamagetolightning_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Utility"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "Conduit",
+        "DisplayText": "$mod_epicloot_me_conduit_display",
+        "Description": "$mod_epicloot_me_conduit_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shoulder"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 4.0,
+            "MaxValue": 7.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 2.0,
+        "Config": {
+          "DamagePerTrigger": 200
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "HealthGainPerXDamageDone",
+        "DisplayText": "$mod_epicloot_me_healthgainperxdamagedone_display",
+        "Description": "$mod_epicloot_me_healthgainperxdamagedone_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "OneHandedWeapon",
+            "TwoHandedWeapon",
+            "TwoHandedWeaponLeft",
+            "Bow"
+          ],
+          "ExcludedSkillTypes": [
+            "Pickaxes"
+          ],
+          "ExcludedItemNames": [
+            "$item_fishingrod"
+          ],
+          "ExcludedItemTypes": [
+            "Staff"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 3.0,
+            "MaxValue": 4.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 3.0,
+            "MaxValue": 4.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 3.0,
+            "MaxValue": 4.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 3.0,
+            "MaxValue": 4.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 3.0,
+            "MaxValue": 4.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 3.0,
+            "MaxValue": 4.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 3.0,
+        "Config": {
+          "DamagePerTrigger": 200
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "Warding",
+        "DisplayText": "$mod_epicloot_me_warding_display",
+        "Description": "$mod_epicloot_me_warding_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shield"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 4.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 4.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 4.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 4.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 4.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 4.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 3.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "BountifulHarvest",
+        "DisplayText": "$mod_epicloot_me_bountifulharvest_display",
+        "Description": "$mod_epicloot_me_bountifulharvest_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Utility"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 1.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "DamageBonusFromPlayerWeight",
+        "DisplayText": "$mod_epicloot_me_damagebonusfromplayerweight_display",
+        "Description": "$mod_epicloot_me_damagebonusfromplayerweight_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "OneHandedWeapon",
+            "TwoHandedWeapon",
+            "TwoHandedWeaponLeft",
+            "Bow",
+            "Staff"
+          ],
+          "ExcludedSkillTypes": [
+            "Pickaxes"
+          ],
+          "ExcludedItemNames": [
+            "$item_fishingrod"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "BurdenedBlock",
+        "DisplayText": "$mod_epicloot_me_burdenedblock_display",
+        "Description": "$mod_epicloot_me_burdenedblock_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shield"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 0.25,
+            "MaxValue": 0.6,
+            "Increment": 0.05
+          },
+          "Rare": {
+            "MinValue": 0.25,
+            "MaxValue": 0.6,
+            "Increment": 0.05
+          },
+          "Epic": {
+            "MinValue": 0.25,
+            "MaxValue": 0.6,
+            "Increment": 0.05
+          },
+          "Legendary": {
+            "MinValue": 0.25,
+            "MaxValue": 0.6,
+            "Increment": 0.05
+          },
+          "Mythic": {
+            "MinValue": 0.25,
+            "MaxValue": 0.6,
+            "Increment": 0.05
+          },
+          "Ancient": {
+            "MinValue": 0.25,
+            "MaxValue": 0.6,
+            "Increment": 0.05
+          }
+        },
+        "SelectionWeight": 2.0,
+        "Config": {
+          "WeightThreshold": 300,
+          "WeightPerBonus": 50
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "StaminaRegenBonusFromPlayerWeight",
+        "DisplayText": "$mod_epicloot_me_staminaregenbonusfromplayerweight_display",
+        "Description": "$mod_epicloot_me_staminaregenbonusfromplayerweight_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Chest"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 2.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "GainMaxCarryWeightFromRested",
+        "DisplayText": "$mod_epicloot_me_gainmaxcarryweightfromrested_display",
+        "Description": "$mod_epicloot_me_gainmaxcarryweightfromrested_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Legs"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 1.0,
+            "MaxValue": 2.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 1.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "SailingSpeed",
+        "DisplayText": "$mod_epicloot_me_sailingspeed_display",
+        "Description": "$mod_epicloot_me_sailingspeed_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Trinket"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 2.0,
+            "MaxValue": 3.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 1.0
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "TravelLight",
+        "DisplayText": "$mod_epicloot_me_travellight_display",
+        "Description": "$mod_epicloot_me_travellight_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Shoulder"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 3.0,
+            "MaxValue": 7.5,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 1.0,
+        "Config": {
+          "CarryWeightPerValue": 10,
+          "MinResultingCarryWeight": 50
+        }
+      }
+    }
+  ]
+}

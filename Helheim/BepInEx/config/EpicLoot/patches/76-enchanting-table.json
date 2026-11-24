@@ -1,0 +1,801 @@
+{
+  "TargetFile": "enchantingupgrades",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MaximumFeatureLevels.Sacrifice",
+      "Action": "Overwrite",
+      "Value": 6
+    },
+    {
+      "Path": "$.MaximumFeatureLevels.ConvertMaterials",
+      "Action": "Overwrite",
+      "Value": 6
+    },
+    {
+      "Path": "$.MaximumFeatureLevels.Enchant",
+      "Action": "Overwrite",
+      "Value": 6
+    },
+    {
+      "Path": "$.MaximumFeatureLevels.Augment",
+      "Action": "Overwrite",
+      "Value": 6
+    },
+    {
+      "Path": "$.MaximumFeatureLevels.Disenchant",
+      "Action": "Overwrite",
+      "Value": 6
+    },
+    {
+      "Path": "$.MaximumFeatureLevels.Rune",
+      "Action": "Overwrite",
+      "Value": 6
+    },
+    {
+      "Path": "$.UpgradeValues.Sacrifice",
+      "Action": "Overwrite",
+      "Value": [
+        [
+          0,
+          44
+        ],
+        [
+          3,
+          59
+        ],
+        [
+          6,
+          77
+        ],
+        [
+          10,
+          89
+        ],
+        [
+          15,
+          105
+        ],
+        [
+          20,
+          124
+        ],
+        [
+          25,
+          150
+        ]
+      ]
+    },
+    {
+      "Path": "$.UpgradeValues.ConvertMaterials",
+      "Action": "Overwrite",
+      "Value": [
+        [
+          6,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    {
+      "Path": "$.UpgradeValues.Enchant",
+      "Action": "Overwrite",
+      "Value": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "Path": "$.UpgradeValues.Augment",
+      "Action": "Overwrite",
+      "Value": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          25
+        ],
+        [
+          3,
+          25
+        ],
+        [
+          3,
+          50
+        ],
+        [
+          4,
+          50
+        ],
+        [
+          4,
+          75
+        ],
+        [
+          5,
+          75
+        ]
+      ]
+    },
+    {
+      "Path": "$.UpgradeValues.Disenchant",
+      "Action": "Overwrite",
+      "Value": [
+        [
+          7,
+          0
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          20,
+          1
+        ],
+        [
+          25,
+          2
+        ],
+        [
+          31,
+          2
+        ],
+        [
+          37,
+          2
+        ]
+      ]
+    },
+    {
+      "Path": "$.UpgradeValues.Rune",
+      "Action": "Overwrite",
+      "Value": [
+        [
+          0,
+          44
+        ],
+        [
+          3,
+          59
+        ],
+        [
+          6,
+          77
+        ],
+        [
+          10,
+          89
+        ],
+        [
+          15,
+          105
+        ],
+        [
+          20,
+          124
+        ],
+        [
+          25,
+          150
+        ]
+      ]
+    },
+    {
+      "Path": "$.UpgradeCosts.Sacrifice",
+      "Action": "Overwrite",
+      "Value": [
+        null,
+        [
+          {
+            "Item": "SurtlingCore",
+            "Amount": 4
+          },
+          {
+            "Item": "TrophySkeleton",
+            "Amount": 2
+          }
+        ],
+        [
+          {
+            "Item": "SurtlingCore",
+            "Amount": 8
+          },
+          {
+            "Item": "Iron",
+            "Amount": 4
+          },
+          {
+            "Item": "TrophyLeech",
+            "Amount": 3
+          }
+        ],
+        [
+          {
+            "Item": "SurtlingCore",
+            "Amount": 12
+          },
+          {
+            "Item": "Silver",
+            "Amount": 4
+          },
+          {
+            "Item": "TrophySGolem",
+            "Amount": 1
+          }
+        ],
+        [
+          {
+            "Item": "SurtlingCore",
+            "Amount": 16
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 4
+          },
+          {
+            "Item": "TrophyGoblinShaman",
+            "Amount": 1
+          }
+        ],
+        [
+          {
+            "Item": "SurtlingCore",
+            "Amount": 20
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 4
+          },
+          {
+            "Item": "TrophySeeker",
+            "Amount": 2
+          }
+        ],
+        [
+          {
+            "Item": "SurtlingCore",
+            "Amount": 25
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 4
+          },
+          {
+            "Item": "TrophyMorgen",
+            "Amount": 1
+          }
+        ]
+      ]
+    },
+    {
+      "Path": "$.UpgradeCosts.Augment",
+      "Action": "Overwrite",
+      "Value": [
+        [
+          {
+            "Item": "ShardMagic",
+            "Amount": 3
+          },
+          {
+            "Item": "SurtlingCore",
+            "Amount": 3
+          },
+          {
+            "Item": "Coins",
+            "Amount": 200
+          }
+        ],
+        [
+          {
+            "Item": "ShardRare",
+            "Amount": 3
+          },
+          {
+            "Item": "SurtlingCore",
+            "Amount": 10
+          },
+          {
+            "Item": "Coins",
+            "Amount": 100
+          }
+        ],
+        [
+          {
+            "Item": "ShardRare",
+            "Amount": 5
+          },
+          {
+            "Item": "WitheredBone",
+            "Amount": 5
+          },
+          {
+            "Item": "Coins",
+            "Amount": 200
+          }
+        ],
+        [
+          {
+            "Item": "ShardEpic",
+            "Amount": 3
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 10
+          },
+          {
+            "Item": "Coins",
+            "Amount": 300
+          }
+        ],
+        [
+          {
+            "Item": "ShardEpic",
+            "Amount": 5
+          },
+          {
+            "Item": "GoblinTotem",
+            "Amount": 5
+          },
+          {
+            "Item": "Coins",
+            "Amount": 500
+          }
+        ],
+        [
+          {
+            "Item": "ShardLegendary",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackCore",
+            "Amount": 5
+          },
+          {
+            "Item": "Coins",
+            "Amount": 600
+          }
+        ],
+        [
+          {
+            "Item": "ShardLegendary",
+            "Amount": 5
+          },
+          {
+            "Item": "MoltenCore",
+            "Amount": 5
+          },
+          {
+            "Item": "Coins",
+            "Amount": 700
+          }
+        ]
+      ]
+    },
+    {
+      "Path": "$.UpgradeCosts.Disenchant",
+      "Action": "Overwrite",
+      "Value": [
+        [
+          {
+            "Item": "SurtlingCore",
+            "Amount": 5
+          },
+          {
+            "Item": "IronBountyToken",
+            "Amount": 3
+          }
+        ],
+        [
+          {
+            "Item": "ForestToken",
+            "Amount": 10
+          },
+          {
+            "Item": "Thistle",
+            "Amount": 20
+          }
+        ],
+        [
+          {
+            "Item": "ForestToken",
+            "Amount": 20
+          },
+          {
+            "Item": "Guck",
+            "Amount": 10
+          }
+        ],
+        [
+          {
+            "Item": "ForestToken",
+            "Amount": 30
+          },
+          {
+            "Item": "FreezeGland",
+            "Amount": 10
+          }
+        ],
+        [
+          {
+            "Item": "ForestToken",
+            "Amount": 40
+          },
+          {
+            "Item": "Cloudberry",
+            "Amount": 30
+          }
+        ],
+        [
+          {
+            "Item": "ForestToken",
+            "Amount": 50
+          },
+          {
+            "Item": "MushroomJotunPuffs",
+            "Amount": 20
+          }
+        ],
+        [
+          {
+            "Item": "ForestToken",
+            "Amount": 60
+          },
+          {
+            "Item": "MushroomSmokePuff",
+            "Amount": 20
+          }
+        ]
+      ]
+    },
+    {
+      "Path": "$.UpgradeCosts.Rune",
+      "Action": "Overwrite",
+      "Value": [
+        [
+          {
+            "Item": "SurtlingCore",
+            "Amount": 5
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 2
+          }
+        ],
+        [
+          {
+            "Item": "IronBountyToken",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 4
+          }
+        ],
+        [
+          {
+            "Item": "IronBountyToken",
+            "Amount": 5
+          },
+          {
+            "Item": "Iron",
+            "Amount": 4
+          }
+        ],
+        [
+          {
+            "Item": "GoldBountyToken",
+            "Amount": 2
+          },
+          {
+            "Item": "Silver",
+            "Amount": 4
+          }
+        ],
+        [
+          {
+            "Item": "GoldBountyToken",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 4
+          }
+        ],
+        [
+          {
+            "Item": "GoldBountyToken",
+            "Amount": 4
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 4
+          },
+          {
+            "Item": "BlackCore",
+            "Amount": 2
+          }
+        ],
+        [
+          {
+            "Item": "GoldBountyToken",
+            "Amount": 5
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 4
+          },
+          {
+            "Item": "MoltenCore",
+            "Amount": 2
+          }
+        ]
+      ]
+    },
+    {
+      "Path": "$.UpgradeCosts.Enchant",
+      "Action": "Overwrite",
+      "Value": [
+        [
+          {
+            "Item": "DustMagic",
+            "Amount": 2
+          },
+          {
+            "Item": "Flint",
+            "Amount": 10
+          },
+          {
+            "Item": "TrophyBoar",
+            "Amount": 1
+          }
+        ],
+        [
+          {
+            "Item": "TrophyTheElder",
+            "Amount": 1
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 10
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 10
+          }
+        ],
+        [
+          {
+            "Item": "TrophyBonemass",
+            "Amount": 1
+          },
+          {
+            "Item": "Iron",
+            "Amount": 10
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 10
+          }
+        ],
+        [
+          {
+            "Item": "TrophyDragonQueen",
+            "Amount": 1
+          },
+          {
+            "Item": "Silver",
+            "Amount": 10
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 10
+          }
+        ],
+        [
+          {
+            "Item": "TrophyGoblinKing",
+            "Amount": 1
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 10
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 10
+          }
+        ],
+        [
+          {
+            "Item": "TrophySeekerQueen",
+            "Amount": 1
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 10
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 10
+          }
+        ],
+        [
+          {
+            "Item": "TrophyFader",
+            "Amount": 1
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 10
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 10
+          }
+        ]
+      ]
+    },
+    {
+      "Path": "$.UpgradeCosts.ConvertMaterials",
+      "Action": "Overwrite",
+      "Value": [
+        [
+          {
+            "Item": "Wood",
+            "Amount": 20
+          },
+          {
+            "Item": "Flint",
+            "Amount": 5
+          },
+          {
+            "Item": "Resin",
+            "Amount": 10
+          }
+        ],
+        [
+          {
+            "Item": "FineWood",
+            "Amount": 20
+          },
+          {
+            "Item": "Chitin",
+            "Amount": 4
+          },
+          {
+            "Item": "Resin",
+            "Amount": 20
+          }
+        ],
+        [
+          {
+            "Item": "ElderBark",
+            "Amount": 20
+          },
+          {
+            "Item": "Root",
+            "Amount": 5
+          },
+          {
+            "Item": "Guck",
+            "Amount": 20
+          }
+        ],
+        [
+          {
+            "Item": "Obsidian",
+            "Amount": 10
+          },
+          {
+            "Item": "SerpentScale",
+            "Amount": 5
+          },
+          {
+            "Item": "FreezeGland",
+            "Amount": 5
+          }
+        ],
+        [
+          {
+            "Item": "LinenThread",
+            "Amount": 30
+          },
+          {
+            "Item": "Needle",
+            "Amount": 8
+          },
+          {
+            "Item": "Tar",
+            "Amount": 20
+          }
+        ],
+        [
+          {
+            "Item": "YggdrasilWood",
+            "Amount": 10
+          },
+          {
+            "Item": "Mandible",
+            "Amount": 8
+          },
+          {
+            "Item": "GiantBloodSack",
+            "Amount": 10
+          }
+        ],
+        [
+          {
+            "Item": "Blackwood",
+            "Amount": 30
+          },
+          {
+            "Item": "CelestialFeather",
+            "Amount": 8
+          },
+          {
+            "Item": "ProustitePowder",
+            "Amount": 10
+          }
+        ]
+      ]
+    }
+  ]
+}

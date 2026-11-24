@@ -1,0 +1,14 @@
+{
+  "TargetFile": "magiceffects",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='CloseQuarter')].Requirements",
+      "Action": "Add",
+      "PropertyName": "NoRoll",
+      "Value": true
+    }
+  ]
+}

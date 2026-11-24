@@ -1,0 +1,9 @@
+{
+  "TargetFile": "loottables",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    { "Path": "$.RestrictedItems", "Action": "Append", "Value": "CollarT0_MT" }
+  ]
+}

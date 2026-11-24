@@ -1,0 +1,776 @@
+# Morgott.Creatures: roster creatures (M4, server copy wins, synced to every client). Imported models, our own numbers.
+# health = base health at level 1 (rarity.yml / stats.yml / infusions.yml apply on top, like any creature).
+# attacks: damage per attack (blunt, slash, pierce, fire, frost, lightning, poison, spirit); the attack set and
+# animations belong to the model. drops: item prefabs (vanilla or ours: CR_Trophy<Name>, CR_FoxPelt, CR_RazorbackHide, CR_BigCatPelt,
+# CR_RazorbackTusk, CR_GrizzlyPelt, CR_ProwlerFang), min..max at chance 0..1, scaled by loot.yml tiers. Each creature
+# drops what the vanilla creature of its biome and role drops (meat, bone ...) but only its own hide, never another
+# animal's (big cats share CR_BigCatPelt; LoxPelt = Shaggy Pelt of Lox, Mammoth, Yeti); our pelts make capes and are cut
+# into LeatherScraps at the workbench (no hide -> hide conversion), the tusk is worked into bone.
+# faction: vanilla Character.Faction (Players, AnimalsVeg, ForestMonsters, Undead, Demon, MountainMonsters, SeaMonsters,
+# PlainsMonsters, Boss, MistlandsMonsters, Dverger, PlayerSpawned, TrainingDummy, DeepNorth); who fights whom is the vanilla
+# faction table (BaseAI.IsEnemy): e.g. Undead attack every faction but Undead, Demon and Boss. Required.
+# spawns: natural world spawns (vanilla SpawnSystem): chance % per try, interval s, max alive near a player, group
+# [min, max] within radius m, day/night, forest/clearing, altitude [min, max] m, levels [min, max] (the rarity roll
+# picks inside them; 3 = Rare possible), depth [min, max] m of ocean under the spawn point (0, 0 = any). Vanilla never
+# spawns inside a player base. enabled: false = no spawns (the prefab still exists, so saved creatures stay valid).
+# Vanilla first: the roster is a flavour layer. Tiers (chance % / interval s): common 10 / 300, uncommon 8 / 600,
+# rare 5 / 3000, very rare 3 / 4000; max 1 (packs 2). Vanilla staples spawn far more (Boar 50 / 150 max 4, Deer
+# 50 / 100 max 4, Black Forest Greydwarf at night 100 / 60 max 6).
+# share: the roster's share in percent of the creatures near a spawning player. Vanilla caps every species on its own,
+# so each species added would add its max; a roster spawn is refused while roster / (roster + vanilla) would exceed
+# this (no vanilla creature near = no roster spawn). 0 = no roster spawns at all.
+# vanilla: vanilla creature prefabs (names as in the game): health = base health at level 1 (replaces the prefab's),
+# damage = factor on its hits on players, on top of CreatureDamage's role factor (1 = unchanged); faction = its Character.Faction
+# (omitted = the prefab's own). health 0 or omitted = the prefab's own.
+# Balance (docs\roster-balance.md, unit test RosterBalanceCheck): health from size x build against the biome's vanilla peer,
+# armored DPS <= 1.5 x the vanilla encounter it stands in for, HP x DPS within that encounter's fight budget.
+version: 17
+share: 25
+creatures:
+  CR_Fox:          # Meadows harasser like the Greyling: darts in, bites, backs off, comes again
+    faction: ForestMonsters
+    health: 16
+    attacks:
+      bite: { slash: 6 }
+      leap: { pierce: 8 }
+    drops:
+      - { item: CR_FoxPelt, min: 1, max: 2, chance: 1 }
+      - { item: RawMeat, min: 1, max: 1, chance: 1 }
+      - { item: CR_TrophyFox, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Meadows, chance: 10, interval: 300, max: 2, group: [1, 2], radius: 4, day: true, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_BlackBear:    # Meadows rarity / Black Forest: the first real fight, claws and a charge
+    faction: ForestMonsters
+    health: 120
+    attacks:
+      claw:   { slash: 16 }
+      bite:   { pierce: 18 }
+      slam:   { blunt: 22 }
+      charge: { slash: 24 }
+    drops:
+      - { item: BjornMeat, min: 2, max: 3, chance: 1 }
+      - { item: BjornHide, min: 2, max: 3, chance: 1 }
+      - { item: CR_TrophyBlackBear, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Meadows, chance: 5, interval: 3000, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: false, altitude: [1, 1000], levels: [1, 3] }
+      - { biome: BlackForest, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_Razorback:    # Black Forest tusked boar: charges from range, gores up close
+    faction: ForestMonsters
+    health: 30
+    attacks:
+      gore:   { slash: 11 }
+      charge: { slash: 16, blunt: 5 }
+      leap:   { slash: 13 }
+    drops:
+      - { item: RawMeat, min: 1, max: 2, chance: 1 }
+      - { item: CR_RazorbackHide, min: 1, max: 2, chance: 1 }
+      - { item: CR_RazorbackTusk, min: 1, max: 1, chance: 0.5 }
+      - { item: CR_TrophyRazorback, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: BlackForest, chance: 10, interval: 300, max: 1, group: [1, 2], radius: 4, day: true, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_Viper:        # Black Forest ambusher: venomous strikes, spits venom from range
+    faction: ForestMonsters
+    health: 30
+    attacks:
+      bite:   { slash: 9, poison: 6 }
+      strike: { pierce: 12, poison: 9 }
+      spit:   { poison: 16 }
+    drops:
+      - { item: NeckTail, min: 1, max: 1, chance: 1 }
+      - { item: Coins, min: 2, max: 8, chance: 0.25 }
+      - { item: CR_TrophyViper, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: BlackForest, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_Crawler:      # Swamp lurker: bites, lunges with poison, leaps, spits poison from range
+    faction: ForestMonsters
+    health: 100
+    attacks:
+      bite:  { slash: 34 }
+      lunge: { pierce: 24, poison: 34 }
+      leap:  { slash: 43 }
+      spit:  { poison: 39 }
+    drops:
+      - { item: Entrails, min: 1, max: 2, chance: 1 }
+      - { item: Ooze, min: 1, max: 2, chance: 0.5 }
+      - { item: Bloodbag, min: 1, max: 1, chance: 0.25 }
+      - { item: CR_TrophyCrawler, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Swamp, chance: 10, interval: 300, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [-1, 1000], levels: [1, 3] }
+  CR_RottingElk:   # Swamp undead stag: horn swings and a stomp, hits hard, slow to turn
+    faction: Undead
+    health: 230
+    attacks:
+      horns: { slash: 45 }
+      sweep: { slash: 45 }
+      stomp: { blunt: 50 }
+    drops:
+      - { item: Entrails, min: 1, max: 2, chance: 1 }
+      - { item: Bloodbag, min: 1, max: 1, chance: 0.5 }
+      - { item: CR_TrophyRottingElk, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Swamp, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [0, 1000], levels: [1, 3] }
+  CR_HelWraith:    # Swamp night spirit: claws, a slam, a poison curse from range
+    faction: Undead
+    health: 100
+    attacks:
+      slash: { slash: 48 }
+      slam:  { blunt: 60 }
+      curse: { poison: 50 }
+    drops:
+      - { item: Chain, min: 1, max: 1, chance: 1 }
+      - { item: Coins, min: 5, max: 15, chance: 0.25 }
+      - { item: CR_TrophyHelWraith, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Swamp, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: false, night: true, forest: true, clearing: true, altitude: [-1, 1000], levels: [1, 3] }
+  CR_Grizzly:      # Mountain bear: heavy claws, a long charge
+    faction: MountainMonsters
+    health: 260
+    attacks:
+      claw:   { slash: 70 }
+      bite:   { pierce: 75 }
+      slam:   { blunt: 80 }
+      charge: { slash: 90 }
+    drops:
+      - { item: CR_GrizzlyPelt, min: 1, max: 2, chance: 1 }
+      - { item: BjornMeat, min: 2, max: 3, chance: 1 }
+      - { item: CR_TrophyGrizzly, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Mountain, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [40, 1000], levels: [1, 3] }
+  CR_ObsidianGolem: # Mountain peaks: slow wide smashes, hurls rock from range
+    faction: MountainMonsters
+    health: 800
+    attacks:
+      smash: { blunt: 90 }
+      slam:  { blunt: 95 }
+      sweep: { slash: 85 }
+      throw: { blunt: 70 }
+    drops:
+      - { item: Obsidian, min: 4, max: 8, chance: 1 }
+      - { item: Crystal, min: 1, max: 2, chance: 0.5 }
+      - { item: CR_TrophyObsidianGolem, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Mountain, chance: 5, interval: 3000, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: false, clearing: true, altitude: [80, 1000], levels: [1, 3] }
+  CR_StormWolf:    # Mountain night hunter: bites charged with lightning, rushes and leaps
+    faction: MountainMonsters
+    health: 80
+    attacks:
+      bite: { slash: 50, lightning: 15 }
+      rush: { slash: 55, lightning: 15 }
+      leap: { slash: 60, lightning: 20 }
+    drops:
+      - { item: WolfPelt, min: 1, max: 2, chance: 1 }
+      - { item: WolfMeat, min: 1, max: 1, chance: 1 }
+      - { item: WolfFang, min: 1, max: 1, chance: 0.5 }
+      - { item: CR_TrophyStormWolf, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Mountain, chance: 10, interval: 300, max: 1, group: [1, 2], radius: 5, day: false, night: true, forest: true, clearing: true, altitude: [30, 1000], levels: [1, 3] }
+  CR_Prowler:      # Plains big cat: fast claws, a heavy bite, pounces from mid range
+    faction: PlainsMonsters
+    health: 175
+    attacks:
+      claw:   { slash: 75 }
+      bite:   { pierce: 85 }
+      pounce: { slash: 95 }
+    drops:
+      - { item: LoxMeat, min: 1, max: 2, chance: 1 }
+      - { item: CR_BigCatPelt, min: 1, max: 1, chance: 0.5 }
+      - { item: CR_ProwlerFang, min: 1, max: 2, chance: 0.75 }
+      - { item: Coins, min: 5, max: 15, chance: 0.25 }
+      - { item: CR_TrophyProwler, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Plains, chance: 10, interval: 300, max: 2, group: [1, 2], radius: 5, day: true, night: true, forest: false, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_DaggerFang:   # Plains apex beast: claws and a bite, a brutal charge; rare, alone
+    faction: PlainsMonsters
+    health: 700
+    attacks:
+      claw:   { slash: 90 }
+      bite:   { pierce: 100 }
+      charge: { slash: 110 }
+    drops:
+      - { item: LoxMeat, min: 2, max: 3, chance: 1 }
+      - { item: CR_BigCatPelt, min: 1, max: 2, chance: 0.5 }
+      - { item: Coins, min: 10, max: 30, chance: 0.5 }
+      - { item: CR_TrophyDaggerFang, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Plains, chance: 5, interval: 3000, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: false, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_Lich:         # Mistlands night caster: frost bolts from range, cold claws up close
+    faction: Undead
+    health: 160
+    attacks:
+      slap:  { slash: 80, frost: 30 }
+      frost: { frost: 90 }
+    drops:
+      - { item: BoneFragments, min: 2, max: 4, chance: 1 }
+      - { item: Coins, min: 15, max: 40, chance: 0.5 }
+      - { item: CR_TrophyLich, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Mistlands, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: false, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_Bladefist:    # Mistlands jotunn: punches, blade combos, a kick, a leap from range
+    faction: MistlandsMonsters
+    health: 1150
+    attacks:
+      punch:  { blunt: 100 }
+      double: { slash: 115 }
+      combo:  { slash: 120 }
+      kick:   { blunt: 100 }
+      leap:   { slash: 130 }
+    drops:
+      - { item: IronScrap, min: 1, max: 2, chance: 1 }
+      - { item: Coins, min: 5, max: 15, chance: 0.5 }
+      - { item: CR_TrophyBladefist, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Mistlands, chance: 5, interval: 3000, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_SurtrHound:   # Ashlands demon dog: fire bites, charges in pairs
+    faction: Demon
+    health: 530
+    attacks:
+      bite:   { slash: 110, fire: 25 }
+      charge: { slash: 125, fire: 25 }
+    drops:
+      - { item: CharredBone, min: 1, max: 2, chance: 1 }
+      - { item: CR_TrophySurtrHound, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: AshLands, chance: 8, interval: 600, max: 1, group: [1, 2], radius: 4, day: true, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_SurtrImp:     # Ashlands imp: fireballs from range, bites up close
+    faction: Demon
+    health: 200
+    attacks:
+      bite:     { slash: 90 }
+      fireball: { blunt: 60, fire: 70 }
+    drops:
+      - { item: CharredBone, min: 1, max: 1, chance: 1 }
+      - { item: Coins, min: 10, max: 25, chance: 0.5 }
+      - { item: CR_TrophySurtrImp, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: AshLands, chance: 8, interval: 600, max: 1, group: [1, 2], radius: 4, day: true, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_SurtrBrute:   # Ashlands demon brute: sword swings and long combos, rare, alone
+    faction: Demon
+    health: 1600
+    attacks:
+      sword: { slash: 150, fire: 30 }
+      combo: { slash: 140, fire: 30 }
+      fury:  { slash: 160, fire: 40 }
+    drops:
+      - { item: MoltenCore, min: 1, max: 1, chance: 0.33 }
+      - { item: CharredBone, min: 2, max: 4, chance: 1 }
+      - { item: CR_TrophySurtrBrute, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: AshLands, chance: 5, interval: 3000, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_ArcticBear:   # Deep North bear: the heaviest claws in the roster
+    faction: DeepNorth
+    health: 1000
+    attacks:
+      claw:   { slash: 126, frost: 8 }
+      bite:   { pierce: 130, frost: 8 }
+      slam:   { blunt: 139, frost: 8 }
+      charge: { slash: 147, frost: 12 }
+    drops:
+      - { item: BjornMeat, min: 3, max: 5, chance: 1 }
+      - { item: BjornHide, min: 1, max: 2, chance: 0.5 }
+      - { item: CR_TrophyArcticBear, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: DeepNorth, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_Mammoth:      # Deep North giant: trunk slaps, tusk rams, stomps, a charge; rare
+    faction: DeepNorth
+    health: 2400
+    attacks:
+      slap:   { blunt: 160, frost: 20 }
+      ram:    { pierce: 180 }
+      stomp:  { blunt: 170 }
+      charge: { blunt: 200 }
+    drops:
+      - { item: LoxMeat, min: 4, max: 6, chance: 1 }
+      - { item: LoxPelt, min: 1, max: 2, chance: 0.5 }
+      - { item: CR_TrophyMammoth, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: DeepNorth, chance: 5, interval: 3000, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: false, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_Shark:        # Ocean hunter: circles boats and swimmers, bites and lunges
+    faction: SeaMonsters
+    health: 450
+    attacks:
+      bite:  { slash: 70 }
+      lunge: { slash: 95 }
+    drops:
+      - { item: SerpentMeat, min: 1, max: 2, chance: 1 }
+      - { item: Coins, min: 10, max: 30, chance: 0.5 }
+      - { item: CR_TrophyShark, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Ocean, chance: 10, interval: 300, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [-1000, -6], levels: [1, 3], depth: [8, 1000] }
+  CR_GiantRat:     # Meadows pest, half-size: weaker than the Greyling and the Boar, jump-bites, backs off, comes again
+    faction: ForestMonsters
+    health: 10
+    attacks:
+      bite: { pierce: 4 }
+    drops:
+      - { item: LeatherScraps, min: 1, max: 1, chance: 1 }
+      - { item: RawMeat, min: 1, max: 1, chance: 0.33 }
+      - { item: CR_TrophyGiantRat, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Meadows, chance: 10, interval: 300, max: 1, group: [1, 2], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_Kobold:       # Meadows night raider: small blade fighter, comes after dark, carries coin
+    faction: ForestMonsters
+    health: 20
+    attacks:
+      slash: { slash: 9 }
+      stab:  { pierce: 10 }
+      smash: { blunt: 12 }
+      combo: { slash: 14 }
+    drops:
+      - { item: Coins, min: 3, max: 10, chance: 1 }
+      - { item: Flint, min: 1, max: 2, chance: 0.5 }
+      - { item: CR_TrophyKobold, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Meadows, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: false, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_ForestSpider: # Black Forest web hunter: fast bites and swipes, leaps from mid range
+    faction: ForestMonsters
+    health: 26
+    attacks:
+      bite: { slash: 9, poison: 3 }
+      claw: { slash: 10 }
+      leap: { slash: 13 }
+    drops:
+      - { item: CR_SpiderSilk, min: 1, max: 1, chance: 0.35 }
+      - { item: Entrails, min: 1, max: 1, chance: 1 }
+      - { item: Resin, min: 1, max: 3, chance: 0.5 }
+      - { item: CR_TrophyForestSpider, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: BlackForest, chance: 10, interval: 300, max: 1, group: [1, 2], radius: 4, day: true, night: true, forest: true, clearing: false, altitude: [1, 1000], levels: [1, 3] }
+  CR_Genganger:    # Black Forest night spirit: three cold blade swings
+    faction: Undead
+    health: 60
+    attacks:
+      slash:  { slash: 19, frost: 4 }
+      swipe:  { slash: 20, frost: 4 }
+      strike: { slash: 25, frost: 5 }
+    drops:
+      - { item: BoneFragments, min: 1, max: 3, chance: 1 }
+      - { item: Coins, min: 5, max: 15, chance: 0.25 }
+      - { item: CR_TrophyGenganger, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: BlackForest, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: false, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_Ent:          # Black Forest old tree: slow heavy claws and a stomp; rare, deep forest
+    faction: ForestMonsters
+    health: 800
+    attacks:
+      claw:  { blunt: 50 }
+      swipe: { blunt: 55 }
+      combo: { blunt: 60 }
+      stomp: { blunt: 70 }
+    drops:
+      - { item: RoundLog, min: 4, max: 8, chance: 1 }
+      - { item: AncientSeed, min: 1, max: 1, chance: 0.25 }
+      - { item: CR_TrophyEnt, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: BlackForest, chance: 5, interval: 3000, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: false, altitude: [5, 1000], levels: [1, 3] }
+  CR_Wendigo:      # Swamp night stalker: four-hit claw and bite chain
+    faction: ForestMonsters
+    health: 100
+    attacks:
+      claw:  { slash: 44 }
+      slash: { slash: 47 }
+      bite:  { pierce: 48 }
+      combo: { slash: 56 }
+    drops:
+      - { item: Entrails, min: 1, max: 2, chance: 1 }
+      - { item: Bloodbag, min: 1, max: 1, chance: 0.33 }
+      - { item: CR_TrophyWendigo, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Swamp, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: false, night: true, forest: true, clearing: true, altitude: [0, 1000], levels: [1, 3] }
+  CR_Crocodile:    # Swamp water lurker: one crushing bite, swims
+    faction: ForestMonsters
+    health: 300
+    attacks:
+      bite: { pierce: 60 }
+    drops:
+      - { item: RawMeat, min: 2, max: 3, chance: 1 }
+      - { item: LeatherScraps, min: 2, max: 4, chance: 0.5 }
+      - { item: CR_TrophyCrocodile, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Swamp, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [-2, 1000], levels: [1, 3] }
+  CR_LizardWarrior: # Swamp spear lizard: spear thrusts and combos, a lashing tongue from mid range
+    faction: ForestMonsters
+    health: 130
+    attacks:
+      stab:   { pierce: 40 }
+      thrust: { pierce: 45 }
+      combo:  { pierce: 50 }
+      fury:   { pierce: 55 }
+      tongue: { slash: 31, poison: 13 }
+    drops:
+      - { item: Coins, min: 5, max: 20, chance: 1 }
+      - { item: Amber, min: 1, max: 1, chance: 0.2 }
+      - { item: CR_TrophyLizardWarrior, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Swamp, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [0, 1000], levels: [1, 3] }
+  CR_FrostSpider:  # Mountain ice spider: cold bites and a sting, spits frost from range
+    faction: MountainMonsters
+    health: 40
+    attacks:
+      bite:  { slash: 60, frost: 15 }
+      claw:  { slash: 65 }
+      sting: { pierce: 70 }
+      spit:  { frost: 70 }
+    drops:
+      - { item: CR_SpiderSilk, min: 1, max: 1, chance: 0.35 }
+      - { item: FreezeGland, min: 1, max: 2, chance: 1 }
+      - { item: CR_TrophyFrostSpider, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Mountain, chance: 10, interval: 300, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [40, 1000], levels: [1, 3] }
+  CR_Werewolf:     # Mountain night beast: claw combos, leaping claws and bite
+    faction: MountainMonsters
+    health: 300
+    attacks:
+      claws:  { slash: 80 }
+      pounce: { slash: 90 }
+      bite:   { pierce: 85 }
+    drops:
+      - { item: WolfPelt, min: 1, max: 2, chance: 1 }
+      - { item: WolfFang, min: 1, max: 2, chance: 0.5 }
+      - { item: CR_TrophyWerewolf, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Mountain, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: false, night: true, forest: true, clearing: true, altitude: [30, 1000], levels: [1, 3] }
+  CR_Weregoat:     # Mountain goat-man brute: horn and fist strikes, long combos; rare
+    faction: MountainMonsters
+    health: 350
+    attacks:
+      strike: { blunt: 80 }
+      swing:  { slash: 85 }
+      smash:  { blunt: 95 }
+      combo:  { blunt: 100 }
+      fury:   { blunt: 110 }
+    drops:
+      - { item: Coins, min: 10, max: 30, chance: 1 }
+      - { item: Crystal, min: 1, max: 1, chance: 0.3 }
+      - { item: CR_TrophyWeregoat, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Mountain, chance: 5, interval: 3000, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [60, 1000], levels: [1, 3] }
+  CR_Minotaur:     # Plains bull warrior: axe swings, a cleave, a kick; rare
+    faction: PlainsMonsters
+    health: 800
+    attacks:
+      axe:    { slash: 110 }
+      sweep:  { slash: 105 }
+      cleave: { slash: 120 }
+      kick:   { blunt: 95 }
+    drops:
+      - { item: BlackMetalScrap, min: 1, max: 3, chance: 1 }
+      - { item: CR_TrophyMinotaur, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Plains, chance: 5, interval: 3000, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: false, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_Manticore:    # Plains predator: claws, a bite, a venom sting, a charging combo
+    faction: PlainsMonsters
+    health: 260
+    attacks:
+      claw:  { slash: 90 }
+      bite:  { pierce: 95 }
+      sting: { pierce: 70, poison: 40 }
+      combo: { slash: 110 }
+    drops:
+      - { item: Needle, min: 2, max: 4, chance: 1 }
+      - { item: CR_TrophyManticore, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Plains, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: false, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_Cyclops:      # Plains giant: fist swings, two-fist smash and crush; rare, alone
+    faction: PlainsMonsters
+    health: 1600
+    attacks:
+      punch: { blunt: 120 }
+      swing: { blunt: 125 }
+      smash: { blunt: 140 }
+      crush: { blunt: 150 }
+      combo: { blunt: 145 }
+    drops:
+      - { item: Coins, min: 20, max: 50, chance: 1 }
+      - { item: BlackMetalScrap, min: 1, max: 2, chance: 0.5 }
+      - { item: CR_TrophyCyclops, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Plains, chance: 5, interval: 3000, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: false, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_TreeSpider:   # Mistlands canopy spider: bites, a drilling leap, poison spit from range
+    faction: MistlandsMonsters
+    health: 300
+    attacks:
+      bite:  { slash: 100, poison: 20 }
+      claw:  { slash: 105 }
+      drill: { pierce: 115 }
+      spit:  { poison: 90 }
+    drops:
+      - { item: CR_SpiderSilk, min: 1, max: 1, chance: 0.35 }
+      - { item: GiantBloodSack, min: 1, max: 1, chance: 1 }
+      - { item: CR_TrophyTreeSpider, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Mistlands, chance: 10, interval: 300, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_Ghoul:        # Mistlands corpse eater: claw chains, a grab-and-bite
+    faction: MistlandsMonsters
+    health: 200
+    attacks:
+      claw:  { slash: 105 }
+      slash: { slash: 110 }
+      combo: { slash: 120 }
+      grab:  { pierce: 130 }
+    drops:
+      - { item: Softtissue, min: 1, max: 2, chance: 1 }
+      - { item: CR_TrophyGhoul, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Mistlands, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_Hobgoblin:    # Mistlands armoured raider: axe chops and combos
+    faction: MistlandsMonsters
+    health: 260
+    attacks:
+      chop:  { slash: 110 }
+      slash: { slash: 115 }
+      smash: { blunt: 120 }
+      combo: { slash: 125 }
+      fury:  { slash: 135 }
+    drops:
+      - { item: Coins, min: 15, max: 40, chance: 1 }
+      - { item: BlackMarble, min: 1, max: 2, chance: 0.5 }
+      - { item: CR_TrophyHobgoblin, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Mistlands, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_MagmaSkarab:  # Ashlands lava beetle: horn stab, a smash, fire spat from range
+    faction: Demon
+    health: 520
+    attacks:
+      stab:     { pierce: 118, fire: 19 }
+      smash:    { blunt: 128, fire: 19 }
+      fireball: { blunt: 39, fire: 98 }
+    drops:
+      - { item: SurtlingCore, min: 1, max: 1, chance: 1 }
+      - { item: CR_TrophyMagmaSkarab, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: AshLands, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_FireGolem:    # Ashlands molten giant: ground slams, a leap, fireballs; rare
+    faction: Demon
+    health: 2200
+    attacks:
+      slam:     { blunt: 160, fire: 30 }
+      smash:    { blunt: 150, fire: 30 }
+      kick:     { blunt: 130 }
+      leap:     { blunt: 170, fire: 40 }
+      fireball: { blunt: 40, fire: 120 }
+    drops:
+      - { item: Coal, min: 4, max: 8, chance: 1 }
+      - { item: Obsidian, min: 2, max: 4, chance: 0.5 }
+      - { item: CR_TrophyFireGolem, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: AshLands, chance: 5, interval: 3000, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_DemonLord:    # Ashlands demon lord: sword and fire whip; very rare, alone
+    faction: Demon
+    health: 1920
+    attacks:
+      sword: { slash: 170, fire: 40 }
+      slash: { slash: 160, fire: 30 }
+      whip:  { slash: 120, fire: 60 }
+      combo: { slash: 175, fire: 40 }
+      fury:  { slash: 190, fire: 40 }
+    drops:
+      - { item: MoltenCore, min: 1, max: 2, chance: 1 }
+      - { item: Coins, min: 30, max: 80, chance: 0.5 }
+      - { item: CR_TrophyDemonLord, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: AshLands, chance: 3, interval: 4000, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_FrigidSpider: # Deep North ice spider: cold bites and a sting, leaps
+    faction: DeepNorth
+    health: 260
+    attacks:
+      bite:  { slash: 140, frost: 20 }
+      claw:  { slash: 145 }
+      sting: { pierce: 150 }
+      leap:  { slash: 160 }
+    drops:
+      - { item: CR_SpiderSilk, min: 1, max: 1, chance: 0.35 }
+      - { item: FreezeGland, min: 2, max: 3, chance: 1 }
+      - { item: CR_TrophyFrigidSpider, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: DeepNorth, chance: 10, interval: 300, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_Yeti:         # Deep North snow giant: smashes, punches, hurls ice from range
+    faction: DeepNorth
+    health: 1300
+    attacks:
+      smash: { blunt: 164, frost: 19 }
+      punch: { blunt: 155 }
+      throw: { blunt: 145, frost: 29 }
+    drops:
+      - { item: LoxMeat, min: 3, max: 5, chance: 1 }
+      - { item: LoxPelt, min: 1, max: 2, chance: 0.5 }
+      - { item: CR_TrophyYeti, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: DeepNorth, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_Ogre:         # Deep North ogre: club swings and combos; rare, alone
+    faction: DeepNorth
+    health: 2200
+    attacks:
+      club:  { blunt: 180 }
+      swing: { blunt: 175 }
+      smash: { blunt: 195 }
+      combo: { blunt: 200 }
+    drops:
+      - { item: Coins, min: 30, max: 80, chance: 1 }
+      - { item: IronScrap, min: 1, max: 2, chance: 0.3 }
+      - { item: CR_TrophyOgre, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: DeepNorth, chance: 5, interval: 3000, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_Orca:         # Ocean killer whale: bites, breaches into boats
+    faction: SeaMonsters
+    health: 600
+    attacks:
+      bite:   { pierce: 80 }
+      breach: { blunt: 100 }
+    drops:
+      - { item: SerpentMeat, min: 1, max: 2, chance: 1 }
+      - { item: CR_TrophyOrca, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Ocean, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [-1000, -6], levels: [1, 3], depth: [8, 1000] }
+  CR_Kraken:       # Deep ocean terror: beak bites, tentacle lashes and slams; very rare, deep water only
+    faction: SeaMonsters
+    health: 3000
+    attacks:
+      bite: { pierce: 120 }
+      lash: { blunt: 100 }
+      slam: { blunt: 140 }
+    drops:
+      - { item: SerpentScale, min: 3, max: 6, chance: 1 }
+      - { item: Chitin, min: 2, max: 4, chance: 0.5 }
+      - { item: Coins, min: 50, max: 100, chance: 0.5 }
+      - { item: CR_TrophyKraken, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Ocean, chance: 3, interval: 4000, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [-1000, -10], levels: [1, 3], depth: [20, 1000] }
+  CR_GloomHorror: # Black Forest night horror (RtD): claws, a double rake, a heavy maul and a lunge
+    faction: Undead
+    health: 195
+    attacks:
+      claw:  { slash: 30 }
+      rake:  { slash: 26 }
+      maul:  { blunt: 40 }
+      lunge: { slash: 36 }
+    drops:
+      - { item: BoneFragments, min: 1, max: 3, chance: 1 }
+      - { item: Coins, min: 5, max: 15, chance: 0.25 }
+      - { item: CR_TrophyGloomHorror, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: BlackForest, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: false, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_Panther:     # Black Forest night stalker (Ravenwood): bites, a long pounce and raking claws
+    faction: ForestMonsters
+    health: 100
+    attacks:
+      bite:   { slash: 28 }
+      pounce: { slash: 40 }
+      claws:  { slash: 32 }
+    drops:
+      - { item: CR_BigCatPelt, min: 1, max: 1, chance: 1 }
+      - { item: RawMeat, min: 1, max: 2, chance: 0.5 }
+      - { item: CR_TrophyPanther, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: BlackForest, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: false, night: true, forest: true, clearing: false, altitude: [1, 1000], levels: [1, 3] }
+  CR_MireChaser:  # Swamp night insectoid (RtD): fast poisoned bites
+    faction: ForestMonsters
+    health: 35
+    attacks:
+      bite: { slash: 44, poison: 12 }
+    drops:
+      - { item: Entrails, min: 1, max: 2, chance: 1 }
+      - { item: Guck, min: 1, max: 1, chance: 0.33 }
+      - { item: CR_TrophyMireChaser, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Swamp, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: false, night: true, forest: true, clearing: true, altitude: [-1, 1000], levels: [1, 3] }
+  CR_CragHorror:  # Mountain night horror (RtD): frost-cold claws, a double rake, a maul and a lunge
+    faction: MountainMonsters
+    health: 390
+    attacks:
+      claw:  { slash: 70, frost: 10 }
+      rake:  { slash: 60 }
+      maul:  { blunt: 95 }
+      lunge: { slash: 85 }
+    drops:
+      - { item: FreezeGland, min: 1, max: 2, chance: 1 }
+      - { item: Obsidian, min: 1, max: 2, chance: 0.5 }
+      - { item: CR_TrophyCragHorror, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Mountain, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: false, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_DuneHorror:  # Plains night horror (RtD): claws, a double rake, a maul and a crushing blow
+    faction: PlainsMonsters
+    health: 340
+    attacks:
+      claw:  { slash: 87 }
+      rake:  { slash: 78 }
+      maul:  { blunt: 111 }
+      crush: { blunt: 129 }
+    drops:
+      - { item: Coins, min: 10, max: 30, chance: 1 }
+      - { item: Needle, min: 1, max: 3, chance: 0.5 }
+      - { item: CR_TrophyDuneHorror, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Plains, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: false, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_Lion:        # Plains hunter (Ravenwood): bites, a leaping pounce and raking claws in the open grass
+    faction: PlainsMonsters
+    health: 260
+    attacks:
+      bite:   { slash: 80 }
+      pounce: { slash: 100 }
+      claws:  { slash: 85 }
+    drops:
+      - { item: LoxMeat, min: 1, max: 2, chance: 1 }
+      - { item: CR_BigCatPelt, min: 1, max: 1, chance: 0.5 }
+      - { item: CR_TrophyLion, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Plains, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: false, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_MistHorror:  # Mistlands night horror (RtD): a double rake, a frenzy, a maul and a shield bash
+    faction: MistlandsMonsters
+    health: 390
+    attacks:
+      rake:   { slash: 110 }
+      frenzy: { slash: 130 }
+      maul:   { blunt: 140 }
+      bash:   { blunt: 150 }
+    drops:
+      - { item: Softtissue, min: 1, max: 2, chance: 1 }
+      - { item: Coins, min: 20, max: 40, chance: 0.33 }
+      - { item: CR_TrophyMistHorror, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Mistlands, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: false, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_Arachne:     # Mistlands spider-queen (Ravenwood): a venom strike, a wide sweep and a long frenzy; rare
+    faction: MistlandsMonsters
+    health: 1380
+    attacks:
+      strike: { pierce: 140, poison: 30 }
+      sweep:  { slash: 150 }
+      frenzy: { slash: 170 }
+    drops:
+      - { item: CR_SpiderSilk, min: 1, max: 1, chance: 0.35 }
+      - { item: GiantBloodSack, min: 2, max: 3, chance: 1 }
+      - { item: Coins, min: 30, max: 60, chance: 0.33 }
+      - { item: CR_TrophyArachne, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: Mistlands, chance: 5, interval: 3000, max: 1, group: [1, 1], radius: 3, day: true, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_RimeHorror:  # Deep North night horror (RtD): freezing claws, a double rake, a maul and a lunge
+    faction: DeepNorth
+    health: 1710
+    attacks:
+      claw:  { slash: 160, frost: 20 }
+      rake:  { slash: 150 }
+      maul:  { blunt: 190 }
+      lunge: { slash: 180 }
+    drops:
+      - { item: FreezeGland, min: 2, max: 3, chance: 1 }
+      - { item: Coins, min: 30, max: 60, chance: 0.33 }
+      - { item: CR_TrophyRimeHorror, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: DeepNorth, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: false, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+  CR_CinderHorror: # Ashlands night horror (RtD): burning rakes, a frenzy, a maul and a shield bash
+    faction: Demon
+    health: 900
+    attacks:
+      rake:   { slash: 129, fire: 17 }
+      frenzy: { slash: 146, fire: 25 }
+      maul:   { blunt: 155 }
+      bash:   { blunt: 163 }
+    drops:
+      - { item: CharredBone, min: 2, max: 4, chance: 1 }
+      - { item: MoltenCore, min: 1, max: 1, chance: 0.2 }
+      - { item: CR_TrophyCinderHorror, min: 1, max: 1, chance: 0.1 }
+    spawns:
+      - { biome: AshLands, chance: 8, interval: 600, max: 1, group: [1, 1], radius: 3, day: false, night: true, forest: true, clearing: true, altitude: [1, 1000], levels: [1, 3] }
+vanilla:
+  Greydwarf_Elite: { damage: 0.67 } # 33% less damage on players; applies to every attack
+  Boar: { health: 20, damage: 1.3 }   # sturdier Meadows charger than the rat (vanilla 10 health; hits 10 blunt x1.404 x1.3 = 18)
+  Skeleton_DeepNorth: { faction: Undead } # vanilla DeepNorth: undead never fight undead (Skeleton <-> it), it fights the living Deep North

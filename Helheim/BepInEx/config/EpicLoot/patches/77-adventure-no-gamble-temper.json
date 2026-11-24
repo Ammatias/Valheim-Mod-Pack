@@ -1,0 +1,13 @@
+{
+  "TargetFile": "adventuredata",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.Tempering.CostsByRarity",
+      "Action": "Overwrite",
+      "Value": {}
+    }
+  ]
+}

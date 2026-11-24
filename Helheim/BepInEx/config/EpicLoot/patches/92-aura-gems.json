@@ -1,0 +1,494 @@
+{
+  "TargetFile": "shardstones",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "100",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraAnger",
+          "ValuesPerRarity": {
+            "Legendary": 8
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "101",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraHatred",
+          "ValuesPerRarity": {
+            "Legendary": 8
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "102",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraWrath",
+          "ValuesPerRarity": {
+            "Legendary": 8
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "103",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraMalevolence",
+          "ValuesPerRarity": {
+            "Legendary": 20
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "104",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraZealotry",
+          "ValuesPerRarity": {
+            "Legendary": 12
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "105",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraPride",
+          "ValuesPerRarity": {
+            "Legendary": 10
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "106",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraPrecision",
+          "ValuesPerRarity": {
+            "Legendary": 10
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "107",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraHaste",
+          "ValuesPerRarity": {
+            "Legendary": 6
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "108",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraGrace",
+          "ValuesPerRarity": {
+            "Legendary": 20
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "109",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraDetermination",
+          "ValuesPerRarity": {
+            "Legendary": 13
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "110",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraDiscipline",
+          "ValuesPerRarity": {
+            "Legendary": 13
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "111",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraPurityOfElements",
+          "ValuesPerRarity": {
+            "Legendary": 10
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "112",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraPurityOfFire",
+          "ValuesPerRarity": {
+            "Legendary": 18
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "113",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraPurityOfIce",
+          "ValuesPerRarity": {
+            "Legendary": 18
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "114",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraPurityOfLightning",
+          "ValuesPerRarity": {
+            "Legendary": 18
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "115",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraVitality",
+          "ValuesPerRarity": {
+            "Legendary": 20
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "116",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraClarity",
+          "ValuesPerRarity": {
+            "Legendary": 20
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "117",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraWarBanner",
+          "ValuesPerRarity": {
+            "Legendary": 8
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "118",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraDefianceBanner",
+          "ValuesPerRarity": {
+            "Legendary": 10
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "119",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraDreadBanner",
+          "ValuesPerRarity": {
+            "Legendary": 8
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "120",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraHeraldOfIce",
+          "ValuesPerRarity": {
+            "Legendary": 6
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "121",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraHeraldOfThunder",
+          "ValuesPerRarity": {
+            "Legendary": 25
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "122",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraHeraldOfAgony",
+          "ValuesPerRarity": {
+            "Legendary": 20
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "123",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraHeraldOfPurity",
+          "ValuesPerRarity": {
+            "Legendary": 13
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "124",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraArcticArmour",
+          "ValuesPerRarity": {
+            "Legendary": 10
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "125",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraPetrifiedBlood",
+          "ValuesPerRarity": {
+            "Legendary": 35
+          },
+          "Config": {}
+        }
+      }
+    },
+    {
+      "Path": "$.Shards",
+      "Action": "Add",
+      "PropertyName": "126",
+      "Value": {
+        "Category": "5",
+        "Rarities": [
+          "Legendary"
+        ],
+        "UniformEffect": {
+          "EffectType": "AuraArrowDancing",
+          "ValuesPerRarity": {
+            "Legendary": 25
+          },
+          "Config": {}
+        }
+      }
+    }
+  ]
+}

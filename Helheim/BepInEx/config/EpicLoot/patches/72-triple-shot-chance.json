@@ -1,0 +1,55 @@
+{
+  "TargetFile": "magiceffects",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='TripleBowShot')]",
+      "Action": "Add",
+      "PropertyName": "ValuesPerRarity",
+      "Value": {
+        "Magic": {
+          "MinValue": 25.0,
+          "MaxValue": 40.0,
+          "Increment": 5
+        },
+        "Rare": {
+          "MinValue": 25.0,
+          "MaxValue": 40.0,
+          "Increment": 5
+        },
+        "Epic": {
+          "MinValue": 25.0,
+          "MaxValue": 40.0,
+          "Increment": 5
+        },
+        "Legendary": {
+          "MinValue": 25.0,
+          "MaxValue": 40.0,
+          "Increment": 5
+        },
+        "Mythic": {
+          "MinValue": 25.0,
+          "MaxValue": 40.0,
+          "Increment": 5
+        },
+        "Ancient": {
+          "MinValue": 25.0,
+          "MaxValue": 40.0,
+          "Increment": 5
+        }
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='TripleBowShot')].DisplayText",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_me_triplebowshot_display"
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='TripleBowShot')].Description",
+      "Action": "Overwrite",
+      "Value": "$mod_epicloot_me_triplebowshot_chance_desc"
+    }
+  ]
+}

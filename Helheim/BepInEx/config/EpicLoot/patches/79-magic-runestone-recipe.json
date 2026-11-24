@@ -1,0 +1,28 @@
+{
+  "TargetFile": "materialconversions",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "MT_RunestoneMagic_Convert",
+        "Product": "RunestoneMagic",
+        "Amount": 1,
+        "Type": "Convert",
+        "Resources": [
+          {
+            "Item": "ShardMagic",
+            "Amount": 2
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 2
+          }
+        ]
+      }
+    }
+  ]
+}

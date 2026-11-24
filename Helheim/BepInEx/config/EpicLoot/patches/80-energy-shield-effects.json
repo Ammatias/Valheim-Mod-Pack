@@ -1,0 +1,626 @@
+{
+  "TargetFile": "magiceffects",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "EnergyShieldFromHealth",
+        "DisplayText": "$mod_epicloot_me_energyshieldfromhealth_display",
+        "Description": "$mod_epicloot_me_energyshieldfromhealth_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Helmet",
+            "Chest",
+            "Legs",
+            "Shoulder",
+            "Shield",
+            "Utility"
+          ],
+          "ExclusiveEffectTypes": [
+            "AddEnergyShield"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 4.0,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 4.0,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 4.0,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 4.0,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 4.0,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 4.0,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 10
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "AddEnergyShield",
+        "DisplayText": "$mod_epicloot_me_addenergyshield_display",
+        "Description": "$mod_epicloot_me_addenergyshield_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Helmet",
+            "Chest",
+            "Legs",
+            "Shoulder",
+            "Shield",
+            "Utility",
+            "Trinket"
+          ],
+          "ExclusiveEffectTypes": [
+            "EnergyShieldFromHealth"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 6.0,
+            "MaxValue": 12.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 6.0,
+            "MaxValue": 12.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 6.0,
+            "MaxValue": 12.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 6.0,
+            "MaxValue": 12.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 6.0,
+            "MaxValue": 12.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 6.0,
+            "MaxValue": 12.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 10
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "ModifyEnergyShield",
+        "DisplayText": "$mod_epicloot_me_modifyenergyshield_display",
+        "Description": "$mod_epicloot_me_modifyenergyshield_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Helmet",
+            "Chest",
+            "Legs",
+            "Shoulder",
+            "Shield",
+            "Trinket"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 8.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 8.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 8.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 8.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 8.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 8.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 5
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "ModifyEnergyShieldRecharge",
+        "DisplayText": "$mod_epicloot_me_modifyenergyshieldrecharge_display",
+        "Description": "$mod_epicloot_me_modifyenergyshieldrecharge_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Helmet",
+            "Chest",
+            "Legs",
+            "Shoulder",
+            "Utility",
+            "Trinket"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 5
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "EnergyShieldFasterStart",
+        "DisplayText": "$mod_epicloot_me_energyshieldfasterstart_display",
+        "Description": "$mod_epicloot_me_energyshieldfasterstart_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Helmet",
+            "Chest",
+            "Legs",
+            "Shoulder",
+            "Utility",
+            "Trinket"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 8.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 8.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 8.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 8.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 8.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 8.0,
+            "MaxValue": 15.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 5
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "ModifyEnergyShieldLowHealth",
+        "DisplayText": "$mod_epicloot_me_modifyenergyshieldlowhealth_display",
+        "Description": "$mod_epicloot_me_modifyenergyshieldlowhealth_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Helmet",
+            "Chest",
+            "Legs",
+            "Shoulder",
+            "Shield",
+            "Trinket"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 3
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "ModifyEnergyShieldRechargeLowHealth",
+        "DisplayText": "$mod_epicloot_me_modifyenergyshieldrechargelowhealth_display",
+        "Description": "$mod_epicloot_me_modifyenergyshieldrechargelowhealth_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Helmet",
+            "Chest",
+            "Legs",
+            "Shoulder"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 15.0,
+            "MaxValue": 30.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 15.0,
+            "MaxValue": 30.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 15.0,
+            "MaxValue": 30.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 15.0,
+            "MaxValue": 30.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 15.0,
+            "MaxValue": 30.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 15.0,
+            "MaxValue": 30.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 3
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "EnergyShieldOnParry",
+        "DisplayText": "$mod_epicloot_me_energyshieldonparry_display",
+        "Description": "$mod_epicloot_me_energyshieldonparry_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Helmet",
+            "Chest",
+            "Legs",
+            "Shoulder",
+            "Shield"
+          ],
+          "ItemHasParryPower": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 3
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "EnergyShieldLeech",
+        "DisplayText": "$mod_epicloot_me_energyshieldleech_display",
+        "Description": "$mod_epicloot_me_energyshieldleech_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Helmet",
+            "Chest",
+            "Legs",
+            "Shoulder",
+            "OneHandedWeapon",
+            "TwoHandedWeapon",
+            "TwoHandedWeaponLeft",
+            "Bow",
+            "Staff"
+          ],
+          "ExcludedSkillTypes": [
+            "Pickaxes"
+          ],
+          "ExcludedItemNames": [
+            "$item_fishingrod"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 0.5,
+            "MaxValue": 1.0,
+            "Increment": 0.1
+          },
+          "Rare": {
+            "MinValue": 0.5,
+            "MaxValue": 1.0,
+            "Increment": 0.1
+          },
+          "Epic": {
+            "MinValue": 0.5,
+            "MaxValue": 1.0,
+            "Increment": 0.1
+          },
+          "Legendary": {
+            "MinValue": 0.5,
+            "MaxValue": 1.0,
+            "Increment": 0.1
+          },
+          "Mythic": {
+            "MinValue": 0.5,
+            "MaxValue": 1.0,
+            "Increment": 0.1
+          },
+          "Ancient": {
+            "MinValue": 0.5,
+            "MaxValue": 1.0,
+            "Increment": 0.1
+          }
+        },
+        "SelectionWeight": 2
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "EnergyShieldOnKill",
+        "DisplayText": "$mod_epicloot_me_energyshieldonkill_display",
+        "Description": "$mod_epicloot_me_energyshieldonkill_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Helmet",
+            "Chest",
+            "Legs",
+            "Shoulder",
+            "Trinket"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 3.0,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 3.0,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 3.0,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 3.0,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 3.0,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 3.0,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 3
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "DamageWhileEnergyShieldFull",
+        "DisplayText": "$mod_epicloot_me_damagewhileenergyshieldfull_display",
+        "Description": "$mod_epicloot_me_damagewhileenergyshieldfull_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Helmet",
+            "Chest",
+            "Legs",
+            "Shoulder",
+            "OneHandedWeapon",
+            "TwoHandedWeapon",
+            "TwoHandedWeaponLeft",
+            "Bow",
+            "Staff"
+          ],
+          "ExcludedSkillTypes": [
+            "Pickaxes"
+          ],
+          "ExcludedItemNames": [
+            "$item_fishingrod"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 3.0,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Rare": {
+            "MinValue": 3.0,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Epic": {
+            "MinValue": 3.0,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Legendary": {
+            "MinValue": 3.0,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Mythic": {
+            "MinValue": 3.0,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          },
+          "Ancient": {
+            "MinValue": 3.0,
+            "MaxValue": 6.0,
+            "Increment": 0.5
+          }
+        },
+        "SelectionWeight": 3
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "EnergyShieldBreakNova",
+        "DisplayText": "$mod_epicloot_me_energyshieldbreaknova_display",
+        "Description": "$mod_epicloot_me_energyshieldbreaknova_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Helmet",
+            "Chest",
+            "Legs",
+            "Shoulder"
+          ],
+          "AllowedRarities": [
+            "Epic",
+            "Legendary",
+            "Mythic",
+            "Ancient"
+          ]
+        },
+        "SelectionWeight": 1
+      }
+    }
+  ]
+}

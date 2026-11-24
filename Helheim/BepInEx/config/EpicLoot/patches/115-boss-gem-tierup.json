@@ -1,0 +1,5552 @@
+{
+  "TargetFile": "shardstoneconversions",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1011_to_1012",
+        "Product": "1012_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1011_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1012_to_1013",
+        "Product": "1013_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1012_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1013_to_1014",
+        "Product": "1014_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1013_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1014_to_1015",
+        "Product": "1015_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1014_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1015_to_1016",
+        "Product": "1016_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1015_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1016_to_1017",
+        "Product": "1017_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1016_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1021_to_1022",
+        "Product": "1022_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1021_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1022_to_1023",
+        "Product": "1023_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1022_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1023_to_1024",
+        "Product": "1024_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1023_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1024_to_1025",
+        "Product": "1025_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1024_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1025_to_1026",
+        "Product": "1026_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1025_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1026_to_1027",
+        "Product": "1027_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1026_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1031_to_1032",
+        "Product": "1032_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1031_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1032_to_1033",
+        "Product": "1033_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1032_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1033_to_1034",
+        "Product": "1034_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1033_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1034_to_1035",
+        "Product": "1035_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1034_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1035_to_1036",
+        "Product": "1036_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1035_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1036_to_1037",
+        "Product": "1037_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1036_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1041_to_1042",
+        "Product": "1042_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1041_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1042_to_1043",
+        "Product": "1043_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1042_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1043_to_1044",
+        "Product": "1044_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1043_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1044_to_1045",
+        "Product": "1045_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1044_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1045_to_1046",
+        "Product": "1046_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1045_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1046_to_1047",
+        "Product": "1047_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1046_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1051_to_1052",
+        "Product": "1052_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1051_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1052_to_1053",
+        "Product": "1053_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1052_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1053_to_1054",
+        "Product": "1054_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1053_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1054_to_1055",
+        "Product": "1055_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1054_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1055_to_1056",
+        "Product": "1056_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1055_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1056_to_1057",
+        "Product": "1057_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1056_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1061_to_1062",
+        "Product": "1062_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1061_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1062_to_1063",
+        "Product": "1063_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1062_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1063_to_1064",
+        "Product": "1064_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1063_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1064_to_1065",
+        "Product": "1065_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1064_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1065_to_1066",
+        "Product": "1066_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1065_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1066_to_1067",
+        "Product": "1067_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1066_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1071_to_1072",
+        "Product": "1072_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1071_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1072_to_1073",
+        "Product": "1073_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1072_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1073_to_1074",
+        "Product": "1074_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1073_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1074_to_1075",
+        "Product": "1075_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1074_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1075_to_1076",
+        "Product": "1076_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1075_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1076_to_1077",
+        "Product": "1077_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1076_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1081_to_1082",
+        "Product": "1082_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1081_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1082_to_1083",
+        "Product": "1083_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1082_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1083_to_1084",
+        "Product": "1084_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1083_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1084_to_1085",
+        "Product": "1085_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1084_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1085_to_1086",
+        "Product": "1086_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1085_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1086_to_1087",
+        "Product": "1087_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1086_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1091_to_1092",
+        "Product": "1092_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1091_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1092_to_1093",
+        "Product": "1093_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1092_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1093_to_1094",
+        "Product": "1094_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1093_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1094_to_1095",
+        "Product": "1095_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1094_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1095_to_1096",
+        "Product": "1096_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1095_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1096_to_1097",
+        "Product": "1097_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1096_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1101_to_1102",
+        "Product": "1102_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1101_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1102_to_1103",
+        "Product": "1103_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1102_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1103_to_1104",
+        "Product": "1104_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1103_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1104_to_1105",
+        "Product": "1105_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1104_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1105_to_1106",
+        "Product": "1106_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1105_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1106_to_1107",
+        "Product": "1107_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1106_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1111_to_1112",
+        "Product": "1112_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1111_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1112_to_1113",
+        "Product": "1113_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1112_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1113_to_1114",
+        "Product": "1114_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1113_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1114_to_1115",
+        "Product": "1115_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1114_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1115_to_1116",
+        "Product": "1116_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1115_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1116_to_1117",
+        "Product": "1117_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1116_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1121_to_1122",
+        "Product": "1122_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1121_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1122_to_1123",
+        "Product": "1123_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1122_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1123_to_1124",
+        "Product": "1124_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1123_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1124_to_1125",
+        "Product": "1125_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1124_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1125_to_1126",
+        "Product": "1126_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1125_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1126_to_1127",
+        "Product": "1127_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1126_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1131_to_1132",
+        "Product": "1132_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1131_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1132_to_1133",
+        "Product": "1133_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1132_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1133_to_1134",
+        "Product": "1134_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1133_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1134_to_1135",
+        "Product": "1135_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1134_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1135_to_1136",
+        "Product": "1136_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1135_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1136_to_1137",
+        "Product": "1137_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1136_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1141_to_1142",
+        "Product": "1142_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1141_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1142_to_1143",
+        "Product": "1143_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1142_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1143_to_1144",
+        "Product": "1144_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1143_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1144_to_1145",
+        "Product": "1145_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1144_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1145_to_1146",
+        "Product": "1146_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1145_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1146_to_1147",
+        "Product": "1147_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1146_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1151_to_1152",
+        "Product": "1152_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1151_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1152_to_1153",
+        "Product": "1153_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1152_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1153_to_1154",
+        "Product": "1154_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1153_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1154_to_1155",
+        "Product": "1155_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1154_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1155_to_1156",
+        "Product": "1156_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1155_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1156_to_1157",
+        "Product": "1157_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1156_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1161_to_1162",
+        "Product": "1162_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1161_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1162_to_1163",
+        "Product": "1163_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1162_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1163_to_1164",
+        "Product": "1164_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1163_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1164_to_1165",
+        "Product": "1165_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1164_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1165_to_1166",
+        "Product": "1166_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1165_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1166_to_1167",
+        "Product": "1167_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1166_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1171_to_1172",
+        "Product": "1172_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1171_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1172_to_1173",
+        "Product": "1173_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1172_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1173_to_1174",
+        "Product": "1174_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1173_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1174_to_1175",
+        "Product": "1175_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1174_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1175_to_1176",
+        "Product": "1176_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1175_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1176_to_1177",
+        "Product": "1177_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1176_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1181_to_1182",
+        "Product": "1182_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1181_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1182_to_1183",
+        "Product": "1183_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1182_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1183_to_1184",
+        "Product": "1184_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1183_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1184_to_1185",
+        "Product": "1185_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1184_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1185_to_1186",
+        "Product": "1186_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1185_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1186_to_1187",
+        "Product": "1187_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1186_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1191_to_1192",
+        "Product": "1192_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1191_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1192_to_1193",
+        "Product": "1193_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1192_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1193_to_1194",
+        "Product": "1194_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1193_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1194_to_1195",
+        "Product": "1195_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1194_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1195_to_1196",
+        "Product": "1196_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1195_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1196_to_1197",
+        "Product": "1197_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1196_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1201_to_1202",
+        "Product": "1202_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1201_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1202_to_1203",
+        "Product": "1203_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1202_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1203_to_1204",
+        "Product": "1204_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1203_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1204_to_1205",
+        "Product": "1205_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1204_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1205_to_1206",
+        "Product": "1206_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1205_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1206_to_1207",
+        "Product": "1207_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1206_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1211_to_1212",
+        "Product": "1212_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1211_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1212_to_1213",
+        "Product": "1213_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1212_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1213_to_1214",
+        "Product": "1214_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1213_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1214_to_1215",
+        "Product": "1215_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1214_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1215_to_1216",
+        "Product": "1216_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1215_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1216_to_1217",
+        "Product": "1217_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1216_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1221_to_1222",
+        "Product": "1222_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1221_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1222_to_1223",
+        "Product": "1223_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1222_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1223_to_1224",
+        "Product": "1224_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1223_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1224_to_1225",
+        "Product": "1225_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1224_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1225_to_1226",
+        "Product": "1226_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1225_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1226_to_1227",
+        "Product": "1227_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1226_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1231_to_1232",
+        "Product": "1232_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1231_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1232_to_1233",
+        "Product": "1233_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1232_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1233_to_1234",
+        "Product": "1234_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1233_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1234_to_1235",
+        "Product": "1235_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1234_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1235_to_1236",
+        "Product": "1236_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1235_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1236_to_1237",
+        "Product": "1237_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1236_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1241_to_1242",
+        "Product": "1242_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1241_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1242_to_1243",
+        "Product": "1243_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1242_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1243_to_1244",
+        "Product": "1244_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1243_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1244_to_1245",
+        "Product": "1245_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1244_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1245_to_1246",
+        "Product": "1246_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1245_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1246_to_1247",
+        "Product": "1247_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1246_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1251_to_1252",
+        "Product": "1252_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1251_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1252_to_1253",
+        "Product": "1253_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1252_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1253_to_1254",
+        "Product": "1254_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1253_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1254_to_1255",
+        "Product": "1255_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1254_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1255_to_1256",
+        "Product": "1256_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1255_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1256_to_1257",
+        "Product": "1257_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1256_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1261_to_1262",
+        "Product": "1262_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1261_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1262_to_1263",
+        "Product": "1263_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1262_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1263_to_1264",
+        "Product": "1264_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1263_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1264_to_1265",
+        "Product": "1265_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1264_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1265_to_1266",
+        "Product": "1266_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1265_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1266_to_1267",
+        "Product": "1267_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1266_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1271_to_1272",
+        "Product": "1272_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1271_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1272_to_1273",
+        "Product": "1273_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1272_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1273_to_1274",
+        "Product": "1274_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1273_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1274_to_1275",
+        "Product": "1275_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1274_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1275_to_1276",
+        "Product": "1276_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1275_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1276_to_1277",
+        "Product": "1277_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1276_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1281_to_1282",
+        "Product": "1282_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1281_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1282_to_1283",
+        "Product": "1283_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1282_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1283_to_1284",
+        "Product": "1284_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1283_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1284_to_1285",
+        "Product": "1285_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1284_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1285_to_1286",
+        "Product": "1286_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1285_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1286_to_1287",
+        "Product": "1287_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1286_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1291_to_1292",
+        "Product": "1292_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1291_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1292_to_1293",
+        "Product": "1293_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1292_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1293_to_1294",
+        "Product": "1294_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1293_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1294_to_1295",
+        "Product": "1295_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1294_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1295_to_1296",
+        "Product": "1296_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1295_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1296_to_1297",
+        "Product": "1297_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1296_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1301_to_1302",
+        "Product": "1302_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1301_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1302_to_1303",
+        "Product": "1303_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1302_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1303_to_1304",
+        "Product": "1304_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1303_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1304_to_1305",
+        "Product": "1305_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1304_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1305_to_1306",
+        "Product": "1306_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1305_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1306_to_1307",
+        "Product": "1307_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1306_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1311_to_1312",
+        "Product": "1312_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1311_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1312_to_1313",
+        "Product": "1313_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1312_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1313_to_1314",
+        "Product": "1314_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1313_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1314_to_1315",
+        "Product": "1315_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1314_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1315_to_1316",
+        "Product": "1316_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1315_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1316_to_1317",
+        "Product": "1317_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1316_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1321_to_1322",
+        "Product": "1322_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1321_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1322_to_1323",
+        "Product": "1323_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1322_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1323_to_1324",
+        "Product": "1324_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1323_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1324_to_1325",
+        "Product": "1325_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1324_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1325_to_1326",
+        "Product": "1326_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1325_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1326_to_1327",
+        "Product": "1327_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1326_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1331_to_1332",
+        "Product": "1332_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1331_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Bronze",
+            "Amount": 5
+          },
+          {
+            "Item": "GreydwarfEye",
+            "Amount": 3
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1332_to_1333",
+        "Product": "1333_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1332_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Iron",
+            "Amount": 5
+          },
+          {
+            "Item": "Ooze",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1333_to_1334",
+        "Product": "1334_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1333_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Silver",
+            "Amount": 5
+          },
+          {
+            "Item": "Crystal",
+            "Amount": 3
+          },
+          {
+            "Item": "DustRare",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1334_to_1335",
+        "Product": "1335_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1334_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "BlackMetal",
+            "Amount": 5
+          },
+          {
+            "Item": "DragonTear",
+            "Amount": 2
+          },
+          {
+            "Item": "DustEpic",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1335_to_1336",
+        "Product": "1336_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1335_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "Eitr",
+            "Amount": 5
+          },
+          {
+            "Item": "Bilebag",
+            "Amount": 2
+          },
+          {
+            "Item": "DustLegendary",
+            "Amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.MaterialConversions",
+      "Action": "Append",
+      "Value": {
+        "Name": "ShardStoneUpgrade_1336_to_1337",
+        "Product": "1337_Mythic_ShardStone",
+        "Amount": 1,
+        "Type": "ShardUpgrade",
+        "Resources": [
+          {
+            "Item": "1336_Mythic_ShardStone",
+            "Amount": 3
+          },
+          {
+            "Item": "FlametalNew",
+            "Amount": 5
+          },
+          {
+            "Item": "MorgenHeart",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMythic",
+            "Amount": 5
+          }
+        ]
+      }
+    }
+  ]
+}

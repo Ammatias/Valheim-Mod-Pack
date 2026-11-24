@@ -1,0 +1,7 @@
+# Large DLLs use Git LFS; text and other assets remain ordinary files.
+/Midgard/** -text
+/Helheim/** -text
+"Helheim/BepInEx/plugins/Warfare/Warfare.dll" filter=lfs diff=lfs merge=lfs -text
+"Helheim/BepInEx/plugins/Wizardry/Wizardry.dll" filter=lfs diff=lfs merge=lfs -text
+"Midgard/BepInEx/plugins/Monstrum/Monstrum.dll" filter=lfs diff=lfs merge=lfs -text
+"Midgard/BepInEx/plugins/Warfare/Warfare.dll" filter=lfs diff=lfs merge=lfs -text

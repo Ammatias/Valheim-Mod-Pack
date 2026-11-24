@@ -1,0 +1,414 @@
+{
+  "TargetFile": "magiceffects",
+  "Author": "Morgott",
+  "Priority": 100,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DodgeBuff')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DecreaseForsakenCooldown')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyLowHealth')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyStaminaRegen')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='InstantMead')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AutoMead')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyNoise')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyMovementSpeed')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifySprintStaminaUse')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyJumpStaminaUse')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddMovementSkills')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='OffSetAttack')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "$item_fishingrod",
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyMovementSpeedLowHealth')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyStaminaRegenLowHealth')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PotionSlots')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EnergyShieldFromHealth')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EnergyShieldFasterStart')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PotionEfficacy')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PotionPotency')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PercentHealth')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PercentStamina')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='PercentEitr')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EitrShield')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='RollCleanse')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='RunningOnEmpty')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='IncreaseAllPoisonDamageDone')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ConvertPhysicalDamageToLightning')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExcludedItemNames",
+      "Value": [
+        "RingBlackForest_TW",
+        "RingSwamp_TW",
+        "RingMountain_TW",
+        "RingPlains_TW",
+        "RingMistlands_TW",
+        "GoldRubyRing",
+        "SilverRing",
+        "Andvaranaut"
+      ]
+    }
+  ]
+}

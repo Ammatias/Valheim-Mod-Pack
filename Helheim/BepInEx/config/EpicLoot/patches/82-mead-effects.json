@@ -1,0 +1,112 @@
+{
+  "TargetFile": "magiceffects",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "PotionEfficacy",
+        "DisplayText": "$mod_epicloot_me_potionefficacy_display",
+        "Description": "$mod_epicloot_me_potionefficacy_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Helmet",
+            "Utility",
+            "Trinket"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 10.0,
+            "MaxValue": 20.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 10
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "PotionPotency",
+        "DisplayText": "$mod_epicloot_me_potionpotency_display",
+        "Description": "$mod_epicloot_me_potionpotency_desc",
+        "Requirements": {
+          "AllowedItemTypes": [
+            "Chest",
+            "Utility",
+            "Trinket"
+          ]
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Rare": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Epic": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Legendary": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Mythic": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          },
+          "Ancient": {
+            "MinValue": 5.0,
+            "MaxValue": 10.0,
+            "Increment": 1.0
+          }
+        },
+        "SelectionWeight": 5
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DecreaseMeadCooldown')].Requirements",
+      "Action": "Add",
+      "PropertyName": "NoRoll",
+      "Value": true
+    }
+  ]
+}

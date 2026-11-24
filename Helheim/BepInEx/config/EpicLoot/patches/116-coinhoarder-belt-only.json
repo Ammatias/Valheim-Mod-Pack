@@ -1,0 +1,23 @@
+{
+  "TargetFile": "magiceffects",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='CoinHoarder')].Requirements.AllowedItemTypes",
+      "Action": "Overwrite",
+      "Value": [
+        "Utility"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='CoinHoarder')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.Belt"
+      ]
+    }
+  ]
+}

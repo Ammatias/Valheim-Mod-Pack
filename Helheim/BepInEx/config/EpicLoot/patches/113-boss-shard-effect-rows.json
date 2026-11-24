@@ -1,0 +1,381 @@
+{
+  "TargetFile": "magiceffects",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "ShockingCharge",
+        "DisplayText": "$mod_epicloot_me_shockingcharge_display",
+        "Description": "$mod_epicloot_me_shockingcharge_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 5,
+            "MaxValue": 5,
+            "Increment": 1
+          },
+          "Rare": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1
+          },
+          "Epic": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1
+          },
+          "Legendary": {
+            "MinValue": 20,
+            "MaxValue": 20,
+            "Increment": 1
+          },
+          "Mythic": {
+            "MinValue": 25,
+            "MaxValue": 25,
+            "Increment": 1
+          },
+          "Ancient": {
+            "MinValue": 30,
+            "MaxValue": 30,
+            "Increment": 1
+          }
+        },
+        "CanBeAugmented": false,
+        "CanBeDisenchanted": false,
+        "CanBeRunified": false
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "ForestsAid",
+        "DisplayText": "$mod_epicloot_me_forestsaid_display",
+        "Description": "$mod_epicloot_me_forestsaid_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 5,
+            "MaxValue": 5,
+            "Increment": 1
+          },
+          "Rare": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1
+          },
+          "Epic": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1
+          },
+          "Legendary": {
+            "MinValue": 20,
+            "MaxValue": 20,
+            "Increment": 1
+          },
+          "Mythic": {
+            "MinValue": 25,
+            "MaxValue": 25,
+            "Increment": 1
+          },
+          "Ancient": {
+            "MinValue": 30,
+            "MaxValue": 30,
+            "Increment": 1
+          }
+        },
+        "CanBeAugmented": false,
+        "CanBeDisenchanted": false,
+        "CanBeRunified": false
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "CorpseRot",
+        "DisplayText": "$mod_epicloot_me_corpserot_display",
+        "Description": "$mod_epicloot_me_corpserot_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 5,
+            "MaxValue": 5,
+            "Increment": 1
+          },
+          "Rare": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1
+          },
+          "Epic": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1
+          },
+          "Legendary": {
+            "MinValue": 20,
+            "MaxValue": 20,
+            "Increment": 1
+          },
+          "Mythic": {
+            "MinValue": 25,
+            "MaxValue": 25,
+            "Increment": 1
+          },
+          "Ancient": {
+            "MinValue": 30,
+            "MaxValue": 30,
+            "Increment": 1
+          }
+        },
+        "CanBeAugmented": false,
+        "CanBeDisenchanted": false,
+        "CanBeRunified": false
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "IcyRetribution",
+        "DisplayText": "$mod_epicloot_me_icyretribution_display",
+        "Description": "$mod_epicloot_me_icyretribution_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 5,
+            "MaxValue": 5,
+            "Increment": 1
+          },
+          "Rare": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1
+          },
+          "Epic": {
+            "MinValue": 15,
+            "MaxValue": 15,
+            "Increment": 1
+          },
+          "Legendary": {
+            "MinValue": 20,
+            "MaxValue": 20,
+            "Increment": 1
+          },
+          "Mythic": {
+            "MinValue": 25,
+            "MaxValue": 25,
+            "Increment": 1
+          },
+          "Ancient": {
+            "MinValue": 30,
+            "MaxValue": 30,
+            "Increment": 1
+          }
+        },
+        "CanBeAugmented": false,
+        "CanBeDisenchanted": false,
+        "CanBeRunified": false
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "MeteorSummoner",
+        "DisplayText": "$mod_epicloot_me_meteorsummoner_display",
+        "Description": "$mod_epicloot_me_meteorsummoner_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 4,
+            "MaxValue": 4,
+            "Increment": 1
+          },
+          "Rare": {
+            "MinValue": 6,
+            "MaxValue": 6,
+            "Increment": 1
+          },
+          "Epic": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1
+          },
+          "Legendary": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1
+          },
+          "Mythic": {
+            "MinValue": 12,
+            "MaxValue": 12,
+            "Increment": 1
+          },
+          "Ancient": {
+            "MinValue": 14,
+            "MaxValue": 14,
+            "Increment": 1
+          }
+        },
+        "CanBeAugmented": false,
+        "CanBeDisenchanted": false,
+        "CanBeRunified": false
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "Everflow",
+        "DisplayText": "$mod_epicloot_me_everflow_display",
+        "Description": "$mod_epicloot_me_everflow_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 7,
+            "MaxValue": 7,
+            "Increment": 1
+          },
+          "Rare": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1
+          },
+          "Epic": {
+            "MinValue": 9,
+            "MaxValue": 9,
+            "Increment": 1
+          },
+          "Legendary": {
+            "MinValue": 10,
+            "MaxValue": 10,
+            "Increment": 1
+          },
+          "Mythic": {
+            "MinValue": 11,
+            "MaxValue": 11,
+            "Increment": 1
+          },
+          "Ancient": {
+            "MinValue": 12,
+            "MaxValue": 12,
+            "Increment": 1
+          }
+        },
+        "CanBeAugmented": false,
+        "CanBeDisenchanted": false,
+        "CanBeRunified": false
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "NecroticFire",
+        "DisplayText": "$mod_epicloot_me_necroticfire_display",
+        "Description": "$mod_epicloot_me_necroticfire_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Magic": {
+            "MinValue": 0.4,
+            "MaxValue": 0.4,
+            "Increment": 1
+          },
+          "Rare": {
+            "MinValue": 0.5,
+            "MaxValue": 0.5,
+            "Increment": 1
+          },
+          "Epic": {
+            "MinValue": 0.6,
+            "MaxValue": 0.6,
+            "Increment": 1
+          },
+          "Legendary": {
+            "MinValue": 0.7,
+            "MaxValue": 0.7,
+            "Increment": 1
+          },
+          "Mythic": {
+            "MinValue": 0.8,
+            "MaxValue": 0.8,
+            "Increment": 1
+          },
+          "Ancient": {
+            "MinValue": 0.9,
+            "MaxValue": 0.9,
+            "Increment": 1
+          }
+        },
+        "CanBeAugmented": false,
+        "CanBeDisenchanted": false,
+        "CanBeRunified": false
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "StrikeCausesLightning",
+        "DisplayText": "$mod_epicloot_me_strikecauseslightning_display",
+        "Description": "$mod_epicloot_me_strikecauseslightning_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Legendary": {
+            "MinValue": 8,
+            "MaxValue": 8,
+            "Increment": 1
+          }
+        },
+        "CanBeAugmented": false,
+        "CanBeDisenchanted": false,
+        "CanBeRunified": false
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects",
+      "Action": "Append",
+      "Value": {
+        "Type": "Trailblazer",
+        "DisplayText": "$mod_epicloot_me_trailblazer_display",
+        "Description": "$mod_epicloot_me_trailblazer_desc",
+        "Requirements": {
+          "NoRoll": true
+        },
+        "ValuesPerRarity": {
+          "Legendary": {
+            "MinValue": 12,
+            "MaxValue": 12,
+            "Increment": 1
+          }
+        },
+        "CanBeAugmented": false,
+        "CanBeDisenchanted": false,
+        "CanBeRunified": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "TargetFile": "magiceffects",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='DartingThoughts')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.Retired"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "TargetFile": "enchantcosts",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.DisenchantProducts",
+      "Action": "Append",
+      "Value": {
+        "ItemTypes": [
+          "Trophy"
+        ],
+        "ItemNames": [
+          "$cr_trophy_fox",
+          "$cr_trophy_giantrat",
+          "$cr_trophy_kobold",
+          "$cr_trophy_blackbear",
+          "$cr_trophy_razorback",
+          "$cr_trophy_viper",
+          "$cr_trophy_forestspider",
+          "$cr_trophy_genganger",
+          "$cr_trophy_gloomhorror",
+          "$cr_trophy_panther"
+        ],
+        "Products": [
+          {
+            "Item": "ShardMagic",
+            "Amount": 1
+          },
+          {
+            "Item": "DustMagic",
+            "Amount": 1
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.DisenchantProducts",
+      "Action": "Append",
+      "Value": {
+        "ItemTypes": [
+          "Trophy"
+        ],
+        "ItemNames": [
+          "$cr_trophy_ent",
+          "$cr_trophy_crawler",
+          "$cr_trophy_rottingelk",
+          "$cr_trophy_helwraith",
+          "$cr_trophy_wendigo",
+          "$cr_trophy_crocodile",
+          "$cr_trophy_lizardwarrior",
+          "$cr_trophy_mirechaser",
+          "$cr_trophy_grizzly",
+          "$cr_trophy_stormwolf",
+          "$cr_trophy_frostspider",
+          "$cr_trophy_werewolf",
+          "$cr_trophy_craghorror"
+        ],
+        "Products": [
+          {
+            "Item": "ShardRare",
+            "Amount": 1
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.DisenchantProducts",
+      "Action": "Append",
+      "Value": {
+        "ItemTypes": [
+          "Trophy"
+        ],
+        "ItemNames": [
+          "$cr_trophy_obsidiangolem",
+          "$cr_trophy_weregoat",
+          "$cr_trophy_prowler",
+          "$cr_trophy_manticore",
+          "$cr_trophy_dunehorror",
+          "$cr_trophy_lion"
+        ],
+        "Products": [
+          {
+            "Item": "ShardEpic",
+            "Amount": 1
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.DisenchantProducts",
+      "Action": "Append",
+      "Value": {
+        "ItemTypes": [
+          "Trophy"
+        ],
+        "ItemNames": [
+          "$cr_trophy_daggerfang",
+          "$cr_trophy_minotaur",
+          "$cr_trophy_cyclops",
+          "$cr_trophy_lich",
+          "$cr_trophy_bladefist",
+          "$cr_trophy_treespider",
+          "$cr_trophy_ghoul",
+          "$cr_trophy_hobgoblin",
+          "$cr_trophy_misthorror",
+          "$cr_trophy_arachne",
+          "$cr_trophy_surtrhound",
+          "$cr_trophy_surtrimp",
+          "$cr_trophy_magmaskarab",
+          "$cr_trophy_cinderhorror",
+          "$cr_trophy_shark",
+          "$cr_trophy_orca",
+          "$cr_trophy_kraken"
+        ],
+        "Products": [
+          {
+            "Item": "ShardLegendary",
+            "Amount": 1
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.DisenchantProducts",
+      "Action": "Append",
+      "Value": {
+        "ItemTypes": [
+          "Trophy"
+        ],
+        "ItemNames": [
+          "$cr_trophy_surtrbrute",
+          "$cr_trophy_firegolem",
+          "$cr_trophy_demonlord"
+        ],
+        "Products": [
+          {
+            "Item": "ShardMythic",
+            "Amount": 1
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.DisenchantProducts",
+      "Action": "Append",
+      "Value": {
+        "ItemTypes": [
+          "Trophy"
+        ],
+        "ItemNames": [
+          "$cr_trophy_arcticbear",
+          "$cr_trophy_mammoth",
+          "$cr_trophy_frigidspider",
+          "$cr_trophy_yeti",
+          "$cr_trophy_ogre",
+          "$cr_trophy_rimehorror"
+        ],
+        "Products": [
+          {
+            "Item": "ShardAncient",
+            "Amount": 1
+          }
+        ]
+      }
+    },
+    {
+      "Path": "$.DisenchantProducts[?(@.ItemNames[0]=='$item_trophy_boar')].Products",
+      "Action": "Overwrite",
+      "Value": [
+        {
+          "Item": "ShardMagic",
+          "Amount": 1
+        },
+        {
+          "Item": "DustMagic",
+          "Amount": 1
+        }
+      ]
+    }
+  ]
+}

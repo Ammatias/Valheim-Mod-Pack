@@ -1,0 +1,540 @@
+{
+  "TargetFile": "itemsorter",
+  "Author": "Morgott",
+  "Priority": 500,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Fox",
+      "Value": {
+        "Template": "Tier0Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_BlackBear",
+      "Value": {
+        "Template": "Tier2Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Razorback",
+      "Value": {
+        "Template": "Tier2Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Viper",
+      "Value": {
+        "Template": "Tier2Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Crawler",
+      "Value": {
+        "Template": "Tier3Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_RottingElk",
+      "Value": {
+        "Template": "Tier3Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_HelWraith",
+      "Value": {
+        "Template": "Tier3Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Grizzly",
+      "Value": {
+        "Template": "Tier4Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_ObsidianGolem",
+      "Value": {
+        "Template": "Tier5Mob",
+        "Class": "Strong"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_StormWolf",
+      "Value": {
+        "Template": "Tier4Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Prowler",
+      "Value": {
+        "Template": "Tier5Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_DaggerFang",
+      "Value": {
+        "Template": "Tier6Mob",
+        "Class": "Strong"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Lich",
+      "Value": {
+        "Template": "Tier7Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Bladefist",
+      "Value": {
+        "Template": "Tier7Mob",
+        "Class": "Strong"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_SurtrHound",
+      "Value": {
+        "Template": "Tier8Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_SurtrImp",
+      "Value": {
+        "Template": "Tier8Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_SurtrBrute",
+      "Value": {
+        "Template": "Tier8Mob",
+        "Class": "Strong"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_ArcticBear",
+      "Value": {
+        "Template": "Tier8Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Mammoth",
+      "Value": {
+        "Template": "Tier9Mob",
+        "Class": "Strong"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Shark",
+      "Value": {
+        "Template": "Tier5Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_GiantRat",
+      "Value": {
+        "Template": "Tier0Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Kobold",
+      "Value": {
+        "Template": "Tier0Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_ForestSpider",
+      "Value": {
+        "Template": "Tier2Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Genganger",
+      "Value": {
+        "Template": "Tier2Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Ent",
+      "Value": {
+        "Template": "Tier2Mob",
+        "Class": "Strong"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Wendigo",
+      "Value": {
+        "Template": "Tier3Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Crocodile",
+      "Value": {
+        "Template": "Tier3Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_LizardWarrior",
+      "Value": {
+        "Template": "Tier3Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_FrostSpider",
+      "Value": {
+        "Template": "Tier4Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Werewolf",
+      "Value": {
+        "Template": "Tier4Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Weregoat",
+      "Value": {
+        "Template": "Tier5Mob",
+        "Class": "Strong"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Minotaur",
+      "Value": {
+        "Template": "Tier6Mob",
+        "Class": "Strong"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Manticore",
+      "Value": {
+        "Template": "Tier5Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Cyclops",
+      "Value": {
+        "Template": "Tier6Mob",
+        "Class": "Strong"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_TreeSpider",
+      "Value": {
+        "Template": "Tier7Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Ghoul",
+      "Value": {
+        "Template": "Tier7Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Hobgoblin",
+      "Value": {
+        "Template": "Tier7Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_MagmaSkarab",
+      "Value": {
+        "Template": "Tier8Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_FireGolem",
+      "Value": {
+        "Template": "Tier8Mob",
+        "Class": "Strong"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_DemonLord",
+      "Value": {
+        "Template": "Tier8Mob",
+        "Class": "Strong"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_FrigidSpider",
+      "Value": {
+        "Template": "Tier8Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Yeti",
+      "Value": {
+        "Template": "Tier8Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Ogre",
+      "Value": {
+        "Template": "Tier9Mob",
+        "Class": "Strong"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Orca",
+      "Value": {
+        "Template": "Tier5Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Kraken",
+      "Value": {
+        "Template": "Tier5Mob",
+        "Class": "Strong"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_GloomHorror",
+      "Value": {
+        "Template": "Tier2Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Panther",
+      "Value": {
+        "Template": "Tier2Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_MireChaser",
+      "Value": {
+        "Template": "Tier3Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_CragHorror",
+      "Value": {
+        "Template": "Tier4Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_DuneHorror",
+      "Value": {
+        "Template": "Tier5Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Lion",
+      "Value": {
+        "Template": "Tier5Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_MistHorror",
+      "Value": {
+        "Template": "Tier7Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_Arachne",
+      "Value": {
+        "Template": "Tier7Mob",
+        "Class": "Strong"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_RimeHorror",
+      "Value": {
+        "Template": "Tier8Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "CR_CinderHorror",
+      "Value": {
+        "Template": "Tier8Mob",
+        "Class": "Normal"
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "Skeleton_Hildir_nochest",
+      "Value": {
+        "Skip": true
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "Fenring_Cultist_Hildir_nochest",
+      "Value": {
+        "Skip": true
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "GoblinShaman_Hildir_nochest",
+      "Value": {
+        "Skip": true
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.Overrides",
+      "Action": "Add",
+      "PropertyName": "GoblinBruteBros_nochest",
+      "Value": {
+        "Skip": true
+      }
+    },
+    {
+      "Path": "$.CreatureSorter.ScanLocations",
+      "Action": "Overwrite",
+      "Value": false
+    }
+  ]
+}

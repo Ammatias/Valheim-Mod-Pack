@@ -1,0 +1,159 @@
+{
+  "TargetFile": "magiceffects",
+  "Author": "Morgott",
+  "Priority": 400,
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyBlockPower')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.CombatStaff"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyBlockStaminaUse')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.CombatStaff"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyBlockPowerLowHealth')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.CombatStaff"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyParry')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.CombatStaff"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyParryLowHealth')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.CombatStaff"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyParryWindow')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.CombatStaff"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='EitrWeave')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.CombatStaff"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyAttackEitrUse')].Requirements",
+      "Action": "Overwrite",
+      "Value": {
+        "ExternalRequirements": [
+          "MorgottTweaks.NotSummonStaff",
+          "MorgottTweaks.EitrCostItem"
+        ]
+      }
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyAttackEitrUse')].SelectionWeight",
+      "Action": "Overwrite",
+      "Value": 10
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyAttackHealthUse')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.NotSummonStaff"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='HealthOnEitrUse')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.NotSummonStaff"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddEnergyShield')].Requirements.AllowedItemTypes",
+      "Action": "Overwrite",
+      "Value": [
+        "Helmet",
+        "Chest",
+        "Legs",
+        "Shoulder",
+        "Shield",
+        "Utility",
+        "Trinket",
+        "Staff"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='AddEnergyShield')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.SupportStaff"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyEnergyShield')].Requirements.AllowedItemTypes",
+      "Action": "Overwrite",
+      "Value": [
+        "Helmet",
+        "Chest",
+        "Legs",
+        "Shoulder",
+        "Shield",
+        "Trinket",
+        "Staff"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyEnergyShield')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.SupportStaff"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyEnergyShieldRecharge')].Requirements.AllowedItemTypes",
+      "Action": "Overwrite",
+      "Value": [
+        "Helmet",
+        "Chest",
+        "Legs",
+        "Shoulder",
+        "Utility",
+        "Trinket",
+        "Staff"
+      ]
+    },
+    {
+      "Path": "$.MagicItemEffects[?(@.Type=='ModifyEnergyShieldRecharge')].Requirements",
+      "Action": "Add",
+      "PropertyName": "ExternalRequirements",
+      "Value": [
+        "MorgottTweaks.SupportStaff"
+      ]
+    }
+  ]
+}

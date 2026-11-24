@@ -1,8 +1,4 @@
-"""Publish prebuilt, hashed components through the runner's normal GitHub token.
-
-The transfer URL supplies only public modpack files. No NAS credentials are used.
-Existing published tags are immutable; a failed upload stays a draft.
-"""
+"""Publish verified component archives; incomplete uploads remain drafts."""
 import argparse
 import concurrent.futures
 import hashlib

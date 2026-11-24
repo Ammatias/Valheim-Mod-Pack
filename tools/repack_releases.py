@@ -37,7 +37,16 @@ def find_release(repo, tag):
 
 
 def verify_assets(repo, tag, assets):
-    release = gh_json(repo, 'releases/tags/' + tag)
+    # The by-tag endpoint can return 404 for a draft. The release list includes
+    # drafts visible to the authenticated publisher.
+    release = None
+    page = 1
+    while release is None:
+        candidates = gh_json(repo, f'releases?per_page=100&page={page}')
+        release = next((item for item in candidates if item['tag_name'] == tag), None)
+        if not candidates:
+            raise ValueError('Release not found: ' + tag)
+        page += 1
     uploaded = {x['name']: x for x in release['assets']}
     if set(uploaded) != {p.name for p in assets.iterdir()}:
         raise ValueError('Release asset list differs from the three expected files')
@@ -81,8 +90,11 @@ def repack(config_file, repo):
                 complete = False
                 break
     if complete:
+        if cfg.get('retire_source') and find_release(repo, source_tag):
+            subprocess.run(['gh', 'release', 'delete', source_tag, '--repo', repo, '--yes'], check=True)
+        subprocess.run(['gh', 'release', 'edit', 'helheim-' + version, '--repo', repo, '--latest'], check=True)
         print('Both separate releases are already published and routed correctly.', flush=True)
-        return {'version': version, 'already_published': True}
+        return {'version': version, 'already_published': True, 'source_retired': bool(cfg.get('retire_source'))}
     source_release = gh_json(repo, 'releases/tags/' + source_tag)
     source_assets = {x['name']: x for x in source_release['assets']}
     manifests = {}

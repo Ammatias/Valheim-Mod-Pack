@@ -1,5 +1,1413 @@
 {
   "schema": 1,
   "pack_id": "ammatias-midgard",
-  "manifest_url": "https://github.com/Ammatias/Valheim-Mod-Pack/releases/download/pack-2026.11.24.1/midgard-manifest.json"
+  "version": "2026.11.24.2",
+  "packages": [
+    {
+      "id": "midgard-full",
+      "bytes": 784554285,
+      "sha256": "45d18eb8bcfd3592496ba195c8471129280beb7b0996aadc97c4e3c33f6c2e63",
+      "url": "https://github.com/Ammatias/Valheim-Mod-Pack/releases/download/midgard-2026.11.24.2/Midgard-Modpack-2026.11.24.2.zip",
+      "files": [
+        {
+          "path": ".doorstop_version",
+          "sha256": "84fa42545c0993edf8a5559d2a0772260f85f4a7ed29ec75e6590be64ed98067",
+          "bytes": 5,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/config/BepInEx.cfg",
+          "sha256": "3d460196bb8f993fc71048efc6d1bbc21b5364eefac778df61955138c83cc677",
+          "bytes": 5592,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/PlanBuild/blueprints/be1-best-starter.blueprint",
+          "sha256": "d033622bf4ea0298841143c5f77d3d3aca74247dc6c75ea749bfb45be8882a69",
+          "bytes": 170432,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Monstrum/Monstrum.Chinese.yml",
+          "sha256": "eba5b3509e580bea53e6dd8f7bf5bf790f048d31a5a97ba1758bd77faaecd127",
+          "bytes": 8475,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Monstrum/Monstrum.English-LatestUpToDate.yml",
+          "sha256": "3410163bd6994421aa6da49325e97ab1083e6eb280e0bc8fe95e8b388579dba3",
+          "bytes": 8915,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Monstrum/Monstrum.French.yml",
+          "sha256": "bc53cef6dbd026120972c3da08de74a090bc3cbce761381faedf1bc97e7738af",
+          "bytes": 9404,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Monstrum/Monstrum.German.yml",
+          "sha256": "fb961cfc82c846eeee2333f38773da81cc05a586516ae3e42373b2a35a6f5cf8",
+          "bytes": 9851,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Monstrum/Monstrum.Italian.yml",
+          "sha256": "4cb92717340cd97ebd96deaaa1824988df65074f7c444dc63f8a93dcb9e2901f",
+          "bytes": 7706,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Monstrum/Monstrum.Korean.yml",
+          "sha256": "04f1a0cf9c2b20b16c2d8e6663154abb465234699b5ebc7632b7a260409824f3",
+          "bytes": 8151,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Monstrum/Monstrum.Polish.yml",
+          "sha256": "e4f23d84c8c9ee51121ddd0921eb9f3267658d64e8b11fb6ce6d53d31d83c279",
+          "bytes": 9235,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Monstrum/Monstrum.Portuguese_Brazilian.yml",
+          "sha256": "b13982928d09b1dc637f22dfcb9ae5f55a0ff4a0d40a8efe397b16e654d8404b",
+          "bytes": 8047,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Monstrum/Monstrum.Portuguese_European.yml",
+          "sha256": "2bea56394aadf552a4de869717bade59466c1437abe4a6a002520e71f0f0859e",
+          "bytes": 8065,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Monstrum/Monstrum.Russian.yml",
+          "sha256": "e5af6d76a65393c9c6011fe4eaea79ac3d6dd98a567e4af09c54736114e354b1",
+          "bytes": 12791,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Monstrum/Monstrum.Spanish.yml",
+          "sha256": "a4a3421abfa65e009cb7d77978243c2a3fa16266cb560052e77d13d9d5ed92e7",
+          "bytes": 10100,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Monstrum/Monstrum.Thai.yml",
+          "sha256": "d74269292897e68f258fb79990827a6d02229e58179e4b0a707e0568477ea7fc",
+          "bytes": 13258,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Monstrum/Monstrum.Ukrainian.yml",
+          "sha256": "edb97c5252360b5878c0293bd79eeaa86eafd184dbcb976477603861d8d1671f",
+          "bytes": 12554,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Warfare/Warfare.Chinese.yml",
+          "sha256": "e4bcfa90fb6e951dda19b846a0c4fd346834dc59a0b7e03f2ac6bd189dfe35cc",
+          "bytes": 25520,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Warfare/Warfare.English-LatestUpToDate.yml",
+          "sha256": "7759a0546b2a000f7370d9607060fcf185125b803631996f3ff5da60e9753bdf",
+          "bytes": 27836,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Warfare/Warfare.French.yml",
+          "sha256": "782f82f16337f6e086fbfe20045296ff69abdddf664d6736b3c25236be00bdf6",
+          "bytes": 30631,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Warfare/Warfare.German.yml",
+          "sha256": "6a8048a2fb0741180b43059cf988916d56eb4435ff5c321b5c5d2cab74a4878f",
+          "bytes": 35593,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Warfare/Warfare.Italian.yml",
+          "sha256": "c9a9d5a21c7f1e5db024c990d50bcbc7c5a8a9b697407a4db038c2989397bf1d",
+          "bytes": 49697,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Warfare/Warfare.Korean.yml",
+          "sha256": "ef8376f0c97494c970414d558cda9598cee18380f77cddf451dd207b26c9eb9d",
+          "bytes": 48626,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Warfare/Warfare.Polish.yml",
+          "sha256": "a6615e4478ef93df84cdff64531f3c74729994a71788f3f50db6419dd55ef667",
+          "bytes": 29743,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Warfare/Warfare.Portuguese_Brazilian.yml",
+          "sha256": "7eab66e8f34a41cf5822381d92ae94dda9ca1ee75239b8d662589a1e556fccf4",
+          "bytes": 30320,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Warfare/Warfare.Portuguese_European.yml",
+          "sha256": "7eab66e8f34a41cf5822381d92ae94dda9ca1ee75239b8d662589a1e556fccf4",
+          "bytes": 30320,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Warfare/Warfare.Russian.yml",
+          "sha256": "3aa5870ca4e55e2d4547aeded658cf602f61fd981727d8a73d09327e61c4744f",
+          "bytes": 42227,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Warfare/Warfare.Spanish.yml",
+          "sha256": "940607be7dab2c87e52ceb4df5dc619ddd21458d7470a8965fd23974054144dd",
+          "bytes": 30392,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Warfare/Warfare.Thai.yml",
+          "sha256": "7392b1fc245e22b179b2a9584eee016c8592ee2a8d630d69f48e6f1eb9193c74",
+          "bytes": 70594,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/config/TherzieTranslations/Warfare/Warfare.Ukrainian.yml",
+          "sha256": "e34d2cef8c194c22f89670ba315d7b82d7a701e046a1908ec4de65f20b9bc362",
+          "bytes": 43892,
+          "preserve": true
+        },
+        {
+          "path": "BepInEx/core/0Harmony.dll",
+          "sha256": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031",
+          "bytes": 204800,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/core/0Harmony.xml",
+          "sha256": "d1f02fc3ada3a13da307de421225bfe56ebe24064370980979391c4be021672f",
+          "bytes": 267107,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/core/0Harmony20.dll",
+          "sha256": "5708451a91eaecee71a49b1881fb081ee22142e11de04e8575f4f6832fa16d0e",
+          "bytes": 112640,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/core/BepInEx.Harmony.dll",
+          "sha256": "2f0270073e307095ce980f578bfc9489f7ac98d360b9d41f77370a84c33edd7a",
+          "bytes": 6656,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/core/BepInEx.Harmony.xml",
+          "sha256": "a04fedf08f7c81f5d01aba6f2840a7ffce50b79bbd24587d8dbe69ab73971d29",
+          "bytes": 4056,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/core/BepInEx.Preloader.dll",
+          "sha256": "c38f984772fdddc7f87ddd66c0326c6673cc6a4b4ea7beb5ab94edb3e59dbabe",
+          "bytes": 44032,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/core/BepInEx.Preloader.xml",
+          "sha256": "ab433415cb8f006f683c0c193d140b92f0244568e6e443d53a5c4c18a632dc98",
+          "bytes": 8348,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/core/BepInEx.dll",
+          "sha256": "36bdb9af2b8f2eda4c911d2a49c2a05a4f643637ad724b876d292a9a5fcd8ae6",
+          "bytes": 132096,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/core/BepInEx.xml",
+          "sha256": "65b9d6e40c8645e04cf1cf6342c2812f52766f2d0fc1b5736b03f17fb23df11e",
+          "bytes": 90318,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/core/HarmonyXInterop.dll",
+          "sha256": "dac1b52655f03ba00773eb63894bfd0da4d4df6d47041a64cfd4b1da757371ba",
+          "bytes": 23552,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/core/Mono.Cecil.Mdb.dll",
+          "sha256": "5896d1898f616701fff18f3b2c71e6b844d2390ef9f41e1c5fccce8cb27c698e",
+          "bytes": 43008,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/core/Mono.Cecil.Pdb.dll",
+          "sha256": "174db44a067f58561510af746f3caeb032037762c57a31c8d9ee32db25174984",
+          "bytes": 86528,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/core/Mono.Cecil.Rocks.dll",
+          "sha256": "54ac539fb5ddc8b44c0e9acd0fcb7324f89d1a072edf8ebc1b06dd691e3d3927",
+          "bytes": 27648,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/core/Mono.Cecil.dll",
+          "sha256": "7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6",
+          "bytes": 339456,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/core/MonoMod.RuntimeDetour.dll",
+          "sha256": "40e49bb314391cd7bddc2644f8553eeba92c194b940836b103df16955c464e0c",
+          "bytes": 105984,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/core/MonoMod.RuntimeDetour.xml",
+          "sha256": "54887808960d156550b37d602d08847607aa9e908d039f2765fb0b5e79394aa4",
+          "bytes": 9414,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/core/MonoMod.Utils.dll",
+          "sha256": "9d1495f147ac93c4f81f84538c1a326e8f8a6aefc78d6289d798f3ce1162c5e9",
+          "bytes": 187904,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/core/MonoMod.Utils.xml",
+          "sha256": "0577b362023a3432d6e8d7934c5eddc3e08fdbb19e191af083e341562c5ede38",
+          "bytes": 78973,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/AutoServerPassword.dll",
+          "sha256": "5faebea7b8f4d8b2d9a7f87b5d29e52b25b2b54537f3a1d579e04d95891da038",
+          "bytes": 47104,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersShadingOverhaul.dll",
+          "sha256": "39e8f11a9dc2e4997f2e78e3ad113defd517866138cb720b56d2112c1682eb5a",
+          "bytes": 875520,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies.dll",
+          "sha256": "970c1d8587dadfdc128968e2447c2bdf85baf1d37096bb88e51fb888a40e58be",
+          "bytes": 779776,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Environment/dccdefault.png",
+          "sha256": "bc1affd863fafff3349af99b5484c3fb1d64b4a44ba24e82fd207d5b843f4522",
+          "bytes": 140620,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Environment/dcclight.png",
+          "sha256": "949ba236a3b9212567da5de675edbd06f0129d24243d687927c3770b4b8b9b1d",
+          "bytes": 87101,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Environment/dccmedium.png",
+          "sha256": "28810cb74501312906d439b2605db1067211208217b14ff36d707705b79aebd3",
+          "bytes": 101337,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Environment/gmdefault.png",
+          "sha256": "dcea7445f3a980cfbc8276c355498caf77af811e1e571df4c8973de8f1465dbf",
+          "bytes": 49756,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Environment/gmlight.png",
+          "sha256": "f3233acc58825dbf3357bfe3d2cdabec73b36c24bbc1fd8b6dd5f168a90576d0",
+          "bytes": 21041,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Environment/gmmedium.png",
+          "sha256": "f8b324210987b7760727e0de5d8582a6de1704171c967f1f6000a1ed072af573",
+          "bytes": 26609,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Environment/gmnone.png",
+          "sha256": "70a213096a8a3aa52d8b05ee5ff5f8d14305a01d51f9305d2555880a4a2b458c",
+          "bytes": 334,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Environment/ohccdefault.png",
+          "sha256": "ea45bed4b2b0fd289d81da48a97dc6feeb03d866a4c0154fdd3ae55ac38d4507",
+          "bytes": 690942,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Environment/ohcclight.png",
+          "sha256": "3925213adc87aaa2add6075cb12d5e1a8b581dcd5cbac154f0a7dca453c949cb",
+          "bytes": 302999,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Environment/ohccmedium.png",
+          "sha256": "3d2856a7ee90aaa6abfeed72061ece3f05abfe5e484b157695b97b010d97945d",
+          "bytes": 358253,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Environment/ohccnone.png",
+          "sha256": "f12ddfea20dcca2fa350d75d5ed2ae76a4fffbcdfd2b8f2357558b90072dab9f",
+          "bytes": 4144,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/Big Ringed Planet/nx.png",
+          "sha256": "40e9f0b6aef157eb0f9f9b71d4d8b300a1ded7433d9249dcdfec63e1de24789e",
+          "bytes": 3472690,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/Big Ringed Planet/ny.png",
+          "sha256": "86686e0b93c49a5f129835ecd7a9222bf456118306a4ea9749d68e87e0d3ff72",
+          "bytes": 3829925,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/Big Ringed Planet/nz.png",
+          "sha256": "369b41febc4c0dae257e208f5a3357b0bbabf19a29e31da0130bd0c6d3eb8f15",
+          "bytes": 4571781,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/Big Ringed Planet/px.png",
+          "sha256": "72683b22e7491701114fd8feec23f238c00bb1a6837f680ecf9babfc82f141e1",
+          "bytes": 4760286,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/Big Ringed Planet/py.png",
+          "sha256": "ed2e2932ead4ae119173b530ae88fead2c29d85c1e4dfa1452f551ea308269ec",
+          "bytes": 5912276,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/Big Ringed Planet/pz.png",
+          "sha256": "8f9b1f11e8fc042686da8179c37a5ca95f8f4d528cd7a2af2435ffe2b1ea3304",
+          "bytes": 2961523,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Big Planet/nx.png",
+          "sha256": "f7018ec804b3bf2c43620703bb739cc7b9764c24e46a0c99411ba69156ef68c7",
+          "bytes": 4258735,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Big Planet/ny.png",
+          "sha256": "cc4ef3e8bed25ec8681149db942f92e03329546558cc0143962d60a547feb72c",
+          "bytes": 3806515,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Big Planet/nz.png",
+          "sha256": "8221bd741dc83b4409d64d96b9a24eab715829b2bfec037b0865181cda20e903",
+          "bytes": 4525773,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Big Planet/px.png",
+          "sha256": "d42b58f618d59f43b10316da406eb90225ca04417d86f13c37ce334f497ab448",
+          "bytes": 4820421,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Big Planet/py.png",
+          "sha256": "b0020b479e6ae9c02c833ff426af328bc7066c7e5a0301e7c1a2c717452c7182",
+          "bytes": 6136569,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Big Planet/pz.png",
+          "sha256": "26b0bf11a9e7dfab28bdb6e30fe61cfb3a7889193ef56c99d9b6d0f36aa517f4",
+          "bytes": 3039612,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Blue Planet/nx.png",
+          "sha256": "209e0b87374c107d3a86c2105cc9536a110c045d5fde905ce67fcd6a23dc1f39",
+          "bytes": 3685394,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Blue Planet/ny.png",
+          "sha256": "afce9d192b29e0030c93ef5504d8b41785a38a11db2f197c8b0df0896b484b54",
+          "bytes": 2642963,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Blue Planet/nz.png",
+          "sha256": "201d1422befba65dbe8f3bd59e795d3c2d6fa9390ee2a30eeede5397d8093385",
+          "bytes": 4515668,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Blue Planet/px.png",
+          "sha256": "4718b74b1da312ebe4ea08bf87c2e277e26ef737285dcf58d21f36336504ab99",
+          "bytes": 3159192,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Blue Planet/py.png",
+          "sha256": "ce8c3ba3c976cc9277721b1a4728d4232adf2284235cdfb3101a54a9925a9b06",
+          "bytes": 5038944,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Blue Planet/pz.png",
+          "sha256": "7e4b029a1022bceb7cd3156ed42b79274631981accded8de67b52518a3628d52",
+          "bytes": 2962948,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Blue smoke wall and Galaxy/nx.png",
+          "sha256": "408b9ad37d2fe91a0f8422aab37d2de9399d612e55171af6b909d538913d6fb5",
+          "bytes": 3049227,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Blue smoke wall and Galaxy/ny.png",
+          "sha256": "9239644ad4367284f2d7db707c84ed213010de77c4e332572324bd3e51ea8717",
+          "bytes": 3804800,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Blue smoke wall and Galaxy/nz.png",
+          "sha256": "44460f87f3a032a3059f8fab2d117f63f84b4eeddeb8d62bc9cd5e8a1d2fc327",
+          "bytes": 3209947,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Blue smoke wall and Galaxy/px.png",
+          "sha256": "846e718fe7a1c9af41492a5c7793b924c68300772e854e3226ffcfce98c4254c",
+          "bytes": 3483525,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Blue smoke wall and Galaxy/py.png",
+          "sha256": "1ddeffbc91f6aad8697bc7a28eb7666a31c5890776cf7f9e4a6d80a07c02f9ab",
+          "bytes": 5905118,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Blue smoke wall and Galaxy/pz.png",
+          "sha256": "be5e60bf105540b4c72525e39acee88b0a33be9d9cf851e9aeccb9cde85e63ad",
+          "bytes": 1925814,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Blue smoke wall/nx.png",
+          "sha256": "ae644b29aa198fe75265c6ea28eaa0222a146ea526267d43c8d17b4220188c21",
+          "bytes": 1826068,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Blue smoke wall/ny.png",
+          "sha256": "b5499ab8714da4eb87d8e05de7ca21aaa3424cdc8cfa70c57470b3bbab0ecaeb",
+          "bytes": 19750,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Blue smoke wall/nz.png",
+          "sha256": "cbbb1acdb3cde30dc30cb260608ef1e43f2453f584ef3c199f3ef49c488f8303",
+          "bytes": 1784526,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Blue smoke wall/px.png",
+          "sha256": "d4f54df3e28745c4a0461875fa6785df93f75e1a16f771d30adcf270116badb5",
+          "bytes": 1851464,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Blue smoke wall/py.png",
+          "sha256": "8906b58c577e520dbeb80886698505d9d5676bf7279689431a0ff8b5a86e9231",
+          "bytes": 1097665,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Blue smoke wall/pz.png",
+          "sha256": "626d0a921e2f5349915d52ca90a4ab2715901a2aebf2f65c249a8aed6f41205d",
+          "bytes": 1910410,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Bue Planet with Asteroids/nx.png",
+          "sha256": "ccf0e0a15b163c8db025aa7066f9d022436d27665576aeebf0f04fd9c5ecf205",
+          "bytes": 3754857,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Bue Planet with Asteroids/ny.png",
+          "sha256": "eaf32674d6b380d178427020fb27571f48ce006e7760f3f5cae98b94793d6ddc",
+          "bytes": 2634106,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Bue Planet with Asteroids/nz.png",
+          "sha256": "de55ba6df4c552728ce4fa9d6e4f2e21e7aef1c1053ab4ed01a94b58218b787c",
+          "bytes": 4558066,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Bue Planet with Asteroids/px.png",
+          "sha256": "560f6b33840fdb4c971084cc65406468229d87353fee615d3cb8d000ca3922c7",
+          "bytes": 3045412,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Bue Planet with Asteroids/py.png",
+          "sha256": "3663e6f576ca473e5a0acf58e2bc393c5cc09b877b1308ca95c632c0f1953ee7",
+          "bytes": 5095081,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Bue Planet with Asteroids/pz.png",
+          "sha256": "6e3c0bad12f6b1293c2cf56a20ce18ed36c17232a08eaf94686c67992c51ae25",
+          "bytes": 3232082,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Death Star/nx.png",
+          "sha256": "974641b0a5b9008363c314802e5ad741ee961c794be0edd1d353402ead8e8220",
+          "bytes": 3763456,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Death Star/ny.png",
+          "sha256": "77e7a4d1e77a81c944007f09e650a593379f87ab61097f581581ba5a29c3551e",
+          "bytes": 3805893,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Death Star/nz.png",
+          "sha256": "0e6cc5eca86ea943ae57f1d81229c7db6e906f69fb3b998b87a0cab14a0f4354",
+          "bytes": 4525718,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Death Star/px.png",
+          "sha256": "6d8dbf0b3f10309296cb4f4fea870b90646ae14219910e859995088b9062f5f1",
+          "bytes": 4820566,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Death Star/py.png",
+          "sha256": "f1dc22a19d2f8497028a3dff5d72af604957251a6e44e1b70b210014a864168a",
+          "bytes": 6131848,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Death Star/pz.png",
+          "sha256": "3aa904b1b772b1a1d91650429d2e50a6d921992ee5b9c5f3c0c55c5f20f57e1c",
+          "bytes": 3414429,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy & Nebula/nx.png",
+          "sha256": "3f60ad7b8dd4ef95aa9b14e46a0a6f9f03fba044b16f280b67f8e0adba841ccb",
+          "bytes": 4658592,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy & Nebula/ny.png",
+          "sha256": "67446d187fc4cdb5369e02dd304d0bdf040290b0e0122d269ae29cfb70a3aa29",
+          "bytes": 3805641,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy & Nebula/nz.png",
+          "sha256": "3aad7beff7b7f1e464c0629a29ac5320e8cce498203fdaecaefd01572f188eb9",
+          "bytes": 4526732,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy & Nebula/px.png",
+          "sha256": "d9d88c8538de5744e3abebcbf2893b9612c9307131dc6855067e1d191166e92f",
+          "bytes": 4820543,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy & Nebula/py.png",
+          "sha256": "7f8bdf23471a1e9b86b0b02f713b5b27def620ea851565c84c077bae8189652b",
+          "bytes": 6127303,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy & Nebula/pz.png",
+          "sha256": "1d7d2d9914f4fbd435dbe538ac4505cfced3221e40883c6530e22b10abd1dac2",
+          "bytes": 3108443,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy with Asteroids/nx.png",
+          "sha256": "358151605c100311a038750e77ebf63c5429f3845f699caa6332cc4cac0273f1",
+          "bytes": 4374076,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy with Asteroids/ny.png",
+          "sha256": "b423c8f98a0a8d9a45a7e673eb8db2d20ef7a71cfc4f6b639c89e75949e90c6a",
+          "bytes": 3326101,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy with Asteroids/nz.png",
+          "sha256": "0d8ef80dc6b5026548e05690d99926cfe8d2cfb0ec5c54cabf76a51a2c1941cf",
+          "bytes": 4663717,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy with Asteroids/px.png",
+          "sha256": "767e13d320e8e78138996b07408bb0fe3325d4f8d17dfa9d2df5968d6b290264",
+          "bytes": 4761597,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy with Asteroids/py.png",
+          "sha256": "1d16623b4f8a6b702b2a6b3a845eed39e85222ffc15270cadd1237dd34260fd5",
+          "bytes": 5736503,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy with Asteroids/pz.png",
+          "sha256": "91c9562195681ea4dc78443d7886fb8fb129194e090eda928932ee586827e84a",
+          "bytes": 3629973,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy with Double Asteroids/nx.png",
+          "sha256": "a3eabe5155f94a42a7b96403aa191bc7ed46ef8acc8953de9384d94d121a0d0c",
+          "bytes": 3266620,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy with Double Asteroids/ny.png",
+          "sha256": "f0142fc3d2a06f7d0138c814a2244aaef0d804a3da156174c80bc8b6fc481de7",
+          "bytes": 3902247,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy with Double Asteroids/nz.png",
+          "sha256": "276d7cf6240e4d7edbf45d5485f967f97d8aac5f8a7b22580d106a0da67cb7f2",
+          "bytes": 4300539,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy with Double Asteroids/px.png",
+          "sha256": "f8f226eb856a7fb286c6bd59527500af6b1e1345715b9e0f786aa045dcfc176f",
+          "bytes": 4489868,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy with Double Asteroids/py.png",
+          "sha256": "61d573122cd94fc957391f59f52de6e97349f96f4ffe2cf4bb89472e68d8d053",
+          "bytes": 6217768,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy with Double Asteroids/pz.png",
+          "sha256": "42ec2e92edbc1d0a7ed6d86d024230e3416d2e57573fc9ec02b0b12ed4095d1b",
+          "bytes": 4826749,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy/nx.png",
+          "sha256": "f9d19ae62cd18e4c613ba1e3650c06f3010e6c8cfa4fbaa8d78c72d8ee9f0de3",
+          "bytes": 4404227,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy/ny.png",
+          "sha256": "67446d187fc4cdb5369e02dd304d0bdf040290b0e0122d269ae29cfb70a3aa29",
+          "bytes": 3805641,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy/nz.png",
+          "sha256": "3aad7beff7b7f1e464c0629a29ac5320e8cce498203fdaecaefd01572f188eb9",
+          "bytes": 4526732,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy/px.png",
+          "sha256": "d9d88c8538de5744e3abebcbf2893b9612c9307131dc6855067e1d191166e92f",
+          "bytes": 4820543,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy/py.png",
+          "sha256": "7f8bdf23471a1e9b86b0b02f713b5b27def620ea851565c84c077bae8189652b",
+          "bytes": 6127303,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Galaxy/pz.png",
+          "sha256": "1d7d2d9914f4fbd435dbe538ac4505cfced3221e40883c6530e22b10abd1dac2",
+          "bytes": 3108443,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains Galaxy Asteroids Night/nx.png",
+          "sha256": "de5ec1f38e1ab04fd63e93e5377af52821ab621cf697734c6a7bb579bd9169e2",
+          "bytes": 7426699,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains Galaxy Asteroids Night/ny.png",
+          "sha256": "d5f1bbe180c0d0cfcb8523ebb2cfe2bc6b3ed5ac10d1c93f19ef70ea6ae6cb43",
+          "bytes": 4558746,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains Galaxy Asteroids Night/nz.png",
+          "sha256": "3b8dbc21857550794aeb0552a33afc8941fd515664b5baa46c9cff813be669c6",
+          "bytes": 7980738,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains Galaxy Asteroids Night/px.png",
+          "sha256": "a01c7fab93007991113b9f44fca01d842a5d1a2c1a6316ab7f068fad00753dda",
+          "bytes": 8385359,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains Galaxy Asteroids Night/py.png",
+          "sha256": "75df03981abc38a7cc01a9b68f6b810076fc078eeeeb36c001447b0afd1a3dec",
+          "bytes": 8208109,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains Galaxy Asteroids Night/pz.png",
+          "sha256": "ab2f7d3c3cfa6c26ad4a5f34df3e6494e5332118301c34b67a0aad3c1b1dbb40",
+          "bytes": 5277977,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains Galaxy Asteroids Twilight/nx.png",
+          "sha256": "046e47a44b685d03193ee0b35f9d66bc346743374d02b04334cfadc2af5fd1a2",
+          "bytes": 4009481,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains Galaxy Asteroids Twilight/ny.png",
+          "sha256": "22b248026c9f0d23372566c2a93897d4f8370ad211098b6e84396fdbee985c70",
+          "bytes": 898527,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains Galaxy Asteroids Twilight/nz.png",
+          "sha256": "202b246ddbf8b0525d0a46a9287afa0453c480f93e8ebc2f994b38ea8faacbc7",
+          "bytes": 3130975,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains Galaxy Asteroids Twilight/px.png",
+          "sha256": "00d59ce6283fd3eb43da93bf59d67d4b4aaed459ef311963810b2e1efc9bdf58",
+          "bytes": 5072569,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains Galaxy Asteroids Twilight/py.png",
+          "sha256": "6f29d7ebf23d9630bc2c7003c3adab9e78291b8a8d50544f494d49631e1c192e",
+          "bytes": 8001478,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains Galaxy Asteroids Twilight/pz.png",
+          "sha256": "61cf9da0ec8ce87359a937af65a3334899bbcd868f559a56061d0e3dcdd934a0",
+          "bytes": 4930996,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains and Galaxy Night/nx.png",
+          "sha256": "4c407e5c383fbe53123f48d0753caba765fcbe8c059b03d8fbe9cb170870991f",
+          "bytes": 4240269,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains and Galaxy Night/ny.png",
+          "sha256": "8cf338df528c0fd4292c09f8c242c20629e002d420599d12461370fec49534cf",
+          "bytes": 895702,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains and Galaxy Night/nz.png",
+          "sha256": "bb97252c2aa274a47eb6ef07bdcf181e338849d3f1dc0d8096a8ae4d35436289",
+          "bytes": 3348702,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains and Galaxy Night/px.png",
+          "sha256": "b5c463d52b469dc421bfcebbcc131028ca3db764834afbd8b3ba47e0e9991cc2",
+          "bytes": 5371646,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains and Galaxy Night/py.png",
+          "sha256": "fe5b620bb64d32c436f49bdf2018786d7a46c9f051e4d6e537abe7935e75d7d7",
+          "bytes": 7763514,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains and Galaxy Night/pz.png",
+          "sha256": "7d65c206dd71b704abdd4ea5750646a5ce127e274d2afe58a30cad35ec9038f0",
+          "bytes": 4998501,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains and Galaxy Twilight/nx.png",
+          "sha256": "b8a03010cacfa5d6ad2b8e439570ad0dd130875194006cc3acd4f5fe8d74cbb0",
+          "bytes": 4333263,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains and Galaxy Twilight/ny.png",
+          "sha256": "dd7c3297a9e0d6d949baba9ae6b0ceb083eb500ab7652460ea41159b6e1f0f21",
+          "bytes": 1050885,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains and Galaxy Twilight/nz.png",
+          "sha256": "60d0cafdb367d75ca420321b0870c38f69a7b3603f74f68ff6aff70f130c45b5",
+          "bytes": 3262454,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains and Galaxy Twilight/px.png",
+          "sha256": "0382f8ac162be09834e72131bd47a347f8adfc3540415f3c5519b8a7771f5635",
+          "bytes": 5522128,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains and Galaxy Twilight/py.png",
+          "sha256": "772381cc83fa9994e18a6aec0a3002733c6e03accbf0ddacf260bb142d6164b5",
+          "bytes": 8090380,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains and Galaxy Twilight/pz.png",
+          "sha256": "23c81d68962d63cf87897e1a6d2fb21df299456f169de2b49f3d00e246848ac6",
+          "bytes": 5265221,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains/nx.png",
+          "sha256": "7da0e319c22ee4318d515f519219c5a75989ff3ff2bdbb3d707f9f0dfe77163c",
+          "bytes": 2862976,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains/ny.png",
+          "sha256": "d12bfd2e28101b54c1568eec8c366ea95fd2e1c4db12f2badbfa88b5ea623eff",
+          "bytes": 1928872,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains/nz.png",
+          "sha256": "18edbd95d295b43db2bd178d33a4b4e0211eece4bd4acf640f1944f48d01b94e",
+          "bytes": 3262433,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains/px.png",
+          "sha256": "86717594be6b05a11206c8217cceb3bfcf997d437ae807aa83abc76b0e08f643",
+          "bytes": 4065071,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains/py.png",
+          "sha256": "c39f801d757dfb56624a7dbc018995083c63564295b193472f741f89ffddf6f7",
+          "bytes": 2439564,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Mountains/pz.png",
+          "sha256": "70285c849f55e97e7931a5b56cd369c6a8420326c89d4d3ac582a94748a35cbc",
+          "bytes": 4408918,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Northen Lights/nx.png",
+          "sha256": "59c2e22fd62fa0352c832cf8b3fda5e1f81e870f49144fff77178d009ae077b0",
+          "bytes": 4650383,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Northen Lights/ny.png",
+          "sha256": "020992c15c1ad187723d88c1787eb1c4baac43966431ca1bb8227b9caed69635",
+          "bytes": 3750474,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Northen Lights/nz.png",
+          "sha256": "f8444a4804a512012a74ed9865b0cc107c07e69758ab5e80e442e328aaaa07a5",
+          "bytes": 4493715,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Northen Lights/px.png",
+          "sha256": "10426ea2cc2a6a35320dc731c8c203db46fe461cc797edea198e9af98ef820e2",
+          "bytes": 4785324,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Northen Lights/py.png",
+          "sha256": "b88aaf9f7299a7a01b7f628a7dc6b8b43fc147f6c44b9c0edec49f88087faf14",
+          "bytes": 6418051,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Northen Lights/pz.png",
+          "sha256": "7fcd56b47af06001671502cad8bc0875cd327ad8c0dfe427e257e0105768d83a",
+          "bytes": 3463179,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Red smoke wall/nx.png",
+          "sha256": "615e71278a10f913fd0025a7b7bde48faf0e2f92ec03ca80ea85842d2980e813",
+          "bytes": 1888539,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Red smoke wall/ny.png",
+          "sha256": "b5499ab8714da4eb87d8e05de7ca21aaa3424cdc8cfa70c57470b3bbab0ecaeb",
+          "bytes": 19750,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Red smoke wall/nz.png",
+          "sha256": "1bf6d731bf2a37de0ea90c537978c600d3be91c76824d4f736f43915c4e5a9fe",
+          "bytes": 1841543,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Red smoke wall/px.png",
+          "sha256": "4146c07634e93d200ee46d791e83f3f4a4d2460f20d54be3f70b1448f28f33e7",
+          "bytes": 1912623,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Red smoke wall/py.png",
+          "sha256": "2bcae8ec366651f3c9bc21f778feb7e7d6a27b795855ce59ee7e205b078b2ead",
+          "bytes": 1095588,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Red smoke wall/pz.png",
+          "sha256": "e9ca247525a68e72dbc24446059d436bcc369e09a2a22beb45f67f523c6d7830",
+          "bytes": 1960775,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Ring Planet/nx.png",
+          "sha256": "19e73a7da2dbdea7a0869d901dfa57ee7c23ab028f51c73274b3678d49cda2da",
+          "bytes": 3317922,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Ring Planet/ny.png",
+          "sha256": "ec4f8698712871e940d302933d9ded9b707e2afccd4f3c1a978748bed14f67f3",
+          "bytes": 3750310,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Ring Planet/nz.png",
+          "sha256": "e02ba717e69405d7bc4c4ca691c5717a0711e96e5ee86ad24cd5a7d5dfc2f246",
+          "bytes": 4482661,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Ring Planet/px.png",
+          "sha256": "e36fdd85c5073180fc2a92849403a53ea34324e71bc1735494dad0d096fe9f14",
+          "bytes": 4785606,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Ring Planet/py.png",
+          "sha256": "a69793c39086c0fa68cec1a2c6cc9150b1bfbd440b121445aebd55e6693e8854",
+          "bytes": 5976885,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Ring Planet/pz.png",
+          "sha256": "94e65e16e4b8daa7bbaa7436c2d32c4d742588d624b8d81afc0e7d27f92d10ec",
+          "bytes": 3127105,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars & Nebula/nx.png",
+          "sha256": "dbbc060fc738813372ed1502be7110a5b6017700025db75f03ac4ea5f999673f",
+          "bytes": 1366305,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars & Nebula/ny.png",
+          "sha256": "27461abf509800e24a650aae23e0af7ea238c5009b5589751d32ea5fb04f6ce0",
+          "bytes": 773807,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars & Nebula/nz.png",
+          "sha256": "27461abf509800e24a650aae23e0af7ea238c5009b5589751d32ea5fb04f6ce0",
+          "bytes": 773807,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars & Nebula/px.png",
+          "sha256": "27461abf509800e24a650aae23e0af7ea238c5009b5589751d32ea5fb04f6ce0",
+          "bytes": 773807,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars & Nebula/py.png",
+          "sha256": "27461abf509800e24a650aae23e0af7ea238c5009b5589751d32ea5fb04f6ce0",
+          "bytes": 773807,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars & Nebula/pz.png",
+          "sha256": "27461abf509800e24a650aae23e0af7ea238c5009b5589751d32ea5fb04f6ce0",
+          "bytes": 773807,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars with Asteroids/nx.png",
+          "sha256": "5bf153d2070d8a34c44799028f4b6545b4357bfe138ca8208c38aaf3c9843551",
+          "bytes": 574705,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars with Asteroids/ny.png",
+          "sha256": "e3d822178b14b05a71c2ab9a54a7f5261e73ebcea6c3c0e14a061768036da9b6",
+          "bytes": 244060,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars with Asteroids/nz.png",
+          "sha256": "08c0dd789d99316a71821164e38fc7f3ebd537100a66167ac47d7cee6b881742",
+          "bytes": 618874,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars with Asteroids/px.png",
+          "sha256": "d4904309f1916d76c7b1bf88b2ad7286da937fe50c17a62558ca3c088d3cb7be",
+          "bytes": 552434,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars with Asteroids/py.png",
+          "sha256": "838673992f3a346f0268e62b43956bcb7e397fffd203473b926802d48e8b83fe",
+          "bytes": 245475,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars with Asteroids/pz.png",
+          "sha256": "8b4d747a9ff40c0ce1c9a3ea78a87955fdf011d8335b6e7db92de931404f8327",
+          "bytes": 574993,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars with Double Asteroids/nx.png",
+          "sha256": "e7a78027b277168747301127da86e4192840d20aebdcd504c59b5e01ec274792",
+          "bytes": 1347792,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars with Double Asteroids/ny.png",
+          "sha256": "eac7254a4aacb83d276fcd48a05bcfcd303f29d076345d5c4552e5e1f2f42787",
+          "bytes": 662331,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars with Double Asteroids/nz.png",
+          "sha256": "eb230b9673de342806b49349c289b62610e1440edd25b62e81a080a4f5bd3766",
+          "bytes": 718767,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars with Double Asteroids/px.png",
+          "sha256": "0eabb8bb8bea03d249f299a51c43ae4e5d15aa8639d29361023ba707c5997906",
+          "bytes": 568564,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars with Double Asteroids/py.png",
+          "sha256": "e1e0e78489cb17fa9023ebd3c7fd6a05c3ad956459bef222c994247827549767",
+          "bytes": 1350288,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars with Double Asteroids/pz.png",
+          "sha256": "3cdb921c3b085ed2f7cf310e9b34dc9c80f7cb6fa4a9879fe9b7a7387c7c6385",
+          "bytes": 815961,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars/nx.png",
+          "sha256": "27461abf509800e24a650aae23e0af7ea238c5009b5589751d32ea5fb04f6ce0",
+          "bytes": 773807,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars/ny.png",
+          "sha256": "27461abf509800e24a650aae23e0af7ea238c5009b5589751d32ea5fb04f6ce0",
+          "bytes": 773807,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars/nz.png",
+          "sha256": "27461abf509800e24a650aae23e0af7ea238c5009b5589751d32ea5fb04f6ce0",
+          "bytes": 773807,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars/px.png",
+          "sha256": "27461abf509800e24a650aae23e0af7ea238c5009b5589751d32ea5fb04f6ce0",
+          "bytes": 773807,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars/py.png",
+          "sha256": "27461abf509800e24a650aae23e0af7ea238c5009b5589751d32ea5fb04f6ce0",
+          "bytes": 773807,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BadgersValheimSkies/Skybox/HD Stars/pz.png",
+          "sha256": "27461abf509800e24a650aae23e0af7ea238c5009b5589751d32ea5fb04f6ce0",
+          "bytes": 773807,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BetterArchery.dll",
+          "sha256": "86d9594c2151e2afe56b609e34cb398d27ea2e6bcba6ff360c12568bf1285c54",
+          "bytes": 1286144,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/BetterArcheryRecipes.json",
+          "sha256": "f52015368c59c23062ce3ba2471f2dc9cf3891d122f504bb6c56857543167995",
+          "bytes": 2076,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/ComboSpear.dll",
+          "sha256": "b7a77d056470138f4d9dc9a4897713e9075072503588f7b08ba5b40af5c207ed",
+          "bytes": 5941248,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/InventoryPlus/InventoryPlus.dll",
+          "sha256": "9b466401823cf8af769e03bcd13a31765b2034221f7b9ef0ce581963eaf5e290",
+          "bytes": 31232,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/Jotunn/Jotunn.dll",
+          "sha256": "9509221046842a70f94b98bab4cb41005dee026823a7a79345829ed46a30f796",
+          "bytes": 526336,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/Jotunn/Jotunn.dll.mdb",
+          "sha256": "0e4caf66e7b3ae3344779f4d3f2c85a1a4204e734a94a0cd47888bf76a732e5d",
+          "bytes": 152306,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/Jotunn/Jotunn.pdb",
+          "sha256": "1f3e60d5b60ad2b187233d50d2aaaaace5af3a8a14da6ee8ed7c4e41a3027d82",
+          "bytes": 1345024,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/Jotunn/Jotunn.xml",
+          "sha256": "f1514f61744160645cf503b7286ca1f9198fbbeb4caa38dfeb8f4adab39021dc",
+          "bytes": 519875,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/ModSettings.dll",
+          "sha256": "c2263139a38625f0a89f08321a5fae94724861528c59ba0b1d0c959522ced5f3",
+          "bytes": 62976,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/Monstrum/Monstrum.dll",
+          "sha256": "d3ae4a24cb6f89966cd6dcecc7fbafa7a7856e9d932ee25d92a137fdc2332f3c",
+          "bytes": 122234880,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/PlanBuild/CHANGELOG.md",
+          "sha256": "43ae43600b73de602275b6b0a34ad43f193fd8c0de99d84ead05fc40bae84b35",
+          "bytes": 23732,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/PlanBuild/PlanBuild.dll",
+          "sha256": "27e3d8f28393572bef8ee1ea311e77628a37b3f3aac802022cf413d329246de6",
+          "bytes": 439808,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/PlanBuild/README.md",
+          "sha256": "b8b2e19dbc6ebbbb97c9cec8d529abf24b1e0e48c6f85a6a0289ab6ced632332",
+          "bytes": 28155,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/PlanBuild/Translations/Chinese/PlanBuild.chinese.json",
+          "sha256": "8fcdb14eae2d220dd421b1dc90e8e1f0fdfa27d29e247a72a7c98e3947531264",
+          "bytes": 9057,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/PlanBuild/Translations/English/PlanBuild.english.json",
+          "sha256": "de049812a36255e804f7cd24aa2a469c3b9b12f7f80dd1ceec61dda4c08eb179",
+          "bytes": 10968,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/PlanBuild/Translations/German/PlanBuild.Deutsch.json",
+          "sha256": "76b6727d1205f55af17ed2f553b2623f427e39083466d61331734c4b5e28f347",
+          "bytes": 11516,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/PlanBuild/Translations/Korean/PlanBuild.korean.json",
+          "sha256": "92c0df80a8d6347ed1ea6ed4d6ae5b2b21e43b10de003b071e52b4a4554140fb",
+          "bytes": 11166,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/PlanBuild/Translations/Portuguese_Brazilian/PlanBuild.Portuguese_Brazilian.json",
+          "sha256": "77fb90015ea52a30630770ca42423ecc9ef0ad1837b40c238959937cb5ff3fb5",
+          "bytes": 1218,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/PlanBuild/Translations/Russian/PlanBuild.russian.json",
+          "sha256": "1d43f53dff5f758ed0f10af7e89ac55bd05f86ff66e1ea0d3d9b556695df15e2",
+          "bytes": 15573,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/PlanBuild/Translations/Spanish/PlanBuild.Spanish.json",
+          "sha256": "652bce0a968dcefa94972f36c89f7f3ebf775150a8a7de138a87a3f65a884d7e",
+          "bytes": 11085,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/PlantEasily/Advize_PlantEasily.dll",
+          "sha256": "9d56dae0117798e504b0bae000e4c848aeaf8642648e19ce99e36d59fa173ecb",
+          "bytes": 84480,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/PlantEverything/Advize_PlantEverything.dll",
+          "sha256": "ae6f90220ac138e9cc90deefa530e934007de4bf899b4ac51712525e268f6147",
+          "bytes": 260096,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/SFX/exhale/exhale_1.wav",
+          "sha256": "c715fa858cda248b53ec86ccd895b45424f5680a1156bff0317d2c10b1d89be4",
+          "bytes": 65582,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/SFX/exhale/exhale_2.wav",
+          "sha256": "756fcb3a72bfa8a663bf61db53a6296a8dcc64451cb4c550e7d802f38d62778c",
+          "bytes": 57390,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/SFX/exhale/exhale_3.wav",
+          "sha256": "0c04cdbd9271e77c9aa08674bdcc242cb0bc2298bcb28c9d250990e70e8b5082",
+          "bytes": 61486,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/SFX/inhale/inhale_1.wav",
+          "sha256": "f3ea81472e9c8082875c3d6795ec1651c4bb7d94c56703969eb9fa90dc28e598",
+          "bytes": 41006,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/SFX/inhale/inhale_2.wav",
+          "sha256": "09065dfdac9f17b8f0a836f7517f73688ec8897dedf80bd9385987ba0781cc03",
+          "bytes": 49198,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/SFX/inhale/inhale_3.wav",
+          "sha256": "d031a5ceb2d2fa396bb49c5c2da2801270e3d5b775bdf4d99477c6dc3a6f8b6d",
+          "bytes": 45102,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/TrashItems.dll",
+          "sha256": "8431abc7701e4e68713a2d2f30aefd383f2c232616743bed239132e57f932f80",
+          "bytes": 195584,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/ValheimPlus.dll",
+          "sha256": "9f6070177a0c58a2edb598b78a7e444dab533d87855c5ecc476e2be244aaae6b",
+          "bytes": 507392,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/Warfare/Warfare.dll",
+          "sha256": "8d9699efa0aa4de118caab250845543eaa66d8b3ae7fff5107775cf9e5aa1984",
+          "bytes": 182316032,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/betterarchery_translations.json",
+          "sha256": "bcd0c6e2ea95d4454ad33fe1237759d1023f817ff909566706a73fdac212197a",
+          "bytes": 1102,
+          "preserve": false
+        },
+        {
+          "path": "doorstop_config.ini",
+          "sha256": "4d5c6dfa0f771c6a5b1b0c559aca0bd0ece7d08b08fff894708dc3b73ce73cfc",
+          "bytes": 1460,
+          "preserve": false
+        },
+        {
+          "path": "winhttp.dll",
+          "sha256": "93406d0a02e7c164b89828cbfe3b289930a112d2eca50bd4a52e72ece169e6a8",
+          "bytes": 26112,
+          "preserve": false
+        }
+      ]
+    }
+  ]
 }

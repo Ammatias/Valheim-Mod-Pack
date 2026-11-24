@@ -1,14 +1,14 @@
 # Файлы Helheim
 
-Версия: **2026.11.24.2**. Всего файлов: **818**.
+Версия: **2026.11.25.1**. Всего файлов: **819**.
 
 Полный состав ZIP: пути относительно папки игры, размеры и SHA-256 каждого файла.
 
 [Установка и описание сборки](README.md) · [Машиночитаемый список](latest.json)
 
-Архив: [Helheim-Modpack-2026.11.24.2.zip](https://github.com/Ammatias/Valheim-Mod-Pack/releases/download/helheim-2026.11.24.2/Helheim-Modpack-2026.11.24.2.zip) — 617 550 504 байт.
+Архив: [Helheim-Modpack-2026.11.25.1.zip](https://github.com/Ammatias/Valheim-Mod-Pack/releases/download/helheim-2026.11.25.1/Helheim-Modpack-2026.11.25.1.zip) — 617 576 138 байт.
 
-SHA-256 архива: `5680536c5dbb0793b985b147b29086f76f0ebb8bcb21cb54267d9caa41dcb11a`.
+SHA-256 архива: `4459c1f297b9e3d8671cb9ce5f14076b910967e286cc01bfbf0a1d31ddf7ee24`.
 
 ## Загрузчик BepInEx (14)
 
@@ -29,7 +29,7 @@ SHA-256 архива: `5680536c5dbb0793b985b147b29086f76f0ebb8bcb21cb54267d9caa4
 | [doorstop_config.ini](doorstop_config.ini) | 1 460 | `4d5c6dfa0f771c6a5b1b0c559aca0bd0ece7d08b08fff894708dc3b73ce73cfc` |
 | [winhttp.dll](winhttp.dll) | 26 624 | `0f39399eba05dea9419781187ae2a6b0555afcdf1859f1319b6213be7729013b` |
 
-## Моды и их ресурсы (330)
+## Моды и их ресурсы (331)
 
 | Файл | Размер, байт | SHA-256 |
 |---|---:|---|
@@ -83,6 +83,7 @@ SHA-256 архива: `5680536c5dbb0793b985b147b29086f76f0ebb8bcb21cb54267d9caa4
 | [BepInEx/plugins/Armory/config/TherzieTranslations/Armory/Armory.Russian.yml](BepInEx/plugins/Armory/config/TherzieTranslations/Armory/Armory.Russian.yml) | 33 330 | `99652f328ca51378d9247e0ede3fae7b206153c12e12e86b7a2d76a65458649c` |
 | [BepInEx/plugins/Armory/config/TherzieTranslations/Armory/Armory.Spanish.yml](BepInEx/plugins/Armory/config/TherzieTranslations/Armory/Armory.Spanish.yml) | 24 325 | `a464c16344b62a7360540b2b31b481917749517452beb316006e2e9ddeeb84dc` |
 | [BepInEx/plugins/Armory/config/TherzieTranslations/Armory/Armory.Thai.yml](BepInEx/plugins/Armory/config/TherzieTranslations/Armory/Armory.Thai.yml) | 38 863 | `76dde6871508f189926044355ce9d6094064c8752afd6e74455ea2a705996aff` |
+| [BepInEx/plugins/AutoServerPassword.dll](BepInEx/plugins/AutoServerPassword.dll) | 47 104 | `5faebea7b8f4d8b2d9a7f87b5d29e52b25b2b54537f3a1d579e04d95891da038` |
 | [BepInEx/plugins/BlacksmithTools/BlacksmithTools.dll](BepInEx/plugins/BlacksmithTools/BlacksmithTools.dll) | 19 456 | `cd2f47aefa09681750f08bc27628db518a752ff9afbddaf34d2900ab43da02d2` |
 | [BepInEx/plugins/ConditionalConfigSync/ConditionalConfigSync.dll](BepInEx/plugins/ConditionalConfigSync/ConditionalConfigSync.dll) | 251 392 | `9e3aa79de10b31a4ee06e7cd94faf46d87b3bf3ec64ea3d15b07a396836f8b8a` |
 | [BepInEx/plugins/ConditionalConfigSync/ConditionalConfigSync.Plugin.dll](BepInEx/plugins/ConditionalConfigSync/ConditionalConfigSync.Plugin.dll) | 13 824 | `9aa35c2ce769dfefb01bcdec77cf2c64227ce7c41b995a2b982516449c18290f` |

@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "pack_id": "ammatias-helheim",
-  "version": "2026.11.24.2",
+  "version": "2026.11.25.1",
   "packages": [
     {
       "id": "helheim-full",
-      "bytes": 617550504,
-      "sha256": "5680536c5dbb0793b985b147b29086f76f0ebb8bcb21cb54267d9caa41dcb11a",
-      "url": "https://github.com/Ammatias/Valheim-Mod-Pack/releases/download/helheim-2026.11.24.2/Helheim-Modpack-2026.11.24.2.zip",
+      "bytes": 617576138,
+      "sha256": "4459c1f297b9e3d8671cb9ce5f14076b910967e286cc01bfbf0a1d31ddf7ee24",
+      "url": "https://github.com/Ammatias/Valheim-Mod-Pack/releases/download/helheim-2026.11.25.1/Helheim-Modpack-2026.11.25.1.zip",
       "files": [
         {
           "path": "BepInEx/config/Azumatt.CurrencyPocket.cfg",
@@ -3223,6 +3223,12 @@
           "path": "BepInEx/plugins/Armory/config/TherzieTranslations/Armory/Armory.Thai.yml",
           "sha256": "76dde6871508f189926044355ce9d6094064c8752afd6e74455ea2a705996aff",
           "bytes": 38863,
+          "preserve": false
+        },
+        {
+          "path": "BepInEx/plugins/AutoServerPassword.dll",
+          "sha256": "5faebea7b8f4d8b2d9a7f87b5d29e52b25b2b54537f3a1d579e04d95891da038",
+          "bytes": 47104,
           "preserve": false
         },
         {

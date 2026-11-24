@@ -10,6 +10,7 @@ Set-StrictMode -Version 2
 $ErrorActionPreference = 'Stop'
 $script:PackId = 'ammatias-' + $Pack.ToLowerInvariant()
 if (-not $ManifestUri) { $ManifestUri = 'https://github.com/Ammatias/Valheim-Mod-Pack/releases/latest/download/' + $Pack.ToLowerInvariant() + '-manifest.json' }
+Add-Type -AssemblyName System.IO.Compression
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 
 function Get-ContainedPath([string]$Root, [string]$Relative) {
@@ -117,7 +118,7 @@ function Test-CurrentFile([string]$Root, $File) {
     Assert-PlainPath $path $Root
     if (-not (Test-Path -LiteralPath $path -PathType Leaf)) { return $false }
     if ($File.preserve) { return $true }
-    if ((Get-Item -LiteralPath $path).Length -ne $File.bytes) { return $false }
+    if ((Get-Item -LiteralPath $path -Force).Length -ne $File.bytes) { return $false }
     return (Get-FileHash -LiteralPath $path -Algorithm SHA256).Hash.ToLowerInvariant() -eq $File.sha256
 }
 

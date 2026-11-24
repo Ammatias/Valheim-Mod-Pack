@@ -29,6 +29,7 @@ function Fixture([string]$Name, [string]$PackName = 'Midgard') {
     $files = @(
         @{ path='winhttp.dll'; data='loader'; preserve=$false },
         @{ path='doorstop_config.ini'; data='doorstop'; preserve=$false },
+        @{ path='.doorstop_version'; data='version'; preserve=$false },
         @{ path='BepInEx/core/BepInEx.dll'; data='core'; preserve=$false },
         @{ path='BepInEx/core/BepInEx.Preloader.dll'; data='preloader'; preserve=$false },
         @{ path='BepInEx/core/0Harmony.dll'; data='harmony'; preserve=$false },
@@ -60,7 +61,7 @@ function Fixture([string]$Name, [string]$PackName = 'Midgard') {
     return @{Game=$game; Manifest=$manifest; Zip=$zipPath; Data=$m; Root=$folder}
 }
 function Test([string]$Name, [scriptblock]$Action) {
-    & $Action
+    try { & $Action } catch { throw "Test '$Name' failed: $($_.Exception.Message)`n$($_.ScriptStackTrace)" }
     $script:passed++
     Write-Host "PASS $Name"
 }
@@ -180,5 +181,7 @@ try {
     }
     Write-Host "PASSED $script:passed tests"
 } finally {
-    if ($suite.StartsWith([IO.Path]::GetTempPath(), [StringComparison]::OrdinalIgnoreCase)) { Remove-Item -LiteralPath $suite -Recurse -Force }
+    if ($suite.StartsWith([IO.Path]::GetTempPath(), [StringComparison]::OrdinalIgnoreCase)) {
+        try { Remove-Item -LiteralPath $suite -Recurse -Force } catch { Write-Warning ('Fixture cleanup: ' + $_.Exception.Message) }
+    }
 }

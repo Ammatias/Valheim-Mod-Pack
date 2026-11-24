@@ -12,7 +12,13 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
       - name: Windows PowerShell 5.1 and CMD tests
         shell: powershell
-        run: .\tests\Updater.Tests.ps1
+        run: |
+          try { .\tests\Updater.Tests.ps1 }
+          catch {
+            $message = ($_.Exception.Message + "`n" + $_.ScriptStackTrace).Replace('%','%25').Replace("`r",'%0D').Replace("`n",'%0A')
+            Write-Host "::error title=Windows updater test::$message"
+            throw
+          }
       - name: Python syntax
         run: python -m py_compile tools/build_pack.py tools/import_release.py
   publish:

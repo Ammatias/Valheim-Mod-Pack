@@ -73,13 +73,82 @@ function Assert-SourceUri([string]$Value, [bool]$Local) {
     if ($uri.UserInfo -or $uri.Fragment) { throw 'Invalid download URL' }
 }
 
-function Get-SourceFile([string]$Uri, [string]$Destination, [bool]$Local) {
+function Write-TransferProgress([string]$Activity, [long]$Received, [long]$Total, [double]$Seconds) {
+    $speed = $Received / [Math]::Max(0.001, $Seconds) / 1MB
+    if ($Total -gt 0) {
+        $percent = [int][Math]::Min(100, [Math]::Floor(100.0 * $Received / $Total))
+        Write-Host ('{0}: {1}% | {2:N1} / {3:N1} MiB | {4:N1} MiB/s' -f $Activity, $percent, ($Received / 1MB), ($Total / 1MB), $speed)
+    } else {
+        Write-Host ('{0}: {1:N1} MiB | {2:N1} MiB/s' -f $Activity, ($Received / 1MB), $speed)
+    }
+}
+
+function Write-FileProgress([string]$Activity, [int]$Done, [int]$Total, [Diagnostics.Stopwatch]$Clock, [ref]$LastShown) {
+    if ($Done -eq 0 -or $Done -eq $Total -or $Clock.ElapsedMilliseconds - $LastShown.Value -ge 1000) {
+        $percent = if ($Total -gt 0) { [int][Math]::Floor(100.0 * $Done / $Total) } else { 100 }
+        Write-Host ('{0}: {1}% ({2} / {3} files)' -f $Activity, $percent, $Done, $Total)
+        $LastShown.Value = $Clock.ElapsedMilliseconds
+    }
+}
+
+function Copy-DownloadStream([IO.Stream]$SourceStream, [string]$Destination, [long]$TotalBytes, [string]$Activity) {
+    $clock = [Diagnostics.Stopwatch]::StartNew()
+    $received = [long]0
+    $lastShown = [long]0
+    $outputStream = $null
+    $success = $false
+    try {
+        $outputStream = [IO.File]::Create($Destination)
+        $buffer = New-Object byte[] 1048576
+        if ($Activity) { Write-TransferProgress $Activity 0 $TotalBytes 0 }
+        while (($count = $SourceStream.Read($buffer, 0, $buffer.Length)) -gt 0) {
+            $received += $count
+            if ($TotalBytes -gt 0 -and $received -gt $TotalBytes) { throw 'Download exceeds the expected size.' }
+            $outputStream.Write($buffer, 0, $count)
+            if ($Activity -and $clock.ElapsedMilliseconds - $lastShown -ge 1000) {
+                Write-TransferProgress $Activity $received $TotalBytes $clock.Elapsed.TotalSeconds
+                $lastShown = $clock.ElapsedMilliseconds
+            }
+        }
+        if ($TotalBytes -gt 0 -and $received -ne $TotalBytes) { throw 'Download ended before all expected bytes arrived.' }
+        if ($Activity) { Write-TransferProgress $Activity $received $TotalBytes $clock.Elapsed.TotalSeconds }
+        $success = $true
+    } finally {
+        if ($outputStream) { $outputStream.Dispose() }
+        if (-not $success -and (Test-Path -LiteralPath $Destination)) { Remove-Item -LiteralPath $Destination -Force }
+    }
+}
+
+function Get-SourceFile([string]$Uri, [string]$Destination, [bool]$Local, [long]$ExpectedBytes = 0, [string]$Activity = '') {
     Assert-SourceUri $Uri $Local
-    if (([Uri]$Uri).IsFile) { [IO.File]::Copy(([Uri]$Uri).LocalPath, $Destination, $true); return }
+    if (([Uri]$Uri).IsFile) {
+        $inputStream = [IO.File]::OpenRead(([Uri]$Uri).LocalPath)
+        try {
+            $total = if ($ExpectedBytes -gt 0) { $ExpectedBytes } else { $inputStream.Length }
+            Copy-DownloadStream $inputStream $Destination $total $Activity
+        } finally { $inputStream.Dispose() }
+        return
+    }
     [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
-    $client = New-Object Net.WebClient
-    $client.Headers['User-Agent'] = 'Ammatias-Midgard-Updater/1'
-    try { $client.DownloadFile($Uri, $Destination) } finally { $client.Dispose() }
+    $request = [Net.HttpWebRequest]::Create($Uri)
+    $request.UserAgent = 'Valheim-Modpack-Updater/1'
+    $request.Timeout = 30000
+    $request.ReadWriteTimeout = 30000
+    $response = $null
+    $inputStream = $null
+    if ($Activity) { Write-Host ($Activity + ': connecting...') }
+    try {
+        $response = $request.GetResponse()
+        if ($ExpectedBytes -gt 0 -and $response.ContentLength -gt 0 -and $response.ContentLength -ne $ExpectedBytes) {
+            throw 'Download size differs from the expected archive size.'
+        }
+        $total = if ($ExpectedBytes -gt 0) { $ExpectedBytes } else { $response.ContentLength }
+        $inputStream = $response.GetResponseStream()
+        Copy-DownloadStream $inputStream $Destination $total $Activity
+    } finally {
+        if ($inputStream) { $inputStream.Dispose() }
+        if ($response) { $response.Dispose() }
+    }
 }
 
 function Read-ReleaseManifest([string]$Uri, [string]$Destination, [bool]$Local) {
@@ -135,6 +204,7 @@ function Test-CurrentFile([string]$Root, $File) {
 }
 
 function Expand-VerifiedPackage([string]$ArchivePath, $Package, [string]$Stage) {
+    Write-Host 'Verifying downloaded archive...'
     if ((Get-Item -LiteralPath $ArchivePath).Length -ne $Package.bytes -or
         (Get-FileHash -LiteralPath $ArchivePath -Algorithm SHA256).Hash.ToLowerInvariant() -ne $Package.sha256) {
         throw "Downloaded package is damaged: $($Package.id)"
@@ -143,6 +213,9 @@ function Expand-VerifiedPackage([string]$ArchivePath, $Package, [string]$Stage) 
     foreach ($f in $Package.files) { $expected[$f.path] = $f }
     $seen = New-Object 'Collections.Generic.HashSet[string]' ([StringComparer]::OrdinalIgnoreCase)
     $zip = [IO.Compression.ZipFile]::OpenRead($ArchivePath)
+    $clock = [Diagnostics.Stopwatch]::StartNew()
+    $lastShown = [long]0
+    Write-FileProgress 'Extracting and verifying' 0 $expected.Count $clock ([ref]$lastShown)
     try {
         foreach ($entry in $zip.Entries) {
             $name = $entry.FullName
@@ -157,6 +230,7 @@ function Expand-VerifiedPackage([string]$ArchivePath, $Package, [string]$Stage) 
             if ((Get-FileHash -LiteralPath $destination -Algorithm SHA256).Hash.ToLowerInvariant() -ne $expected[$name].sha256) {
                 throw "Unpacked file is damaged: $name"
             }
+            Write-FileProgress 'Extracting and verifying' $seen.Count $expected.Count $clock ([ref]$lastShown)
         }
         if ($seen.Count -ne $expected.Count) { throw 'ZIP package is incomplete' }
     } finally { $zip.Dispose() }
@@ -243,6 +317,7 @@ function Invoke-PackUpdate([string]$Root, [string]$Source, [bool]$Local, [bool]$
     [IO.Directory]::CreateDirectory($stage) | Out-Null
     $keepStage = $false
     try {
+        Write-Host ('Checking for ' + $Pack + ' updates...') -ForegroundColor Cyan
         $manifestFile = Get-ContainedPath $stage 'manifest.json'
         $online = $true
         try { $manifest = Read-ReleaseManifest $Source $manifestFile $Local } catch {
@@ -255,13 +330,23 @@ function Invoke-PackUpdate([string]$Root, [string]$Source, [bool]$Local, [bool]$
         }
         Assert-Manifest $manifest $Root $Local
         $changed = New-Object Collections.ArrayList
+        $fileCount = 0
+        foreach ($package in $manifest.packages) { $fileCount += @($package.files).Count }
+        $checked = 0
+        $checkClock = [Diagnostics.Stopwatch]::StartNew()
+        $lastShown = [long]0
+        Write-FileProgress 'Checking installed files' 0 $fileCount $checkClock ([ref]$lastShown)
         foreach ($package in $manifest.packages) {
             $needed = $false
-            foreach ($file in $package.files) { if (-not (Test-CurrentFile $Root $file)) { $needed=$true } }
+            foreach ($file in $package.files) {
+                if (-not (Test-CurrentFile $Root $file)) { $needed=$true }
+                $checked++
+                Write-FileProgress 'Checking installed files' $checked $fileCount $checkClock ([ref]$lastShown)
+            }
             if ($needed) { [void]$changed.Add($package) }
         }
         if (-not $online -and $changed.Count) { throw 'Installed files need repair, but the download source is offline.' }
-        Write-Host ('Valheim ' + $manifest.version + ': ' + $changed.Count + ' component(s) to download.')
+        Write-Host ($Pack + ' ' + $manifest.version)
         $expectedNames = New-Object 'Collections.Generic.HashSet[string]' ([StringComparer]::OrdinalIgnoreCase)
         foreach ($package in $manifest.packages) { foreach ($file in $package.files) { [void]$expectedNames.Add($file.path) } }
         $extraFiles = $false
@@ -274,17 +359,18 @@ function Invoke-PackUpdate([string]$Root, [string]$Source, [bool]$Local, [bool]$
             }
         }
         if ($changed.Count -eq 0 -and -not $extraFiles) {
+            Write-Host 'Already up to date. No download needed.' -ForegroundColor Green
             $stateFile = Get-ContainedPath $stage 'installed.json'
             [IO.File]::WriteAllText($stateFile, ($manifest | ConvertTo-Json -Depth 15), (New-Object Text.UTF8Encoding($false)))
             Move-Item -LiteralPath $stateFile -Destination (Get-ContainedPath $Root '.valheim-modpack/installed.json') -Force
         } else {
         $new = Get-ContainedPath $stage 'new'
         [IO.Directory]::CreateDirectory($new) | Out-Null
+        if ($changed.Count -eq 0) { Write-Host 'Preparing installed files...' }
         foreach ($package in $manifest.packages) {
             if ($changed -contains $package) {
-                Write-Host ('Downloading ' + $package.id + '...')
                 $zipPath = Get-ContainedPath $stage ($package.id + '.zip')
-                Get-SourceFile $package.url $zipPath $Local
+                Get-SourceFile $package.url $zipPath $Local $package.bytes ('Downloading ' + $Pack)
                 Expand-VerifiedPackage $zipPath $package $new
             } else {
                 foreach ($file in $package.files) {
@@ -297,10 +383,17 @@ function Invoke-PackUpdate([string]$Root, [string]$Source, [bool]$Local, [bool]$
             }
         }
         # Recheck staged managed files before changing the installed folders.
+        $checked = 0
+        $checkClock.Restart()
+        $lastShown = [long]0
+        Write-FileProgress 'Checking prepared files' 0 $fileCount $checkClock ([ref]$lastShown)
         foreach ($package in $manifest.packages) {
             foreach ($file in $package.files) {
-                if ($file.preserve -and (Test-Path -LiteralPath (Get-ContainedPath $Root $file.path) -PathType Leaf)) { continue }
-                if (-not (Test-CurrentFile $new $file)) { throw "Staged file check failed: $($file.path)" }
+                if (-not ($file.preserve -and (Test-Path -LiteralPath (Get-ContainedPath $Root $file.path) -PathType Leaf))) {
+                    if (-not (Test-CurrentFile $new $file)) { throw "Staged file check failed: $($file.path)" }
+                }
+                $checked++
+                Write-FileProgress 'Checking prepared files' $checked $fileCount $checkClock ([ref]$lastShown)
             }
         }
         # AutoServerPassword can keep its local store beside the plugin.
@@ -314,6 +407,7 @@ function Invoke-PackUpdate([string]$Root, [string]$Source, [bool]$Local, [bool]$
                 [IO.File]::Copy($passwordFile.FullName, $target, $false)
             }
         }
+        Write-Host 'Installing verified files...'
         Commit-PackFiles $Root $stage $manifest
         }
         Write-Host 'Valheim modpack is ready.' -ForegroundColor Green
@@ -326,6 +420,7 @@ function Invoke-PackUpdate([string]$Root, [string]$Source, [bool]$Local, [bool]$
         Remove-Item -LiteralPath $lockPath -Force -ErrorAction SilentlyContinue
     }
     if (-not $SkipLaunch) {
+        Write-Host 'Starting Valheim...' -ForegroundColor Cyan
         $env:SteamAppId = '892970'
         $env:SteamGameId = '892970'
         Start-Process -FilePath (Join-Path $Root 'valheim.exe') -WorkingDirectory $Root

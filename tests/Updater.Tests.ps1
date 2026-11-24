@@ -76,6 +76,54 @@ try {
             Throws { Assert-SourceUri $uri $false } "Accepted untrusted download $uri"
         }
     }
+    Test 'streamed download preserves bytes and shows intermediate progress and speed' {
+        if (-not ('ModpackSlowStream' -as [type])) {
+            Add-Type -TypeDefinition @'
+public class ModpackSlowStream : System.IO.MemoryStream {
+    public ModpackSlowStream(byte[] data) : base(data) {}
+    public override int Read(byte[] buffer, int offset, int count) {
+        System.Threading.Thread.Sleep(220);
+        return base.Read(buffer, offset, System.Math.Min(count, 65536));
+    }
+}
+'@
+        }
+        $bytes = New-Object byte[] 393216
+        (New-Object Random).NextBytes($bytes)
+        $inputStream = New-Object ModpackSlowStream -ArgumentList (,$bytes)
+        $destination = Join-Path $suite 'stream-download.bin'
+        try { $messages = @(Copy-DownloadStream $inputStream $destination $bytes.Length 'Test download' 6>&1) }
+        finally { $inputStream.Dispose() }
+        $hash = [Security.Cryptography.SHA256]::Create()
+        try { $expected = [BitConverter]::ToString($hash.ComputeHash($bytes)).Replace('-', '') }
+        finally { $hash.Dispose() }
+        Assert ((Get-FileHash -LiteralPath $destination).Hash -eq $expected) 'Download bytes changed'
+        $text = $messages -join "`n"
+        Assert ($text -match ': ([1-9]|[1-9][0-9])% \|') 'No intermediate progress reported'
+        Assert ($text -match '100% \|' -and $text -match 'MiB/s') 'Final progress or speed missing'
+    }
+    Test 'incomplete and oversized transfers remove partial downloads' {
+        foreach ($expected in @(2, 8)) {
+            $inputStream = New-Object IO.MemoryStream -ArgumentList (,[byte[]]@(1, 2, 3, 4))
+            $destination = Join-Path $suite ('invalid-transfer-' + $expected)
+            try { Throws { Copy-DownloadStream $inputStream $destination $expected 'Invalid download' } 'Invalid transfer size accepted' }
+            finally { $inputStream.Dispose() }
+            Assert (-not (Test-Path -LiteralPath $destination)) 'Partial download left behind'
+        }
+    }
+    Test 'unknown-length transfer reports bytes without a fabricated percentage' {
+        $inputStream = New-Object IO.MemoryStream -ArgumentList (,[byte[]]@(0, 255, 1, 2))
+        $destination = Join-Path $suite 'unknown-length.bin'
+        try { $messages = @(Copy-DownloadStream $inputStream $destination -1 'Unknown size' 6>&1) }
+        finally { $inputStream.Dispose() }
+        Assert ((Get-Item -LiteralPath $destination).Length -eq 4) 'Unknown-length download incomplete'
+        Assert (($messages -join "`n") -notmatch '%') 'Unknown size reported as a percentage'
+    }
+    Test 'HTTPS release download follows redirects and preserves its checksum' {
+        $destination = Join-Path $suite 'release-checksums.txt'
+        Get-SourceFile 'https://github.com/Ammatias/Valheim-Mod-Pack/releases/download/helheim-2026.11.25.1/SHA256SUMS.txt' $destination $false 185 'HTTPS download'
+        Assert ((Get-FileHash -LiteralPath $destination).Hash.ToLowerInvariant() -eq '683bb63ddc7736c0c9dda734bc94924bc1024f93ac8af78a630ae0468296bcf6') 'HTTPS download checksum differs'
+    }
     Test 'install, preserve saves/settings/passwords, prune foreign DLL, no launch' {
         $f = Fixture 'install'
         Write-File (Join-Path $f.Game 'BepInEx/plugins/obsolete.dll') 'obsolete'

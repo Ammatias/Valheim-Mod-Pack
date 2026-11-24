@@ -99,8 +99,16 @@ public class ModpackSlowStream : System.IO.MemoryStream {
         finally { $hash.Dispose() }
         Assert ((Get-FileHash -LiteralPath $destination).Hash -eq $expected) 'Download bytes changed'
         $text = $messages -join "`n"
-        Assert ($text -match ': ([1-9]|[1-9][0-9])% \|') 'No intermediate progress reported'
-        Assert ($text -match '100% \|' -and $text -match 'MiB/s') 'Final progress or speed missing'
+        Assert ($text -match '\] +([1-9]|[1-9][0-9])%') 'No intermediate progress reported'
+        Assert ($text -match '\[=+\] +100%' -and $text -match 'MiB/s') 'Final bar, progress or speed missing'
+        $frames = @($messages | Where-Object { $_.MessageData.NoNewLine })
+        Assert ($frames.Count -ge 3) 'Progress produced scrolling lines instead of updated frames'
+        foreach ($frame in $frames) {
+            Assert ($frame.MessageData.Message.StartsWith("`r")) 'Progress frame did not return to the start of the line'
+            Assert ($frame.MessageData.Message -notmatch "`n") 'Progress frame contains a newline'
+        }
+        Assert ($messages.Count -eq $frames.Count + 1) 'Progress should end with exactly one newline'
+        Assert (-not $script:TransferLineActive) 'Finished download left the progress line open'
     }
     Test 'incomplete and oversized transfers remove partial downloads' {
         foreach ($expected in @(2, 8)) {
@@ -109,6 +117,15 @@ public class ModpackSlowStream : System.IO.MemoryStream {
             try { Throws { Copy-DownloadStream $inputStream $destination $expected 'Invalid download' } 'Invalid transfer size accepted' }
             finally { $inputStream.Dispose() }
             Assert (-not (Test-Path -LiteralPath $destination)) 'Partial download left behind'
+            Assert (-not $script:TransferLineActive) 'Failed download left the progress line open'
+        }
+    }
+    Test 'progress bar fits narrow windows and unknown sizes stay indeterminate' {
+        foreach ($width in @(20, 40, 79, 119)) {
+            $line = Format-TransferProgress 'Downloading Helheim' 5MB 10MB 2 $width
+            Assert ($line.Length -le $width -and $line -match '\[.*>.*\] +50%') 'Progress bar wrapped or lost its percentage'
+            $line = Format-TransferProgress 'Downloading Helheim' 5MB -1 2 $width
+            Assert ($line.Length -le $width -and $line -match '\[.*>.*\]' -and $line -notmatch '%') 'Unknown size displayed false progress or wrapped'
         }
     }
     Test 'unknown-length transfer reports bytes without a fabricated percentage' {

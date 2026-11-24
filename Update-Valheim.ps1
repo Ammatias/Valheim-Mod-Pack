@@ -73,14 +73,56 @@ function Assert-SourceUri([string]$Value, [bool]$Local) {
     if ($uri.UserInfo -or $uri.Fragment) { throw 'Invalid download URL' }
 }
 
-function Write-TransferProgress([string]$Activity, [long]$Received, [long]$Total, [double]$Seconds) {
+function Format-TransferProgress([string]$Activity, [long]$Received, [long]$Total, [double]$Seconds, [int]$Width) {
     $speed = $Received / [Math]::Max(0.001, $Seconds) / 1MB
+    $percent = 0
     if ($Total -gt 0) {
         $percent = [int][Math]::Min(100, [Math]::Floor(100.0 * $Received / $Total))
-        Write-Host ('{0}: {1}% | {2:N1} / {3:N1} MiB | {4:N1} MiB/s' -f $Activity, $percent, ($Received / 1MB), ($Total / 1MB), $speed)
+        $status = '{0,3}% {1,5:N1}/{2,5:N1} MiB {3,5:N1} MiB/s' -f $percent, ($Received / 1MB), ($Total / 1MB), $speed
     } else {
-        Write-Host ('{0}: {1:N1} MiB | {2:N1} MiB/s' -f $Activity, ($Received / 1MB), $speed)
+        $status = '{0:N1} MiB {1:N1} MiB/s' -f ($Received / 1MB), $speed
     }
+    $prefix = $Activity + ' '
+    $barWidth = [Math]::Min(28, $Width - $prefix.Length - $status.Length - 3)
+    if ($barWidth -lt 8) {
+        $prefix = ''
+        $barWidth = [Math]::Min(28, $Width - $status.Length - 3)
+    }
+    if ($barWidth -lt 4) {
+        $status = if ($Total -gt 0) { '{0}% {1:N1} MiB/s' -f $percent, $speed } else { '{0:N1} MiB' -f ($Received / 1MB) }
+        $barWidth = [Math]::Min(28, $Width - $status.Length - 3)
+    }
+    if ($barWidth -lt 1) {
+        $status = if ($Total -gt 0) { '{0}%' -f $percent } else { 'Downloading' }
+        $barWidth = [Math]::Max(1, $Width - $status.Length - 3)
+    }
+    if ($Total -gt 0) {
+        $filled = [int][Math]::Floor($barWidth * $percent / 100.0)
+        $bar = if ($percent -eq 100) { '=' * $barWidth } else { ('=' * $filled) + '>' + ('-' * ($barWidth - $filled - 1)) }
+    } else {
+        $position = [int]([Math]::Floor($Received / 65536.0) % $barWidth)
+        $bar = ('-' * $position) + '>' + ('-' * ($barWidth - $position - 1))
+    }
+    $line = $prefix + '[' + $bar + '] ' + $status
+    return $line.Substring(0, [Math]::Min($line.Length, [Math]::Max(1, $Width)))
+}
+
+$script:TransferLineLength = 0
+$script:TransferLineActive = $false
+function Write-TransferProgress([string]$Activity, [long]$Received, [long]$Total, [double]$Seconds) {
+    $width = 79
+    try { if ([Console]::WindowWidth -gt 1) { $width = [Console]::WindowWidth - 1 } } catch { }
+    $line = Format-TransferProgress $Activity $Received $Total $Seconds $width
+    $length = [Math]::Min($width, [Math]::Max($line.Length, $script:TransferLineLength))
+    Write-Host -NoNewline ("`r" + $line.PadRight($length))
+    $script:TransferLineLength = $line.Length
+    $script:TransferLineActive = $true
+}
+
+function Complete-TransferLine {
+    if ($script:TransferLineActive) { Write-Host '' }
+    $script:TransferLineLength = 0
+    $script:TransferLineActive = $false
 }
 
 function Write-FileProgress([string]$Activity, [int]$Done, [int]$Total, [Diagnostics.Stopwatch]$Clock, [ref]$LastShown) {
@@ -105,7 +147,7 @@ function Copy-DownloadStream([IO.Stream]$SourceStream, [string]$Destination, [lo
             $received += $count
             if ($TotalBytes -gt 0 -and $received -gt $TotalBytes) { throw 'Download exceeds the expected size.' }
             $outputStream.Write($buffer, 0, $count)
-            if ($Activity -and $clock.ElapsedMilliseconds - $lastShown -ge 1000) {
+            if ($Activity -and $clock.ElapsedMilliseconds - $lastShown -ge 250) {
                 Write-TransferProgress $Activity $received $TotalBytes $clock.Elapsed.TotalSeconds
                 $lastShown = $clock.ElapsedMilliseconds
             }
@@ -114,6 +156,7 @@ function Copy-DownloadStream([IO.Stream]$SourceStream, [string]$Destination, [lo
         if ($Activity) { Write-TransferProgress $Activity $received $TotalBytes $clock.Elapsed.TotalSeconds }
         $success = $true
     } finally {
+        if ($Activity) { Complete-TransferLine }
         if ($outputStream) { $outputStream.Dispose() }
         if (-not $success -and (Test-Path -LiteralPath $Destination)) { Remove-Item -LiteralPath $Destination -Force }
     }

@@ -1,0 +1,849 @@
+# Файлы Helheim
+
+Версия: **2026.11.24.2**. Всего файлов: **818**.
+
+Полный состав ZIP: пути относительно папки игры, размеры и SHA-256 каждого файла.
+
+[Установка и описание сборки](README.md) · [Машиночитаемый список](latest.json)
+
+Архив: [Helheim-Modpack-2026.11.24.2.zip](https://github.com/Ammatias/Valheim-Mod-Pack/releases/download/helheim-2026.11.24.2/Helheim-Modpack-2026.11.24.2.zip) — 617 550 504 байт.
+
+SHA-256 архива: `5680536c5dbb0793b985b147b29086f76f0ebb8bcb21cb54267d9caa41dcb11a`.
+
+## Загрузчик BepInEx (14)
+
+| Файл | Размер, байт | SHA-256 |
+|---|---:|---|
+| `BepInEx/core/0Harmony.dll` | 204 800 | `1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031` |
+| `BepInEx/core/0Harmony20.dll` | 112 640 | `ee65b412b40ead89b1f27f8165e914af6783f5db49d2ef7ca0e6de4aca8f283f` |
+| `BepInEx/core/BepInEx.dll` | 132 096 | `18caffd2c09dc4e6a51fc13b4af7fd2389251f2ec8ecdf8bf076b84a14fb991e` |
+| `BepInEx/core/BepInEx.Harmony.dll` | 6 656 | `b937e529616bb27a0fa05162a710fea79c82da126e15fec34811040c0416c4fe` |
+| `BepInEx/core/BepInEx.Preloader.dll` | 47 104 | `e97a0090ba03850c013cb4680a4c3a3902a0abdffda60740d2abfebb89d1c797` |
+| `BepInEx/core/HarmonyXInterop.dll` | 23 552 | `eafc025f3acf7ecd9fdc18c2309885f3feb452415d75a4f0fa058d993049b688` |
+| `BepInEx/core/Mono.Cecil.dll` | 339 456 | `7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6` |
+| `BepInEx/core/Mono.Cecil.Mdb.dll` | 43 008 | `5896d1898f616701fff18f3b2c71e6b844d2390ef9f41e1c5fccce8cb27c698e` |
+| `BepInEx/core/Mono.Cecil.Pdb.dll` | 86 528 | `174db44a067f58561510af746f3caeb032037762c57a31c8d9ee32db25174984` |
+| `BepInEx/core/Mono.Cecil.Rocks.dll` | 27 648 | `54ac539fb5ddc8b44c0e9acd0fcb7324f89d1a072edf8ebc1b06dd691e3d3927` |
+| `BepInEx/core/MonoMod.RuntimeDetour.dll` | 105 984 | `40e49bb314391cd7bddc2644f8553eeba92c194b940836b103df16955c464e0c` |
+| `BepInEx/core/MonoMod.Utils.dll` | 187 904 | `9d1495f147ac93c4f81f84538c1a326e8f8a6aefc78d6289d798f3ce1162c5e9` |
+| `doorstop_config.ini` | 1 460 | `4d5c6dfa0f771c6a5b1b0c559aca0bd0ece7d08b08fff894708dc3b73ce73cfc` |
+| `winhttp.dll` | 26 624 | `0f39399eba05dea9419781187ae2a6b0555afcdf1859f1319b6213be7729013b` |
+
+## Моды и их ресурсы (330)
+
+| Файл | Размер, байт | SHA-256 |
+|---|---:|---|
+| `BepInEx/plugins/AdventureBackpacks/AdventureBackpacks.dll` | 7 448 064 | `942584fd83b33af3c4f6bccded83958a6b4032ca05722e93bcb3e75cb067a43e` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Abenaki/AdventureBackpacks.json` | 3 021 | `f1824220f0964017d5dd1e42a83028a50ad5ca01e64bc77185c87e01c28d7817` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Bulgarian/AdventureBackpacks.json` | 4 524 | `7239f51bd7b2053d05e3af2844c417b936999b2e53e5e9298f2a7786e48c5412` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Chinese/AdventureBackpacks.json` | 3 292 | `eb6b22541b72e54766975527471f00dccd305f185187f8e82c2f056fcfc5b2a2` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Chinese_Trad/AdventureBackpacks.json` | 3 345 | `7ce87722dd1e494b6d50932c8d180578ed60c230fb33668e63e4e78f02cc6285` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Croatian/AdventureBackpacks.json` | 3 369 | `6733db82edd22e7e7de65b7d63da1209df9847a7a0b2e6eb1bb4b605a72dbce4` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Czech/AdventureBackpacks.json` | 3 365 | `98b5370e12719af2f19ea224a9c4dc72ae2ec8e417bf71c612186d2cc415304a` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Danish/AdventureBackpacks.json` | 3 363 | `af1c33a6f8ae30f4118d0a822fe620be8dd4702cebf16ca66e4d8c1e212882eb` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Dutch/AdventureBackpacks.json` | 3 436 | `11a7dfbf97603149327d82f0b0200060dbacaca0e031c53c30b40c7e7a9c13e5` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Finnish/AdventureBackpacks.json` | 3 374 | `e4014cfbabd14c1a4310236d0478ba8ea12d4b2563e58165120949e3057948ef` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/French/AdventureBackpacks.json` | 3 690 | `119effe068e0135dc3ff840a01608f15fe7b7e9d8992bd7480f3e898c8b6caee` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Georgian/AdventureBackpacks.json` | 6 006 | `8183df05c25502914aa6f3c7f766bc00bdc9dd3c777d2279d5377a1064b89bf4` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/German/AdventureBackpacks.json` | 3 543 | `b62afdc1858bd68ba93ca747799eda78f464b36ded4ae52ba4df083c17707e9c` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Greek/AdventureBackpacks.json` | 4 879 | `561b7408d1de15eb72cca857df83025b3c3f1c732a9b0df9b1412d8d03162947` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Hindi/AdventureBackpacks.json` | 5 458 | `566ec8f97cf0983fb8880974eae29bb46982f53c4185e7cb31a4845c3ed8895a` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Hungarian/AdventureBackpacks.json` | 3 547 | `5434ac3d8256f86341a76ceee40edeca9285b2e6068e47a97c373535634d1df2` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Icelandic/AdventureBackpacks.json` | 3 454 | `adccda556b1533afbf2ba279820f67a1a68adad498d778bda2d11d161a116b65` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Italian/AdventureBackpacks.json` | 3 481 | `9d74e632bb893793aba0406a14023b99855459a8e265351b741c7dce9d951613` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Japanese/AdventureBackpacks.json` | 4 120 | `bb36c94c4290864b53579633dc0c07ba9cfede7b5381ba31a91906ec28d816ab` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Korean/AdventureBackpacks.json` | 3 816 | `55682721660a3e6ddb66bdbc94a51fdf71b9d004cf2c73ee50392b1d5570a176` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Lithuanian/AdventureBackpacks.json` | 3 432 | `ec722586daa7f11913cd602716e5edd14392831d57e14eb0f4776bc6bae86e5d` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Macedonian/AdventureBackpacks.json` | 4 517 | `2d5b553d8f169093bd584275824d92b0566e949661608c81184227c36aed6a12` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Norwegian/AdventureBackpacks.json` | 3 300 | `524d13e13083aacd73a89264574a909cd2fed43f80af2285957b8c5451bb55f1` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Polish/AdventureBackpacks.json` | 3 458 | `7038aa0f6e10bfd70864c271bfe1adf87f895beb4c9e89c363a8e05f0a14bc72` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Portuguese_Brazilian/AdventureBackpacks.json` | 3 528 | `6b40116264615f392b2cc3644d029bd7569346b977da5e02a7cc24d9e7efb7c9` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Portuguese_European/AdventureBackpacks.json` | 3 522 | `3798a804de9975d0726fb76037bad4222945b4f2ef081b34403c1043b5580081` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Romanian/AdventureBackpacks.json` | 3 501 | `d228b9429f675fd08e53946d2839f6fd584ff6d20f7c56bb982421c1456d68ec` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Russian/AdventureBackpacks.json` | 4 646 | `c439100b79501ea327a684103d519c85ae1bd6b331034b7f275e0fc2dbe7e8f0` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Serbian/AdventureBackpacks.json` | 4 398 | `17a24a5240dac49e445a8c312e4a12bcf628310908786473f28b7811d9652302` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Slovak/AdventureBackpacks.json` | 3 362 | `337d0fffd1aff9128796e077436ed2f99174d4b019a32f1d6174a29ab0fedbd4` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Spanish/AdventureBackpacks.json` | 3 475 | `ff803221e38ed86452cfe07ef9b5113c4956e1ae7ec5148f8218b3015ff1e473` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Swedish/AdventureBackpacks.json` | 3 418 | `4daa20c5b708f90ec5e7a958fa049f51d0506e797178573bdc1be802045736e9` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Thai/AdventureBackpacks.json` | 5 769 | `5a89af1bce7185a2073aa60d1a9ba378e4b2312bf22529f38f27770a72f210f4` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Turkish/AdventureBackpacks.json` | 3 670 | `c3936208a91cb9c0f30e0d82eea4c5d3a846218f1079f2c67867ebedb4334ffb` |
+| `BepInEx/plugins/AdventureBackpacks/Translations/Ukrainian/AdventureBackpacks.json` | 4 668 | `43f53878ee87914542e9ed682bd8dc4cf7bce3cbb87563a5e6e457fbb4f1f59d` |
+| `BepInEx/plugins/Advize_PlantEasily.dll` | 85 504 | `b349659684587b86c9c0457ca395b7aa808edd8dc52f67d44ea9ce7d0fceb35e` |
+| `BepInEx/plugins/Advize_PlantEverything.dll` | 260 096 | `ae6f90220ac138e9cc90deefa530e934007de4bf899b4ac51712525e268f6147` |
+| `BepInEx/plugins/AeehyehssReeper-ChaosArmor/ChaosArmor.dll` | 9 631 744 | `f4fb808200e20a5401ee757b88939be0f6f55bf0200093381a6c93d4140cbf63` |
+| `BepInEx/plugins/Armory/Armory.dll` | 46 139 904 | `814a048fb46f3e32b24c017c07f1402430a0799b5977a8e06a47c6f316caea5b` |
+| `BepInEx/plugins/Armory/config/TherzieTranslations/Armory/Armory.Chinese.yml` | 22 877 | `d0104469111c5398a288b07ae451a2a06d0a61f1f3593f63d37f620bececf705` |
+| `BepInEx/plugins/Armory/config/TherzieTranslations/Armory/Armory.English-LatestUpToDate.yml` | 23 207 | `a75f5d4dc155ab59ad7f0701427622c85377e3d497f3f17a18037aa77b5a65d7` |
+| `BepInEx/plugins/Armory/config/TherzieTranslations/Armory/Armory.French.yml` | 25 171 | `a2792d6884837c05fa9ff8ff6043ca9891b06d0928adf7adbbaaa341900499ce` |
+| `BepInEx/plugins/Armory/config/TherzieTranslations/Armory/Armory.German.yml` | 25 269 | `ff284edda0c192400c81bf6984382655f45ed993288bc22ae7823cf76da0a248` |
+| `BepInEx/plugins/Armory/config/TherzieTranslations/Armory/Armory.Italian.yml` | 24 917 | `969bf94aaafb5acd93e078c9eff0e0b9634ee2e0a20a544d8b2769c3dae91624` |
+| `BepInEx/plugins/Armory/config/TherzieTranslations/Armory/Armory.Korean.yml` | 24 298 | `3f2b943c8b03716aa0e2d66a2148b4585a485fa3f9b4bc7d60edc2600e8093b3` |
+| `BepInEx/plugins/Armory/config/TherzieTranslations/Armory/Armory.Polish.yml` | 24 281 | `7a7b8468f0300220540ba3de4cf284bec2c34c6c4e5b74b5cc811950544bcad4` |
+| `BepInEx/plugins/Armory/config/TherzieTranslations/Armory/Armory.Portuguese.yml` | 23 907 | `1413775e05ad7ee06832614f41355de522afd2ad061543c48c5d849be027bbde` |
+| `BepInEx/plugins/Armory/config/TherzieTranslations/Armory/Armory.Russian.yml` | 33 330 | `99652f328ca51378d9247e0ede3fae7b206153c12e12e86b7a2d76a65458649c` |
+| `BepInEx/plugins/Armory/config/TherzieTranslations/Armory/Armory.Spanish.yml` | 24 325 | `a464c16344b62a7360540b2b31b481917749517452beb316006e2e9ddeeb84dc` |
+| `BepInEx/plugins/Armory/config/TherzieTranslations/Armory/Armory.Thai.yml` | 38 863 | `76dde6871508f189926044355ce9d6094064c8752afd6e74455ea2a705996aff` |
+| `BepInEx/plugins/BlacksmithTools/BlacksmithTools.dll` | 19 456 | `cd2f47aefa09681750f08bc27628db518a752ff9afbddaf34d2900ab43da02d2` |
+| `BepInEx/plugins/ConditionalConfigSync/ConditionalConfigSync.dll` | 251 392 | `9e3aa79de10b31a4ee06e7cd94faf46d87b3bf3ec64ea3d15b07a396836f8b8a` |
+| `BepInEx/plugins/ConditionalConfigSync/ConditionalConfigSync.Plugin.dll` | 13 824 | `9aa35c2ce769dfefb01bcdec77cf2c64227ce7c41b995a2b982516449c18290f` |
+| `BepInEx/plugins/ConfigurationManager/ConfigurationManager.dll` | 189 952 | `99f6e20e004050b6cd997a10baeb1b78308e919cda21c52192b8ba67d68856dd` |
+| `BepInEx/plugins/CurrencyPocket/CurrencyPocket.dll` | 76 288 | `64f4a4990633f744ed464760a46a51e55f4784afb9c42c5dc36861604c2b491a` |
+| `BepInEx/plugins/DiveIn/DiveIn.dll` | 482 816 | `a7794b713829d4d7ef781d8bc396a64dc1858e1c669c142d8afa7d6cffaa465c` |
+| `BepInEx/plugins/DiveIn/LICENSE.txt` | 35 823 | `230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809` |
+| `BepInEx/plugins/EpicLoot/EpicLoot.dll` | 43 126 272 | `3bd349eea71565b43ef7b70d656926039efdacec1fd0aeee97d30787571bdd58` |
+| `BepInEx/plugins/EquipmentAndQuickSlots/EquipmentAndQuickSlots.dll` | 672 768 | `5aa81fe0fff3e5062a818e4d762e040dd3860d9af1b374220ca945ee3defefe0` |
+| `BepInEx/plugins/Jotunn/Jotunn.dll` | 527 872 | `f1e8cfc0eacbb0c9291e5f445d56d7452465831bc379e6ca44b0027ac9203419` |
+| `BepInEx/plugins/JsonDotNET/Newtonsoft.Json.dll` | 711 952 | `d134937ec381729074694490e81983b08ec7991b31550eabafb9202e5b404f89` |
+| `BepInEx/plugins/JsonDotNET/NewtonsoftJsonDetector.dll` | 6 656 | `513f2b88dfea6b96336a63d4120cdfc05011391ab45d981989e88844722d84b7` |
+| `BepInEx/plugins/Morgott.Consumables.EpicLoot/Morgott.Consumables.EpicLoot.dll` | 14 336 | `8840678acd9fdf3a3425ac72f0bae5d26c2900ffe4761c20c7f0ccf6a9c546a5` |
+| `BepInEx/plugins/Morgott.Consumables/Morgott.Consumables.dll` | 8 739 328 | `612039a1c9e6ed7f36361dfe46ec4a5c6a44dd0a7ea74572da0f6942c8a75899` |
+| `BepInEx/plugins/Morgott.Core/Morgott.Core.dll` | 69 632 | `76f3bf0a19cc4ea303d3d7bd846f932c1f34e41889dbc7b5413de4b60e3be62c` |
+| `BepInEx/plugins/Morgott.Creatures.EpicLoot/Morgott.Creatures.EpicLoot.dll` | 18 944 | `9b2fd09b1896997e9c1bfbe9e7d106a13bcfdfd1a83ddb7f1ed2fe39767b7b5d` |
+| `BepInEx/plugins/Morgott.Creatures/assets/LICENSE-GPL-3.0.txt` | 35 872 | `853027a8deb4123db9628c3f2a8584c5eac33caa854e9f2af7a63a7d09ed6f55` |
+| `BepInEx/plugins/Morgott.Creatures/assets/NOTICE-Kraken.md` | 1 327 | `9244e73529f83663a22a9ca7ddb4b9657d79b0f58f6f3c5bbfb49c860c9c6aef` |
+| `BepInEx/plugins/Morgott.Creatures/assets/vaettir_brood` | 1 674 685 | `85b5672aabbb71f30c4195856351765e6e1b3baf2f9ebcf931e1aed6f4e929ca` |
+| `BepInEx/plugins/Morgott.Creatures/assets/vaettir_creatures_ashlands` | 19 213 042 | `535bbfa34040a26292af3966bdbdc6fb783d599f3778984454bf6e62ffbe819a` |
+| `BepInEx/plugins/Morgott.Creatures/assets/vaettir_creatures_blackforest` | 14 833 072 | `c9ce72fd24a368b8159bdffca5261a051fd4e7400ebbdd18cdce0f06d54abea2` |
+| `BepInEx/plugins/Morgott.Creatures/assets/vaettir_creatures_deepnorth` | 13 911 011 | `9a2d9a6dcc37b854934cca01e998eec25e89884b6306fd8d49c8027d4edca112` |
+| `BepInEx/plugins/Morgott.Creatures/assets/vaettir_creatures_gpl` | 3 582 666 | `d0c01956dee5bc85c323903146d0ef2129e5d4d55f579f0c43ac7efbe6afbdea` |
+| `BepInEx/plugins/Morgott.Creatures/assets/vaettir_creatures_meadows` | 9 775 691 | `5b825d8ade99925162b44e8b623aa754451110bc3bfba020d77dcfa5c282b6f9` |
+| `BepInEx/plugins/Morgott.Creatures/assets/vaettir_creatures_mistlands` | 20 120 224 | `9c7ec1ce3ebff488fb59e49533e925b83bdcf2d9af2375f9ede15e988de88054` |
+| `BepInEx/plugins/Morgott.Creatures/assets/vaettir_creatures_mountain` | 14 625 965 | `9b9c98e66d181caff90c9fd76224a5982cd87edae3a07569930a71d9a29be322` |
+| `BepInEx/plugins/Morgott.Creatures/assets/vaettir_creatures_ocean` | 2 618 223 | `e9f1f2001f8b909180b70356c1717e7632de80e1839a673f352705f27b4400fd` |
+| `BepInEx/plugins/Morgott.Creatures/assets/vaettir_creatures_plains` | 15 127 493 | `41bf85b5fb715ba4213de11b1690d467f03beb86284fdc2284303f5cae36330f` |
+| `BepInEx/plugins/Morgott.Creatures/assets/vaettir_creatures_swamp` | 11 143 803 | `bb5a08ba7f090137e68e80c373872c75cb3397bffc1cf8b1cc71090b8c9e2d86` |
+| `BepInEx/plugins/Morgott.Creatures/Morgott.Creatures.dll` | 4 724 224 | `5fdf610dedf02e5739581a267568ce57870a516ffaf6492ca6e0d69c9060dfe7` |
+| `BepInEx/plugins/Morgott.EpicLoot/Morgott.EpicLoot.dll` | 509 440 | `8ee049f5ceb2d427c61cd9e6ff561b3c6119b0ad89b0d56002f93cda7aae31d2` |
+| `BepInEx/plugins/Morgott.Patcher/Morgott.Patcher.dll` | 1 377 792 | `f81a77a048b8ef84088a654a633307cf452973be9dd661f1fe2d1aeb343bb3c7` |
+| `BepInEx/plugins/Morgott.Patcher/sounds/deathsquito_1.wav` | 882 044 | `ca9ca3e29a8b0f7703148001767fb03f152ce58841bfbd69e31db654518818db` |
+| `BepInEx/plugins/Morgott.Patcher/sounds/deathsquito_2.wav` | 229 364 | `9718f6ac7ec8dbc2b0574acbdae8c363e039cccf24f9f0fc754a223edf846fcb` |
+| `BepInEx/plugins/Morgott.Patcher/sounds/deathsquito_3.wav` | 595 394 | `c1c08b8332f03a40637a3fe6355e3d004fd360e196fa1bbffbcafe12baee4edf` |
+| `BepInEx/plugins/Morgott.Patcher/sounds/deathsquito_4.wav` | 882 044 | `2e107104ef47e71cea1e53778e192f69e73b9a1d8c4ea6489c46931a498cb959` |
+| `BepInEx/plugins/Morgott.Performance/Morgott.Performance.dll` | 1 567 744 | `d1639cca70eb4316cce965cabbd4fdeece4d432b264d20de45702334baaedda2` |
+| `BepInEx/plugins/Morgott.Performance/morgott_pieceshaders` | 85 322 | `6a78c0a1efd5ba4ffe4f2d3c340eae80693b0461b9e28c099d33bf7f266ac0df` |
+| `BepInEx/plugins/Morgott.Power/assets/morgott_power_setlines` | 17 136 277 | `f1d0e75e451e5f4a4432ca478b33be4748df237098f3cfbe67014fb1666368ae` |
+| `BepInEx/plugins/Morgott.Power/Morgott.Power.dll` | 3 404 800 | `feb5e6b6deaea516e1063a1218be99feef3d171dea16de4fc2e2849b2e23ef8c` |
+| `BepInEx/plugins/Morgott.Power/Morgott.Power.EpicLoot.dll` | 91 136 | `571b3fb92f0b02d723e83670092cc4eb6cd29c89440624274150fefd0056f6ed` |
+| `BepInEx/plugins/Morgott.Summons/Morgott.Summons.dll` | 3 920 384 | `175eae9dc066a18cf282f1f378b0f542fc73df4a54b893bc4c677b04c235d2d9` |
+| `BepInEx/plugins/Morgott.Summons/Morgott.Summons.EpicLoot.dll` | 21 504 | `fe52c2dacb89c187816a276c508f5d204fc099e87b5d2e01e64fbe99e97fe46e` |
+| `BepInEx/plugins/Morgott.Survival/Morgott.Survival.dll` | 188 928 | `cfe938f6a4e0584b45d05c0331f23caced5e094fa844e0eff5ba83fa1239ddae` |
+| `BepInEx/plugins/Morgott.UI/icons/ItemIcons.json` | 73 552 | `86e748d533913dfefd64f72f385645c73b4f99d9b0525ee272692e74cd2db2ed` |
+| `BepInEx/plugins/Morgott.UI/icons/ItemIcons_00.bc7.gz` | 1 519 688 | `1572a79517abfb09a707b678b7c6b85801de760115d0fa4a573980c2290912dc` |
+| `BepInEx/plugins/Morgott.UI/icons/ItemIcons_01.bc7.gz` | 2 205 046 | `5270514440179c13b172d0748680baaef0430ae38848e163a6b67808fe1a999b` |
+| `BepInEx/plugins/Morgott.UI/icons/ItemIcons_02.bc7.gz` | 1 772 384 | `020612d2d7a6ad094a634576203eb26470a56c9665d231c45b3b9b3e99fa26fe` |
+| `BepInEx/plugins/Morgott.UI/icons/ItemIcons_03.bc7.gz` | 831 364 | `97e853c63fc69a3af9210121cc8a9e854dc95edcbfaa4dc455c214ade3ff3ef8` |
+| `BepInEx/plugins/Morgott.UI/icons/ItemIcons_04.bc7.gz` | 1 633 312 | `2496deae05aec8e28a940c6bee1c445b09ccf30fb324ad6cbda7be5931c3e3c5` |
+| `BepInEx/plugins/Morgott.UI/icons/ItemIcons_05.bc7.gz` | 1 552 261 | `526620376bc52369fcf97d2b70c7e5a950c5396f0366a342ac2e0390033586d0` |
+| `BepInEx/plugins/Morgott.UI/icons/ItemIcons_06.bc7.gz` | 1 532 473 | `20068cb12026680b13ef5d27c6c9824726eba49a9f61ba277ba602a534fe4fa2` |
+| `BepInEx/plugins/Morgott.UI/icons/ItemIcons_07.bc7.gz` | 1 107 773 | `9766a04aa8e4acd8f2bfa39bf42e4631642a1ee3ccf105c7f9c4e589b418cb19` |
+| `BepInEx/plugins/Morgott.UI/icons/ItemIcons_08.bc7.gz` | 89 635 | `6dd28a4c93e66e911d1aeb5ec8d578164d6b03565126e3397666a0cf963d6bd9` |
+| `BepInEx/plugins/Morgott.UI/icons/ItemIcons_09.bc7.gz` | 923 045 | `313a9e03954c6a4550844bcc8b2ae4041ce8cea68b7f33d83b7a891de0fb475a` |
+| `BepInEx/plugins/Morgott.UI/icons/ItemIcons_10.bc7.gz` | 269 018 | `53d9188352f19fa5d44492af5dc00e0d0206104a311d08365de55536c1837291` |
+| `BepInEx/plugins/Morgott.UI/icons/ItemIcons_11.bc7.gz` | 985 537 | `eff08b5c614f647509aa53c7ea67ab40afc52c04c09fb11b80102afd63b7886c` |
+| `BepInEx/plugins/Morgott.UI/icons/ItemIcons_12.bc7.gz` | 1 016 794 | `2ce5d6858f9b041049d889e19188b8036a108fbe27990866e8a0b6181092651b` |
+| `BepInEx/plugins/Morgott.UI/icons/ItemIcons_13.bc7.gz` | 119 606 | `c73d9c2e3d167edd61a41cb78503e0ddd10d9aa9b1836923d65213252b3f2784` |
+| `BepInEx/plugins/Morgott.UI/Morgott.UI.dll` | 3 192 320 | `c3e4c23c5202005b6b52e275723b26fae2ca20c6e7013fc546c9887c1cc7efe2` |
+| `BepInEx/plugins/Morgott.UI/morgott_vfx` | 1 715 857 | `10d976b3d16f5c07d438a0c98221401cafee005a16028d33a07f48235413a1bf` |
+| `BepInEx/plugins/Morgott.UI/runeskin` | 18 845 564 | `b184078f250b7c250b2f941ccbbb174d5e486fb52781fcaa5fd59f5be1308760` |
+| `BepInEx/plugins/MultiUserChest/MultiUserChest.dll` | 55 808 | `afe0d6b437495fb6624a049ba72c2393572c8c02e1221ac090f16c0d99914514` |
+| `BepInEx/plugins/OreMines/OreMines.dll` | 13 633 536 | `82b776ba2e212de69c1b948e49b1e01369a4aeda00133a197f9f15f5dd0ba008` |
+| `BepInEx/plugins/OreMines/OreMines.English.yml` | 1 200 | `b0bb5421feac41c4b692a0a62105ac0581e467c241495d1e17b702a517065fd5` |
+| `BepInEx/plugins/RossItemDrawers/ItemDrawers.Core.dll` | 50 688 | `ae59e652062be85fc96aaf0e4800cedea9217ffedbfdbdb33429ed034004e258` |
+| `BepInEx/plugins/RossItemDrawers/ItemDrawers.dll` | 153 088 | `c61bba12899a42ae5a5b5fee562f6c654368460dc787319310e280280f98e293` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorBronze/BronzeArmorMesh_Mat@winter.png` | 12 776 | `1053fb472681847ec0cc4638c03231f4e76c95b607dae3621622a89f064ace5e` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorBronze/helmet_bronze_mat@winter.png` | 5 531 | `cba832b0d52cd52a4c90e92a20dceef5ae26bb88307f1ce5640847b3ea0d4482` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorCarapace/carapacearmor_mat@winter.png` | 12 535 | `82171ccff21e8e85d56d0c554012b23dbd90f20e39d2ee12cf97221d55371ebe` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorIron/helmet_iron_mat@winter.png` | 4 957 | `482330f6f8a5ecc9b40c33c121243f3f45698c30d1bd1ea907112df4bb34efd7` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorIron/IronArmorChest_mat@winter.png` | 15 500 | `c16eeb9ad90b7b1a8d2f858b5f7eac526a638c076c02a78d53323be2456c5e5c` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorIron/IronArmorPlayer_legs#LegsTex@winter.png` | 7 130 | `d670838612d8458500c04ccf5e6b2ddcd81414cf6fa558ea81fe2b11d1da4573` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorLeather/CapeDeerHide@winter.png` | 2 961 | `9f99366238920dd67cb05464cd627e62f41e684df642df53e2ede0cfc44817d4` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorLeather/helmet_leather_mat@winter.png` | 8 538 | `78d29b12cf8a723ec678495b2cef008185cdcde6b7fc78ac2f02f118aa58ac3d` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorLeather/LeatherChest#ChestTex@winter.png` | 13 639 | `244e2e89a7a5cd051e2eec73318fb7b4bdae4dbb2594d17fcbc1fff58380eece` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorLeather/LeatherPants#LegsTex@winter.png` | 13 991 | `9403a3e4196098233c50c5edb80ae19342b0bdcb48cd659b829feeda9eb59cbc` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorMage/feathercape_mat@winter.png` | 17 383 | `42acacf131a509c642036f7e78ca1edec2cc4f9634dfb87fa7c3bf3c56acd771` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorMage/MageArmor_mat@winter.png` | 19 077 | `473b5e17987bdd4630430adeb3f3f470b133f7e7fad268f3816ef4ec75d105eb` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorPadded/LoxCape_Mat@winter.png` | 4 631 | `0af35bb5d34d7210464ab71cdcaa4eefb40c50aa310ec0fac901cb5e10375c60` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorPadded/Padded_mat@winter.png` | 29 806 | `5e96aa81d1164b96b5104289a114e8f89980275314467074de70f05db1b34abf` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorPadded/PaddedChest_mat#ChestTex@winter.png` | 12 046 | `8150f486423c57f795dbf2d938f6cd6f0c1c6a7c84710745ad1bbfb8c955c1ab` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorPadded/PaddedLegs_mat#LegsTex@winter.png` | 11 407 | `a414549e8de14e68e4fc3496f55c52b4b0f182558a1e08d9c181fe89e8ab5c06` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorRags/RagsChest#ChestTex@winter.png` | 9 612 | `4ef1b6d0996ccdfe76362d40e00db8c4bc3a2e43af29a450bce6a0fc9796d9cb` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorRags/RagsLegs#LegsTex@winter.png` | 4 790 | `b31418ab5d4e9099251c064911c0dc361dae7cb4cf39d1fab07456c55ac810ad` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorTrollLeather/CapeTrollHide@fall.png` | 36 222 | `b230f5daa57e465b2b6aace2e4646d59b8143306cfbcd66359370dd81794938a` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorTrollLeather/CapeTrollHide@winter.png` | 70 726 | `4174d45e2a8dd128c6adeedcda68793a08bf8f08d7da9cf60bf474e0ee159d70` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorTrollLeather/helmet_trollleather@fall.png` | 4 117 | `346ef93a4fc6974dff116b136ed7c2ace044dceac56721ab18626e84b9df4346` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorTrollLeather/helmet_trollleather@winter.png` | 6 441 | `5de9a4afa5a0bd6caa1bc9904a071769a7df1e067cfc2b7cd94c0e8c9db57863` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorTrollLeather/TrollLeatherChest#ChestTex@fall.png` | 8 181 | `1033da40e0298bec06ba4713edae6d3f29ec892e28c66b8f95d65898f976d95e` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorTrollLeather/TrollLeatherChest#ChestTex@winter.png` | 9 721 | `ab65f1b99477c2ad951051ac0aed764f79d61ad7be5e0ce1e560a854ef8c684a` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorTrollLeather/TrollLeatherPants#LegsTex@fall.png` | 9 398 | `b625285105c3062066501867a6bfecb7c7e5accb452c66233c048b03e01758a4` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorTrollLeather/TrollLeatherPants#LegsTex@winter.png` | 11 564 | `3aae02525cd01cddd77552ae7c38df33c161aaeaf13ef93cccf0d42da0e664da` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorWolf/SilverArmourChest_mat@fall.png` | 64 110 | `f3c9775bce395e831f441f0031706e8613b2628c4475402d7b48b94ab82ee5ac` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Armors/ArmorWolf/WolfCape@fall.png` | 8 236 | `9541cfff91fc4aa1f87ab1d5b48e55339e1020562837416d43e3d086f17b377e` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Blob/blob@fall.png` | 23 374 | `2330578f96189b0289ef810f66f25e5f465ada4de03f646ef2284c8649d57f91` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Blob/blob@spring.png` | 23 666 | `1118ff2d0902ce4255a08556c1828cb93ea15aa7609c603ceca0c21c8f9d6486` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Blob/blob@winter.png` | 31 170 | `cfdd5c3218644edfa4bcafd83d41c434d964c1dc65ac7c55ebd60f90a218939d` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Boar/Boar Skin Valheim@fall.png` | 10 814 | `92cb4997b94787e8d4986cd0c853c3830280f928224dd9a9ab30eb1ccacf0f45` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Deathsquito/Deathsquito_mat@fall.png` | 26 530 | `8e09358a17b2570b6238522ee9563b066efa53b0fe7df35a9be19aaf5bf67991` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Deathsquito/Deathsquito_mat@spring.png` | 27 321 | `58d27f17334dfc7b884ea6e45cf02a8e9824f670257568ffd1f0b23c76b6fa31` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Deathsquito/Deathsquito_mat@winter.png` | 26 338 | `d5f160a62531e7c52adca00c0b1ff706b20a027af8c3df6ce0e1cf741fe73abb` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Deer/Deer 2@fall.png` | 70 298 | `40ba3cf9eb708dce83f6dae515d68b9d6a74787278c1d7ab8b76bdf4199c2f8d` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Gjall/gjall_mat@winter.png` | 143 645 | `0e046994cc0db31c7248b22c2f4f201f62a9c70c3995271faaece3ca421e442d` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Goblin/goblin@spring.png` | 25 879 | `f76a08112570b6a65dd0b60d0ff49c591f15a54a33956d970c03566e86189b2c` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/GoblinBrute/GoblinBrute_mat@spring.png` | 90 149 | `2353e07bb46954d1f1ee0794033b035c951aad52e354fc1256be0c6482aeaee8` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/GoblinShaman/GoblinShaman_mat@spring.png` | 33 879 | `85948662025db83bd94b97b7c2b45bc55f811e26190b2396e5424f119cc05f6f` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Greydwarf/greydwarf@winter.png` | 25 788 | `379ebb1a80a65d248417fdb63e4db8f4b8cc8af77fb885e36914d37201dcefb1` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/GreydwarfShaman/greydwarf_shaman@winter.png` | 18 442 | `ba431bca8a0c40120dfb2721951385d39b4831c05dbf6ec6f17d6878b3d564ba` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Gull/seagal@fall.png` | 1 668 | `05d83eb7e6a907ee4d60e7538fe87909d001db634ed2bda404589e988f2e9ccf` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Gull/seagal@spring.png` | 8 992 | `01ce67d5547fd8f750a22aefa5f81d9283aaf9b061576c81dff4954b1292caea` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Hare/Hare_mat@fall.png` | 19 486 | `ad10b21524f0e7180fac47533e4a3928a5cb9f7e8197d0891590253b6e2d598f` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Hare/Hare_mat@winter.png` | 17 748 | `2d173357454c3ad6b58e94896d9b13ef4f5f1c278d0e5f7919d84062fda1fe02` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Leech/swampfish@winter.png` | 14 690 | `d3fe2775ab9e9b573bf2c9ee22037fd928d1378a739988b81650766e9b8f383d` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Lox/HildirsLox@winter.png` | 65 083 | `8d0dd10c44dabf88f0d2a548c09f26f1f7c9c5f4242d50a3f909e88a8f5bb5f1` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Lox/lox@winter.png` | 65 083 | `8d0dd10c44dabf88f0d2a548c09f26f1f7c9c5f4242d50a3f909e88a8f5bb5f1` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Lox/lox_calf@winter.png` | 65 083 | `8d0dd10c44dabf88f0d2a548c09f26f1f7c9c5f4242d50a3f909e88a8f5bb5f1` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Neck/neck@fall.png` | 8 356 | `5585f05cce5ca74e75ae4d5f043c2b8482a240557c80d149b996d5fa476e1c5f` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Neck/neck@spring.png` | 8 349 | `5fa24da26154fcc791e1482d2850cf8869cfd73e89392767c86807fc6c1cb267` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Neck/neck@winter.png` | 8 418 | `804696722f503144ffadbe7d6c7577c67f96dccc99a321f365690f497f57f401` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Oozer/blob_elite@fall.png` | 23 374 | `2330578f96189b0289ef810f66f25e5f465ada4de03f646ef2284c8649d57f91` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Oozer/blob_elite@spring.png` | 23 666 | `1118ff2d0902ce4255a08556c1828cb93ea15aa7609c603ceca0c21c8f9d6486` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Oozer/blob_elite@winter.png` | 31 170 | `cfdd5c3218644edfa4bcafd83d41c434d964c1dc65ac7c55ebd60f90a218939d` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Piggy/Boar Skin Valheim piggy@fall.png` | 9 861 | `60e0014637d1a2dcc70c0e9a272a223a7adb07935d3c303e83b59ded0d09c722` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Seeker/seeker@winter.png` | 77 052 | `0bf994f5fb8d77e0e950ff181ae57b2a266869bea6217dda3d63a0052a7a0ce4` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/SeekerBrood/babyseeker@winter.png` | 5 180 | `776f81a707f9c50b04839e86b55391a72a26ab91c9bf37269a1c9cbe85c476bf` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/SeekerSoldier/seeker_Brute_mat@winter.png` | 76 943 | `cb85a029ef64b83b4853194c5519096a65f723299ede4b3b696fa4b4573c7da8` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Serpent/SeaSerpent_mat@fall.png` | 351 556 | `2b55f57f62bbda23ea4546ebdf2b12b4e935fd12a298b272cc3e3b1682f37f42` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Serpent/SeaSerpent_mat@winter.png` | 387 183 | `74ab7a1415d4694229b35c8f69997416fca33e61e231cb6108d5a38b9022e689` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Skeleton/Skeleton@fall.png` | 15 810 | `0b6afdd96f0cf47404c7473c91598eaeb9ddf65015167a70259487c4590c65fa` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Skeleton/Skeleton@winter.png` | 15 669 | `82604d2e75f6035be4ada1fb456dc535de5968643b352b282a43694b48a2a2f2` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Tick/Feasting_mat@winter.png` | 5 499 | `c53d219aa38c12ba1f31e15bfe1f92a7732f6eb576f7d0c5dd1a5791abda0e51` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Troll/troll@winter.png` | 70 726 | `4174d45e2a8dd128c6adeedcda68793a08bf8f08d7da9cf60bf474e0ee159d70` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Wolf/Wolf Skin Grey@fall.png` | 65 767 | `2f95ec878e6d3856e029321dffe8839b477a0ce92558bfb0a7788d276c20797e` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/WolfCub/Wolf Skin Grey cub@fall.png` | 18 722 | `111dea8295f4a0df8693de45227fc9be6cd1f347f9076f50a7cdd81ef8f90b8d` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Creatures/Wraith/wraith@winter.png` | 55 330 | `5c82ee0b98bf0b262e3fdc7a1487667d53492dcb23472c8fa8b461e53dc80e53` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/BlackForest/clutter_waterlilies@fall.png` | 1 315 | `bca6284a3df280cfe78f75587a4a4f33ed20d6c8deeec8b1e4e7eb2ef534c12f` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/BlackForest/clutter_waterlilies@spring.png` | 1 735 | `54b7d4b3f7b15afd2d2f338d0fef60eebd1f3db0714dd704bd2d53f833631ed9` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/BlackForest/clutter_waterlilies@winter.png` | 1 311 | `ee945487cd7c2d27616e5915b4fb67885d55b46663246c5adf2b0bea7b62a92d` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/BlackForest/grasscross_forest@spring.png` | 1 043 | `019d36d0d82504f2dde00bdc6834070f1caf9e9ea79f777b76cb75e3cf9e5624` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/BlackForest/grasscross_forest@winter.png` | 534 | `31633d42b251ca7672f451cf87b0b26dc640708be7c10df4ccd88a2efbf20f5a` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/BlackForest/ormbunke@fall.png` | 6 012 | `8734765513fa8d04d9d33b279dec614818565f2537c3528b642c3d113514af61` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/BlackForest/ormbunke@winter.png` | 6 012 | `8734765513fa8d04d9d33b279dec614818565f2537c3528b642c3d113514af61` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/BlackForest/vass@fall.png` | 8 076 | `11b601bcbcaa464e11d49f8060fa03f558e9ce3e03ab06124797109d9ed2080b` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/BlackForest/vass@winter.png` | 7 579 | `a54f7a035a20514de268a4c38cd2f732ec294d8cda1f08e37acb43f660b299db` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/Meadows/clutter_shrub@fall.png` | 2 936 | `f221d418582f7094c3d1e58818d8228347a344e11740fc4f408c114518bbbf3e` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/Meadows/clutter_shrub@spring.png` | 2 086 | `b36f0c252588994dd2ff1e1d6b6d8d0e3323996ed3c477de78b910b9916172a1` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/Meadows/clutter_shrub@winter.png` | 2 936 | `f221d418582f7094c3d1e58818d8228347a344e11740fc4f408c114518bbbf3e` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/Meadows/grasscross_meadows@fall.png` | 15 368 | `eaf7157e1a1b0bdca2d81adf767699fcb4c2ee6eafe9a2cbb6a230af88d65286` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/Meadows/grasscross_meadows@spring.png` | 26 190 | `581d90268cb045e8a4c3d89d188d70c4fad4eaadc4fd18e989ad997801a9323e` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/Meadows/grasscross_meadows@winter.png` | 1 225 | `194c0f9960cd7b4b949147c470998e797c38cf05737ec85f999f5461ee32ac95` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/Meadows/grasscross_meadows_short@fall.png` | 15 368 | `eaf7157e1a1b0bdca2d81adf767699fcb4c2ee6eafe9a2cbb6a230af88d65286` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/Meadows/grasscross_meadows_short@spring.png` | 22 050 | `65ed1691ce665341df0bb37ceeb1ebd87f1bf61fb0550ec446907672f911fa71` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/Meadows/grasscross_meadows_short@winter.png` | 604 | `e5ce9f60881e2f3b7abc4e4f4f444c83ed679210a2ae0666e418bcc66a1ed296` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/Mistlands/grasscross_mistlands_short@fall.png` | 898 | `6c59d5a9aa2b965886922f92acc95f1b0eafe61c7f0595c600f55d087688020f` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/Mistlands/grasscross_mistlands_short@winter.png` | 594 | `8ac3888998a7ee65e1345b8e1591317d82bfa658d1bb0d4684ce6bd871fc9c8e` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/Mistlands/mistlands_rockplants@winter.png` | 9 622 | `87807bbef6b5667b6f47d1b0267b1c2dea029a63d89af50d6b996ed84f3d44b8` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/Plains/grasscross_heath@winter.png` | 3 521 | `e871805ee9d1432dbecff465519604647fc295ac67f5773f593c5ae1cdd00b63` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/Plains/grasscross_heath_flower@fall.png` | 3 396 | `f13a7d9e855614606ce0853ea7630fe57578a3a9571972ac15f4cb416071f992` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/Plains/grasscross_heath_flower@winter.png` | 3 383 | `909b94f8a5ab403187a4a6dd4ff8d78339b0f6a56dbc89776ee2f4ba04de4331` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/Swamp/ormbunke_yellow@fall.png` | 6 012 | `8734765513fa8d04d9d33b279dec614818565f2537c3528b642c3d113514af61` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Grass/Swamp/ormbunke_yellow@winter.png` | 6 012 | `8734765513fa8d04d9d33b279dec614818565f2537c3528b642c3d113514af61` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Pieces/GoblinVillage/GoblinVillage_Cloth@winter.png` | 113 872 | `61defabf013f1a845092055e9a83257484a9ace47a60b96afb39882278be5437` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Pieces/Straw/straw_roof@winter.png` | 10 166 | `3da9403290a124e1104ba52374d32b6de68f5abd7faf48432d84f831a25c5cbf` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Pieces/Straw/straw_roof_alpha@winter.png` | 10 166 | `3da9403290a124e1104ba52374d32b6de68f5abd7faf48432d84f831a25c5cbf` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Pieces/Straw/straw_roof_corner_alpha@winter.png` | 9 674 | `575875df3d98571098f348b9783c10616a081df214b78a9bc38e69864797c9eb` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Pieces/Straw/straw_roof_corner_worn_alpha@winter.png` | 10 023 | `2c41bbc64f98b064e3e43f8a4a7c84fb8bfb28231c32a1d5276f833b31410776` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Pieces/Straw/straw_roof_worn@winter.png` | 9 944 | `ccb4d7ca2a1a0baa07eb8c6cd7c353bc14389748079fc37a38d5d5f00f72399f` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Pieces/Straw/straw_roof_worn_alpha@winter.png` | 9 944 | `ccb4d7ca2a1a0baa07eb8c6cd7c353bc14389748079fc37a38d5d5f00f72399f` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/Beech/beech_bark@winter.png` | 469 735 | `1f91b19e293521c2563eac39095d206e9c0fff6ab352ee7c9e1c27657388422f` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/Beech/beech_leaf@fall.png` | 59 154 | `940bd408be350bde84df6c14764f5410430b83ebc117d0e1590b9293cfdabc91` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/Beech/beech_leaf@spring.png` | 64 348 | `ea07841368864736ad9309e4331651ec3271ed709bf40b965df388510e0f66c1` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/Beech/beech_leaf@winter.png` | 47 840 | `6556141014a8450b7210af556d40f467500a053186dfacc83726c98efdfac60f` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/Beech/beech_particle@fall.png` | 59 154 | `940bd408be350bde84df6c14764f5410430b83ebc117d0e1590b9293cfdabc91` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/Beech/beech_particle@spring.png` | 64 348 | `ea07841368864736ad9309e4331651ec3271ed709bf40b965df388510e0f66c1` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/Beech/beech_particle@winter.png` | 47 840 | `6556141014a8450b7210af556d40f467500a053186dfacc83726c98efdfac60f` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/Beech_small/beech_leaf_small@fall.png` | 3 266 | `4443e8a0f25717c439f4528edf943ccbe385284aa31755d1461ccd0baae8a9ae` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/Beech_small/beech_leaf_small@spring.png` | 6 104 | `d0171d90d97bbce98b9c17f0b0a9c5ed1e6ecd4e9951c33ac12eff5deb838b42` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/Beech_small/beech_leaf_small@winter.png` | 1 118 | `be9edde63f909c42d3f1f8dd33e0fefd96d761d6328aa16f0def1f897dc62396` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/Birch/birch_leaf@spring.png` | 17 778 | `bc2b0797ee6437132c0b2787e09080ce1f86566eb26ebe8fb458b5d0da7c881b` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/Birch/birch_leaf@winter.png` | 9 661 | `a00c2feeff3a53d8e9a7adaa6c7cff937ebf93b75f201e1604c15195607732ad` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/Birch/birch_leaf_aut@spring.png` | 17 778 | `bc2b0797ee6437132c0b2787e09080ce1f86566eb26ebe8fb458b5d0da7c881b` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/Birch/birch_leaf_aut@winter.png` | 9 661 | `a00c2feeff3a53d8e9a7adaa6c7cff937ebf93b75f201e1604c15195607732ad` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/Birch/birch_particle@spring.png` | 17 778 | `bc2b0797ee6437132c0b2787e09080ce1f86566eb26ebe8fb458b5d0da7c881b` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/Birch/birch_particle@winter.png` | 9 661 | `a00c2feeff3a53d8e9a7adaa6c7cff937ebf93b75f201e1604c15195607732ad` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/FirTree/branch_particle@fall.png` | 2 439 | `74b5a77b215d70cb3a71d6b327a097f47c766651dc8f9ba60af92874d2c0aefb` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/FirTree/branch_particle@spring.png` | 2 414 | `7caa2f08516935b14cfd880617004af489464bc047ea87aa1296798f00d23425` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/FirTree/branch_particle@winter.png` | 1 984 | `b268faf0807f78209171297ae25e79dc1f3f9125bf826e402b2cca9ff2397628` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/FirTree/menu_fir@fall.png` | 296 640 | `eb0e1a5f808a77184bf0e856fe6f778bc1e8f13a07e65892ece63d43c75dc53d` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/FirTree/menu_fir@spring.png` | 281 594 | `5faf0ac83d8855ad2ca01e742d35fea30f6d8ad3f47690fe62fd61f783f2ff22` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/FirTree/menu_fir@winter.png` | 280 886 | `2f0e1e2800d5499e4d48f91c1079722c85cccd263cb6a16497e817059e61739b` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/FirTree/Pine_tree@fall.png` | 296 640 | `eb0e1a5f808a77184bf0e856fe6f778bc1e8f13a07e65892ece63d43c75dc53d` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/FirTree/Pine_tree@spring.png` | 281 594 | `5faf0ac83d8855ad2ca01e742d35fea30f6d8ad3f47690fe62fd61f783f2ff22` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/FirTree/Pine_tree@winter.png` | 280 886 | `2f0e1e2800d5499e4d48f91c1079722c85cccd263cb6a16497e817059e61739b` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/FirTree_small/Pine_tree_small@fall.png` | 19 972 | `14b5143c153b75dbf946531d64b6ae75a6fe40af2e96f8d2fb5c0a713fbab0a4` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/FirTree_small/Pine_tree_small@spring.png` | 19 536 | `41a44861f2f8118574f0cf6efd8bbd24e173be06a7a2ec7799e1404a93c08959` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/FirTree_small/Pine_tree_small@winter.png` | 17 752 | `860f80bdc477dd190f150bba66e64b5f7a438b9e165853399eef9a66bb92605a` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/FirTree_small_dead/branch_dead_particle@winter.png` | 1 986 | `5fb8bbdd273cc04824f531679e2ebf73322970a4540c1de0f344a4ca90ef8886` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/FirTree_small_dead/Pine_tree_small_dead@winter.png` | 17 594 | `1d48c544b5a88418dfa270b21bc9436f69a7b327c4f1e1406a8ce2f23ba75629` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/Oak/oak_leaf@fall.png` | 66 760 | `6a6e4fac9b5f3d35a7030abe399ed1292738c31d01340f737542cbb2d2befdf2` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/Oak/oak_leaf@spring.png` | 66 760 | `6a6e4fac9b5f3d35a7030abe399ed1292738c31d01340f737542cbb2d2befdf2` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/Oak/oak_leaf@winter.png` | 23 097 | `0d2f235675018228cee491ba69d091b37746df617aa6df8fd5dd5dfe638cc825` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/Oak/oak_particle@fall.png` | 66 760 | `6a6e4fac9b5f3d35a7030abe399ed1292738c31d01340f737542cbb2d2befdf2` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/Oak/oak_particle@spring.png` | 66 760 | `6a6e4fac9b5f3d35a7030abe399ed1292738c31d01340f737542cbb2d2befdf2` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/Oak/oak_particle@winter.png` | 23 097 | `0d2f235675018228cee491ba69d091b37746df617aa6df8fd5dd5dfe638cc825` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/PineTree/PineTree_01@fall.png` | 54 371 | `bb7817bcbca4f599f9cbbdc3f8e7b729a34a647eb3d85fbd58cfe81ad9f71156` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/PineTree/PineTree_01@spring.png` | 54 523 | `c9c63e284138e7cea2af827c87a76d56d4decd59a94551ec59bf037fbf275707` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/PineTree/PineTree_01@summer.png` | 55 451 | `dfc01122233ba349f303c911d2f1d89a01394f8403ce5e3543265492f9d2ef71` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/PineTree/PineTree_01@winter.png` | 53 680 | `c1616e20aa911c9de86098f0d4e5ad349fdfb25c1cec03233ded9fd919aef8c2` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/SwampTree/swamptree1_branch@spring.png` | 60 154 | `0d86375d9e3951b5f051ec286a71c4cb05080d5d8e254a2b9ebe2cb48f459e92` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/SwampTree/swamptree1_branch@summer.png` | 36 749 | `843da97f5afc9cc5c753f985c255e9abf7314294d4fcee789e17883207d1f830` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/YggaShoot/Shoot_Leaf_mat@fall.png` | 10 367 | `d004c7d8d6d03c7794453cc88bf77981c63435201beb4a0e9cdc4369a41523e0` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/YggaShoot/Shoot_Leaf_mat@spring.png` | 20 106 | `56f4f82b575805c77a57d17f6b63e96f9a0e1d7be9e9b889d7eb6c486ac42f35` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/YggaShoot/Shoot_Leaf_mat@winter.png` | 2 535 | `c6a7db62b529b6dd4eb7d0ad3e0f10861982c26bc0cd34184b0df02998999dca` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/YggaShoot/shoot_leaf_particle@fall.png` | 10 367 | `d004c7d8d6d03c7794453cc88bf77981c63435201beb4a0e9cdc4369a41523e0` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/YggaShoot/shoot_leaf_particle@spring.png` | 20 106 | `56f4f82b575805c77a57d17f6b63e96f9a0e1d7be9e9b889d7eb6c486ac42f35` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/YggaShoot/shoot_leaf_particle@winter.png` | 2 535 | `c6a7db62b529b6dd4eb7d0ad3e0f10861982c26bc0cd34184b0df02998999dca` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/YggdrasilSkyTree/yggdrasil_branch#EmissiveTex@fall.png` | 129 467 | `3d5115e5cc8d4f19dd6ec39cc5b1b930fc8ae139ef14a7deb640dbd6ad82e9ff` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/YggdrasilSkyTree/yggdrasil_branch_leafs@spring.png` | 1 138 686 | `488c987d1014846cb9593268a167a8ab12a4c3be8c2a0fdb92bd89fd9f0b7df5` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Trees/YggdrasilSkyTree/yggdrasil_branch_leafs@winter.png` | 365 581 | `fd8a6e33c055309969b13ba393352634ae321d6fb44b98094fe3d99db9a76123` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/BlueberryBush/Bush01_blueberry@fall.png` | 5 198 | `7125aab0cb5dff03baa96b6890ce08d7fcbffbd3da0478948cdd8b5298971e8b` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/BlueberryBush/Bush01_blueberry@summer.png` | 4 078 | `e58c57879e83ee52921cf1bb3a6ac67d48495b4f594c7e21517a910b6f7384bd` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/BlueberryBush/Bush01_blueberry@winter.png` | 2 750 | `08798322ac96b0d4f4d23cff403e5a88ede07ac049c5a130387d770dc8460002` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/Bushes/Bush01@fall.png` | 5 198 | `7125aab0cb5dff03baa96b6890ce08d7fcbffbd3da0478948cdd8b5298971e8b` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/Bushes/Bush01@spring.png` | 3 062 | `a3dab7dca87575e1590e27c5746b4c0f95500f3d06feb2072bec265cf420d188` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/Bushes/Bush01@summer.png` | 4 078 | `e58c57879e83ee52921cf1bb3a6ac67d48495b4f594c7e21517a910b6f7384bd` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/Bushes/Bush01@winter.png` | 2 750 | `08798322ac96b0d4f4d23cff403e5a88ede07ac049c5a130387d770dc8460002` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/CloudberryBush/cloudberry@winter.png` | 2 461 | `9cb27cbb7d03ba5769be5a02289858b85f51e31496f6d30a9b34d0cff5f1dfce` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/Mushroom/Boletus_edulis@spring.png` | 958 | `5de0872497233d8e3c67281460a854d31194a4648323fc033e3b7a0b85384e6f` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/PlainsBush/Bush02_en@spring.png` | 7 039 | `3fef75c2571e06b34e3f04f428b358fb4c7091383c69908f54d4045777d95263` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/PlainsBush/Bush02_en@winter.png` | 13 540 | `936357446d71060172041c78ff889c87556f2ca0de4f0533f03dc87484ae6f4e` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/RaspberryBush/Bush01_raspberry@fall.png` | 5 198 | `7125aab0cb5dff03baa96b6890ce08d7fcbffbd3da0478948cdd8b5298971e8b` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/RaspberryBush/Bush01_raspberry@summer.png` | 4 078 | `e58c57879e83ee52921cf1bb3a6ac67d48495b4f594c7e21517a910b6f7384bd` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/RaspberryBush/Bush01_raspberry@winter.png` | 2 750 | `08798322ac96b0d4f4d23cff403e5a88ede07ac049c5a130387d770dc8460002` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/Shrub/shrub2_leafparticle@fall.png` | 754 | `76478df307b7a883968d892aa80a1319a9a318479e84b3fb6e35de387f9678eb` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/Shrub/shrub2_leafparticle@spring.png` | 702 | `ae47d03e8f4726b612f03fbbd49034b1d3dfd3ff685d62cddf32fb1203c07d1c` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/Shrub/shrub2_leafparticle@winter.png` | 645 | `c624c19194af6323e97561e1d8abc5e98c3438c78a6f209b8232ee5b5b3acf2d` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/Shrub/shrub@fall.png` | 3 919 | `4aa014db04636e6090c10d760fed47719e61fd7712d8b3b409326a9481c4182b` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/Shrub/shrub@spring.png` | 3 918 | `49c81de084fa584259f1e5a088ee188e5fd8334f36bd35d6fb63453f92f623d2` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/Shrub/shrub@winter.png` | 3 937 | `ed3df25064ac698a7c245e38492a015acb8b25a44beede7072740cf89e470df9` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/Shrub/shrub_heath@fall.png` | 3 919 | `4aa014db04636e6090c10d760fed47719e61fd7712d8b3b409326a9481c4182b` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/Shrub/shrub_heath@spring.png` | 3 918 | `49c81de084fa584259f1e5a088ee188e5fd8334f36bd35d6fb63453f92f623d2` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/Shrub/shrub_heath@winter.png` | 3 937 | `ed3df25064ac698a7c245e38492a015acb8b25a44beede7072740cf89e470df9` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/Vines/Vines_Mat@fall.png` | 1 467 | `f0f677fdea2599b36530f25bdd7b73b5b38fa97127dfd749701db9ddb4f2adc1` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/Vines/Vines_Mat@winter.png` | 450 | `f5ceaaaa6c48297d84b30899936360b978bc54f82d6f72401b43e061c7684cb9` |
+| `BepInEx/plugins/Seasonality/config/Seasonality/Default/Vegetation/YggdrasilRoot/yggdrasil_root#EmissiveTex@fall.png` | 129 467 | `3d5115e5cc8d4f19dd6ec39cc5b1b930fc8ae139ef14a7deb640dbd6ad82e9ff` |
+| `BepInEx/plugins/Seasonality/Seasonality.dll` | 957 952 | `21f74d5f7138be942c688bd884fe4015ca9271fca985cd1366fc34371891359b` |
+| `BepInEx/plugins/SeedBed/SeedBed.dll` | 1 021 440 | `3284f29f6326718dfc9a782e1ddec594a3acd635aa104a623e2faf512db09177` |
+| `BepInEx/plugins/SolidHitboxes.dll` | 56 320 | `06063754674ead917f3da77562016f45d8c161847aca4745b6117659586b91d3` |
+| `BepInEx/plugins/Valheim.DisplayBepInExInfo.dll` | 8 704 | `e9cfcfa09cfdfc103bf44169f58d613030b6cd2335addbe60c975dcf64a7845f` |
+| `BepInEx/plugins/ValheimBuildCamera/ValheimBuildCamera.dll` | 205 312 | `f1a1be67a0749ad42d397858bf4557394963896bcf0c0eddf69d2ecb76601119` |
+| `BepInEx/plugins/ValheimPlus.dll` | 507 392 | `9f6070177a0c58a2edb598b78a7e444dab533d87855c5ecc476e2be244aaae6b` |
+| `BepInEx/plugins/Warfare/config/TherzieTranslations/Warfare/Warfare.Chinese.yml` | 25 520 | `e4bcfa90fb6e951dda19b846a0c4fd346834dc59a0b7e03f2ac6bd189dfe35cc` |
+| `BepInEx/plugins/Warfare/config/TherzieTranslations/Warfare/Warfare.English-LatestUpToDate.yml` | 27 836 | `7759a0546b2a000f7370d9607060fcf185125b803631996f3ff5da60e9753bdf` |
+| `BepInEx/plugins/Warfare/config/TherzieTranslations/Warfare/Warfare.French.yml` | 30 631 | `782f82f16337f6e086fbfe20045296ff69abdddf664d6736b3c25236be00bdf6` |
+| `BepInEx/plugins/Warfare/config/TherzieTranslations/Warfare/Warfare.German.yml` | 35 593 | `6a8048a2fb0741180b43059cf988916d56eb4435ff5c321b5c5d2cab74a4878f` |
+| `BepInEx/plugins/Warfare/config/TherzieTranslations/Warfare/Warfare.Italian.yml` | 49 697 | `c9a9d5a21c7f1e5db024c990d50bcbc7c5a8a9b697407a4db038c2989397bf1d` |
+| `BepInEx/plugins/Warfare/config/TherzieTranslations/Warfare/Warfare.Korean.yml` | 48 626 | `ef8376f0c97494c970414d558cda9598cee18380f77cddf451dd207b26c9eb9d` |
+| `BepInEx/plugins/Warfare/config/TherzieTranslations/Warfare/Warfare.Polish.yml` | 29 743 | `a6615e4478ef93df84cdff64531f3c74729994a71788f3f50db6419dd55ef667` |
+| `BepInEx/plugins/Warfare/config/TherzieTranslations/Warfare/Warfare.Portuguese_Brazilian.yml` | 30 320 | `7eab66e8f34a41cf5822381d92ae94dda9ca1ee75239b8d662589a1e556fccf4` |
+| `BepInEx/plugins/Warfare/config/TherzieTranslations/Warfare/Warfare.Portuguese_European.yml` | 30 320 | `7eab66e8f34a41cf5822381d92ae94dda9ca1ee75239b8d662589a1e556fccf4` |
+| `BepInEx/plugins/Warfare/config/TherzieTranslations/Warfare/Warfare.Russian.yml` | 43 132 | `d823a379b3920441e20cb154c31fc0dac60be38dfa7948157fdfecfa5071b091` |
+| `BepInEx/plugins/Warfare/config/TherzieTranslations/Warfare/Warfare.Spanish.yml` | 30 392 | `940607be7dab2c87e52ceb4df5dc619ddd21458d7470a8965fd23974054144dd` |
+| `BepInEx/plugins/Warfare/config/TherzieTranslations/Warfare/Warfare.Thai.yml` | 70 594 | `7392b1fc245e22b179b2a9584eee016c8592ee2a8d630d69f48e6f1eb9193c74` |
+| `BepInEx/plugins/Warfare/config/TherzieTranslations/Warfare/Warfare.Ukrainian.yml` | 43 892 | `e34d2cef8c194c22f89670ba315d7b82d7a701e046a1908ec4de65f20b9bc362` |
+| `BepInEx/plugins/Warfare/Warfare.dll` | 182 316 032 | `8d9699efa0aa4de118caab250845543eaa66d8b3ae7fff5107775cf9e5aa1984` |
+| `BepInEx/plugins/Wizardry/config/TherzieTranslations/Wizardry/Wizardry.Chinese.yml` | 21 380 | `4c2f996a823ddddd0bb36077bebf7cff2d49247aa9ea114eefadaa445e7b3eba` |
+| `BepInEx/plugins/Wizardry/config/TherzieTranslations/Wizardry/Wizardry.English-LatestUpToDate.yml` | 21 999 | `e86c72fcd9b4b3820e946dc62cc7a795ae95dfbf8ebd2148d2feda45ab94a018` |
+| `BepInEx/plugins/Wizardry/config/TherzieTranslations/Wizardry/Wizardry.French.yml` | 24 585 | `79d0a1249ab73843638a1a3499b30fcb45906b3483ba4ff8c9f7a053ee3a9e0c` |
+| `BepInEx/plugins/Wizardry/config/TherzieTranslations/Wizardry/Wizardry.German.yml` | 23 918 | `4c7359e78a57615ec89db8bb67f0698d8b78594d1ba9889901c9932bf2393227` |
+| `BepInEx/plugins/Wizardry/config/TherzieTranslations/Wizardry/Wizardry.Italian.yml` | 23 589 | `e85481c5fc84c0a1b97e52cfda3f4eb293e0335962e8780f8c85e5b7b007ec54` |
+| `BepInEx/plugins/Wizardry/config/TherzieTranslations/Wizardry/Wizardry.Korean.yml` | 23 867 | `478fba75ff6f3987a57f94c01f61df4b9db80bbb0351b22454be95a351139b5d` |
+| `BepInEx/plugins/Wizardry/config/TherzieTranslations/Wizardry/Wizardry.Polish.yml` | 23 481 | `6209ae51e7863fedae22c3170e829c0fd3f59e55db1b7e7584501d5e50bbdd06` |
+| `BepInEx/plugins/Wizardry/config/TherzieTranslations/Wizardry/Wizardry.Portuguese_Brazilian.yml` | 23 328 | `a542f52160b5e472adfa1b21826bfadd745be9ef45b8e5a0f09ea0dd72d387bb` |
+| `BepInEx/plugins/Wizardry/config/TherzieTranslations/Wizardry/Wizardry.Russian.yml` | 30 503 | `cb9e82b07ad7376bf9c593da350a799272a6b461a58312c75306631308ad3873` |
+| `BepInEx/plugins/Wizardry/config/TherzieTranslations/Wizardry/Wizardry.Spanish.yml` | 23 583 | `b403879f304ae6e76307e619f100c5eefd2b73540eb08897c43b783be76ef3e4` |
+| `BepInEx/plugins/Wizardry/config/TherzieTranslations/Wizardry/Wizardry.Thai.yml` | 36 969 | `25cdbf8f50cd5bc87e7a69be4f71231689d0e7aaea481717f51574076965f431` |
+| `BepInEx/plugins/Wizardry/Wizardry.dll` | 106 994 176 | `156ec3eb3eedb3e6802ed3ddf0c92c4234cdd6b2bd3f12236e1a1ee039f082f6` |
+| `BepInEx/plugins/YamlDotNet/YamlDotNet.dll` | 291 840 | `9172f0758ed76963e0ede3b5ca9a1fb5b82f64c7e7a92cb3a6de39efa933a668` |
+| `BepInEx/plugins/YamlDotNet/YamlDotNetDetector.dll` | 6 656 | `db5a75085f60d69a05979af303d6b0f1db15b1d5d84c77f606d876547ef1f482` |
+
+## Патчеры (1)
+
+| Файл | Размер, байт | SHA-256 |
+|---|---:|---|
+| `BepInEx/patchers/Morgott.Preloader.dll` | 345 600 | `65e96de310fc48532a4862c3616d142c5e297b9ccf232dd015bacb46009e41d4` |
+
+## Начальные настройки (473)
+
+| Файл | Размер, байт | SHA-256 |
+|---|---:|---|
+| `BepInEx/config/_shudnal.ConfigurationManager.cfg` | 17 761 | `95e1244615ef8c33097996cde077a8e2b90223c088656a9f488ae2edf49b742b` |
+| `BepInEx/config/advize.PlantEasily.cfg` | 12 853 | `4f222379ec412be7f807ffc06987c187fec5b6a099c86002d1da355db3274ce4` |
+| `BepInEx/config/advize.PlantEverything.cfg` | 24 645 | `5063dfa34bc43a0d958212970413ab9245f2a8870cf461211d4ff3a78b1d7999` |
+| `BepInEx/config/Azumatt.CurrencyPocket.cfg` | 774 | `f2829e6179d2114589b94da3d6a41518819fe8a30dc9e286b9ea29ca527233c7` |
+| `BepInEx/config/BepInEx.cfg` | 5 804 | `1cb31514fbed1d0dbf343ec8ea7a171272a159315e0a2ec17d4635da2fed2f9e` |
+| `BepInEx/config/blacks7ar.OreMines.cfg` | 49 667 | `5b9d1e8118ea8d0bb7b60cb4d866f253037261cee0d5b01395997b56b8978495` |
+| `BepInEx/config/blacks7ar.SeedBed.cfg` | 2 978 | `34e17dee29690b3fabaa3d94b689f7671320b23984dfeccc4fe582127f8cf81d` |
+| `BepInEx/config/blacks7ar.SeedBed.yml` | 2 282 | `1b00b47c4fb426da3060e2b7ac06a2b897e14a5202e5fb7bf74f1c4194710ef4` |
+| `BepInEx/config/com.bepis.bepinex.configurationmanager.cfg` | 3 559 | `4bece5b7f9b8b02e6844c52086af2bfdac1f402c90be74c37c235029d93bf813` |
+| `BepInEx/config/com.jotunn.jotunn.cfg` | 92 | `4d5a32a0e57995abdd5ab7300e5de79593c8900a847570bdec16a83a31b74b2c` |
+| `BepInEx/config/com.maxsch.valheim.MultiUserChest.cfg` | 115 | `f9049f0bebae0fbc1016a13e6826459898292fc8090a248877279fb0e3b35ab2` |
+| `BepInEx/config/com.rossdwest.itemdrawers.cfg` | 12 227 | `7317917cb78988ff7f96e405b79804c0d10f9397ad1b82d2da5476f99a017d16` |
+| `BepInEx/config/com.ValheimModding.NewtonsoftJsonDetector.cfg` | 133 | `3732e176135341a59635f81b9d708ad43a314648b661936865e97fdaf7b1e33c` |
+| `BepInEx/config/com.ValheimModding.YamlDotNetDetector.cfg` | 124 | `952b290bd201ed95ea8a733eae836eaeacc11d2e18f09de67a80d3b3ed48a351` |
+| `BepInEx/config/EpicLoot/baseconfig/abilities.json` | 586 | `acaabaf4f04a0f74755647db1837294c74c3230f810849add68e0fce423a5c80` |
+| `BepInEx/config/EpicLoot/baseconfig/biomedata.json` | 1 146 | `2d6225d50b1f0a31220a0ee026f9a8208eaf0ad2fdb192c3731c781a2ccfd0ac` |
+| `BepInEx/config/EpicLoot/baseconfig/iteminfo.json` | 18 154 | `12ee90273e20b439b618edc741f7d125b1e2ea68b9ad45903eedc601561d5d90` |
+| `BepInEx/config/EpicLoot/baseconfig/itemnames.json` | 11 070 | `d0f6a63ea72b1a7066a7a9604243bcb219e565e25bb184d0df6e5a52140896b8` |
+| `BepInEx/config/EpicLoot/creaturesorter-locations.json` | 45 265 | `3b902b54c541b00f0be82b914488844e0414ed6727dc6a9a01cb0b64486fc928` |
+| `BepInEx/config/EpicLoot/creaturesorter-report.txt` | 25 699 | `fc50d0651029385b040fa0c16193bd7636f0a224071d2f3843796c4202a17b71` |
+| `BepInEx/config/EpicLoot/patches/10-mob-tiers-materials.json` | 48 131 | `dca33aa147f7c61f11391e78dfb6f48061a8a61a01b85960d19ea2e61549f58b` |
+| `BepInEx/config/EpicLoot/patches/100-summon-affix-requirements.json` | 798 | `8f307e8fb701bfd6fb77a882dd9fe4083eadc17e250e3ea8522d624dcaae2926` |
+| `BepInEx/config/EpicLoot/patches/101-legendary-durability-save.json` | 860 | `6088d1834f860e0c97a6ca3875ab8726b0fa674410b0105a450958890d37a421` |
+| `BepInEx/config/EpicLoot/patches/102-darting-thoughts-retired.json` | 336 | `0c21763fb6cbcb131823696702df4ae15bc4e844a86d97af3ebfaccef173de5d` |
+| `BepInEx/config/EpicLoot/patches/103-belt-slot-affixes.json` | 1 019 | `930dc632f0c8a8d8c9744ca4e9a150797bee07dc978c766d6d98abc99581afbe` |
+| `BepInEx/config/EpicLoot/patches/104-ring-affixes.json` | 10 592 | `178a3ca58de4856935e93539c8ff7f7e3cbcafd4ca6b423fc96f9400503ca869` |
+| `BepInEx/config/EpicLoot/patches/105-effect-texts.json` | 104 504 | `48c93687287c933f8da0708ece88115beff39c38d2af4c4d13528ff0d1a06b6f` |
+| `BepInEx/config/EpicLoot/patches/106-trophy-sacrifice-gaps.json` | 861 | `efa138abc0e2c1c9ceb1b55ed6b767f5817d11d90c9210e3212abbbaca3c2308` |
+| `BepInEx/config/EpicLoot/patches/107-staff-roles.json` | 4 141 | `19f949849235de8fdd3b5b0b57dfc73983098211685db29969202b35be10971c` |
+| `BepInEx/config/EpicLoot/patches/108-boss-key-sacrifice.json` | 1 110 | `6a6fd8e0896482b41b7630fa080617991628f56023846a17ce31211fa0faa95c` |
+| `BepInEx/config/EpicLoot/patches/109-adventure-bounty-radius.json` | 1 168 | `3115cf4f0352475cc6ab5c76c49a6c03da6b49ff3dbbb2a64f985bc296810eb9` |
+| `BepInEx/config/EpicLoot/patches/110-collar-t0-restricted.json` | 197 | `3889dd28e9ca37f5b6804b27592797dabf3e877f0857cfca7f621e5182d2a5ef` |
+| `BepInEx/config/EpicLoot/patches/111-legendary-sets-removed.json` | 9 198 | `d12ff9d76980eb645030ab12dcfeab02e8d0ee91e27f535d40dee9fec0b007e8` |
+| `BepInEx/config/EpicLoot/patches/112-close-quarter-removed.json` | 282 | `daa729a27b447b3eb50f4cc6173def0c11341cf2ff069e2615c29e67828e72cc` |
+| `BepInEx/config/EpicLoot/patches/113-boss-shard-effect-rows.json` | 9 436 | `347bd9d2ff49b37799b019dee7df115ea48b143fd45f296c012c99618d03c441` |
+| `BepInEx/config/EpicLoot/patches/114-boss-gem-pool.json` | 217 369 | `016a3e196cf30862692826d388f1a4c31b340719fcf1f38567880585c73ca9a7` |
+| `BepInEx/config/EpicLoot/patches/115-boss-gem-tierup.json` | 123 217 | `e309a788644d40b978cc0a6629f8ec4c2c8a010abffc296c6a5464415e040af2` |
+| `BepInEx/config/EpicLoot/patches/116-coinhoarder-belt-only.json` | 505 | `80ef2a7f008f74dd9c5584cab3f8d2c268d858b7425ee3867b8f56b809fa5375` |
+| `BepInEx/config/EpicLoot/patches/30-elite-tiers-levels.json` | 13 028 | `1b1eb8408c6b2d341dc84f7292b0884779f75aaff98237ade93406b6fdc6fed1` |
+| `BepInEx/config/EpicLoot/patches/40-boss-materials.json` | 75 145 | `9aa72cbf573cb35df20c70323fa6efdc25d8db93c3354e5a338e70286f5062ab` |
+| `BepInEx/config/EpicLoot/patches/50-boss-levels.json` | 23 870 | `11d6e33f55bd66773e64f7191a743cb2e40bb085b47ebfa127cb24251831adfd` |
+| `BepInEx/config/EpicLoot/patches/55-boss-shardstone-levels.json` | 104 742 | `db34a3f41073cc9545b8f60d65187ad7894ffade0aea251226703ffa517dc822` |
+| `BepInEx/config/EpicLoot/patches/56-creature-sorter.json` | 11 951 | `b5b23524cc61344bc38cd057c066932ed3fd61a4410a197bda2f784ee7f2839a` |
+| `BepInEx/config/EpicLoot/patches/57-stat-shard-drops.json` | 1 812 | `afe06dda3c6bd180bd4ffe40007c0c40b7b7e08bbd8dd952fa68050801fa0dac` |
+| `BepInEx/config/EpicLoot/patches/60-chests-materials.json` | 42 154 | `7e467c91de2704d54038ea8ebb00508ec84320fcbd1e1c424394f3a09a0b6215` |
+| `BepInEx/config/EpicLoot/patches/70-magiceffects-balance.json` | 99 310 | `8c1facc760f63a627b709587f5506fa14422aedb522838b63a2d5c1cf4ace225` |
+| `BepInEx/config/EpicLoot/patches/71-effect-rarity-unlock.json` | 4 543 | `d312a426adfc982faa7fe70633a31a0456f9fd5e7e965fa7eecf29d0e1e26de6` |
+| `BepInEx/config/EpicLoot/patches/72-triple-shot-chance.json` | 1 306 | `f1c0638c1e68b11c0de1dec1b874f4dcdd55a733da56e9820edda27124dd8c0b` |
+| `BepInEx/config/EpicLoot/patches/73-long-shot.json` | 469 | `9b32f7034910995bc570c49e697271d3c683400ebec14823a6cba209a088a235` |
+| `BepInEx/config/EpicLoot/patches/75-effect-count-fixed.json` | 758 | `e88cd5d3c80a84baae253c12d725db59ad974fb059ebbc08f315b60188ebbe71` |
+| `BepInEx/config/EpicLoot/patches/76-enchanting-table.json` | 14 053 | `cfbc7f7cb3ceb0e1d46f7ee5007ba37f274fd1f924cdd41ba72f29507c9d3dab` |
+| `BepInEx/config/EpicLoot/patches/77-adventure-no-gamble-temper.json` | 222 | `b7e0be6b909f55e3e5109c528e81aa55840bce6fb8077d99c62f7bc8890269b7` |
+| `BepInEx/config/EpicLoot/patches/78-vaettir-trophy-sacrifice.json` | 4 147 | `f850eaadc7d73ab76435634aee6276cfe8ded5d29ea9ab1b21fd14b43aba0fbe` |
+| `BepInEx/config/EpicLoot/patches/79-magic-runestone-recipe.json` | 555 | `fab068131ccfb40eb46f0ca3bdaa326229917a0370b552c5cc12578fdaf576c4` |
+| `BepInEx/config/EpicLoot/patches/80-energy-shield-effects.json` | 15 701 | `a9bf1755c367a2b376bdf0ce54fc7ffe748cda85dde31fdaf729c9e14070ac37` |
+| `BepInEx/config/EpicLoot/patches/81-summoner-effects.json` | 8 467 | `77ac25a8f007e0f6011ecd074d1115db4a6d1e88711410892d3cf58bbd5ce5ab` |
+| `BepInEx/config/EpicLoot/patches/82-mead-effects.json` | 2 725 | `3c116f597e079b02a6c88f3fa0178fde6568782d5fb721f391d8ea479c120222` |
+| `BepInEx/config/EpicLoot/patches/84-unique-gems.json` | 7 084 | `8fb305415bd7ae26631575f641b9444ee6f836f27becd8d2ecc4480298a6f119` |
+| `BepInEx/config/EpicLoot/patches/85-unique-gem-drops.json` | 18 260 | `f5455673347248775099a66ccf91b693965fcb29b00f80dcdd14b75c93d05353` |
+| `BepInEx/config/EpicLoot/patches/86-aura-effects.json` | 35 740 | `62648481b529db8695d63a3a4576abbb71ebe8abcbb30ef0722ad9a140f9e056` |
+| `BepInEx/config/EpicLoot/patches/87-legendaries.json` | 717 | `123434993af4dbb7313e2ecb50ec0d683fe4b96550c633b2e0530de94cd48c00` |
+| `BepInEx/config/EpicLoot/patches/88-legendary-catalysts.json` | 2 666 | `e7f0a3a00349e1dd923eb2401e72c35cad58ef60191b461fdf86f28f129c65f0` |
+| `BepInEx/config/EpicLoot/patches/89-haldor-no-andvaranaut.json` | 225 | `ba116d46e0ba96e5d6a24b89b6e2dc7aca11eb1e4b5d9d5acf839c304a884df9` |
+| `BepInEx/config/EpicLoot/patches/91-slot-chisel-recipes.json` | 1 530 | `f0cf3a6e1bdd22043a5026ec0326385f53613267827ce18e051417893778dbdb` |
+| `BepInEx/config/EpicLoot/patches/92-aura-gems.json` | 10 108 | `350bbeedb5c8c8514db6cbe40637b3f63f0ac7fdd05fedd8c06e3d5d67fe3396` |
+| `BepInEx/config/EpicLoot/patches/94-resource-affixes.json` | 19 951 | `38368d86aec7d1298d3a49196dfce156ed84719ace874b9990a97e6421f46012` |
+| `BepInEx/config/EpicLoot/patches/95-shard-affixes.json` | 112 651 | `4d8905b3ef46b3e1bd582f6fc0ff941f8ea63f1a1210e5497547a3449d45c86c` |
+| `BepInEx/config/EpicLoot/patches/96-stat-shard-removal.json` | 2 496 | `3c9d73047f44db084faa7e5c0d94cfd5e2dbbb8141a572f0e317a56f45825660` |
+| `BepInEx/config/EpicLoot/patches/97-stat-shard-conversions.json` | 15 466 | `33132cadad900ea71e813fd7618c540222c010c411d1d037f6d37e041e16fadd` |
+| `BepInEx/config/EpicLoot/patches/98-throw-durability-affixes.json` | 3 295 | `27b07ab7c619d6ba0cae4367c3fd69a0e869fe579a63dae4747ff8a08f57a221` |
+| `BepInEx/config/EpicLoot/patches/99-dead-affix-requirements.json` | 9 329 | `e3f34798ec0a0516563405519e9e496e93f09a3c06497455643ae45e68b48c72` |
+| `BepInEx/config/GoldenJude_BlacksmithTools.cfg` | 361 | `dd1310b829262997cce23dc713ff24e446d4d6b082c9da8acd43fe5f551074b1` |
+| `BepInEx/config/Morgott.Survival.meads.yml` | 463 | `bdced6d1eb0f82714b0ff85dd907f8987dee176b5d7fca7383fbaea122d87365` |
+| `BepInEx/config/Morgott.UI/changelog.json` | 674 837 | `a9c5035a008a9b0327f1a36593d8a9d91e3a700dfb24faaf48f13420ef85f8a0` |
+| `BepInEx/config/morgott.valheim.consumables.cfg` | 2 714 | `679f3eff0b21d1776a93db4b5eed389303d6536a85725beed55cdb476409f557` |
+| `BepInEx/config/morgott.valheim.creatures.cfg` | 75 902 | `50d1332faf5a2822eefa0020d8335befd264a4be88d410e77052cd541d0239f3` |
+| `BepInEx/config/morgott.valheim.creatures/events.yml` | 5 004 | `83a1875024b84d64683f887324822dd866f08dc29dd36a3dca3905aa2ab97c8b` |
+| `BepInEx/config/morgott.valheim.creatures/infusions.yml` | 12 846 | `e71b67f3ac44aee2544610acc18c0d6b55fe005a79f51b5dd04539b37093c18f` |
+| `BepInEx/config/morgott.valheim.creatures/rarity.yml` | 1 727 | `3233233bc57132e37c985922c7595b48689e6d586f3482cb377a0bde60100483` |
+| `BepInEx/config/morgott.valheim.creatures/roster.yml` | 38 239 | `cd275b41bc2f833f4c89233b9d16860ebc6716f99ae527c1b830b6695284a4ca` |
+| `BepInEx/config/morgott.valheim.creatures/stats.yml` | 945 | `357e1b683d4e9f87508c9e639b0fa65bca266170fea5dec715e411fbc3e7253c` |
+| `BepInEx/config/morgott.valheim.epicloot.cfg` | 14 246 | `5a45f3011eda9221c85c0654f14e258f009980200ebb8c709c18b939d3940d17` |
+| `BepInEx/config/morgott.valheim.patcher.cfg` | 62 045 | `b2bb481bb1542f4b7583aeb168afe05a488182f44ae9d3642e5ab6a133fd32ac` |
+| `BepInEx/config/morgott.valheim.performance.cfg` | 140 513 | `8cd7c56bcbfa49cda387208c0cbf3203d6a6bc731aeeb57dbd6b0639360e21a8` |
+| `BepInEx/config/morgott.valheim.power.cfg` | 47 940 | `ce1a3c134da081f11674a353e5850189dcce339f491ac137975177bab56f43fb` |
+| `BepInEx/config/morgott.valheim.preloader.cfg` | 10 076 | `22f2503cbaf2c032eb1816a8ac05661629c278d4430c3bbda71e5b57ec4fc4b1` |
+| `BepInEx/config/morgott.valheim.summons.cfg` | 12 802 | `20ea37767d33af973e08f11804c32bae58701bc355b10d4ea4c2062d27cd52b0` |
+| `BepInEx/config/morgott.valheim.summons.epicloot.cfg` | 529 | `22cff85628a05cc0b0d97f3954e8774c6b134a6410ad862aaf25be4309e12735` |
+| `BepInEx/config/morgott.valheim.survival.cfg` | 9 683 | `56f5d876d8f2b1bf91bf427e8f193640db0f2f54f9bab31c1cf74d969189b233` |
+| `BepInEx/config/morgott.valheim.ui.cfg` | 25 060 | `a3944290069fcd8f0f81ec05f9249559b8c735657810bd300ead56a539ffbd9e` |
+| `BepInEx/config/OreMines.Russian.yml` | 1 948 | `7081b403697353d4b163241a4ddf1e7ebede66583f4d668d8585ef2ab5f214ea` |
+| `BepInEx/config/org.bepinex.plugins.solid-hitboxes.cfg` | 678 | `acfd45c5e4692556fab74b78d8184d55c78e25a3cbd8cdb27247af998d5a9cf8` |
+| `BepInEx/config/org.bepinex.plugins.valheim_plus.cfg` | 214 977 | `1c54253b1348d3ac2b12424e4674aa76f7694dcb2f928cbbd1aa40db1b905b29` |
+| `BepInEx/config/org.bepinex.valheim.displayinfo.cfg` | 609 | `2ab393f22260e7cdd06fbea8ee4552cf726fa81a4703cf88482fdf25bd641f52` |
+| `BepInEx/config/randyknapp.mods.epicloot.cfg` | 125 024 | `b2d94cead46c53e906cd42d3aa196221f5967c89ded44c9980109ff7635542dd` |
+| `BepInEx/config/randyknapp.mods.equipmentandquickslots.cfg` | 13 282 | `2ab6f0b2fe16fbac37b555d5a2d75aa73fed8a618aab15de18f1c86d27f421f3` |
+| `BepInEx/config/ReepusDeepusDelmeepus4902761.ChaosArmor.cfg` | 118 | `1e905f96dc373d9260a156f5b88cc8e356c5336b2671a3b3bd66689d5d8041a1` |
+| `BepInEx/config/ReepusDelmeepus.ChaosArmorClank.cfg` | 167 | `411f4aabf84b1be34955e52a7949aedb7cf797660d4458cde6559f2df76a3f55` |
+| `BepInEx/config/RustyMods.Seasonality.cfg` | 21 250 | `8d2f5e62992b70dcf269f21bac6c6bb56207313f1d83eadc3b2f3164966af03f` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorBronze/BronzeArmorMesh_Mat@winter.png` | 12 776 | `1053fb472681847ec0cc4638c03231f4e76c95b607dae3621622a89f064ace5e` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorBronze/helmet_bronze_mat@winter.png` | 5 531 | `cba832b0d52cd52a4c90e92a20dceef5ae26bb88307f1ce5640847b3ea0d4482` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorCarapace/carapacearmor_mat@winter.png` | 12 535 | `82171ccff21e8e85d56d0c554012b23dbd90f20e39d2ee12cf97221d55371ebe` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorIron/helmet_iron_mat@winter.png` | 4 957 | `482330f6f8a5ecc9b40c33c121243f3f45698c30d1bd1ea907112df4bb34efd7` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorIron/IronArmorChest_mat@winter.png` | 15 500 | `c16eeb9ad90b7b1a8d2f858b5f7eac526a638c076c02a78d53323be2456c5e5c` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorIron/IronArmorPlayer_legs#LegsTex@winter.png` | 7 130 | `d670838612d8458500c04ccf5e6b2ddcd81414cf6fa558ea81fe2b11d1da4573` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorLeather/CapeDeerHide@winter.png` | 2 961 | `9f99366238920dd67cb05464cd627e62f41e684df642df53e2ede0cfc44817d4` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorLeather/helmet_leather_mat@winter.png` | 8 538 | `78d29b12cf8a723ec678495b2cef008185cdcde6b7fc78ac2f02f118aa58ac3d` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorLeather/LeatherChest#ChestTex@winter.png` | 13 639 | `244e2e89a7a5cd051e2eec73318fb7b4bdae4dbb2594d17fcbc1fff58380eece` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorLeather/LeatherPants#LegsTex@winter.png` | 13 991 | `9403a3e4196098233c50c5edb80ae19342b0bdcb48cd659b829feeda9eb59cbc` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorMage/feathercape_mat@winter.png` | 17 383 | `42acacf131a509c642036f7e78ca1edec2cc4f9634dfb87fa7c3bf3c56acd771` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorMage/MageArmor_mat@winter.png` | 19 077 | `473b5e17987bdd4630430adeb3f3f470b133f7e7fad268f3816ef4ec75d105eb` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorPadded/LoxCape_Mat@winter.png` | 4 631 | `0af35bb5d34d7210464ab71cdcaa4eefb40c50aa310ec0fac901cb5e10375c60` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorPadded/Padded_mat@winter.png` | 29 806 | `5e96aa81d1164b96b5104289a114e8f89980275314467074de70f05db1b34abf` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorPadded/PaddedChest_mat#ChestTex@winter.png` | 12 046 | `8150f486423c57f795dbf2d938f6cd6f0c1c6a7c84710745ad1bbfb8c955c1ab` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorPadded/PaddedLegs_mat#LegsTex@winter.png` | 11 407 | `a414549e8de14e68e4fc3496f55c52b4b0f182558a1e08d9c181fe89e8ab5c06` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorRags/RagsChest#ChestTex@winter.png` | 9 612 | `4ef1b6d0996ccdfe76362d40e00db8c4bc3a2e43af29a450bce6a0fc9796d9cb` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorRags/RagsLegs#LegsTex@winter.png` | 4 790 | `b31418ab5d4e9099251c064911c0dc361dae7cb4cf39d1fab07456c55ac810ad` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorTrollLeather/CapeTrollHide@fall.png` | 36 222 | `b230f5daa57e465b2b6aace2e4646d59b8143306cfbcd66359370dd81794938a` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorTrollLeather/CapeTrollHide@winter.png` | 70 726 | `4174d45e2a8dd128c6adeedcda68793a08bf8f08d7da9cf60bf474e0ee159d70` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorTrollLeather/helmet_trollleather@fall.png` | 4 117 | `346ef93a4fc6974dff116b136ed7c2ace044dceac56721ab18626e84b9df4346` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorTrollLeather/helmet_trollleather@winter.png` | 6 441 | `5de9a4afa5a0bd6caa1bc9904a071769a7df1e067cfc2b7cd94c0e8c9db57863` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorTrollLeather/TrollLeatherChest#ChestTex@fall.png` | 8 181 | `1033da40e0298bec06ba4713edae6d3f29ec892e28c66b8f95d65898f976d95e` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorTrollLeather/TrollLeatherChest#ChestTex@winter.png` | 9 721 | `ab65f1b99477c2ad951051ac0aed764f79d61ad7be5e0ce1e560a854ef8c684a` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorTrollLeather/TrollLeatherPants#LegsTex@fall.png` | 9 398 | `b625285105c3062066501867a6bfecb7c7e5accb452c66233c048b03e01758a4` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorTrollLeather/TrollLeatherPants#LegsTex@winter.png` | 11 564 | `3aae02525cd01cddd77552ae7c38df33c161aaeaf13ef93cccf0d42da0e664da` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorWolf/SilverArmourChest_mat@fall.png` | 64 110 | `f3c9775bce395e831f441f0031706e8613b2628c4475402d7b48b94ab82ee5ac` |
+| `BepInEx/config/Seasonality/Default/Armors/ArmorWolf/WolfCape@fall.png` | 8 236 | `9541cfff91fc4aa1f87ab1d5b48e55339e1020562837416d43e3d086f17b377e` |
+| `BepInEx/config/Seasonality/Default/Creatures/Bjorn/Bjorn_mat@winter.png` | 61 513 | `c96a029dd3f7338025f9cbe6309a5432ac11a172d833a398cc868f12173a505e` |
+| `BepInEx/config/Seasonality/Default/Creatures/Blob/blob@fall.png` | 23 374 | `2330578f96189b0289ef810f66f25e5f465ada4de03f646ef2284c8649d57f91` |
+| `BepInEx/config/Seasonality/Default/Creatures/Blob/blob@spring.png` | 23 666 | `1118ff2d0902ce4255a08556c1828cb93ea15aa7609c603ceca0c21c8f9d6486` |
+| `BepInEx/config/Seasonality/Default/Creatures/Blob/blob@winter.png` | 31 170 | `cfdd5c3218644edfa4bcafd83d41c434d964c1dc65ac7c55ebd60f90a218939d` |
+| `BepInEx/config/Seasonality/Default/Creatures/Boar/Boar Skin Valheim@fall.png` | 10 814 | `92cb4997b94787e8d4986cd0c853c3830280f928224dd9a9ab30eb1ccacf0f45` |
+| `BepInEx/config/Seasonality/Default/Creatures/Deathsquito/Deathsquito_mat@fall.png` | 26 530 | `8e09358a17b2570b6238522ee9563b066efa53b0fe7df35a9be19aaf5bf67991` |
+| `BepInEx/config/Seasonality/Default/Creatures/Deathsquito/Deathsquito_mat@spring.png` | 27 321 | `58d27f17334dfc7b884ea6e45cf02a8e9824f670257568ffd1f0b23c76b6fa31` |
+| `BepInEx/config/Seasonality/Default/Creatures/Deathsquito/Deathsquito_mat@winter.png` | 26 338 | `d5f160a62531e7c52adca00c0b1ff706b20a027af8c3df6ce0e1cf741fe73abb` |
+| `BepInEx/config/Seasonality/Default/Creatures/Deer/Deer 2@fall.png` | 70 298 | `40ba3cf9eb708dce83f6dae515d68b9d6a74787278c1d7ab8b76bdf4199c2f8d` |
+| `BepInEx/config/Seasonality/Default/Creatures/Gjall/gjall_mat@winter.png` | 143 645 | `0e046994cc0db31c7248b22c2f4f201f62a9c70c3995271faaece3ca421e442d` |
+| `BepInEx/config/Seasonality/Default/Creatures/Goblin/goblin@spring.png` | 25 879 | `f76a08112570b6a65dd0b60d0ff49c591f15a54a33956d970c03566e86189b2c` |
+| `BepInEx/config/Seasonality/Default/Creatures/GoblinBrute/GoblinBrute_mat@spring.png` | 90 149 | `2353e07bb46954d1f1ee0794033b035c951aad52e354fc1256be0c6482aeaee8` |
+| `BepInEx/config/Seasonality/Default/Creatures/GoblinShaman/GoblinShaman_mat@spring.png` | 33 879 | `85948662025db83bd94b97b7c2b45bc55f811e26190b2396e5424f119cc05f6f` |
+| `BepInEx/config/Seasonality/Default/Creatures/Greydwarf/greydwarf@winter.png` | 25 788 | `379ebb1a80a65d248417fdb63e4db8f4b8cc8af77fb885e36914d37201dcefb1` |
+| `BepInEx/config/Seasonality/Default/Creatures/GreydwarfShaman/greydwarf_shaman@winter.png` | 18 442 | `ba431bca8a0c40120dfb2721951385d39b4831c05dbf6ec6f17d6878b3d564ba` |
+| `BepInEx/config/Seasonality/Default/Creatures/Gull/seagal@fall.png` | 1 668 | `05d83eb7e6a907ee4d60e7538fe87909d001db634ed2bda404589e988f2e9ccf` |
+| `BepInEx/config/Seasonality/Default/Creatures/Gull/seagal@spring.png` | 8 992 | `01ce67d5547fd8f750a22aefa5f81d9283aaf9b061576c81dff4954b1292caea` |
+| `BepInEx/config/Seasonality/Default/Creatures/Hare/Hare_mat@fall.png` | 19 486 | `ad10b21524f0e7180fac47533e4a3928a5cb9f7e8197d0891590253b6e2d598f` |
+| `BepInEx/config/Seasonality/Default/Creatures/Hare/Hare_mat@winter.png` | 17 748 | `2d173357454c3ad6b58e94896d9b13ef4f5f1c278d0e5f7919d84062fda1fe02` |
+| `BepInEx/config/Seasonality/Default/Creatures/Leech/swampfish@winter.png` | 14 690 | `d3fe2775ab9e9b573bf2c9ee22037fd928d1378a739988b81650766e9b8f383d` |
+| `BepInEx/config/Seasonality/Default/Creatures/Lox/HildirsLox@winter.png` | 65 083 | `8d0dd10c44dabf88f0d2a548c09f26f1f7c9c5f4242d50a3f909e88a8f5bb5f1` |
+| `BepInEx/config/Seasonality/Default/Creatures/Lox/lox@winter.png` | 65 083 | `8d0dd10c44dabf88f0d2a548c09f26f1f7c9c5f4242d50a3f909e88a8f5bb5f1` |
+| `BepInEx/config/Seasonality/Default/Creatures/Lox/lox_calf@winter.png` | 65 083 | `8d0dd10c44dabf88f0d2a548c09f26f1f7c9c5f4242d50a3f909e88a8f5bb5f1` |
+| `BepInEx/config/Seasonality/Default/Creatures/Neck/neck@fall.png` | 8 356 | `5585f05cce5ca74e75ae4d5f043c2b8482a240557c80d149b996d5fa476e1c5f` |
+| `BepInEx/config/Seasonality/Default/Creatures/Neck/neck@spring.png` | 8 349 | `5fa24da26154fcc791e1482d2850cf8869cfd73e89392767c86807fc6c1cb267` |
+| `BepInEx/config/Seasonality/Default/Creatures/Neck/neck@winter.png` | 8 418 | `804696722f503144ffadbe7d6c7577c67f96dccc99a321f365690f497f57f401` |
+| `BepInEx/config/Seasonality/Default/Creatures/Oozer/blob_elite@fall.png` | 23 374 | `2330578f96189b0289ef810f66f25e5f465ada4de03f646ef2284c8649d57f91` |
+| `BepInEx/config/Seasonality/Default/Creatures/Oozer/blob_elite@spring.png` | 23 666 | `1118ff2d0902ce4255a08556c1828cb93ea15aa7609c603ceca0c21c8f9d6486` |
+| `BepInEx/config/Seasonality/Default/Creatures/Oozer/blob_elite@winter.png` | 31 170 | `cfdd5c3218644edfa4bcafd83d41c434d964c1dc65ac7c55ebd60f90a218939d` |
+| `BepInEx/config/Seasonality/Default/Creatures/Piggy/Boar Skin Valheim piggy@fall.png` | 9 861 | `60e0014637d1a2dcc70c0e9a272a223a7adb07935d3c303e83b59ded0d09c722` |
+| `BepInEx/config/Seasonality/Default/Creatures/Seeker/seeker@winter.png` | 77 052 | `0bf994f5fb8d77e0e950ff181ae57b2a266869bea6217dda3d63a0052a7a0ce4` |
+| `BepInEx/config/Seasonality/Default/Creatures/SeekerBrood/babyseeker@winter.png` | 5 180 | `776f81a707f9c50b04839e86b55391a72a26ab91c9bf37269a1c9cbe85c476bf` |
+| `BepInEx/config/Seasonality/Default/Creatures/SeekerSoldier/seeker_Brute_mat@winter.png` | 76 943 | `cb85a029ef64b83b4853194c5519096a65f723299ede4b3b696fa4b4573c7da8` |
+| `BepInEx/config/Seasonality/Default/Creatures/Serpent/SeaSerpent_mat@fall.png` | 351 556 | `2b55f57f62bbda23ea4546ebdf2b12b4e935fd12a298b272cc3e3b1682f37f42` |
+| `BepInEx/config/Seasonality/Default/Creatures/Serpent/SeaSerpent_mat@winter.png` | 387 183 | `74ab7a1415d4694229b35c8f69997416fca33e61e231cb6108d5a38b9022e689` |
+| `BepInEx/config/Seasonality/Default/Creatures/Skeleton/Skeleton@fall.png` | 15 810 | `0b6afdd96f0cf47404c7473c91598eaeb9ddf65015167a70259487c4590c65fa` |
+| `BepInEx/config/Seasonality/Default/Creatures/Skeleton/Skeleton@winter.png` | 15 669 | `82604d2e75f6035be4ada1fb456dc535de5968643b352b282a43694b48a2a2f2` |
+| `BepInEx/config/Seasonality/Default/Creatures/Tick/Feasting_mat@winter.png` | 5 499 | `c53d219aa38c12ba1f31e15bfe1f92a7732f6eb576f7d0c5dd1a5791abda0e51` |
+| `BepInEx/config/Seasonality/Default/Creatures/Troll/troll@winter.png` | 70 726 | `4174d45e2a8dd128c6adeedcda68793a08bf8f08d7da9cf60bf474e0ee159d70` |
+| `BepInEx/config/Seasonality/Default/Creatures/Wolf/Wolf Skin Grey@fall.png` | 65 767 | `2f95ec878e6d3856e029321dffe8839b477a0ce92558bfb0a7788d276c20797e` |
+| `BepInEx/config/Seasonality/Default/Creatures/WolfCub/Wolf Skin Grey cub@fall.png` | 18 722 | `111dea8295f4a0df8693de45227fc9be6cd1f347f9076f50a7cdd81ef8f90b8d` |
+| `BepInEx/config/Seasonality/Default/Creatures/Wraith/wraith@winter.png` | 55 330 | `5c82ee0b98bf0b262e3fdc7a1487667d53492dcb23472c8fa8b461e53dc80e53` |
+| `BepInEx/config/Seasonality/Default/Grass/BlackForest/clutter_waterlilies@fall.png` | 1 315 | `bca6284a3df280cfe78f75587a4a4f33ed20d6c8deeec8b1e4e7eb2ef534c12f` |
+| `BepInEx/config/Seasonality/Default/Grass/BlackForest/clutter_waterlilies@spring.png` | 1 735 | `54b7d4b3f7b15afd2d2f338d0fef60eebd1f3db0714dd704bd2d53f833631ed9` |
+| `BepInEx/config/Seasonality/Default/Grass/BlackForest/clutter_waterlilies@winter.png` | 1 311 | `ee945487cd7c2d27616e5915b4fb67885d55b46663246c5adf2b0bea7b62a92d` |
+| `BepInEx/config/Seasonality/Default/Grass/BlackForest/grasscross_forest@spring.png` | 1 043 | `019d36d0d82504f2dde00bdc6834070f1caf9e9ea79f777b76cb75e3cf9e5624` |
+| `BepInEx/config/Seasonality/Default/Grass/BlackForest/grasscross_forest@winter.png` | 534 | `31633d42b251ca7672f451cf87b0b26dc640708be7c10df4ccd88a2efbf20f5a` |
+| `BepInEx/config/Seasonality/Default/Grass/BlackForest/ormbunke@fall.png` | 6 012 | `8734765513fa8d04d9d33b279dec614818565f2537c3528b642c3d113514af61` |
+| `BepInEx/config/Seasonality/Default/Grass/BlackForest/ormbunke@winter.png` | 6 012 | `8734765513fa8d04d9d33b279dec614818565f2537c3528b642c3d113514af61` |
+| `BepInEx/config/Seasonality/Default/Grass/BlackForest/vass@fall.png` | 8 076 | `11b601bcbcaa464e11d49f8060fa03f558e9ce3e03ab06124797109d9ed2080b` |
+| `BepInEx/config/Seasonality/Default/Grass/BlackForest/vass@winter.png` | 7 579 | `a54f7a035a20514de268a4c38cd2f732ec294d8cda1f08e37acb43f660b299db` |
+| `BepInEx/config/Seasonality/Default/Grass/Meadows/clutter_shrub@fall.png` | 2 936 | `f221d418582f7094c3d1e58818d8228347a344e11740fc4f408c114518bbbf3e` |
+| `BepInEx/config/Seasonality/Default/Grass/Meadows/clutter_shrub@spring.png` | 2 086 | `b36f0c252588994dd2ff1e1d6b6d8d0e3323996ed3c477de78b910b9916172a1` |
+| `BepInEx/config/Seasonality/Default/Grass/Meadows/clutter_shrub@winter.png` | 2 936 | `f221d418582f7094c3d1e58818d8228347a344e11740fc4f408c114518bbbf3e` |
+| `BepInEx/config/Seasonality/Default/Grass/Meadows/grasscross_meadows@fall.png` | 15 368 | `eaf7157e1a1b0bdca2d81adf767699fcb4c2ee6eafe9a2cbb6a230af88d65286` |
+| `BepInEx/config/Seasonality/Default/Grass/Meadows/grasscross_meadows@spring.png` | 26 190 | `581d90268cb045e8a4c3d89d188d70c4fad4eaadc4fd18e989ad997801a9323e` |
+| `BepInEx/config/Seasonality/Default/Grass/Meadows/grasscross_meadows@winter.png` | 1 225 | `194c0f9960cd7b4b949147c470998e797c38cf05737ec85f999f5461ee32ac95` |
+| `BepInEx/config/Seasonality/Default/Grass/Meadows/grasscross_meadows_short@fall.png` | 15 368 | `eaf7157e1a1b0bdca2d81adf767699fcb4c2ee6eafe9a2cbb6a230af88d65286` |
+| `BepInEx/config/Seasonality/Default/Grass/Meadows/grasscross_meadows_short@spring.png` | 22 050 | `65ed1691ce665341df0bb37ceeb1ebd87f1bf61fb0550ec446907672f911fa71` |
+| `BepInEx/config/Seasonality/Default/Grass/Meadows/grasscross_meadows_short@winter.png` | 604 | `e5ce9f60881e2f3b7abc4e4f4f444c83ed679210a2ae0666e418bcc66a1ed296` |
+| `BepInEx/config/Seasonality/Default/Grass/Mistlands/grasscross_mistlands_short@fall.png` | 898 | `6c59d5a9aa2b965886922f92acc95f1b0eafe61c7f0595c600f55d087688020f` |
+| `BepInEx/config/Seasonality/Default/Grass/Mistlands/grasscross_mistlands_short@winter.png` | 594 | `8ac3888998a7ee65e1345b8e1591317d82bfa658d1bb0d4684ce6bd871fc9c8e` |
+| `BepInEx/config/Seasonality/Default/Grass/Mistlands/mistlands_rockplants@winter.png` | 9 622 | `87807bbef6b5667b6f47d1b0267b1c2dea029a63d89af50d6b996ed84f3d44b8` |
+| `BepInEx/config/Seasonality/Default/Grass/Plains/grasscross_heath@winter.png` | 3 521 | `e871805ee9d1432dbecff465519604647fc295ac67f5773f593c5ae1cdd00b63` |
+| `BepInEx/config/Seasonality/Default/Grass/Plains/grasscross_heath_flower@fall.png` | 3 396 | `f13a7d9e855614606ce0853ea7630fe57578a3a9571972ac15f4cb416071f992` |
+| `BepInEx/config/Seasonality/Default/Grass/Plains/grasscross_heath_flower@winter.png` | 3 383 | `909b94f8a5ab403187a4a6dd4ff8d78339b0f6a56dbc89776ee2f4ba04de4331` |
+| `BepInEx/config/Seasonality/Default/Grass/Swamp/ormbunke_yellow@fall.png` | 6 012 | `8734765513fa8d04d9d33b279dec614818565f2537c3528b642c3d113514af61` |
+| `BepInEx/config/Seasonality/Default/Grass/Swamp/ormbunke_yellow@winter.png` | 6 012 | `8734765513fa8d04d9d33b279dec614818565f2537c3528b642c3d113514af61` |
+| `BepInEx/config/Seasonality/Default/Pieces/GoblinVillage/GoblinVillage_Cloth@winter.png` | 113 872 | `61defabf013f1a845092055e9a83257484a9ace47a60b96afb39882278be5437` |
+| `BepInEx/config/Seasonality/Default/Pieces/Straw/straw_roof@winter.png` | 10 166 | `3da9403290a124e1104ba52374d32b6de68f5abd7faf48432d84f831a25c5cbf` |
+| `BepInEx/config/Seasonality/Default/Pieces/Straw/straw_roof_alpha@winter.png` | 10 166 | `3da9403290a124e1104ba52374d32b6de68f5abd7faf48432d84f831a25c5cbf` |
+| `BepInEx/config/Seasonality/Default/Pieces/Straw/straw_roof_corner_alpha@winter.png` | 9 674 | `575875df3d98571098f348b9783c10616a081df214b78a9bc38e69864797c9eb` |
+| `BepInEx/config/Seasonality/Default/Pieces/Straw/straw_roof_corner_worn_alpha@winter.png` | 10 023 | `2c41bbc64f98b064e3e43f8a4a7c84fb8bfb28231c32a1d5276f833b31410776` |
+| `BepInEx/config/Seasonality/Default/Pieces/Straw/straw_roof_worn@winter.png` | 9 944 | `ccb4d7ca2a1a0baa07eb8c6cd7c353bc14389748079fc37a38d5d5f00f72399f` |
+| `BepInEx/config/Seasonality/Default/Pieces/Straw/straw_roof_worn_alpha@winter.png` | 9 944 | `ccb4d7ca2a1a0baa07eb8c6cd7c353bc14389748079fc37a38d5d5f00f72399f` |
+| `BepInEx/config/Seasonality/Default/Trees/Beech/beech_bark@winter.png` | 469 735 | `1f91b19e293521c2563eac39095d206e9c0fff6ab352ee7c9e1c27657388422f` |
+| `BepInEx/config/Seasonality/Default/Trees/Beech/beech_leaf@fall.png` | 59 154 | `940bd408be350bde84df6c14764f5410430b83ebc117d0e1590b9293cfdabc91` |
+| `BepInEx/config/Seasonality/Default/Trees/Beech/beech_leaf@spring.png` | 64 348 | `ea07841368864736ad9309e4331651ec3271ed709bf40b965df388510e0f66c1` |
+| `BepInEx/config/Seasonality/Default/Trees/Beech/beech_leaf@winter.png` | 47 840 | `6556141014a8450b7210af556d40f467500a053186dfacc83726c98efdfac60f` |
+| `BepInEx/config/Seasonality/Default/Trees/Beech/beech_particle@fall.png` | 59 154 | `940bd408be350bde84df6c14764f5410430b83ebc117d0e1590b9293cfdabc91` |
+| `BepInEx/config/Seasonality/Default/Trees/Beech/beech_particle@spring.png` | 64 348 | `ea07841368864736ad9309e4331651ec3271ed709bf40b965df388510e0f66c1` |
+| `BepInEx/config/Seasonality/Default/Trees/Beech/beech_particle@winter.png` | 47 840 | `6556141014a8450b7210af556d40f467500a053186dfacc83726c98efdfac60f` |
+| `BepInEx/config/Seasonality/Default/Trees/Beech_small/beech_leaf_small@fall.png` | 3 266 | `4443e8a0f25717c439f4528edf943ccbe385284aa31755d1461ccd0baae8a9ae` |
+| `BepInEx/config/Seasonality/Default/Trees/Beech_small/beech_leaf_small@spring.png` | 6 104 | `d0171d90d97bbce98b9c17f0b0a9c5ed1e6ecd4e9951c33ac12eff5deb838b42` |
+| `BepInEx/config/Seasonality/Default/Trees/Beech_small/beech_leaf_small@winter.png` | 1 118 | `be9edde63f909c42d3f1f8dd33e0fefd96d761d6328aa16f0def1f897dc62396` |
+| `BepInEx/config/Seasonality/Default/Trees/Birch/birch_leaf@spring.png` | 17 778 | `bc2b0797ee6437132c0b2787e09080ce1f86566eb26ebe8fb458b5d0da7c881b` |
+| `BepInEx/config/Seasonality/Default/Trees/Birch/birch_leaf@winter.png` | 9 661 | `a00c2feeff3a53d8e9a7adaa6c7cff937ebf93b75f201e1604c15195607732ad` |
+| `BepInEx/config/Seasonality/Default/Trees/Birch/birch_leaf_aut@spring.png` | 17 778 | `bc2b0797ee6437132c0b2787e09080ce1f86566eb26ebe8fb458b5d0da7c881b` |
+| `BepInEx/config/Seasonality/Default/Trees/Birch/birch_leaf_aut@winter.png` | 9 661 | `a00c2feeff3a53d8e9a7adaa6c7cff937ebf93b75f201e1604c15195607732ad` |
+| `BepInEx/config/Seasonality/Default/Trees/Birch/birch_particle@spring.png` | 17 778 | `bc2b0797ee6437132c0b2787e09080ce1f86566eb26ebe8fb458b5d0da7c881b` |
+| `BepInEx/config/Seasonality/Default/Trees/Birch/birch_particle@winter.png` | 9 661 | `a00c2feeff3a53d8e9a7adaa6c7cff937ebf93b75f201e1604c15195607732ad` |
+| `BepInEx/config/Seasonality/Default/Trees/FirTree/branch_particle@fall.png` | 2 439 | `74b5a77b215d70cb3a71d6b327a097f47c766651dc8f9ba60af92874d2c0aefb` |
+| `BepInEx/config/Seasonality/Default/Trees/FirTree/branch_particle@spring.png` | 2 414 | `7caa2f08516935b14cfd880617004af489464bc047ea87aa1296798f00d23425` |
+| `BepInEx/config/Seasonality/Default/Trees/FirTree/branch_particle@winter.png` | 1 984 | `b268faf0807f78209171297ae25e79dc1f3f9125bf826e402b2cca9ff2397628` |
+| `BepInEx/config/Seasonality/Default/Trees/FirTree/menu_fir@fall.png` | 296 640 | `eb0e1a5f808a77184bf0e856fe6f778bc1e8f13a07e65892ece63d43c75dc53d` |
+| `BepInEx/config/Seasonality/Default/Trees/FirTree/menu_fir@spring.png` | 281 594 | `5faf0ac83d8855ad2ca01e742d35fea30f6d8ad3f47690fe62fd61f783f2ff22` |
+| `BepInEx/config/Seasonality/Default/Trees/FirTree/menu_fir@winter.png` | 280 886 | `2f0e1e2800d5499e4d48f91c1079722c85cccd263cb6a16497e817059e61739b` |
+| `BepInEx/config/Seasonality/Default/Trees/FirTree/Pine_tree@fall.png` | 296 640 | `eb0e1a5f808a77184bf0e856fe6f778bc1e8f13a07e65892ece63d43c75dc53d` |
+| `BepInEx/config/Seasonality/Default/Trees/FirTree/Pine_tree@spring.png` | 281 594 | `5faf0ac83d8855ad2ca01e742d35fea30f6d8ad3f47690fe62fd61f783f2ff22` |
+| `BepInEx/config/Seasonality/Default/Trees/FirTree/Pine_tree@winter.png` | 280 886 | `2f0e1e2800d5499e4d48f91c1079722c85cccd263cb6a16497e817059e61739b` |
+| `BepInEx/config/Seasonality/Default/Trees/FirTree_small/Pine_tree_small@fall.png` | 19 972 | `14b5143c153b75dbf946531d64b6ae75a6fe40af2e96f8d2fb5c0a713fbab0a4` |
+| `BepInEx/config/Seasonality/Default/Trees/FirTree_small/Pine_tree_small@spring.png` | 19 536 | `41a44861f2f8118574f0cf6efd8bbd24e173be06a7a2ec7799e1404a93c08959` |
+| `BepInEx/config/Seasonality/Default/Trees/FirTree_small/Pine_tree_small@winter.png` | 17 752 | `860f80bdc477dd190f150bba66e64b5f7a438b9e165853399eef9a66bb92605a` |
+| `BepInEx/config/Seasonality/Default/Trees/FirTree_small_dead/branch_dead_particle@winter.png` | 1 986 | `5fb8bbdd273cc04824f531679e2ebf73322970a4540c1de0f344a4ca90ef8886` |
+| `BepInEx/config/Seasonality/Default/Trees/FirTree_small_dead/Pine_tree_small_dead@winter.png` | 17 594 | `1d48c544b5a88418dfa270b21bc9436f69a7b327c4f1e1406a8ce2f23ba75629` |
+| `BepInEx/config/Seasonality/Default/Trees/Oak/oak_leaf@fall.png` | 66 760 | `6a6e4fac9b5f3d35a7030abe399ed1292738c31d01340f737542cbb2d2befdf2` |
+| `BepInEx/config/Seasonality/Default/Trees/Oak/oak_leaf@spring.png` | 66 760 | `6a6e4fac9b5f3d35a7030abe399ed1292738c31d01340f737542cbb2d2befdf2` |
+| `BepInEx/config/Seasonality/Default/Trees/Oak/oak_leaf@winter.png` | 23 097 | `0d2f235675018228cee491ba69d091b37746df617aa6df8fd5dd5dfe638cc825` |
+| `BepInEx/config/Seasonality/Default/Trees/Oak/oak_particle@fall.png` | 66 760 | `6a6e4fac9b5f3d35a7030abe399ed1292738c31d01340f737542cbb2d2befdf2` |
+| `BepInEx/config/Seasonality/Default/Trees/Oak/oak_particle@spring.png` | 66 760 | `6a6e4fac9b5f3d35a7030abe399ed1292738c31d01340f737542cbb2d2befdf2` |
+| `BepInEx/config/Seasonality/Default/Trees/Oak/oak_particle@winter.png` | 23 097 | `0d2f235675018228cee491ba69d091b37746df617aa6df8fd5dd5dfe638cc825` |
+| `BepInEx/config/Seasonality/Default/Trees/PineTree/PineTree_01@fall.png` | 54 371 | `bb7817bcbca4f599f9cbbdc3f8e7b729a34a647eb3d85fbd58cfe81ad9f71156` |
+| `BepInEx/config/Seasonality/Default/Trees/PineTree/PineTree_01@spring.png` | 54 523 | `c9c63e284138e7cea2af827c87a76d56d4decd59a94551ec59bf037fbf275707` |
+| `BepInEx/config/Seasonality/Default/Trees/PineTree/PineTree_01@summer.png` | 55 451 | `dfc01122233ba349f303c911d2f1d89a01394f8403ce5e3543265492f9d2ef71` |
+| `BepInEx/config/Seasonality/Default/Trees/PineTree/PineTree_01@winter.png` | 53 680 | `c1616e20aa911c9de86098f0d4e5ad349fdfb25c1cec03233ded9fd919aef8c2` |
+| `BepInEx/config/Seasonality/Default/Trees/SwampTree/swamptree1_branch@spring.png` | 60 154 | `0d86375d9e3951b5f051ec286a71c4cb05080d5d8e254a2b9ebe2cb48f459e92` |
+| `BepInEx/config/Seasonality/Default/Trees/SwampTree/swamptree1_branch@summer.png` | 36 749 | `843da97f5afc9cc5c753f985c255e9abf7314294d4fcee789e17883207d1f830` |
+| `BepInEx/config/Seasonality/Default/Trees/YggaShoot/Shoot_Leaf_mat@fall.png` | 10 367 | `d004c7d8d6d03c7794453cc88bf77981c63435201beb4a0e9cdc4369a41523e0` |
+| `BepInEx/config/Seasonality/Default/Trees/YggaShoot/Shoot_Leaf_mat@spring.png` | 20 106 | `56f4f82b575805c77a57d17f6b63e96f9a0e1d7be9e9b889d7eb6c486ac42f35` |
+| `BepInEx/config/Seasonality/Default/Trees/YggaShoot/Shoot_Leaf_mat@winter.png` | 2 535 | `c6a7db62b529b6dd4eb7d0ad3e0f10861982c26bc0cd34184b0df02998999dca` |
+| `BepInEx/config/Seasonality/Default/Trees/YggaShoot/shoot_leaf_particle@fall.png` | 10 367 | `d004c7d8d6d03c7794453cc88bf77981c63435201beb4a0e9cdc4369a41523e0` |
+| `BepInEx/config/Seasonality/Default/Trees/YggaShoot/shoot_leaf_particle@spring.png` | 20 106 | `56f4f82b575805c77a57d17f6b63e96f9a0e1d7be9e9b889d7eb6c486ac42f35` |
+| `BepInEx/config/Seasonality/Default/Trees/YggaShoot/shoot_leaf_particle@winter.png` | 2 535 | `c6a7db62b529b6dd4eb7d0ad3e0f10861982c26bc0cd34184b0df02998999dca` |
+| `BepInEx/config/Seasonality/Default/Trees/YggdrasilSkyTree/yggdrasil_branch#EmissiveTex@fall.png` | 129 467 | `3d5115e5cc8d4f19dd6ec39cc5b1b930fc8ae139ef14a7deb640dbd6ad82e9ff` |
+| `BepInEx/config/Seasonality/Default/Trees/YggdrasilSkyTree/yggdrasil_branch_leafs@spring.png` | 1 138 686 | `488c987d1014846cb9593268a167a8ab12a4c3be8c2a0fdb92bd89fd9f0b7df5` |
+| `BepInEx/config/Seasonality/Default/Trees/YggdrasilSkyTree/yggdrasil_branch_leafs@winter.png` | 365 581 | `fd8a6e33c055309969b13ba393352634ae321d6fb44b98094fe3d99db9a76123` |
+| `BepInEx/config/Seasonality/Default/Vegetation/BlueberryBush/Bush01_blueberry@fall.png` | 5 198 | `7125aab0cb5dff03baa96b6890ce08d7fcbffbd3da0478948cdd8b5298971e8b` |
+| `BepInEx/config/Seasonality/Default/Vegetation/BlueberryBush/Bush01_blueberry@summer.png` | 4 078 | `e58c57879e83ee52921cf1bb3a6ac67d48495b4f594c7e21517a910b6f7384bd` |
+| `BepInEx/config/Seasonality/Default/Vegetation/BlueberryBush/Bush01_blueberry@winter.png` | 2 750 | `08798322ac96b0d4f4d23cff403e5a88ede07ac049c5a130387d770dc8460002` |
+| `BepInEx/config/Seasonality/Default/Vegetation/Bushes/Bush01@fall.png` | 5 198 | `7125aab0cb5dff03baa96b6890ce08d7fcbffbd3da0478948cdd8b5298971e8b` |
+| `BepInEx/config/Seasonality/Default/Vegetation/Bushes/Bush01@spring.png` | 3 062 | `a3dab7dca87575e1590e27c5746b4c0f95500f3d06feb2072bec265cf420d188` |
+| `BepInEx/config/Seasonality/Default/Vegetation/Bushes/Bush01@summer.png` | 4 078 | `e58c57879e83ee52921cf1bb3a6ac67d48495b4f594c7e21517a910b6f7384bd` |
+| `BepInEx/config/Seasonality/Default/Vegetation/Bushes/Bush01@winter.png` | 2 750 | `08798322ac96b0d4f4d23cff403e5a88ede07ac049c5a130387d770dc8460002` |
+| `BepInEx/config/Seasonality/Default/Vegetation/CloudberryBush/cloudberry@winter.png` | 2 461 | `9cb27cbb7d03ba5769be5a02289858b85f51e31496f6d30a9b34d0cff5f1dfce` |
+| `BepInEx/config/Seasonality/Default/Vegetation/Mushroom/Boletus_edulis@spring.png` | 958 | `5de0872497233d8e3c67281460a854d31194a4648323fc033e3b7a0b85384e6f` |
+| `BepInEx/config/Seasonality/Default/Vegetation/PlainsBush/Bush02_en@spring.png` | 7 039 | `3fef75c2571e06b34e3f04f428b358fb4c7091383c69908f54d4045777d95263` |
+| `BepInEx/config/Seasonality/Default/Vegetation/PlainsBush/Bush02_en@winter.png` | 13 540 | `936357446d71060172041c78ff889c87556f2ca0de4f0533f03dc87484ae6f4e` |
+| `BepInEx/config/Seasonality/Default/Vegetation/RaspberryBush/Bush01_raspberry@fall.png` | 5 198 | `7125aab0cb5dff03baa96b6890ce08d7fcbffbd3da0478948cdd8b5298971e8b` |
+| `BepInEx/config/Seasonality/Default/Vegetation/RaspberryBush/Bush01_raspberry@summer.png` | 4 078 | `e58c57879e83ee52921cf1bb3a6ac67d48495b4f594c7e21517a910b6f7384bd` |
+| `BepInEx/config/Seasonality/Default/Vegetation/RaspberryBush/Bush01_raspberry@winter.png` | 2 750 | `08798322ac96b0d4f4d23cff403e5a88ede07ac049c5a130387d770dc8460002` |
+| `BepInEx/config/Seasonality/Default/Vegetation/Shrub/shrub2_leafparticle@fall.png` | 754 | `76478df307b7a883968d892aa80a1319a9a318479e84b3fb6e35de387f9678eb` |
+| `BepInEx/config/Seasonality/Default/Vegetation/Shrub/shrub2_leafparticle@spring.png` | 702 | `ae47d03e8f4726b612f03fbbd49034b1d3dfd3ff685d62cddf32fb1203c07d1c` |
+| `BepInEx/config/Seasonality/Default/Vegetation/Shrub/shrub2_leafparticle@winter.png` | 645 | `c624c19194af6323e97561e1d8abc5e98c3438c78a6f209b8232ee5b5b3acf2d` |
+| `BepInEx/config/Seasonality/Default/Vegetation/Shrub/shrub@fall.png` | 3 919 | `4aa014db04636e6090c10d760fed47719e61fd7712d8b3b409326a9481c4182b` |
+| `BepInEx/config/Seasonality/Default/Vegetation/Shrub/shrub@spring.png` | 3 918 | `49c81de084fa584259f1e5a088ee188e5fd8334f36bd35d6fb63453f92f623d2` |
+| `BepInEx/config/Seasonality/Default/Vegetation/Shrub/shrub@winter.png` | 3 937 | `ed3df25064ac698a7c245e38492a015acb8b25a44beede7072740cf89e470df9` |
+| `BepInEx/config/Seasonality/Default/Vegetation/Shrub/shrub_heath@fall.png` | 3 919 | `4aa014db04636e6090c10d760fed47719e61fd7712d8b3b409326a9481c4182b` |
+| `BepInEx/config/Seasonality/Default/Vegetation/Shrub/shrub_heath@spring.png` | 3 918 | `49c81de084fa584259f1e5a088ee188e5fd8334f36bd35d6fb63453f92f623d2` |
+| `BepInEx/config/Seasonality/Default/Vegetation/Shrub/shrub_heath@winter.png` | 3 937 | `ed3df25064ac698a7c245e38492a015acb8b25a44beede7072740cf89e470df9` |
+| `BepInEx/config/Seasonality/Default/Vegetation/Vines/Vines_Mat@fall.png` | 1 467 | `f0f677fdea2599b36530f25bdd7b73b5b38fa97127dfd749701db9ddb4f2adc1` |
+| `BepInEx/config/Seasonality/Default/Vegetation/Vines/Vines_Mat@winter.png` | 450 | `f5ceaaaa6c48297d84b30899936360b978bc54f82d6f72401b43e061c7684cb9` |
+| `BepInEx/config/Seasonality/Default/Vegetation/YggdrasilRoot/yggdrasil_root#EmissiveTex@fall.png` | 129 467 | `3d5115e5cc8d4f19dd6ec39cc5b1b930fc8ae139ef14a7deb640dbd6ad82e9ff` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorBronze/BronzeArmorMesh_Mat@winter.png` | 12 776 | `1053fb472681847ec0cc4638c03231f4e76c95b607dae3621622a89f064ace5e` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorBronze/helmet_bronze_mat@winter.png` | 5 531 | `cba832b0d52cd52a4c90e92a20dceef5ae26bb88307f1ce5640847b3ea0d4482` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorCarapace/carapacearmor_mat@winter.png` | 12 535 | `82171ccff21e8e85d56d0c554012b23dbd90f20e39d2ee12cf97221d55371ebe` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorIron/helmet_iron_mat@winter.png` | 4 957 | `482330f6f8a5ecc9b40c33c121243f3f45698c30d1bd1ea907112df4bb34efd7` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorIron/IronArmorChest_mat@winter.png` | 15 500 | `c16eeb9ad90b7b1a8d2f858b5f7eac526a638c076c02a78d53323be2456c5e5c` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorIron/IronArmorPlayer_legs#LegsTex@winter.png` | 7 130 | `d670838612d8458500c04ccf5e6b2ddcd81414cf6fa558ea81fe2b11d1da4573` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorLeather/CapeDeerHide@winter.png` | 2 961 | `9f99366238920dd67cb05464cd627e62f41e684df642df53e2ede0cfc44817d4` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorLeather/helmet_leather_mat@winter.png` | 8 538 | `78d29b12cf8a723ec678495b2cef008185cdcde6b7fc78ac2f02f118aa58ac3d` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorLeather/LeatherChest#ChestTex@winter.png` | 13 639 | `244e2e89a7a5cd051e2eec73318fb7b4bdae4dbb2594d17fcbc1fff58380eece` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorLeather/LeatherPants#LegsTex@winter.png` | 13 991 | `9403a3e4196098233c50c5edb80ae19342b0bdcb48cd659b829feeda9eb59cbc` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorMage/feathercape_mat@winter.png` | 17 383 | `42acacf131a509c642036f7e78ca1edec2cc4f9634dfb87fa7c3bf3c56acd771` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorMage/MageArmor_mat@winter.png` | 19 077 | `473b5e17987bdd4630430adeb3f3f470b133f7e7fad268f3816ef4ec75d105eb` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorPadded/LoxCape_Mat@winter.png` | 4 631 | `0af35bb5d34d7210464ab71cdcaa4eefb40c50aa310ec0fac901cb5e10375c60` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorPadded/Padded_mat@winter.png` | 29 806 | `5e96aa81d1164b96b5104289a114e8f89980275314467074de70f05db1b34abf` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorPadded/PaddedChest_mat#ChestTex@winter.png` | 12 046 | `8150f486423c57f795dbf2d938f6cd6f0c1c6a7c84710745ad1bbfb8c955c1ab` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorPadded/PaddedLegs_mat#LegsTex@winter.png` | 11 407 | `a414549e8de14e68e4fc3496f55c52b4b0f182558a1e08d9c181fe89e8ab5c06` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorRags/RagsChest#ChestTex@winter.png` | 9 612 | `4ef1b6d0996ccdfe76362d40e00db8c4bc3a2e43af29a450bce6a0fc9796d9cb` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorRags/RagsLegs#LegsTex@winter.png` | 4 790 | `b31418ab5d4e9099251c064911c0dc361dae7cb4cf39d1fab07456c55ac810ad` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorTrollLeather/CapeTrollHide@fall.png` | 36 222 | `b230f5daa57e465b2b6aace2e4646d59b8143306cfbcd66359370dd81794938a` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorTrollLeather/CapeTrollHide@winter.png` | 70 726 | `4174d45e2a8dd128c6adeedcda68793a08bf8f08d7da9cf60bf474e0ee159d70` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorTrollLeather/helmet_trollleather@fall.png` | 4 117 | `346ef93a4fc6974dff116b136ed7c2ace044dceac56721ab18626e84b9df4346` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorTrollLeather/helmet_trollleather@winter.png` | 6 441 | `5de9a4afa5a0bd6caa1bc9904a071769a7df1e067cfc2b7cd94c0e8c9db57863` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorTrollLeather/TrollLeatherChest#ChestTex@fall.png` | 8 181 | `1033da40e0298bec06ba4713edae6d3f29ec892e28c66b8f95d65898f976d95e` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorTrollLeather/TrollLeatherChest#ChestTex@winter.png` | 9 721 | `ab65f1b99477c2ad951051ac0aed764f79d61ad7be5e0ce1e560a854ef8c684a` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorTrollLeather/TrollLeatherPants#LegsTex@fall.png` | 9 398 | `b625285105c3062066501867a6bfecb7c7e5accb452c66233c048b03e01758a4` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorTrollLeather/TrollLeatherPants#LegsTex@winter.png` | 11 564 | `3aae02525cd01cddd77552ae7c38df33c161aaeaf13ef93cccf0d42da0e664da` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorWolf/SilverArmourChest_mat@fall.png` | 64 110 | `f3c9775bce395e831f441f0031706e8613b2628c4475402d7b48b94ab82ee5ac` |
+| `BepInEx/config/Seasonality/Morgott/Armors/ArmorWolf/WolfCape@fall.png` | 8 236 | `9541cfff91fc4aa1f87ab1d5b48e55339e1020562837416d43e3d086f17b377e` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Bjorn/Bjorn_mat@winter.png` | 61 513 | `c96a029dd3f7338025f9cbe6309a5432ac11a172d833a398cc868f12173a505e` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Blob/blob@fall.png` | 23 374 | `2330578f96189b0289ef810f66f25e5f465ada4de03f646ef2284c8649d57f91` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Blob/blob@spring.png` | 23 666 | `1118ff2d0902ce4255a08556c1828cb93ea15aa7609c603ceca0c21c8f9d6486` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Blob/blob@winter.png` | 31 170 | `cfdd5c3218644edfa4bcafd83d41c434d964c1dc65ac7c55ebd60f90a218939d` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Boar/Boar Skin Valheim@fall.png` | 10 814 | `92cb4997b94787e8d4986cd0c853c3830280f928224dd9a9ab30eb1ccacf0f45` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Deathsquito/Deathsquito_mat@fall.png` | 26 530 | `8e09358a17b2570b6238522ee9563b066efa53b0fe7df35a9be19aaf5bf67991` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Deathsquito/Deathsquito_mat@spring.png` | 27 321 | `58d27f17334dfc7b884ea6e45cf02a8e9824f670257568ffd1f0b23c76b6fa31` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Deathsquito/Deathsquito_mat@winter.png` | 26 338 | `d5f160a62531e7c52adca00c0b1ff706b20a027af8c3df6ce0e1cf741fe73abb` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Deer/Deer 2@fall.png` | 70 298 | `40ba3cf9eb708dce83f6dae515d68b9d6a74787278c1d7ab8b76bdf4199c2f8d` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Gjall/gjall_mat@winter.png` | 143 645 | `0e046994cc0db31c7248b22c2f4f201f62a9c70c3995271faaece3ca421e442d` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Goblin/goblin@spring.png` | 25 879 | `f76a08112570b6a65dd0b60d0ff49c591f15a54a33956d970c03566e86189b2c` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/GoblinBrute/GoblinBrute_mat@spring.png` | 90 149 | `2353e07bb46954d1f1ee0794033b035c951aad52e354fc1256be0c6482aeaee8` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/GoblinShaman/GoblinShaman_mat@spring.png` | 33 879 | `85948662025db83bd94b97b7c2b45bc55f811e26190b2396e5424f119cc05f6f` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Greydwarf/greydwarf@winter.png` | 25 788 | `379ebb1a80a65d248417fdb63e4db8f4b8cc8af77fb885e36914d37201dcefb1` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/GreydwarfShaman/greydwarf_shaman@winter.png` | 18 442 | `ba431bca8a0c40120dfb2721951385d39b4831c05dbf6ec6f17d6878b3d564ba` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Gull/seagal@fall.png` | 1 668 | `05d83eb7e6a907ee4d60e7538fe87909d001db634ed2bda404589e988f2e9ccf` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Gull/seagal@spring.png` | 8 992 | `01ce67d5547fd8f750a22aefa5f81d9283aaf9b061576c81dff4954b1292caea` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Hare/Hare_mat@fall.png` | 19 486 | `ad10b21524f0e7180fac47533e4a3928a5cb9f7e8197d0891590253b6e2d598f` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Hare/Hare_mat@winter.png` | 17 748 | `2d173357454c3ad6b58e94896d9b13ef4f5f1c278d0e5f7919d84062fda1fe02` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Leech/swampfish@winter.png` | 14 690 | `d3fe2775ab9e9b573bf2c9ee22037fd928d1378a739988b81650766e9b8f383d` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Lox/HildirsLox@winter.png` | 65 083 | `8d0dd10c44dabf88f0d2a548c09f26f1f7c9c5f4242d50a3f909e88a8f5bb5f1` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Lox/lox@winter.png` | 65 083 | `8d0dd10c44dabf88f0d2a548c09f26f1f7c9c5f4242d50a3f909e88a8f5bb5f1` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Lox/lox_calf@winter.png` | 65 083 | `8d0dd10c44dabf88f0d2a548c09f26f1f7c9c5f4242d50a3f909e88a8f5bb5f1` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Neck/neck@fall.png` | 8 356 | `5585f05cce5ca74e75ae4d5f043c2b8482a240557c80d149b996d5fa476e1c5f` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Neck/neck@spring.png` | 8 349 | `5fa24da26154fcc791e1482d2850cf8869cfd73e89392767c86807fc6c1cb267` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Neck/neck@winter.png` | 8 418 | `804696722f503144ffadbe7d6c7577c67f96dccc99a321f365690f497f57f401` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Oozer/blob_elite@fall.png` | 23 374 | `2330578f96189b0289ef810f66f25e5f465ada4de03f646ef2284c8649d57f91` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Oozer/blob_elite@spring.png` | 23 666 | `1118ff2d0902ce4255a08556c1828cb93ea15aa7609c603ceca0c21c8f9d6486` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Oozer/blob_elite@winter.png` | 31 170 | `cfdd5c3218644edfa4bcafd83d41c434d964c1dc65ac7c55ebd60f90a218939d` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Piggy/Boar Skin Valheim piggy@fall.png` | 9 861 | `60e0014637d1a2dcc70c0e9a272a223a7adb07935d3c303e83b59ded0d09c722` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Seeker/seeker@winter.png` | 77 052 | `0bf994f5fb8d77e0e950ff181ae57b2a266869bea6217dda3d63a0052a7a0ce4` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/SeekerBrood/babyseeker@winter.png` | 5 180 | `776f81a707f9c50b04839e86b55391a72a26ab91c9bf37269a1c9cbe85c476bf` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/SeekerSoldier/seeker_Brute_mat@winter.png` | 76 943 | `cb85a029ef64b83b4853194c5519096a65f723299ede4b3b696fa4b4573c7da8` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Serpent/SeaSerpent_mat@fall.png` | 351 556 | `2b55f57f62bbda23ea4546ebdf2b12b4e935fd12a298b272cc3e3b1682f37f42` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Serpent/SeaSerpent_mat@winter.png` | 387 183 | `74ab7a1415d4694229b35c8f69997416fca33e61e231cb6108d5a38b9022e689` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Skeleton/Skeleton@fall.png` | 15 810 | `0b6afdd96f0cf47404c7473c91598eaeb9ddf65015167a70259487c4590c65fa` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Skeleton/Skeleton@winter.png` | 15 669 | `82604d2e75f6035be4ada1fb456dc535de5968643b352b282a43694b48a2a2f2` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Tick/Feasting_mat@winter.png` | 5 499 | `c53d219aa38c12ba1f31e15bfe1f92a7732f6eb576f7d0c5dd1a5791abda0e51` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Troll/troll@winter.png` | 70 726 | `4174d45e2a8dd128c6adeedcda68793a08bf8f08d7da9cf60bf474e0ee159d70` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Wolf/Wolf Skin Grey@fall.png` | 65 767 | `2f95ec878e6d3856e029321dffe8839b477a0ce92558bfb0a7788d276c20797e` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/WolfCub/Wolf Skin Grey cub@fall.png` | 18 722 | `111dea8295f4a0df8693de45227fc9be6cd1f347f9076f50a7cdd81ef8f90b8d` |
+| `BepInEx/config/Seasonality/Morgott/Creatures/Wraith/wraith@winter.png` | 55 330 | `5c82ee0b98bf0b262e3fdc7a1487667d53492dcb23472c8fa8b461e53dc80e53` |
+| `BepInEx/config/Seasonality/Morgott/Grass/BlackForest/clutter_waterlilies@fall.png` | 1 315 | `bca6284a3df280cfe78f75587a4a4f33ed20d6c8deeec8b1e4e7eb2ef534c12f` |
+| `BepInEx/config/Seasonality/Morgott/Grass/BlackForest/clutter_waterlilies@spring.png` | 1 735 | `54b7d4b3f7b15afd2d2f338d0fef60eebd1f3db0714dd704bd2d53f833631ed9` |
+| `BepInEx/config/Seasonality/Morgott/Grass/BlackForest/clutter_waterlilies@winter.png` | 1 311 | `ee945487cd7c2d27616e5915b4fb67885d55b46663246c5adf2b0bea7b62a92d` |
+| `BepInEx/config/Seasonality/Morgott/Grass/BlackForest/grasscross_forest@spring.png` | 1 378 | `2f5201fc5feda4db94963595231a74b2e87a50eb04489290d039fc7401a2f9b3` |
+| `BepInEx/config/Seasonality/Morgott/Grass/BlackForest/grasscross_forest@winter.png` | 534 | `31633d42b251ca7672f451cf87b0b26dc640708be7c10df4ccd88a2efbf20f5a` |
+| `BepInEx/config/Seasonality/Morgott/Grass/BlackForest/ormbunke@fall.png` | 6 012 | `8734765513fa8d04d9d33b279dec614818565f2537c3528b642c3d113514af61` |
+| `BepInEx/config/Seasonality/Morgott/Grass/BlackForest/ormbunke@winter.png` | 6 012 | `8734765513fa8d04d9d33b279dec614818565f2537c3528b642c3d113514af61` |
+| `BepInEx/config/Seasonality/Morgott/Grass/BlackForest/vass@fall.png` | 8 076 | `11b601bcbcaa464e11d49f8060fa03f558e9ce3e03ab06124797109d9ed2080b` |
+| `BepInEx/config/Seasonality/Morgott/Grass/BlackForest/vass@winter.png` | 7 579 | `a54f7a035a20514de268a4c38cd2f732ec294d8cda1f08e37acb43f660b299db` |
+| `BepInEx/config/Seasonality/Morgott/Grass/Meadows/clutter_shrub@fall.png` | 2 936 | `f221d418582f7094c3d1e58818d8228347a344e11740fc4f408c114518bbbf3e` |
+| `BepInEx/config/Seasonality/Morgott/Grass/Meadows/clutter_shrub@spring.png` | 2 451 | `d1356e6e0a601d74bcc0f21667349d409f0214272cba0e8417a1b2e2b5fc196d` |
+| `BepInEx/config/Seasonality/Morgott/Grass/Meadows/clutter_shrub@winter.png` | 2 936 | `f221d418582f7094c3d1e58818d8228347a344e11740fc4f408c114518bbbf3e` |
+| `BepInEx/config/Seasonality/Morgott/Grass/Meadows/grasscross_meadows@fall.png` | 15 368 | `eaf7157e1a1b0bdca2d81adf767699fcb4c2ee6eafe9a2cbb6a230af88d65286` |
+| `BepInEx/config/Seasonality/Morgott/Grass/Meadows/grasscross_meadows@spring.png` | 26 190 | `581d90268cb045e8a4c3d89d188d70c4fad4eaadc4fd18e989ad997801a9323e` |
+| `BepInEx/config/Seasonality/Morgott/Grass/Meadows/grasscross_meadows@winter.png` | 1 225 | `194c0f9960cd7b4b949147c470998e797c38cf05737ec85f999f5461ee32ac95` |
+| `BepInEx/config/Seasonality/Morgott/Grass/Meadows/grasscross_meadows_short@fall.png` | 15 368 | `eaf7157e1a1b0bdca2d81adf767699fcb4c2ee6eafe9a2cbb6a230af88d65286` |
+| `BepInEx/config/Seasonality/Morgott/Grass/Meadows/grasscross_meadows_short@spring.png` | 22 050 | `65ed1691ce665341df0bb37ceeb1ebd87f1bf61fb0550ec446907672f911fa71` |
+| `BepInEx/config/Seasonality/Morgott/Grass/Meadows/grasscross_meadows_short@winter.png` | 604 | `e5ce9f60881e2f3b7abc4e4f4f444c83ed679210a2ae0666e418bcc66a1ed296` |
+| `BepInEx/config/Seasonality/Morgott/Grass/Mistlands/grasscross_mistlands_short@fall.png` | 898 | `6c59d5a9aa2b965886922f92acc95f1b0eafe61c7f0595c600f55d087688020f` |
+| `BepInEx/config/Seasonality/Morgott/Grass/Mistlands/grasscross_mistlands_short@winter.png` | 594 | `8ac3888998a7ee65e1345b8e1591317d82bfa658d1bb0d4684ce6bd871fc9c8e` |
+| `BepInEx/config/Seasonality/Morgott/Grass/Mistlands/mistlands_rockplants@winter.png` | 9 622 | `87807bbef6b5667b6f47d1b0267b1c2dea029a63d89af50d6b996ed84f3d44b8` |
+| `BepInEx/config/Seasonality/Morgott/Grass/Plains/grasscross_heath@winter.png` | 3 521 | `e871805ee9d1432dbecff465519604647fc295ac67f5773f593c5ae1cdd00b63` |
+| `BepInEx/config/Seasonality/Morgott/Grass/Plains/grasscross_heath_flower@fall.png` | 3 396 | `f13a7d9e855614606ce0853ea7630fe57578a3a9571972ac15f4cb416071f992` |
+| `BepInEx/config/Seasonality/Morgott/Grass/Plains/grasscross_heath_flower@winter.png` | 3 383 | `909b94f8a5ab403187a4a6dd4ff8d78339b0f6a56dbc89776ee2f4ba04de4331` |
+| `BepInEx/config/Seasonality/Morgott/Grass/Swamp/ormbunke_yellow@fall.png` | 6 012 | `8734765513fa8d04d9d33b279dec614818565f2537c3528b642c3d113514af61` |
+| `BepInEx/config/Seasonality/Morgott/Grass/Swamp/ormbunke_yellow@winter.png` | 6 012 | `8734765513fa8d04d9d33b279dec614818565f2537c3528b642c3d113514af61` |
+| `BepInEx/config/Seasonality/Morgott/Pieces/GoblinVillage/GoblinVillage_Cloth@winter.png` | 113 872 | `61defabf013f1a845092055e9a83257484a9ace47a60b96afb39882278be5437` |
+| `BepInEx/config/Seasonality/Morgott/Pieces/Straw/straw_roof@winter.png` | 10 166 | `3da9403290a124e1104ba52374d32b6de68f5abd7faf48432d84f831a25c5cbf` |
+| `BepInEx/config/Seasonality/Morgott/Pieces/Straw/straw_roof_alpha@winter.png` | 10 166 | `3da9403290a124e1104ba52374d32b6de68f5abd7faf48432d84f831a25c5cbf` |
+| `BepInEx/config/Seasonality/Morgott/Pieces/Straw/straw_roof_corner_alpha@winter.png` | 9 674 | `575875df3d98571098f348b9783c10616a081df214b78a9bc38e69864797c9eb` |
+| `BepInEx/config/Seasonality/Morgott/Pieces/Straw/straw_roof_corner_worn_alpha@winter.png` | 10 023 | `2c41bbc64f98b064e3e43f8a4a7c84fb8bfb28231c32a1d5276f833b31410776` |
+| `BepInEx/config/Seasonality/Morgott/Pieces/Straw/straw_roof_worn@winter.png` | 9 944 | `ccb4d7ca2a1a0baa07eb8c6cd7c353bc14389748079fc37a38d5d5f00f72399f` |
+| `BepInEx/config/Seasonality/Morgott/Pieces/Straw/straw_roof_worn_alpha@winter.png` | 9 944 | `ccb4d7ca2a1a0baa07eb8c6cd7c353bc14389748079fc37a38d5d5f00f72399f` |
+| `BepInEx/config/Seasonality/Morgott/Trees/Beech/beech_bark@winter.png` | 469 735 | `1f91b19e293521c2563eac39095d206e9c0fff6ab352ee7c9e1c27657388422f` |
+| `BepInEx/config/Seasonality/Morgott/Trees/Beech/beech_leaf@fall.png` | 59 154 | `940bd408be350bde84df6c14764f5410430b83ebc117d0e1590b9293cfdabc91` |
+| `BepInEx/config/Seasonality/Morgott/Trees/Beech/beech_leaf@spring.png` | 64 348 | `ea07841368864736ad9309e4331651ec3271ed709bf40b965df388510e0f66c1` |
+| `BepInEx/config/Seasonality/Morgott/Trees/Beech/beech_leaf@winter.png` | 47 840 | `6556141014a8450b7210af556d40f467500a053186dfacc83726c98efdfac60f` |
+| `BepInEx/config/Seasonality/Morgott/Trees/Beech/beech_particle@fall.png` | 59 154 | `940bd408be350bde84df6c14764f5410430b83ebc117d0e1590b9293cfdabc91` |
+| `BepInEx/config/Seasonality/Morgott/Trees/Beech/beech_particle@spring.png` | 64 348 | `ea07841368864736ad9309e4331651ec3271ed709bf40b965df388510e0f66c1` |
+| `BepInEx/config/Seasonality/Morgott/Trees/Beech/beech_particle@winter.png` | 47 840 | `6556141014a8450b7210af556d40f467500a053186dfacc83726c98efdfac60f` |
+| `BepInEx/config/Seasonality/Morgott/Trees/Beech_small/beech_leaf_small@fall.png` | 3 266 | `4443e8a0f25717c439f4528edf943ccbe385284aa31755d1461ccd0baae8a9ae` |
+| `BepInEx/config/Seasonality/Morgott/Trees/Beech_small/beech_leaf_small@spring.png` | 6 104 | `d0171d90d97bbce98b9c17f0b0a9c5ed1e6ecd4e9951c33ac12eff5deb838b42` |
+| `BepInEx/config/Seasonality/Morgott/Trees/Beech_small/beech_leaf_small@winter.png` | 1 118 | `be9edde63f909c42d3f1f8dd33e0fefd96d761d6328aa16f0def1f897dc62396` |
+| `BepInEx/config/Seasonality/Morgott/Trees/Birch/birch_leaf@spring.png` | 16 951 | `55df15c74f42c54b316c88db53d3c67482473378340b9bc857eec5f24d3272be` |
+| `BepInEx/config/Seasonality/Morgott/Trees/Birch/birch_leaf@winter.png` | 9 661 | `a00c2feeff3a53d8e9a7adaa6c7cff937ebf93b75f201e1604c15195607732ad` |
+| `BepInEx/config/Seasonality/Morgott/Trees/Birch/birch_leaf_aut@spring.png` | 16 951 | `55df15c74f42c54b316c88db53d3c67482473378340b9bc857eec5f24d3272be` |
+| `BepInEx/config/Seasonality/Morgott/Trees/Birch/birch_leaf_aut@winter.png` | 9 661 | `a00c2feeff3a53d8e9a7adaa6c7cff937ebf93b75f201e1604c15195607732ad` |
+| `BepInEx/config/Seasonality/Morgott/Trees/Birch/birch_particle@spring.png` | 16 951 | `55df15c74f42c54b316c88db53d3c67482473378340b9bc857eec5f24d3272be` |
+| `BepInEx/config/Seasonality/Morgott/Trees/Birch/birch_particle@winter.png` | 9 661 | `a00c2feeff3a53d8e9a7adaa6c7cff937ebf93b75f201e1604c15195607732ad` |
+| `BepInEx/config/Seasonality/Morgott/Trees/FirTree/branch_particle@fall.png` | 2 439 | `74b5a77b215d70cb3a71d6b327a097f47c766651dc8f9ba60af92874d2c0aefb` |
+| `BepInEx/config/Seasonality/Morgott/Trees/FirTree/branch_particle@spring.png` | 3 299 | `d003ed56dfedcc919bfbd47b94f0932cf1c2bd6df8911b6e41d87341096ca58a` |
+| `BepInEx/config/Seasonality/Morgott/Trees/FirTree/branch_particle@winter.png` | 1 984 | `b268faf0807f78209171297ae25e79dc1f3f9125bf826e402b2cca9ff2397628` |
+| `BepInEx/config/Seasonality/Morgott/Trees/FirTree/menu_fir@fall.png` | 296 640 | `eb0e1a5f808a77184bf0e856fe6f778bc1e8f13a07e65892ece63d43c75dc53d` |
+| `BepInEx/config/Seasonality/Morgott/Trees/FirTree/menu_fir@spring.png` | 344 306 | `233329033494ab6797c04b46da98d5193b1588de7b6a13f73c8e259442a11954` |
+| `BepInEx/config/Seasonality/Morgott/Trees/FirTree/menu_fir@winter.png` | 280 886 | `2f0e1e2800d5499e4d48f91c1079722c85cccd263cb6a16497e817059e61739b` |
+| `BepInEx/config/Seasonality/Morgott/Trees/FirTree/Pine_tree@fall.png` | 296 640 | `eb0e1a5f808a77184bf0e856fe6f778bc1e8f13a07e65892ece63d43c75dc53d` |
+| `BepInEx/config/Seasonality/Morgott/Trees/FirTree/Pine_tree@spring.png` | 344 306 | `233329033494ab6797c04b46da98d5193b1588de7b6a13f73c8e259442a11954` |
+| `BepInEx/config/Seasonality/Morgott/Trees/FirTree/Pine_tree@winter.png` | 280 886 | `2f0e1e2800d5499e4d48f91c1079722c85cccd263cb6a16497e817059e61739b` |
+| `BepInEx/config/Seasonality/Morgott/Trees/FirTree_small/Pine_tree_small@fall.png` | 19 972 | `14b5143c153b75dbf946531d64b6ae75a6fe40af2e96f8d2fb5c0a713fbab0a4` |
+| `BepInEx/config/Seasonality/Morgott/Trees/FirTree_small/Pine_tree_small@spring.png` | 21 487 | `c757bc2ecc64b93252f2f6516c80ac60b15673d49ebe0c009de6acc7dfda7bf5` |
+| `BepInEx/config/Seasonality/Morgott/Trees/FirTree_small/Pine_tree_small@winter.png` | 17 752 | `860f80bdc477dd190f150bba66e64b5f7a438b9e165853399eef9a66bb92605a` |
+| `BepInEx/config/Seasonality/Morgott/Trees/FirTree_small_dead/branch_dead_particle@winter.png` | 1 986 | `5fb8bbdd273cc04824f531679e2ebf73322970a4540c1de0f344a4ca90ef8886` |
+| `BepInEx/config/Seasonality/Morgott/Trees/FirTree_small_dead/Pine_tree_small_dead@winter.png` | 17 594 | `1d48c544b5a88418dfa270b21bc9436f69a7b327c4f1e1406a8ce2f23ba75629` |
+| `BepInEx/config/Seasonality/Morgott/Trees/Oak/oak_leaf@fall.png` | 66 760 | `6a6e4fac9b5f3d35a7030abe399ed1292738c31d01340f737542cbb2d2befdf2` |
+| `BepInEx/config/Seasonality/Morgott/Trees/Oak/oak_leaf@spring.png` | 52 585 | `007ffea351f43f7d6b434638ac571c22bb0786bc7b03d6d00662891bbea3ec91` |
+| `BepInEx/config/Seasonality/Morgott/Trees/Oak/oak_leaf@winter.png` | 23 097 | `0d2f235675018228cee491ba69d091b37746df617aa6df8fd5dd5dfe638cc825` |
+| `BepInEx/config/Seasonality/Morgott/Trees/Oak/oak_particle@fall.png` | 66 760 | `6a6e4fac9b5f3d35a7030abe399ed1292738c31d01340f737542cbb2d2befdf2` |
+| `BepInEx/config/Seasonality/Morgott/Trees/Oak/oak_particle@spring.png` | 52 585 | `007ffea351f43f7d6b434638ac571c22bb0786bc7b03d6d00662891bbea3ec91` |
+| `BepInEx/config/Seasonality/Morgott/Trees/Oak/oak_particle@winter.png` | 23 097 | `0d2f235675018228cee491ba69d091b37746df617aa6df8fd5dd5dfe638cc825` |
+| `BepInEx/config/Seasonality/Morgott/Trees/PineTree/PineTree_01@fall.png` | 54 371 | `bb7817bcbca4f599f9cbbdc3f8e7b729a34a647eb3d85fbd58cfe81ad9f71156` |
+| `BepInEx/config/Seasonality/Morgott/Trees/PineTree/PineTree_01@spring.png` | 67 340 | `a478fdf7f6328dffdce66394f8cc98fc98067d992027ef944f893c19fba51a7d` |
+| `BepInEx/config/Seasonality/Morgott/Trees/PineTree/PineTree_01@summer.png` | 55 451 | `dfc01122233ba349f303c911d2f1d89a01394f8403ce5e3543265492f9d2ef71` |
+| `BepInEx/config/Seasonality/Morgott/Trees/PineTree/PineTree_01@winter.png` | 53 680 | `c1616e20aa911c9de86098f0d4e5ad349fdfb25c1cec03233ded9fd919aef8c2` |
+| `BepInEx/config/Seasonality/Morgott/Trees/SwampTree/swamptree1_branch@spring.png` | 60 154 | `0d86375d9e3951b5f051ec286a71c4cb05080d5d8e254a2b9ebe2cb48f459e92` |
+| `BepInEx/config/Seasonality/Morgott/Trees/SwampTree/swamptree1_branch@summer.png` | 36 749 | `843da97f5afc9cc5c753f985c255e9abf7314294d4fcee789e17883207d1f830` |
+| `BepInEx/config/Seasonality/Morgott/Trees/YggaShoot/Shoot_Leaf_mat@fall.png` | 10 367 | `d004c7d8d6d03c7794453cc88bf77981c63435201beb4a0e9cdc4369a41523e0` |
+| `BepInEx/config/Seasonality/Morgott/Trees/YggaShoot/Shoot_Leaf_mat@spring.png` | 12 946 | `38b7e3bb3c5b79ad854564e21473e0cd4f186619c90429e579ab2621d8403b39` |
+| `BepInEx/config/Seasonality/Morgott/Trees/YggaShoot/Shoot_Leaf_mat@winter.png` | 2 535 | `c6a7db62b529b6dd4eb7d0ad3e0f10861982c26bc0cd34184b0df02998999dca` |
+| `BepInEx/config/Seasonality/Morgott/Trees/YggaShoot/shoot_leaf_particle@fall.png` | 10 367 | `d004c7d8d6d03c7794453cc88bf77981c63435201beb4a0e9cdc4369a41523e0` |
+| `BepInEx/config/Seasonality/Morgott/Trees/YggaShoot/shoot_leaf_particle@spring.png` | 12 946 | `38b7e3bb3c5b79ad854564e21473e0cd4f186619c90429e579ab2621d8403b39` |
+| `BepInEx/config/Seasonality/Morgott/Trees/YggaShoot/shoot_leaf_particle@winter.png` | 2 535 | `c6a7db62b529b6dd4eb7d0ad3e0f10861982c26bc0cd34184b0df02998999dca` |
+| `BepInEx/config/Seasonality/Morgott/Trees/YggdrasilSkyTree/yggdrasil_branch#EmissiveTex@fall.png` | 129 467 | `3d5115e5cc8d4f19dd6ec39cc5b1b930fc8ae139ef14a7deb640dbd6ad82e9ff` |
+| `BepInEx/config/Seasonality/Morgott/Trees/YggdrasilSkyTree/yggdrasil_branch_leafs@spring.png` | 945 805 | `c05502370d063dafe9bcd82747c4bf1312fbe984f6a1ee6404694d296a344b2e` |
+| `BepInEx/config/Seasonality/Morgott/Trees/YggdrasilSkyTree/yggdrasil_branch_leafs@winter.png` | 365 581 | `fd8a6e33c055309969b13ba393352634ae321d6fb44b98094fe3d99db9a76123` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/BlueberryBush/Bush01_blueberry@fall.png` | 5 198 | `7125aab0cb5dff03baa96b6890ce08d7fcbffbd3da0478948cdd8b5298971e8b` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/BlueberryBush/Bush01_blueberry@summer.png` | 4 078 | `e58c57879e83ee52921cf1bb3a6ac67d48495b4f594c7e21517a910b6f7384bd` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/BlueberryBush/Bush01_blueberry@winter.png` | 2 750 | `08798322ac96b0d4f4d23cff403e5a88ede07ac049c5a130387d770dc8460002` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/Bushes/Bush01@fall.png` | 5 198 | `7125aab0cb5dff03baa96b6890ce08d7fcbffbd3da0478948cdd8b5298971e8b` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/Bushes/Bush01@spring.png` | 4 522 | `e167aa8896312caba282201f26bf27d3397bbe66d50deebaa51f39af78270514` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/Bushes/Bush01@summer.png` | 4 078 | `e58c57879e83ee52921cf1bb3a6ac67d48495b4f594c7e21517a910b6f7384bd` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/Bushes/Bush01@winter.png` | 2 750 | `08798322ac96b0d4f4d23cff403e5a88ede07ac049c5a130387d770dc8460002` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/CloudberryBush/cloudberry@winter.png` | 2 461 | `9cb27cbb7d03ba5769be5a02289858b85f51e31496f6d30a9b34d0cff5f1dfce` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/Mushroom/Boletus_edulis@spring.png` | 958 | `5de0872497233d8e3c67281460a854d31194a4648323fc033e3b7a0b85384e6f` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/PlainsBush/Bush02_en@spring.png` | 9 379 | `3c434fbf5f149cf8347e826ecc3560f289cae6edd0f3f1344ac82c17b970f46a` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/PlainsBush/Bush02_en@winter.png` | 13 540 | `936357446d71060172041c78ff889c87556f2ca0de4f0533f03dc87484ae6f4e` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/RaspberryBush/Bush01_raspberry@fall.png` | 5 198 | `7125aab0cb5dff03baa96b6890ce08d7fcbffbd3da0478948cdd8b5298971e8b` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/RaspberryBush/Bush01_raspberry@summer.png` | 4 078 | `e58c57879e83ee52921cf1bb3a6ac67d48495b4f594c7e21517a910b6f7384bd` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/RaspberryBush/Bush01_raspberry@winter.png` | 2 750 | `08798322ac96b0d4f4d23cff403e5a88ede07ac049c5a130387d770dc8460002` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/Shrub/shrub2_leafparticle@fall.png` | 754 | `76478df307b7a883968d892aa80a1319a9a318479e84b3fb6e35de387f9678eb` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/Shrub/shrub2_leafparticle@spring.png` | 669 | `df7ba7e2057a2577d655e0d938240026c5c10eecac07242107bcf5d6925de09f` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/Shrub/shrub2_leafparticle@winter.png` | 645 | `c624c19194af6323e97561e1d8abc5e98c3438c78a6f209b8232ee5b5b3acf2d` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/Shrub/shrub@fall.png` | 3 919 | `4aa014db04636e6090c10d760fed47719e61fd7712d8b3b409326a9481c4182b` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/Shrub/shrub@spring.png` | 4 654 | `592067cd89251335da31decb5f01a66c4117f78e7ce95eb76067a57009358a4b` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/Shrub/shrub@winter.png` | 3 937 | `ed3df25064ac698a7c245e38492a015acb8b25a44beede7072740cf89e470df9` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/Shrub/shrub_heath@fall.png` | 3 919 | `4aa014db04636e6090c10d760fed47719e61fd7712d8b3b409326a9481c4182b` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/Shrub/shrub_heath@spring.png` | 4 654 | `592067cd89251335da31decb5f01a66c4117f78e7ce95eb76067a57009358a4b` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/Shrub/shrub_heath@winter.png` | 3 937 | `ed3df25064ac698a7c245e38492a015acb8b25a44beede7072740cf89e470df9` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/Vines/Vines_Mat@fall.png` | 1 467 | `f0f677fdea2599b36530f25bdd7b73b5b38fa97127dfd749701db9ddb4f2adc1` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/Vines/Vines_Mat@winter.png` | 450 | `f5ceaaaa6c48297d84b30899936360b978bc54f82d6f72401b43e061c7684cb9` |
+| `BepInEx/config/Seasonality/Morgott/Vegetation/YggdrasilRoot/yggdrasil_root#EmissiveTex@fall.png` | 129 467 | `3d5115e5cc8d4f19dd6ec39cc5b1b930fc8ae139ef14a7deb640dbd6ad82e9ff` |
+| `BepInEx/config/Seasonality/Seasonality.Russian.yml` | 7 191 | `68d7e8bd137ade3d30ba564923c39b6b87c92d6b7ff390977ac2e9201278724f` |
+| `BepInEx/config/Seasonality/Tweaks/Pickables.yml` | 17 879 | `06a14bb045908051a00f19ce4bb1ce3e5e3f56ef27ccb2c9e6a45c7f838880ec` |
+| `BepInEx/config/Seasonality/Tweaks/Plants.yml` | 12 192 | `38e6eeda8feb0bbeebbc34efd4d80d84112766eb9e0fa193244a40bcbbdbd1c4` |
+| `BepInEx/config/Seasonality/Tweaks/SpawnTweaks.yml` | 12 400 | `10af27d98df80547ec91630c7e8c88a440902b658c5919546786e3394e83317d` |
+| `BepInEx/config/shudnal.ConditionalConfigSync/ConditionalConfigSync.Debug.cfg` | 128 | `932b5732e3e61db7722fe5689c0a4ce51dea8598e4cbadefc4fe62fd95c303ee` |
+| `BepInEx/config/shudnal.ConditionalConfigSync/ConditionalConfigSync.HiddenConfigs.cfg` | 206 | `bc09fbf971fd2fdfc070509919cb0734debe1da53f31aed52bab9d1f727801d7` |
+| `BepInEx/config/shudnal.ConditionalConfigSync/ConditionalConfigSync.ModRequirements.cfg` | 347 | `3877ad3b0d087836a73ed63275e0181dd13556c8b812306ec788a9ab3f863205` |
+| `BepInEx/config/shudnal.ConditionalConfigSync/ConditionalConfigSync.SyncPolicy.cfg` | 348 | `fb139d6562de749aa7a03a28719d50c247f4e7c4688f48b0be61fcb0470062af` |
+| `BepInEx/config/sighsorry.DiveIn.cfg` | 305 | `c41d633f9be3d0741b892bb8c4ddbd34c2a7f57de577e9c7ecc6531b813d7efe` |
+| `BepInEx/config/Therzie.Armory.cfg` | 169 197 | `0feb78bb40fee76a18c97569b3badc2c2d85eb54e6e17c6dbc912d4eb653a625` |
+| `BepInEx/config/Therzie.Warfare.cfg` | 215 499 | `84da29a165700315d2b4f7e0b87ab98b3cc163877c261fe4274d44dc7fac2e3d` |
+| `BepInEx/config/Therzie.Wizardry.cfg` | 207 846 | `d47adb5a3ef60b25c692927427f86ab41ccecfa1496f56614974c884170e3d9d` |
+| `BepInEx/config/valheim.buildcamera.cfg` | 4 571 | `de4f2d59d0e9bbacdb2c83f4060825f03934a884b2c592d7c506bacde3993c7e` |
+| `BepInEx/config/vapok.mods.adventurebackpacks.cfg` | 83 805 | `a25f8a6c0ac7fb5e56f9384f0d88419793abb2db5339b3bc2b7cd767f728f745` |

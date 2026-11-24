@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import shutil
 import zipfile
+from file_inventory import write_inventory
 
 
 def assemble(pack, version, repo, records_and_data, output, launcher):
@@ -41,4 +42,5 @@ def assemble(pack, version, repo, records_and_data, output, launcher):
                               'url': f'https://github.com/{repo}/releases/download/{tag}/{archive.name}',
                               'files': records}]}
     (output / 'latest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
+    write_inventory(pack, manifest, output / 'FILES.md')
     return manifest

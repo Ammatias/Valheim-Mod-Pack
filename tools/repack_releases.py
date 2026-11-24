@@ -17,6 +17,7 @@ import zipfile
 from build_pack import safe_path
 from full_pack import assemble
 from import_release import download
+from file_inventory import render_inventory
 
 
 def gh_json(repo, endpoint, data=None, method=None):
@@ -64,9 +65,11 @@ def commit_manifests(repo, manifests):
     tree = gh_json(repo, 'git/commits/' + head)['tree']['sha']
     entries = []
     for pack, manifest in manifests.items():
-        content = json.dumps(manifest, ensure_ascii=False, indent=2) + '\n'
-        blob = gh_json(repo, 'git/blobs', {'content': content, 'encoding': 'utf-8'})
-        entries.append({'path': pack + '/latest.json', 'mode': '100644', 'type': 'blob', 'sha': blob['sha']})
+        documents = {'latest.json': json.dumps(manifest, ensure_ascii=False, indent=2) + '\n',
+                     'FILES.md': render_inventory(pack, manifest)}
+        for name, content in documents.items():
+            blob = gh_json(repo, 'git/blobs', {'content': content, 'encoding': 'utf-8'})
+            entries.append({'path': pack + '/' + name, 'mode': '100644', 'type': 'blob', 'sha': blob['sha']})
     tree = gh_json(repo, 'git/trees', {'base_tree': tree, 'tree': entries})['sha']
     commit = gh_json(repo, 'git/commits', {'message': 'Point each launcher at its own complete ZIP release [skip ci]',
                                          'tree': tree, 'parents': [head]})['sha']

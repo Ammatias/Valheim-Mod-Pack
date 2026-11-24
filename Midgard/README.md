@@ -6,6 +6,8 @@
 
 В ZIP включены BepInEx, моды и начальные настройки. Устанавливать загрузчик отдельно не требуется.
 
+[Посмотреть все файлы сборки (233)](FILES.md) — загрузчик, моды, ресурсы и настройки с размерами и SHA-256.
+
 ## Моды
 
 ValheimPlus, Jotunn, Warfare, Monstrum, PlanBuild, PlantEverything, PlantEasily, InventoryPlus, BetterArchery, ComboSpear, TrashItems, AutoServerPassword, ModSettings, Badgers Shading Overhaul и Skies.

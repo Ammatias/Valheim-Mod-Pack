@@ -8,17 +8,27 @@ permissions:
 jobs:
   windows-tests:
     runs-on: windows-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
       - name: Windows PowerShell 5.1 and CMD tests
         shell: powershell
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          try { .\tests\Updater.Tests.ps1 }
+          $result = @{success=$false; commit=$env:GITHUB_SHA; run=$env:GITHUB_RUN_ID; message=''; stack=''}
+          try { .\tests\Updater.Tests.ps1; $result.success=$true }
           catch {
+            $result.message=$_.Exception.Message
+            $result.stack=$_.ScriptStackTrace
             $message = ($_.Exception.Message + "`n" + $_.ScriptStackTrace).Replace('%','%25').Replace("`r",'%0D').Replace("`n",'%0A')
             Write-Host "::error title=Windows updater test::$message"
-            throw
           }
+          $report=Join-Path $env:RUNNER_TEMP 'windows-result.json'
+          [IO.File]::WriteAllText($report,($result | ConvertTo-Json))
+          python tools/report_check.py $report
+          if (-not $result.success) { throw $result.message }
       - name: Python syntax
         run: python -m py_compile tools/build_pack.py tools/import_release.py
   publish:

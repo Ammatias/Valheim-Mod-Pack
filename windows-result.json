@@ -1,0 +1,7 @@
+{
+    "message":  "The process cannot access the file \u0027component.zip\u0027 because it is being used by another process.",
+    "run":  "45452793432",
+    "commit":  "b970ca1ad875c756479addaf258580c9bd27f134",
+    "success":  false,
+    "stack":  "at \u003cScriptBlock\u003e, D:\\a\\Valheim-Mod-Pack\\Valheim-Mod-Pack\\tests\\Updater.Tests.ps1: line 183\r\nat \u003cScriptBlock\u003e, D:\\a\\_temp\\61f1b405-873d-45ea-b294-6ee12918c8ce.ps1: line 3\r\nat \u003cScriptBlock\u003e, \u003cNo file\u003e: line 1"
+}

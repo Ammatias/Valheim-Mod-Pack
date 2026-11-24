@@ -1,5 +1,6 @@
 """Render the downloadable archive inventory for a pack's repository page."""
 from pathlib import Path
+from urllib.parse import quote
 
 
 def render_inventory(pack, manifest):
@@ -24,7 +25,8 @@ def render_inventory(pack, manifest):
                   '| Файл | Размер, байт | SHA-256 |', '|---|---:|---|']
         for item in selected:
             size = f"{item['bytes']:,}".replace(',', ' ')
-            lines.append(f"| `{item['path']}` | {size} | `{item['sha256']}` |")
+            label = item['path'].replace('[', '\\[').replace(']', '\\]')
+            lines.append(f"| [{label}]({quote(item['path'], safe='/')}) | {size} | `{item['sha256']}` |")
         lines.append('')
     return '\n'.join(lines)
 

@@ -8,6 +8,8 @@
 
 [Посмотреть все файлы сборки (818)](FILES.md) — загрузчик, моды, ресурсы и настройки с размерами и SHA-256.
 
+Распакованные файлы доступны в [BepInEx/](BepInEx/): [моды и ресурсы](BepInEx/plugins/), [конфиги](BepInEx/config/), [загрузчик](BepInEx/core/). Корневые файлы загрузчика находятся рядом с этим README. На странице любого файла доступно отдельное скачивание через **Download raw file**.
+
 ## Моды
 
 Сборка основана на клиентской [Yggdrasil от Morgott](https://morgott.duckdns.org:9443/valheim/download). Включает Epic Loot, Armory, Wizardry, Seasonality, модули Morgott и клиентский интерфейс.

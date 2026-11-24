@@ -24,7 +24,7 @@ except urllib.error.HTTPError as e:
     if e.code != 404: raise
     request('/git/refs', {'ref': 'refs/heads/ci-results', 'sha': os.environ['GITHUB_SHA']})
 report_name = sys.argv[2] if len(sys.argv) > 2 else 'windows-result.json'
-if report_name not in ['windows-result.json', 'release-result.json']:
+if report_name not in ['windows-result.json', 'release-result.json', 'unpacked-result.json']:
     raise ValueError('Unexpected report name')
 path = '/contents/' + report_name
 data = {'message': 'Record Valheim automation result', 'branch': 'ci-results',

@@ -8,6 +8,8 @@
 
 [Посмотреть все файлы сборки (233)](FILES.md) — загрузчик, моды, ресурсы и настройки с размерами и SHA-256.
 
+Распакованные файлы доступны в [BepInEx/](BepInEx/): [моды и ресурсы](BepInEx/plugins/), [конфиги](BepInEx/config/), [загрузчик](BepInEx/core/). Корневые файлы загрузчика находятся рядом с этим README. На странице любого файла доступно отдельное скачивание через **Download raw file**.
+
 ## Моды
 
 ValheimPlus, Jotunn, Warfare, Monstrum, PlanBuild, PlantEverything, PlantEasily, InventoryPlus, BetterArchery, ComboSpear, TrashItems, AutoServerPassword, ModSettings, Badgers Shading Overhaul и Skies.

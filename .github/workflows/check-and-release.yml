@@ -12,6 +12,15 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /Update-Valheim.ps1
+            /release-source.json
+            /tools/
+            /tests/
+            /Midgard/Midgard-Modpack.bat
+            /Helheim/Helheim-Modpack.bat
       - name: Windows PowerShell 5.1 and CMD tests
         shell: powershell
         env:
@@ -30,7 +39,7 @@ jobs:
           python tools/report_check.py $report
           if (-not $result.success) { throw $result.message }
       - name: Python syntax
-        run: python -m py_compile tools/build_pack.py tools/import_release.py tools/full_pack.py tools/repack_releases.py
+        run: python -m py_compile tools/build_pack.py tools/import_release.py tools/full_pack.py tools/repack_releases.py tools/publish_unpacked.py tools/file_inventory.py
       - name: Full ZIP packaging tests
         run: python -m unittest discover -s tests -p "test_*.py" -v
   publish:
@@ -45,3 +54,17 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: python tools/repack_releases.py release-source.json --repo "$GITHUB_REPOSITORY"
+  unpacked:
+    needs: [windows-tests, publish]
+    if: always() && needs.windows-tests.result == 'success' && (startsWith(github.event.head_commit.message, 'mirror:') || needs.publish.result == 'success')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          lfs: true
+      - name: Verify and publish unpacked files
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python tools/publish_unpacked.py --repo "$GITHUB_REPOSITORY"

@@ -101,6 +101,23 @@ try {
         Remove-Item -LiteralPath $f.Manifest
         Invoke-PackUpdate $f.Game (File-Uri $f.Manifest) $true $true
     }
+    Test 'release pointer resolves the correct pack and caches the complete manifest' {
+        $f=Fixture 'release-pointer'
+        $pointer=Join-Path $f.Root 'latest.json'
+        [IO.File]::WriteAllText($pointer,(@{schema=1;pack_id='ammatias-midgard';manifest_url=(File-Uri $f.Manifest)} | ConvertTo-Json))
+        Invoke-PackUpdate $f.Game (File-Uri $pointer) $true $true
+        $cached=Get-Content -LiteralPath (Join-Path $f.Game '.valheim-modpack/installed.json') -Raw | ConvertFrom-Json
+        Assert ($cached.pack_id -eq 'ammatias-midgard' -and @($cached.packages).Count -eq 1) 'Incomplete pointer cached instead of manifest'
+        Remove-Item -LiteralPath $f.Zip,$f.Manifest,$pointer
+        Invoke-PackUpdate $f.Game (File-Uri $pointer) $true $true
+    }
+    Test 'release pointer cannot select the other pack' {
+        $f=Fixture 'wrong-pointer'
+        $pointer=Join-Path $f.Root 'latest.json'
+        [IO.File]::WriteAllText($pointer,(@{schema=1;pack_id='ammatias-helheim';manifest_url=(File-Uri $f.Manifest)} | ConvertTo-Json))
+        Throws { Invoke-PackUpdate $f.Game (File-Uri $pointer) $true $true } 'Wrong release pointer accepted'
+        Assert (-not (Test-Path -LiteralPath (Join-Path $f.Game 'BepInEx/plugins'))) 'Wrong pointer modified plugins'
+    }
     Test 'damaged download leaves installed files intact' {
         $f = Fixture 'damage'
         Write-File (Join-Path $f.Game 'BepInEx/plugins/old.dll') 'keep me'

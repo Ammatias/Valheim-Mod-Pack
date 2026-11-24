@@ -8,8 +8,9 @@ param(
 )
 Set-StrictMode -Version 2
 $ErrorActionPreference = 'Stop'
+$Pack = if ($Pack -ieq 'Midgard') { 'Midgard' } else { 'Helheim' }
 $script:PackId = 'ammatias-' + $Pack.ToLowerInvariant()
-if (-not $ManifestUri) { $ManifestUri = 'https://github.com/Ammatias/Valheim-Mod-Pack/releases/latest/download/' + $Pack.ToLowerInvariant() + '-manifest.json' }
+if (-not $ManifestUri) { $ManifestUri = 'https://raw.githubusercontent.com/Ammatias/Valheim-Mod-Pack/main/' + $Pack + '/latest.json?t=' + [DateTime]::UtcNow.Ticks }
 Add-Type -AssemblyName System.IO.Compression
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 
@@ -79,6 +80,17 @@ function Get-SourceFile([string]$Uri, [string]$Destination, [bool]$Local) {
     $client = New-Object Net.WebClient
     $client.Headers['User-Agent'] = 'Ammatias-Midgard-Updater/1'
     try { $client.DownloadFile($Uri, $Destination) } finally { $client.Dispose() }
+}
+
+function Read-ReleaseManifest([string]$Uri, [string]$Destination, [bool]$Local) {
+    Get-SourceFile $Uri $Destination $Local
+    $manifest = [IO.File]::ReadAllText($Destination, [Text.Encoding]::UTF8) | ConvertFrom-Json
+    if ($manifest.PSObject.Properties.Name -contains 'manifest_url') {
+        if ($manifest.pack_id -ne $script:PackId -or $manifest.schema -ne 1) { throw 'Wrong modpack release pointer' }
+        Get-SourceFile $manifest.manifest_url $Destination $Local
+        $manifest = [IO.File]::ReadAllText($Destination, [Text.Encoding]::UTF8) | ConvertFrom-Json
+    }
+    return $manifest
 }
 
 function Assert-Manifest($Manifest, [string]$Root, [bool]$Local) {
@@ -233,14 +245,14 @@ function Invoke-PackUpdate([string]$Root, [string]$Source, [bool]$Local, [bool]$
     try {
         $manifestFile = Get-ContainedPath $stage 'manifest.json'
         $online = $true
-        try { Get-SourceFile $Source $manifestFile $Local } catch {
+        try { $manifest = Read-ReleaseManifest $Source $manifestFile $Local } catch {
             $installed = Get-ContainedPath $Root '.valheim-modpack/installed.json'
             if (-not (Test-Path -LiteralPath $installed -PathType Leaf)) { throw 'Cannot download the modpack manifest. Check your Internet connection.' }
             [IO.File]::Copy($installed, $manifestFile, $true)
+            $manifest = [IO.File]::ReadAllText($manifestFile, [Text.Encoding]::UTF8) | ConvertFrom-Json
             $online = $false
             Write-Host 'Updates are unavailable. Checking the installed modpack.' -ForegroundColor Yellow
         }
-        $manifest = [IO.File]::ReadAllText($manifestFile, [Text.Encoding]::UTF8) | ConvertFrom-Json
         Assert-Manifest $manifest $Root $Local
         $changed = New-Object Collections.ArrayList
         foreach ($package in $manifest.packages) {

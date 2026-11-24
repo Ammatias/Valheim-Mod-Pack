@@ -1,7 +1,6 @@
 {
-  "version": "2026.11.24.1",
-  "sources": {
-    "midgard": "https://pterodactyl.ammatias.ru/modpack-transfer-3888e1911a7cd0a320296a92267843c135f15dcf/midgard-manifest.json",
-    "helheim": "https://pterodactyl.ammatias.ru/modpack-transfer-3888e1911a7cd0a320296a92267843c135f15dcf/helheim-manifest.json"
-  }
+  "source_tag": "pack-2026.11.24.1",
+  "version": "2026.11.24.2",
+  "retire_source": true,
+  "retire_delay_seconds": 300
 }

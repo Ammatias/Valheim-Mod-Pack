@@ -23,12 +23,15 @@ try:
 except urllib.error.HTTPError as e:
     if e.code != 404: raise
     request('/git/refs', {'ref': 'refs/heads/ci-results', 'sha': os.environ['GITHUB_SHA']})
-path = '/contents/windows-result.json'
-data = {'message': 'Record Windows updater test result', 'branch': 'ci-results',
+report_name = sys.argv[2] if len(sys.argv) > 2 else 'windows-result.json'
+if report_name not in ['windows-result.json', 'release-result.json']:
+    raise ValueError('Unexpected report name')
+path = '/contents/' + report_name
+data = {'message': 'Record Valheim automation result', 'branch': 'ci-results',
         'content': base64.b64encode(Path(sys.argv[1]).read_bytes()).decode()}
 try:
     data['sha'] = request(path + '?ref=ci-results')['sha']
 except urllib.error.HTTPError as e:
     if e.code != 404: raise
 request(path, data)
-print('Test outcome recorded on ci-results/windows-result.json')
+print('Outcome recorded on ci-results/' + report_name)

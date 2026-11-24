@@ -1,4 +1,4 @@
-"""Build content-addressed release components from a verified Midgard client ZIP."""
+"""Build one complete ZIP, BAT and checksums for a client pack."""
 import argparse
 import collections
 import hashlib
@@ -54,31 +54,13 @@ def build(source, output, version, base_url, pack="Midgard"):
             record = {'path': name, 'sha256': hashlib.sha256(data).hexdigest(),
                       'bytes': len(data), 'preserve': name.startswith('BepInEx/config/')}
             groups[group].append((record, data))
-    packages = []
-    ids = set()
-    for key, items in sorted(groups.items()):
-        package_id = pack.lower() + '-' + re.sub('[^a-z0-9]+', '-', key.lower()).strip('-')
-        if package_id in ids:
-            raise ValueError('Component ID collision')
-        ids.add(package_id)
-        items.sort(key=lambda x: x[0]['path'])
-        path = output / (package_id + '.zip')
-        with zipfile.ZipFile(path, 'w', zipfile.ZIP_DEFLATED, compresslevel=6) as archive:
-            for record, data in items:
-                info = zipfile.ZipInfo(record['path'], (2026, 1, 1, 0, 0, 0))
-                info.compress_type = zipfile.ZIP_DEFLATED
-                info.external_attr = 0o100644 << 16
-                archive.writestr(info, data)
-        sha = hashlib.sha256(path.read_bytes()).hexdigest()
-        asset = package_id + '-' + sha[:16] + '.zip'
-        path.rename(output / asset)
-        packages.append({'id': package_id, 'sha256': sha, 'bytes': (output / asset).stat().st_size,
-                         'url': base_url.rstrip('/') + '/' + asset,
-                         'files': [x[0] for x in items]})
-    manifest = {'schema': 1, 'pack_id': 'ammatias-' + pack.lower(), 'version': version,
-                'packages': packages}
-    (output / (pack.lower() + '-manifest.json')).write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
-    return manifest
+    from full_pack import assemble
+    items = [item for group in groups.values() for item in group]
+    match = re.fullmatch(r'https://github\.com/([^/]+/[^/]+)/releases/download/[^/]+', base_url.rstrip('/'))
+    if not match:
+        raise ValueError('Use the matching immutable GitHub release base URL')
+    launcher = Path(__file__).resolve().parent.parent / pack / (pack + '-Modpack.bat')
+    return assemble(pack, version, match[1], items, output, launcher)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()

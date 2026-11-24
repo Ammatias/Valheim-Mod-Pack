@@ -30,7 +30,9 @@ jobs:
           python tools/report_check.py $report
           if (-not $result.success) { throw $result.message }
       - name: Python syntax
-        run: python -m py_compile tools/build_pack.py tools/import_release.py
+        run: python -m py_compile tools/build_pack.py tools/import_release.py tools/full_pack.py tools/repack_releases.py
+      - name: Full ZIP packaging tests
+        run: python -m unittest discover -s tests -p "test_*.py" -v
   publish:
     needs: windows-tests
     if: startsWith(github.event.head_commit.message, 'publish:') || github.event_name == 'workflow_dispatch'
@@ -42,4 +44,4 @@ jobs:
       - name: Verify components and publish a complete release
         env:
           GH_TOKEN: ${{ github.token }}
-        run: python tools/import_release.py release-source.json --repo "$GITHUB_REPOSITORY"
+        run: python tools/repack_releases.py release-source.json --repo "$GITHUB_REPOSITORY"
